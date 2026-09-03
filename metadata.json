@@ -1,0 +1,6 @@
+{
+  "name": "Persona Companion",
+  "description": "iOS companion for Persona 3 Reload, Persona 4 Golden, and Persona 5 Royal with compendium, fusion calculator, confidants, classroom answers, and boss guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
