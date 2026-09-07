@@ -192,13 +192,13 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-black text-zinc-100 flex flex-col items-center justify-start md:py-6 md:px-4 font-sans antialiased select-none">
-      {/* Container: on mobile it fills screen, on desktop user can view inside iPhone frame */}
+      {/* Container: on mobile it fills screen, on desktop user can toggle between iPhone frame and PC view */}
       <main
         id="ios-app-container"
         className={`w-full flex flex-col relative transition-all duration-300 overflow-hidden ${
           isIPhoneFrameMode
             ? 'md:max-w-[430px] md:h-[900px] md:rounded-[50px] md:border-[10px] md:border-zinc-800 md:shadow-[0_0_60px_rgba(0,0,0,0.8)] md:ring-1 md:ring-white/10'
-            : 'max-w-xl min-h-screen'
+            : 'max-w-5xl min-h-screen md:rounded-3xl md:border md:border-white/10 md:shadow-2xl'
         } bg-zinc-950 ${seriesThemeClass}`}
       >
         {/* iOS Dynamic Status Bar with Clock and Capsule */}

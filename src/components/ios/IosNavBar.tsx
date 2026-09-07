@@ -138,18 +138,18 @@ export const IosNavBar = ({
               triggerHaptic('light');
               onToggleFrameMode();
             }}
-            title={isIPhoneFrameMode ? 'Switch to Full Screen view' : 'Switch to iPhone 16 Pro Frame view'}
-            className="hidden md:flex items-center gap-1 px-2.5 py-1.5 rounded-xl bg-zinc-900 border border-white/10 text-xs font-semibold text-zinc-300 hover:text-white transition-colors"
+            title={isIPhoneFrameMode ? 'Switch to PC widescreen view' : 'Switch to iPhone 16 Pro Frame view'}
+            className="hidden md:flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-zinc-900 border border-white/10 text-xs font-semibold text-zinc-200 hover:text-white hover:border-white/20 transition-all active:scale-95 shadow-sm"
           >
             {isIPhoneFrameMode ? (
               <>
-                <Monitor className="w-3.5 h-3.5 text-zinc-400" />
-                <span className="text-[11px]">Full</span>
+                <Monitor className="w-3.5 h-3.5 text-sky-400" />
+                <span className="text-[11px]">PC View</span>
               </>
             ) : (
               <>
                 <Smartphone className="w-3.5 h-3.5" style={{ color: currentGame.color }} />
-                <span className="text-[11px]">Frame</span>
+                <span className="text-[11px]">iPhone Frame</span>
               </>
             )}
           </button>

@@ -112,8 +112,18 @@ const cache = new Map<string, any>();
 export function resolveAssetUrl(url?: string): string {
   if (!url) return '';
   if (url.startsWith('http') || url.startsWith('data:')) return url;
-  const baseUrl = (import.meta as any).env?.BASE_URL || './';
   const clean = url.startsWith('/') ? url.slice(1) : url;
+
+  if (typeof window !== 'undefined') {
+    const hostname = window.location.hostname;
+    const pathname = window.location.pathname;
+    const parts = pathname.split('/').filter(Boolean);
+    if (parts.length > 0 && hostname.endsWith('github.io')) {
+      return `/${parts[0]}/${clean}`;
+    }
+  }
+
+  const baseUrl = (import.meta as any).env?.BASE_URL || './';
   return `${baseUrl.endsWith('/') ? baseUrl : baseUrl + '/'}${clean}`;
 }
 
