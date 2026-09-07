@@ -375,6 +375,75 @@ export async function loadItems(game: GameId): Promise<ItemData[]> {
 }
 
 export async function loadDayGuides(game: GameId): Promise<MonthGuide[]> {
+  // If game is Persona 5 Royal, load the detailed user-provided walkthrough
+  if (game === 'p5r') {
+    try {
+      const p5rData = await fetchJson<Record<string, any[]>>('/data/guides/p5r_walkthrough.json');
+      if (p5rData && typeof p5rData === 'object') {
+        const months: MonthGuide[] = Object.entries(p5rData).map(([monthName, daysList]) => {
+          return {
+            month: monthName,
+            overview: `Persona 5 Royal 100% Calendar Walkthrough for ${monthName} — Daily schedule, classroom answers, stat priorities, palace deadlines, and confidant rank-up choices.`,
+            days: (daysList || []).map((d: any) => {
+              const allActions: string[] = [];
+              if (Array.isArray(d.events)) {
+                d.events.forEach((ev: any) => {
+                  if (Array.isArray(ev.actions)) {
+                    allActions.push(...ev.actions);
+                  }
+                });
+              }
+
+              // Determine concise title
+              let title = d.title;
+              if (!title) {
+                if (allActions.length > 0) {
+                  title = allActions[0].replace(/^Question:\s*/, 'Q: ');
+                  if (title.length > 65) title = title.slice(0, 62) + '...';
+                } else {
+                  title = 'Free Activity / Exploration';
+                }
+              }
+
+              // Categorize for filtering
+              const isExam = allActions.some((a) => a.toLowerCase().includes('exam') || a.toLowerCase().includes('question'));
+              const isPalace = allActions.some((a) => a.toLowerCase().includes('palace') || a.toLowerCase().includes('calling card') || a.toLowerCase().includes('mementos'));
+              const isRank = allActions.some((a) => a.toLowerCase().includes('rank'));
+
+              let category = 'daily';
+              if (isExam) category = 'exam';
+              else if (isPalace) category = 'palace';
+              else if (isRank) category = 'confidant';
+
+              // Format description fallback
+              const description = Array.isArray(d.events)
+                ? d.events
+                    .map((ev: any) => `[${ev.time || 'Schedule'}]\n${(ev.actions || []).map((a: string) => `• ${a}`).join('\n')}`)
+                    .join('\n\n')
+                : (d.description || '');
+
+              return {
+                date: d.date || '',
+                day_of_week: d.day_of_week,
+                title,
+                category,
+                description,
+                events: d.events || []
+              };
+            })
+          };
+        });
+
+        if (months.length > 0) {
+          return months;
+        }
+      }
+    } catch (err) {
+      console.warn('Could not load p5r_walkthrough.json, falling back to day_guides.json', err);
+    }
+  }
+
+  // Keep other game walkthroughs (P3, P4, etc.) as they are
   const allGuides = await fetchJson<any[]>('/data/guides/day_guides.json').catch(() => []);
   const seriesMap: Record<GameId, string> = {
     p5r: 'p5r',

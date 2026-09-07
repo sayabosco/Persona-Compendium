@@ -1,0 +1,4662 @@
+{
+  "April": [
+    {
+      "date": "4/9",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/10",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/11",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/12",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Villains.\" (Knowledge +2)",
+            "Chariot Rank 1 (Auto)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/13",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/14",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/15",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Lovers Rank 1 (Auto)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/16",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/17",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Crafting Tutorial (Proficiency +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/18",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Talk to Takemi in her Yongen-Jaya clinic, Death Rank 1 (Guts +2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Interact with the crossword on innermost booth of Leblanc, Complete blue squares: \"Semesters\" (Knowledge +2)",
+            "Clean your room (Obtain \"Yoncha Wanderer\" and \"Social Thought\")"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/19",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"They're the same.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Talk to librarian in Shujin library, Borrow \"Pirate Legend\"",
+            "Buy Bio Nutrients (Y1200) from flower shop in Shibuya underground mall",
+            "Talk to Ryuji outside 2D classroom, Chariot Rank 2 (Do not need matching arcana, expect 1 less note):",
+            "1. Choice 1: \"I'm counting on you.\" (+3)",
+            "2. Any",
+            "3. Choice 1: \"Do you go want to go back?\" (+2)",
+            "4. (Phone) Choice 3: \"It's never too late, man.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/20",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Interact with middle booth, Study at Leblanc (Knowledge +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/21",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Rain",
+            "Send calling card"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Save for crafting reload",
+            "Reload crafting for (Proficiency +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/22",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Clear Castle Palace"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Read \"Zorro, the Outlaw\""
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/23",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"All of them.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Chariot Rank 3:",
+            "1. Choice 1: \"Let's not fight.\" (+2)",
+            "2. Choice 1: \"Calm down, Ryuji.\" (+3)",
+            "3. (Phone) Choice 1: \"I can't exactly blame you.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Talk to Sojiro inside Leblanc, Hierophant Rank 1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/24",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Drink Aojiru (Y5000) at Shibuya underground platform (Charm +2)",
+            "Watch movies in Shibuya (Guts +5) (Guts Lv. 2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Visit bathhouse outside Leblanc (Charm +5) (Charm Lv. 2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/25",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Train",
+          "actions": [
+            "Finish reading \"Zorro, the Outlaw\" (Kindness +5)"
+          ]
+        },
+        {
+          "time": "Class",
+          "actions": [
+            "Question with matching arcana: \"You unquestioningly support it.\" and \"You have a duty to correct it.\" (Charm +2) (Lovers +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Borrow \"The Alluring Dancer\" from library",
+            "Death Rank 2 (Requires Guts Lv. 2) (Guts +2):",
+            "1. Choice 1: \"I have a bad heart.\" (+2)",
+            "2. Choice 1: \"I agree.\" (+2)",
+            "3. (Phone) Choice 1: \"I'm totally fine.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hierophant Rank 2 (Kindness +3):",
+            "1. Choice 1: \"Making coffee.\" (+2)",
+            "2. Choice 2: \"That guy seemed suspicious.\" (+2)",
+            "3. Choice 1: \"I want the ladies to love me.\" (+2)",
+            "4. (Phone) Choice 1: \"Got it.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/26",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Interact with study booths in Shujin library, Study at library (Knowledge +2, Guts +2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Interact with coffee tools on Leblanc countertop, Brew coffee with matching arcana (Charm +2) (Hierophant +1)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/27",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Four color theorem.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Chariot Hangout"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Blossom\" (Knowledge +2)",
+            "Hierophant Rank 3:",
+            "1. Choice 1: \"Medium-fine.\" (+2)",
+            "2. Choice 2: \"Is it trouble?\" (+2)",
+            "3. (Phone) Choice 3: \"Thank you in advance.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/28",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Chariot Rank 4 (Ogikubo unlocked):",
+            "1. Choice 2: \"Are you worried about him?\" (+2)",
+            "2. Choice 1: \"But you're doing great.\" (+3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Bathhouse (Charm +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/29",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Death Rank 3 (Guts +2):",
+            "1. Any",
+            "2. Any",
+            "3. Choice 1: \"I don't mind.\" (+2)",
+            "4. (Phone) Choice 1: \"Of course not.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Bathhouse (Charm +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/30",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Train",
+          "actions": [
+            "Read \"The Alluring Dancer\""
+          ]
+        },
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Wonder.\", \"Child.\", and \"A prodigy.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study at Leblanc (Knowledge +3)"
+          ]
+        }
+      ]
+    }
+  ],
+  "May": [
+    {
+      "date": "5/4",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Study at Leblanc (Knowledge +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/5",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Feed plant Bio Nutrients (Kindness +3) (Kindness Lv. 2)",
+            "Save for chalk dodge reload",
+            "Interact with Leblanc bathroom, Clean Leblanc with matching arcana (Kindness +2) (Hierophant +1)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/6",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Lecture (Knowledge +2)",
+            "Reload chalk dodge for (Charm +3)",
+            "Moon Rank 1 (Auto)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Talk to Ann in 2D classroom, Lovers Rank 2 (Requires Kindness Lv. 2):",
+            "1. Choice 2: \"She's so strong.\" (+3)",
+            "2. Choice 2: \"You might be right.\" (+3)",
+            "3. Choice 2: \"I couldn't just ignore you.\" (+3)",
+            "4. Choice 2: \"Let's find it together.\" (+3)",
+            "5. (Phone) Choice 2: \"Leave it to me.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Sign up for Ore no Beko beef bowl job from part-time listings in Shibuya underground walkway",
+            "Work at beef bowl on Shibuya central street (Proficiency +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/7",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Fatal woman.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Save for crafting reload",
+            "[Normal Route] Clean Leblanc with matching arcana (Kindness +2) (Hierophant +1)",
+            "[Battle Route] Reload crafting for (Proficiency +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/8",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Moon Rank 2 (Auto)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Aojiru (Y5000) (Guts +2)",
+            "Work at beef bowl (Proficiency +5):",
+            "1. Correctly memorize all orders"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/9",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Request \"The Bark and Bite of a Bully\" unlocked",
+            "Chariot Rank 5 (Unlocks Shibuya Gym):",
+            "1. Choice 2: \"Protein powder?\" (+3)",
+            "2. Choice 1: \"You seem conflicted.\" (+2)",
+            "3. Choice 2: \"So he's an asshole?\" (+3)",
+            "4. (Phone) Choice 1: \"Don't worry. I gotcha.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Talk to Yoshida outside Shibuya station, Sun Rank 0.1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/10",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"The Heian Period.\" (Knowledge +2) (Knowledge Lv. 2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Chariot Rank 6:",
+            "1. Choice 3: \"We can train at my place.\" (+3)",
+            "2. Choice 1: \"You guys should trust Nakaoka.\" (+3)",
+            "3. Choice 1: \"Absolutely.\" (+3)",
+            "4. Any",
+            "5. Any",
+            "6. (Phone) Choice 3: \"So he should've punched back?\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Malaise\" (Knowledge +2)",
+            "Sun Rank 1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/11",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Exams: \"Minamoto no Yoshitsune.\", \"Minamoto no Yoritomo.\", \"Yoritomo won.\", and \"The weak.\""
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/12",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Exams: \"Cognition.\" and \"Both.\""
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/13",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Exams: \"The Devil's Dictionary.\" and \"Femme Fatale.\""
+          ]
+        },
+        {
+          "time": "Class",
+          "actions": [
+            "Councillor Rank 1 (Auto)",
+            "Councillor Rank 2 (Auto) (Do not need matching arcana, expect 1 less note):",
+            "1. Choice 2: \"We made a deal.\" (+2)",
+            "2. Any",
+            "3. Choice 1: \"But it sounds right.\" (+3)",
+            "4. Any",
+            "5. Choice 1: \"Well, okay.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/14",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Brew coffee with matching arcana (Charm +2) (Hierophant +1)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/15",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Brew coffee with matching arcana (Charm +2) (Hierophant +1)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/16",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"The placebo effect.\" (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/17",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Brew coffee with matching arcana (Charm +2) (Hierophant +1)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/18",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Buy DVD Player (Y2500) from Yongen-Jaya recycling shop",
+            "Buy rental membership (Y4800) from DVD store on Shibuya central street",
+            "Borrow \"X-Folders\" from DVD store",
+            "Talk to Justine in Velvet Room, Strength Rank 1",
+            "Strength confidant can be continued anytime before 12/24",
+            "Reach barrier in Museum Palace",
+            "Need free slot in stock to unlock \"The Purpose of a Thief\" when recruiting Regent during scripted encounter",
+            "Need to obtain Councillor persona"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Gallery\" (Knowledge +2)",
+            "Interact with TV in your room, Watch \"X-Folders\" (Guts +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/19",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Rain"
+          ]
+        },
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Hokusai Katsushika.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Unlock barrier in Museum Palace"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Interact with downstairs TV in Leblanc, TV Quiz: \"Using noise to cause distress.\" (Knowledge +2)",
+            "Study at Leblanc (Knowledge +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/20",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Exam results (Charm +3)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Councillor Rank 3:",
+            "1. Choice 1: \"So they have, huh?\" (+2)",
+            "2. Choice 1: \"Of course.\" (+2)",
+            "3. Any",
+            "4. Choice 3: \"It's a seed for new love.\" (+2)",
+            "5. Choice 1: \"Did that help?\" (+2)",
+            "6. (Phone) Choice 1: \"Good work over there.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Chariot Rank 7 (Unlocks Tsukishima):",
+            "1. Choice 2: \"Let's talk to Takeishi.\" (+3)",
+            "2. Choice 1: \"I think it's cool, Ryuji.\" (+3)",
+            "3. (Phone) Choice 1: \"Never know until you try.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/21",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Train",
+          "actions": [
+            "Finish reading \"The Alluring Dancer\" (Charm +5)"
+          ]
+        },
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"1:1.414\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Borrow \"The Gallant Rogue\" from library",
+            "Reach treasure in Museum Palace",
+            "Can earn money to buy Invigorate 3 Rings for Y50,000 from Death Rnk 7",
+            "Need to obtain Temperance persona",
+            "Need at least Y120,000"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Feed plant Bio Nutrients (Kindness +3)",
+            "Finish watching \"X-Folders\" (Guts +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/22",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Aojiru (Y5000) (Kindness +2)",
+            "Death Rank 4 (Guts +2):",
+            "1. Choice 2: \"Dr. Takemi will help.\" (+2)",
+            "2. Choice 1: \"You seem happy.\" (+3)",
+            "3. (Phone) Choice 1: \"I'll reflect on my mistakes.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Sun Rank 2 (Charm +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/23",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Together.\", \"Senses.\", and \"Senses coming together.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Buy \"Vague\" and \"Buchiko's Story\" from Shibuya bookstore",
+            "Send calling card"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Read \"The Gallant Rogue\""
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/24",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Train",
+          "actions": [
+            "Finish reading \"The Gallant Rogue\" (Guts +5)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Need a Hierophant persona in stock",
+            "Clear Museum Palace"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "[Normal Route] Finish reading \"Vague\" (Harajuku unlocked)",
+            "[Battle Route] Clean Leblanc with matching arcana (Kindness +2) (Hierophant +1)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/25",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Request \"If Cats Disappeared from the City\" flag",
+            "Investigate Yongen-Jaya by talking with residents to ID target (Request \"If Cats Disappeared from the City\" unlocked)",
+            "Death Rank 5 (Guts +2):",
+            "1. Any",
+            "2. Any",
+            "3. Choice 1: \"That's good.\" (+3)",
+            "4. (Phone) Choice 1: \"About Miwa-chan?\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Visit Big Bang Burger on Shibuya central street, Big Bang Challenge (Charm +2, Proficiency +2, Guts +2, Knowledge +2) (Charm Lv. 3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/26",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Arthur Conan Doyle.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Lovers Rank 3 (Inokashira unlocked):",
+            "1. Any",
+            "2. Any",
+            "3. Any",
+            "4. Any",
+            "5. Choice 3: \"Can we stop yet?\" (+3)",
+            "6. Any",
+            "7. Any",
+            "8. Choice 2: \"Has that happened to you?\" (+3)",
+            "9. Choice 2: \"That freedom sounds nice.\" (+2)",
+            "10. (Phone) Choice 1: \"Could be.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "TV Quiz: \"Queen of evidence.\" (Knowledge +2)",
+            "Crossword: \"Pollenosis\" (Knowledge +2)",
+            "Talk to Mishima on Shibuya central street to start Operation Maidwatch, Temperance Rank 0.1:",
+            "1. Choice 3: \"You're a genius, Ryuji!\" (Chariot +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/27",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Temperance Rankup Event (Y5000):",
+            "1. Choice 1: \"It does.\" (+2)",
+            "2. Choice 2: \"Absolutely not!\" (+2)",
+            "3. Any",
+            "4. Any",
+            "5. (Phone) Choice 2: \"Uh, what the hell?\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/29",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Aojiru (Y5000) (Knowledge +2)",
+            "Lovers Rank 5:",
+            "1. Choice 2: \"Give it up.\" (+2)",
+            "2. Choice 2: \"She's amazing, huh...\"",
+            "3. Choice 1: \"It had grace.\" (+2)",
+            "4. Any",
+            "5. Any"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Sun Rank 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/30",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Faith Rank 1 (Auto)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Watch movies in Shibuya (Kindness +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/31",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"John Silver.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Lovers Hangout Inokashira:",
+            "1. Choice 3: \"Let's just enjoy the air.\" (+3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Japanese\" (Knowledge +2)",
+            "Order Surprise Sando at diner (Knowledge +2, Guts +2)"
+          ]
+        }
+      ]
+    }
+  ],
+  "June": [
+    {
+      "date": "6/1",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Chariot Rank 8:",
+            "1. Any",
+            "2. Choice 1: \"Things turned out for the best.\" (+3)",
+            "3. Choice 1: \"All I did was watch.\" (+3)",
+            "4. Choice 2: \"You weren't cool though.\" (+3)",
+            "5. (Phone) Choice 2: \"So, case closed?\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Order Surprise Sando at diner (Knowledge +2, Guts +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/2",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Death Rank 6 (Guts +2):",
+            "1. Any",
+            "2. Any",
+            "3. Choice 2: \"It suits you.\" (+3)",
+            "4. (Phone) Choice 1: \"You can count on me.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "TV Quiz: \"Probation officers are unpaid.\" (Knowledge +2)",
+            "Hierophant Rank 4 (Kindness +3):",
+            "1. Choice 1: \"Tell me more.\" (+3)",
+            "2. Choice 2: \"Call Sojiro's phone.\" (+3)",
+            "3. (Phone) Choice 1: \"Understood.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/3",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Train",
+          "actions": [
+            "Read \"Buchiko's Story\""
+          ]
+        },
+        {
+          "time": "Class",
+          "actions": [
+            "Finish reading \"Buchiko's Story\" (Kindness +5)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Lovers Rank 6:",
+            "1. Choice 1: \"It seems that way.\" (+3)",
+            "2. Any",
+            "3. Any",
+            "4. Choice 3: \"Show her your own strength.\" (+3)",
+            "5. (Phone) Choice 2: \"I'll cheer you on.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Master\" (Knowledge +2)",
+            "Temperance Rank 3 (Y5000):",
+            "1. Choice 1: \"Yeah, they do.\" (+2)",
+            "2. Any",
+            "3. Choice 2: \"I'll request you more often.\" (+3)",
+            "4. Any",
+            "5. (Phone) Choice 1: \"Thanks.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/4",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"The halo effect.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Rain",
+            "Lovers Hangout Shibuya:",
+            "1. Choice 1: \"Sounds like a good plan.\" (+3)",
+            "Receive Choco Fountain"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Temperance Hangout"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/5",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Do not talk to the receptionist at the Kichijoji info stand"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Request \"An Elderly's Meaning of Life\" flag",
+            "Investigate Kichijoji (Request \"An Elderly's Meaning of Life\" unlocked)",
+            "Aojiru (Y5000) (Charm +2)",
+            "Sun Rank 4 (Charm +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/6",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Rain",
+            "Do not need to reload chalk dodge",
+            "Request \"Sadism Is Just a Sign of Love\" unlocked",
+            "Buy Imported Protein from sports shop in Shibuya underground mall",
+            "Councillor Rank 4:",
+            "1. Any",
+            "2. Choice 1: \"I know, right?\" (+3)",
+            "3. Choice 3: \"Is that what you're researching?\" (+3)",
+            "4. Any",
+            "5. Choice 1: \"That's a grand plan.\" (+2)",
+            "6. Choice 1: \"That sounds fun.\" (+3)",
+            "7. (Phone) Choice 1: \"I feel completely fine.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Feed plant Bio Nutrients (Kindness +3)",
+            "Talk to Justine outside Velvet Room, Strength Hangout Big Bang Burger"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/7",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"The number of legs.\" (Knowledge +2) (Knowledge Lv. 3)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Rain",
+            "Death Rank 7 (Guts +2):",
+            "1. Choice 2: \"She's a great doctor.\" (+2)",
+            "2. Any",
+            "3. Choice 1: \"Just rest for today.\" (+2)",
+            "4. Choice 3: \"I'm glad you did.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Conference\" (Knowledge +2)",
+            "Strength Hangout Movie Theater"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/8",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Controlling public thought.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Respond to Kasumi's message, Faith Rank 2 (Do not need matching arcana, expect 1 less note):",
+            "1. Choice 1: \"We're just getting started.\" (+2)",
+            "2. Choice 1: \"Next time, then.\" (+2)",
+            "3. Any",
+            "4. Any",
+            "5. Any",
+            "6. (Phone) Choice 1: \"Impressive.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "[Normal Route] Order Surprise Sando at diner (Knowledge +2, Guts +2)",
+            "[Battle Route] Play darts with any two party members in Kichijoji (Proficiency +5) (Battle Route Proficiency Lv. 3):",
+            "  - Score 180 in round 1 of game 1 (3 triple 20's, Use X to throw dart instead of motion controls)",
+            "  - Let your game 1 partner finish on round 4 (Baton Pass Lv. 3):",
+            "    - Chariot: Choice 1: \"You gotta psych yourself up!\"",
+            "    - Magician: Choice 3: \"I'm counting on you.\"",
+            "    - Lovers: Choice 3: \"Just play like normal.\"",
+            "    - Emperor: Choice 1: \"Pretend like you're painting.\"",
+            "    - Priestess: Choice 3: \"Take a deep breath.\"",
+            "    - Empress: Choice 3: \"Have fun with it.\"",
+            "  - Score 3 bulls (150) in round 1 of game 2",
+            "  - Let your game 2 partner finish on round 4 (Baton Pass Lv. 3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/9",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "[Normal Route] Order Surprise Sando at diner (Knowledge +2, Guts +2)",
+            "[Battle Route] Play billiards in Kichijoji (Random Stat +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/10",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Justice Rank 1 (Auto)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Temperance Rank 4 (Y5000):",
+            "1. Any",
+            "2. Choice 1: \"How rude.\" (+2)",
+            "3. Choice 3: \"You need to love yourself.\" (+3)",
+            "4. Any"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/11",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/12",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Aojiru (Y5000) (Proficiency +2)",
+            "Lovers Rank 7 (Asakusa and Oshiage unlocked):",
+            "1. Choice 2: \"She admires you.\" (+2)",
+            "2. Any",
+            "3. Any",
+            "4. Choice 2: \"Go get 'em, tiger.\" (+2)",
+            "5. (Phone) Choice 1: \"You got this.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Talk to masked man in Kichijoji's back alleys, Trade Imported Protein for Decorative Whip",
+            "Sun Rank 5 (Charm +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/13",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Green.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "Bathhouse (Charm +3, Guts +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/14",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "Buy \"The Art of Charm\" from Shibuya bookstore",
+            "Bathhouse (Charm +3, Guts +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/15",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Train",
+          "actions": [
+            "Read \"The Art of Charm\""
+          ]
+        },
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Coins.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "[Battle Route] Buy \"Expert Billiards\" (Y3500) from sports shop",
+            "Temperance Rank 5 (Y5000):",
+            "1. Choice 1: \"It's fun.\" (+2)",
+            "2. Choice 1: \"How terrible...\" (+2)",
+            "3. Any",
+            "4. Any",
+            "5. Any",
+            "6. (Phone) Choice 3: \"You want some?\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/16",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "[Normal Route] Finish reading \"The Art of Charm\" (Charm +5)",
+            "[Battle Route] Finish reading \"Expert Billiards\" (Technical Lv. 1)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "Crossword: \"Wardrobe\" (Knowledge +2)",
+            "[Normal Route] Bathhouse (Charm +3, Guts +2)",
+            "[Battle Route] Billiards (Random Stat +3) (Technical Lv. 2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/17",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "Temperance Rank 6 (Y5000):",
+            "1. Choice 2: \"Want to rest a bit?\" (+2)",
+            "2. Choice 1: \"Are you all right?\" (+3)",
+            "3. Any",
+            "4. (Phone) Choice 3: \"How are you feeling, though?\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/18",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Request \"Phantom Thieves VS Burglary Ring\" unlocked",
+            "Talk to Yusuke in Shibuya underground walkway, Emperor Rank 1"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Save for crafting reload",
+            "Reload crafting for (Proficiency +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/19",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Save for crafting reload",
+            "Reload crafting for (Proficiency +5) (Normal Route Proficiency Lv. 3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/20",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question with matching arcana: \"Smartphone.\" (Charm +2) (Lovers +2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Save for crafting or chalk dodge reload",
+            "[Normal Route] Reload crafting for (Proficiency +5)",
+            "[Battle Route] Finish reading \"Vague\" (Harajuku unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/21",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "[Battle Route] Reload chalk dodge for (Charm +3)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Buy SP Adhesive 3 (Y50000) from Takemi Clinic",
+            "Reach treasure in Bank Palace",
+            "Need to obtain Priestess, Emperor, Justice, and Faith personas",
+            "Need at least Y200,000"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "Study at Leblanc (Knowledge +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/22",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Sign up for Rafflesia flower shop job from part-time listings in Shibuya underground walkway (Requires Charm Lv. 2)",
+            "Work at flower shop in Shibuya underground mall (Kindness +3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Borrow \"ICU\" from DVD store",
+            "Buy Mega Fertilizer x6 (Y18000) from Shinjuku flower shop",
+            "Buy \"The Craft of Cinema\", \"Flowerpedia\", and \"ABCs of Crafting\" from Shinjuku bookstore",
+            "Feed plant Mega Fertilizer (Kindness +5) (Kindness Lv. 3)",
+            "Crossword: \"Currency\" (Knowledge +2)",
+            "Talk to Akechi outside the Kichijoji darts club, Justice Rank 2:",
+            "1. Choice 1: \"You always seem so busy.\" (+2)",
+            "2. Any",
+            "3. Choice 1: \"Shoot very carefully.\" (+2)",
+            "4. Any",
+            "5. Choice 3: \"I see a lot of things.\" (+3)",
+            "6. (Phone) Choice 3: \"As rivals?\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/23",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Train",
+          "actions": [
+            "Finish reading \"The Craft of Cinema\" (Boosts points from watching movies and DVDs)"
+          ]
+        },
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"A pope.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Rain",
+            "Send calling card"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "TV Quiz: \"Ordering food without money.\" (Knowledge +2)",
+            "Watch \"ICU\" (Kindness +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/24",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Clear Bank Palace"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "Study at Leblanc (Knowledge +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/25",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "[Normal Route] Finish reading \"Flowerpedia\" (Provides flower hints during flower shop job)",
+            "[Battle Route] Finish reading \"The Art of Charm\" (Charm +5)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Talk to Makoto outside Shujin student council room, Priestess Rank 1 (Requires Knowledge Lv. 3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Temperance Hangout"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/26",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Aojiru (Y5000) (Guts +2)",
+            "Priestess Rank 2:",
+            "1. Choice 1: \"You're very well informed.\" (+2)",
+            "2. Choice 2: \"That was dangerous.\" (+3)",
+            "3. Any",
+            "4. (Phone) Choice 1: \"Couldn't agree more.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Sun Rank 6"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/27",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Rain"
+          ]
+        },
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Dogs.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Councillor Rank 5:",
+            "1. Choice 1: \"This looks great!\" (+3)",
+            "2. Any",
+            "3. Choice 3: \"You know, you're right.\" (+3)",
+            "4. Choice 2: \"Hey, as long as it tastes good.\" (+2)",
+            "5. Choice 2: \"I guess so.\" (+2)",
+            "6. (Phone) Choice 1: \"I really don't mind.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Talk to Ohya at Bar Crossroads in Shinjuku, Devil Rank 1 (Charm +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/28",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Lovers Hangout Harajuku (If Lovers Rank 8 available, Free Time):",
+            "1. Choice 1: \"Yeah.\" (+3)",
+            "Receive Idol Poster"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Talk to Chihaya at Shinjuku fortune telling booth, Fortune Rank 0.1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/29",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Gold.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Faith Rank 3:",
+            "1. Choice 1: \"Making bento?\" (+3)",
+            "2. Choice 2: \"It looks delicious.\" (+2)",
+            "3. Choice 1: \"Is that all for you?\" (+3)",
+            "4. Choice 2: \"It's definitely unique.\" (+2)",
+            "5. Any",
+            "6. Any",
+            "7. Any",
+            "8. Choice 1: \"You could try again sometime?\" (+3)",
+            "9. Any"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Temperance Rank 7 (Y5000):",
+            "1. Choice 3: \"Don't pay them.\" (+3)",
+            "2. Choice 3: \"Think this through more.\" (+3)",
+            "3. Any"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/30",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Rain",
+            "Priestess Rank 3:",
+            "1. Choice 1: \"You have the wrong idea.\" (+2)",
+            "2. Choice 2: \"You can change.\" (+3)",
+            "3. (Phone) Choice 1: \"Sounds like you two get along.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Front\" (Knowledge +2)",
+            "Fortune Rank 0.2 (Y100000)"
+          ]
+        }
+      ]
+    }
+  ],
+  "July": [
+    {
+      "date": "7/1",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Train",
+          "actions": [
+            "Finish reading \"ABCs of Crafting\" (Doubles the number of items that can be crafted)"
+          ]
+        },
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Barbarian's head.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Borrow \"Speed Reader\" from library",
+            "Buy Yakisoba Pan from school store",
+            "Buy Retro Game Set (Y5000) from recycling shop",
+            "Buy Summer Lotto S (sequential) lottery ticket (Y5000) from Shibuya",
+            "Lovers Rank 8: 1. Choice 2: \"You have some real guts.\" (+3), 2. Choice 1: \"There's no doubt in my mind.\" (+3), 3. Any, 4. Choice 2: \"I'm sure she already knows.\" (+3), 5. (Phone) Choice 3: \"You can ask her yourself.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Trade Yakisoba Pan for Black Robe",
+            "Temperance Rank 8 (Y5000): 1. Choice 3: \"Is this really what you want?\" (+3), 2. Choice 2: \"If that's what you decided.\" (+3), 3. Any, 4. Any, 5. Choice 2: \"That's the right choice.\" (+3), 6. Choice 2: \"That's reassuring.\" (+3), 7. (Phone) Choice 3: \"I'll do anything for you.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/2",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Finish reading \"Speed Reader\" (Read books 2 chapters at a time)",
+            "Temperance Rank 8.1 (Auto) (Request \"A Teacher Maid to Suffer\" unlocked): 1. Any, 2. Any, 3. Any"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Borrow \"The Illusory Popess\" from library",
+            "Priestess Rank 4: 1. Choice 1: \"That's unlike you.\" (+2), 2. Any, 3. Any, 4. Choice 1: \"Why do you use it?\" (+3), 5. Choice 3: \"It's an amazing goal.\" (+3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Rank 3 (Requires Charm Lv. 3 and Knowledge Lv. 3): 1. Any, 2. Choice 1: \"Should've figured.\" (+3), 3. Any, 4. Any, 5. Any, 6. (Phone) Choice 2: \"Wasn't it fun?\" (+2)",
+            "Accept Chariot invitation"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/3",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Chariot Hangout Ichigaya (Ichigaya unlocked): 1. Choice 1: \"This is shady.\" (+3), 2. Any, 3. Choice 2: \"She's the true master fisher.\" (+3) (Temperance +3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Aojiru (Y5000) (Kindness +2)",
+            "Sun Rank 7 (Charm +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/4",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Train",
+          "actions": [
+            "Finish reading \"The Illusory Popess\" (Kindness +5)"
+          ]
+        },
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Julius and Augustus.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Rain",
+            "Borrow \"The Great Thief\" from library",
+            "Emperor Rank 2: 1. Choice 2: \"It's enigmatic.\" (+2), 2. Choice 1: \"I can't wait.\" (+3), 3. (Phone) Choice 1: \"You're already doing enough.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Fortune Rank 0.3 (Request \"Ending the Boyfriend's Abuse\" unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/5",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Mementos Palace: 1. The Bark and Bite of a Bully, 2. An Elderly's Meaning of Life, 3. If Cats Disappeared from the City, 4. Sadism Is Just a Sign of Love, 5. Phantom Thieves VS Burglary Ring, 6. Ending the Boyfriend's Abuse, 7. A Teacher Maid to Suffer",
+            "Need to obtain Fortune persona",
+            "Money should stop being an issue"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Finish watching \"ICU\" (Kindness +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/6",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Finish reading \"The Great Thief\" (Knowledge +5) (Normal Route Knowledge Lv. 4)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Chariot Rank 9: 1. Choice 1: \"Are you satisfied now?\" (+3), 2. Choice 3: \"Don't do it.\" (+3), 3. Choice 2: \"I never realized that.\" (+3), 4. Choice 1: \"I agree.\" (+2), 5. (Phone) Choice 1: \"Congratulations.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Temperance Rank 9 Friendship (Y5000): 1. Choice 1: \"Nonsense.\" (+3), 2. Choice 1: \"What a bummer.\" (+3), 3. Choice 2: \"I want to keep seeing you.\" (+2), 4. Choice 1: \"Got it .\" (+2), 5. (Phone) Choice 2: \"You can do it.\" (+2)",
+            "OR Temperance Rank 9 Romance (Y5000): 1. Choice 1: \"Nonsense.\" (+3), 2. Choice 1: \"What a bummer.\" (+3), 3. Choice 2: \"I want to keep seeing you.\" (+2), 4. Choice 2: \"I mean what I say.\" (+0), 5. Choice 2: \"I'm a man; you're a woman.\" (+0)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/7",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question with matching arcana: \"The Milky Way.\" and \"Soumen noodles.\" (Charm +2) (Lovers +2)",
+            "Temperance Rank 9.1 (Auto)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Borrow \"The Running Dead\" from DVD store",
+            "Buy \"Ghost Encounters\" from Shibuya bookstore",
+            "Faith Rank 4: 1. Choice 2: \"You're looking to buy?\" (+2), 2. Choice 1: \"A pretty modern look.\" (+3), 3. Any, 4. Choice 1: \"Of course.\" (+2), 5. Any, 6. Choice 1: \"Good choice.\" (+2), 7. Any, 8. Choice 1: \"Everyone deals with that.\" (+2), 9. Choice 2: \"We'll work at it together.\" (+2), 10. (Phone) Choice 1: \"I'm glad to hear that.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Narcotics\" (Knowledge +2)",
+            "Fortune Rank 1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/8",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Train",
+          "actions": [
+            "Finish reading \"Ghost Encounters\" (Guts +5)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Buy Soothing Soba from Shibuya convenience store",
+            "Lovers Rank 9 Friendship: 1. Any, 2. Any, 3. Choice 2: \"I believe in you, Ann.\" (+3), 4. Choice 2: \"You have the others.\" (+0)",
+            "OR Lovers Rank 9 Romance: 1. Any, 2. Any, 3. Choice 2: \"I believe in you, Ann.\" (+3), 4. Choice 1: \"You have me.\" (+0), 5. Any, 6. (Phone) Choice 2: \"I'm yours forever.\" (+3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Ask Chihaya for a Luck Reading (Y5000) (Boost Kindness)",
+            "Feed plant Mega Fertilizer (Kindness +7)",
+            "Temperance Rank 10"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/9",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"A triangle.\" (Knowledge +2) (Battle Route Knowledge Lv. 4)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Talk to Hifumi in Kanda church, Star Rank 1 (Requires Charm Lv. 3) (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/10",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Request \"The Lovesick Cyberstalking Girl\" unlocked",
+            "Save for chalk dodge reload",
+            "Watch \"The Running Dead\" (Guts +5) (Normal Route Guts Lv. 4)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/11",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Memories that last a long time.\", \"Infinite.\", and \"Forever.\" (Knowledge +2)",
+            "Reload chalk dodge for (Charm +3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Trade Soothing Soba for Koedo Sword",
+            "Talk to Mishima in Shinjuku streets, Moon Rank 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/12",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Thievery.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Request \"One Who Bullies Bullies\" flag",
+            "Investigate Shujin gates (Request \"One Who Bullies Bullies\" unlocked)",
+            "Emperor Rank 3: 1. Choice 3: \"Don't let it bother you.\" (+2), 2. Any, 3. Choice 2: \"This isn't like you.\" (+3), 4. Choice 2: \"That's the spirit.\" (+2), 5. (Phone) Choice 1: \"That's the spirit.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Vacation\" (Knowledge +2)",
+            "Fortune Rank 2: 1. Choice 3: \"Encourage her.\" (+0), 2. Choice 2: \"Overturn your fate!\" (+0), 3. Choice 2: \"Open your mind to change.\" (+2), 4. (Phone) Choice 1: \"Of course I am.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/13",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Exams: \"64 degrees.\", \"Zhuge Liang.\", \"Barbarians' heads.\", and \"To offer them instead of heads.\""
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/14",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Exams: \"Red King Crab, (Paralithodes).\" and \"It caused confusion in the economy.\""
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/15",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Exams: \"Raining cats and dogs.\" and \"Demon Guts.\""
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/16",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/17",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Aojiru (Y5000) (Knowledge +2)",
+            "Luck Reading (Y5000) (Boost Charm)",
+            "Sun Rank 8 (Charm +7) (Charm Lv. 4)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/18",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Finish watching \"The Running Dead\" (Guts +5) (Battle Route Guts Lv. 4)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/19",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Exam results (Charm +5)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Borrow \"Jail Break\" from DVD store",
+            "Priestess Rank 5: 1. Choice 3: \"He sounds suspicious.\" (+3), 2. Choice 1: \"I got this.\" (+3), 3. (Phone) Choice 3: \"Try to reach out to her.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Finals\" (Knowledge +2)",
+            "Talk to Sojiro for exam reward - Dandy Mirror - Counterstrike",
+            "Fortune Rank 3: 1. Choice 2: \"Follow his heart.\" (+0), 2. Choice 1: \"Thieves may steal her away.\" (+0), 3. Any"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/20",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Save for crafting reload",
+            "Reload crafting for (Proficiency +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/21",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Play \"Star Forneus\" (Guts +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/22",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Watch \"Jail Break\" (Proficiency +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/23",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Finish watching \"Jail Break\" (Proficiency +5) (Battle Route Proficiency Lv. 4)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/24",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Feed plant Mega Fertilizer (Kindness +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/25",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Save for crafting reload",
+            "Reload crafting for (Proficiency +5) (Normal Route Proficiency Lv. 4)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/26",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Ask Chihaya for a Money Reading (Y5000)",
+            "Reach treasure in Pyramid Palace",
+            "Need to obtain Hermit, Hanged, Devil, and Star personas"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Call Kawakami for massage",
+            "Reload for MRE Ration from airsoft shop vending machine",
+            "Trade MRE Ration for \"Factorization Guide\"",
+            "Fortune Hangout"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/27",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Rain"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Clear Pyramid Palace"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Call Kawakami for massage",
+            "Crossword: \"Fireworks\" (Knowledge +2)",
+            "Star Rank 2 (Knowledge +2): 1. Choice 1: \"That's interesting.\" (+2), 2. Any, 3. Choice 3: \"But you don't want to, right?\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/28",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Emperor Rank 4: 1. Choice 3: \"I should bring a girl here.\" (+2), 2. Choice 1: \"Love comes in all forms.\" (+3), 3. (Phone) Choice 1: \"Don't get discouraged.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Fortune Rank 4: 1. Any, 2. Choice 3: \"Trust in yourself.\" (+3), 3. Any, 4. Any, 5. Any, 6. (Phone) Choice 2: \"I didn't do much.\" (+2)",
+            "Accept Justice invitation"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/29",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Justice Hangout Shinagawa (Shinagawa unlocked) (Devil +3): 1. Choice 1: \"It's a nice place.\" (+3), 2. Any, 3. Choice 1: \"If you like.\" (Devil +2), 4. Choice 2: \"It's nothing bad.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "Strength Hangout Gym"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/30",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Luck Reading (Y5000) (Boost Guts)",
+            "Keep sitting on sofa in front furniture store in east Kichijoji (Guts +3)",
+            "Watch movies in Shinjuku (Guts +10)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Visit the donut shop across from the Kichijoji power stone shop, Answer Morgana's quiz (Guts +3)",
+            "Fortune Rank 5: 1. Choice 1: \"You're such a hard worker.\" (+3), 2. Any, 3. Any"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/31",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Ask Chihaya for Affinity Reading (Y5000) with matching arcana (Chariot +2)",
+            "Luck Reading (Y5000) (Boost Charm)",
+            "Aojiru (Y5000) (Charm +3)",
+            "Watch movies in Shibuya (Charm +10)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Sun Rank 9"
+          ]
+        }
+      ]
+    }
+  ],
+  "August": [
+    {
+      "date": "8/1",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Rain",
+            "Chariot Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Affinity Reading (Y5000) with matching arcana (Lovers +2)",
+            "Luck Reading (Y5000) (Boost Charm)",
+            "Devil Rank 2 (Charm +4): 1. Choice 3: \"Mishima might...\" (+2), 2. Any, 3. Choice 2: \"It's for the article.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/2",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Request \"We Aren't Just Your Slaves\" flag",
+            "Affinity Reading (Y5000) with matching arcana (Lovers +2)",
+            "Lovers Rank 10 (Odaiba unlocked)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Rank 4 (Jazz Club unlocked): 1. Any, 2. Choice 3: \"Now this is my kind of club.\" (+3), 3. Choice 1: \"Any recommendations?\" (+3), 4. Choice 1: \"It's a great place.\" (+2), 5. Any, 6. Choice 2: \"I can use a microwave.\" (+3), 7. (Phone) Choice 2: \"I kinda get it.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/3",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Rain"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Request \"Who's Been Assaulting People?\" flag",
+            "Emperor Rank 5: 1. Choice 3: \"Do you want me to strip?\" (+3), 2. Choice 1: \"I'm sure you will.\" (+3), 3. (Phone) Choice 3: \"There's still hope.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Island\" (Knowledge +2)",
+            "Strength Hangout Church"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/4",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Request \"Calling for Justice for Cats\" flag",
+            "Faith Rank 5: 1. Choice 1: \"It's a surprise, yeah.\" (+2), 2. Any, 3. Choice 2: \"Go ahead. I'll watch.\" (+3), 4. Any, 5. Choice 2: \"I saw!\" (+3), 6. Choice 1: \"That's important.\" (+3), 7. Any, 8. (Phone) Choice 3: \"Gymnastics.\" (+3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "TV Quiz: \"Joyride, but return the car.\" (Knowledge +2)",
+            "Affinity Reading (Y5000) with matching arcana (Hierophant +2)",
+            "Luck Reading (Y5000) (Boost Charm)",
+            "Devil Rank 3 (Charm +4): 1. Choice 3: \"You shouldn't make assumptions.\" (+2), 2. Any, 3. Any, 4. Choice 3: \"She was falsely accused?\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/5",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Death Rank 7.1 (Requires Charm Lv. 4) (Request \"Bad Medicine\" unlocked): 1. Any, 2. Choice 3: \"I'm your ally.\" (+2), 3. Any, 4. Any, 5. Any"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Talk to Iwai in Shibuya airsoft shop, Hanged Rank 1 (Requires Guts Lv. 4)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/6",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Emperor Rank 6 (Requires Proficiency Lv. 4): 1. Choice 1: \"It feels nostalgic.\" (+2), 2. Any, 3. Any, 4. Choice 3: \"I couldn't possibly tell you.\" (+3), 5. (Phone) Choice 1: \"He had a certain dignity.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hanged Rank 2 (Proficiency +3): 1. Any, 2. Any, 3. Any, 4. Choice 3: \"How's your cold?\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/7",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Aojiru (Y5000) (Proficiency +2)",
+            "Buy Exorcism Water from church",
+            "Luck Reading (Y5000) (Boost Charm)",
+            "Work at convenience store (Charm +7) (Request \"Calling for Justice for Cats\" unlocked): 1. Memorize positions of barcodes"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Trade Exorcism Water for Model Gun",
+            "Sun Rank 10 (Charm +7) (Charm Lv. 5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/8",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Luck Reading (Y5000) (Boost Kindness)",
+            "Work at flower shop (Kindness +7): 1. Scarlet Rose, 2. Gold Gerbera, 3. Gecko Orchid"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "Crossword: \"Courage\" (Knowledge +2)",
+            "Strength Hangout Aquarium"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/9",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Emperor Rank 7: 1. Any, 2. Choice 2: \"What do you mean?\" (+2), 3. Choice 1: \"The truth is within you.\" (+3), 4. (Phone) Choice 1: \"Calm down.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Luck Reading (Y5000) (Boost Kindness)",
+            "Feed plant Mega Fertilizer (Kindness +7)",
+            "Devil Rank 4 (Charm +3): 1. Any, 2. Choice 1: \"Of course we are.\" (+2), 3. Any, 4. (Phone) Choice 1: \"Leave it to me.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/10",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Luck Reading (Y5000) (Boost Kindness)",
+            "Watch movies in Shibuya (Kindness +10) (Kindness Lv. 4)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "Moon Rank 4"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/11",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Rain",
+            "Request \"Part-time Job, Full-time Hell\" unlocked",
+            "Priestess Rank 6 (Requires Charm Lv. 5): 1. Choice 3: \"Love comes in many forms.\" (+3), 2. Any, 3. Any, 4. (Phone) Choice 1: \"Tell him you're on a date.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Fortune Rank 6: 1. Any, 2. Any, 3. Any, 4. Choice 3: \"You're just Chihaya to me.\" (+3), 5. (Phone) Choice 2: \"Be honest with yourself.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/12",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Emperor Rank 8: 1. Choice 3: \"It has to be Ann.\" (+2), 2. Choice 3: \"You've really grown, Yusuke.\" (+3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Affinity Reading (Y5000) with matching arcana (Devil +2)",
+            "[Normal Route] Devil Rank 5: 1. Any, 2. Any, 3. Any, 4. Choice 2: \"That's unforgivable.\" (+3), 5. (Phone) Choice 1: \"I don't mind.\" (+2)",
+            "[Battle Route] Buy Jump Cue (Y48000) from sports shop, Billiards (Random Stat +3) (Technical Lv. 3) (Obtain \"Billiards Magician\")"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/13",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Big Bang Challenge (Charm +3, Proficiency +3, Guts +3, Knowledge +3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Rank 5: 1. Any, 2. Choice 1: \"Are you used to gunplay?\" (+2), 3. Choice 1: \"You wanted to be a hero?\" (+3), 4. Any, 5. (Phone) Choice 1: \"You did fine.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/14",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Aojiru (Y5000) (Guts +2)",
+            "Affinity Reading (Y5000) with matching arcana (Fortune +2)",
+            "Luck Reading (Y5000) (Boost Kindness)",
+            "Work at flower shop (Kindness +4) (Request \"Who's Been Assaulting People?\" unlocked)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Ask Lala at Bar Crosswords to work there",
+            "Work at bar (Kindness +4)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/15",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Luck Reading (Y5000) (Boost Guts)",
+            "Big Bang Challenge (Charm +5, Proficiency +5, Guts +7, Knowledge +5)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Strength Hangout Sky Tree"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/16",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Rain",
+            "Priestess Rank 7: 1. Any, 2. Any, 3. Any, 4. Choice 3: \"He was a noble man.\" (+3), 5. Choice 2: \"I'm sure he was happy.\" (+3), 6. Choice 2: \"You can figure that out now.\" (+2), 7. Choice 1: \"I'm game if you are.\" (+2), 8. (Phone) Choice 1: \"Of course.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Star Rank 3 (Knowledge +2): 1. Choice 1: \"Describes you perfectly.\" (+2), 2. Choice 2: \"Having a difficult time?\" (+2), 3. (Phone) Choice 1: \"Bring it on.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/17",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Emperor Rank 9: 1. Choice 1: \"Her love for her son.\" (+3), 2. Choice 1: \"You've really changed, Yusuke.\" (+3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "Crossword: \"Sunburn\" (Knowledge +2)",
+            "Moon Rank 5"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/18",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Rain",
+            "Priestess Rank 8: 1. Choice 1: \"He says that to all his girls.\" (+2), 2. Choice 1: \"Absolutely.\" (+3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "[Normal Route] Affinity Reading (Y5000) with matching arcana (Devil +2), Devil Rank 6: 1. Any, 2. Choice 1: \"He must not like you.\" (+2), 3. Choice 2: \"You should trust in her.\" (+2), 4. Choice 1: \"That's the spirit\" (+2), 5. (Phone) Choice 3: \"I'll dig up some more for you.\" (+2)",
+            "[Battle Route] Devil Rank 5: 1. Any, 2. Any, 3. Any, 4. Choice 2: \"That's unforgivable.\" (+3), 5. (Phone) Choice 1: \"I don't mind.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/19",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Emperor Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "[Normal Route] Devil Rank 7 (Charm +5): 1. Any, 2. Choice 2: \"Don't let him provoke you.\" (+3), 3. Choice 2: \"You're charming as you are.\" (+3), 4. (Phone) Choice 1: \"That's the spirit.\" (+2)",
+            "[Battle Route] Darts with any two party members (Proficiency +5): 1. Score 180 in round 1 of game 1, 2. Let your game 1 partner finish on round 4 (Baton Pass Lv. 3), 3. Score 3 bulls (150) in round 1 of game 2, 4. Let your game 2 partner finish on round 4 (Baton Pass Lv. 3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/20",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Borrow \"31\" from DVD store",
+            "Buy Melon Pan from Ginza Line gate near Shibuya hideout",
+            "Luck Reading (Y5000) (Boost Guts)",
+            "Big Bang Challenge (Guts +7)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hanged Rank 3 (Proficiency +3) (Battle Route Proficiency Lv. 5): 1. Any, 2. Choice 1: \"I always knew you were a thug.\" (+3), 3. Choice 3: \"We made a deal, didn't we?\" (+3), 4. Any"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/21",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "[Normal Route] Watch \"31\" (Guts +5) (Normal Route Guts Lv. 5)",
+            "[Battle Route] Finish reading \"Billiards Magician\" (Masse Shot unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/22",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Trade Melon Pan for Old Man's Fist",
+            "Check Summer Lotto S (sequential) lottery results",
+            "[Normal Route] Devil Rank 7.1 (Request \"Fighting for Truth of Journalism\" unlocked): 1. Choice 2: \"You seem tired.\" (+2), 2. Any",
+            "[Battle Route] Work at bar (Kindness +3) (Request \"We Aren't Just Your Slaves\" unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/23",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Hanged Rank 4 (Proficiency +3): 1. Any, 2. Any, 3. Any, 4. Choice 3: \"Where's my reward?\" (+3), 5. (Phone) Choice 1: \"I agree.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/24",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Affinity Reading (Y5000) with matching arcana (Hanged +2)",
+            "Star Rank 4 (Jinbocho unlocked): 1. Choice 3: \"Must've been the katsu curry.\" (+2), 2. Choice 2: \"They're cool.\" (+2), 3. (Phone) Choice 1: \"I'd love to.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/25",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Luck Reading (Y5000) (Boost Kindness)",
+            "Feed plant Mega Fertilizer (Kindness +7)",
+            "Crossword: \"Sweltering\" (Knowledge +2)",
+            "Fortune Rank 7: 1. Choice 3: \"I don't think so.\" (+3), 2. (Phone) Choice 1: \"Are you gonna be okay?\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/26",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "[Normal Route] Work at bar (Kindness +3) (Request \"We Aren't Just Your Slaves\" unlocked)",
+            "[Battle Route] Billiards (Random Stat +3) (Technical Lv. 4)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/27",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "Star Rank 5 (Knowledge +2): 1. Choice 2: \"She's scary.\" (+2), 2. Choice 2: \"You should stop then.\" (+2), 3. (Phone) Choice 2: \"You've got a lot to deal with...\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/28",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Aojiru (Y5000) (Kindness +2)",
+            "Hanged Rank 5 (Proficiency +3): 1. Any, 2. Choice 2: \"You're pathetic.\" (+3), 3. Choice 3: \"I'll stick around for the guns.\" (+3), 4. (Phone) Choice 1: \"You're right.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/29",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Request \"Who's Muscling in Yongen-Jaya?\" unlocked",
+            "Affinity Reading (Y5000) with matching arcana (Hanged +2)",
+            "Star Hangout Inokashira (If Star Rank 6 available, Free Time): 1. Choice 2: \"It's a good stimulator, huh?\" (+3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/30",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Hacking\" (Knowledge +2)",
+            "Moon Rank 6"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/31",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Hermit Rank 1 (Auto)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "[Normal Route] Free Time",
+            "[Battle Route] Watch \"31\" (Guts +5)"
+          ]
+        }
+      ]
+    }
+  ],
+  "September": [
+    {
+      "date": "9/1",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Fortune Rank 7.1 (Request \"Debunking the Psychic!\" unlocked): 1. Any, 2. Any, 3. Any"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/2",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Buy Broken Laptop from recycling shop",
+            "Buy PC Tool Set from Akihabara",
+            "Buy \"Master Swordsman\" from Jinbocho",
+            "Buy Phantom Wafers, Thief Mask, and Calling Postcard from Shibuya",
+            "Strength Hangout Beach"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Typhoon\" (Knowledge +2)",
+            "Luck Reading (Y5000) (Boost Proficiency)",
+            "Interact with desk in your room, Repair laptop (Proficiency +7) (Normal Route Proficiency Lv. 5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/3",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Prosperity.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Interact with laptop in your room, Shop Tanaka Net",
+            "Talk to Akechi in Leblanc, Justice Rank 6:",
+            "  1. Choice 3: \"A while, huh?\" (+3)",
+            "  2. Choice 2: \"...You've been through a lot.\" (+2)",
+            "  3. Choice 1: \"This is nothing.\" (+3)",
+            "  4. Choice 1: \"Same.\" (+3)",
+            "  5. Choice 2: \"Because we're similar.\" (+2)",
+            "  6. Choice 1: \"I think you're right.\" (+3)",
+            "  7. (Phone) Choice 3: \"My bad, I guess.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/4",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Aojiru (Y5000) (Knowledge +2)",
+            "Request \"Winners Don't Use Cheats\" flag",
+            "Investigate Shibuya arcade (Request \"Winners Don't Use Cheats\" unlocked)",
+            "Talk to Futaba outside Leblanc, Hermit Rank 2 (Requires Kindness Lv. 4): 1. Choice 2: \"That's a great idea.\" (+2), 2. Choice 1: \"If we work together.\" (+3), 3. Choice 1: \"Sounds good to me.\" (+0), 4. (Phone) Choice 1: \"I bet it will.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Trade Phantom Wafers for Strength Up Ofuda x2",
+            "Jazz club with Emperor (Learns Charge)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/5",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hermit Rank 3: 1. Choice 3: \"I was about to come find you.\" (+3), 2. Choice 1: \"Good to see you again.\" (+3), 3. (Phone) Choice 3: \"We'll both do our best.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hierophant Rank 5 (Kindness +3): 1. Choice 3: \"I think I'm addicted!\" (+3), 2. Choice 2: \"She wasn't normal, huh?\" (+3), 3. Choice 1: \"It really paid off in the end.\" (+2), 4. (Phone) Choice 2: \"She needs a balanced diet.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/6",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Chronostasis.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Money Reading (Y5000)",
+            "Mementos Palace:",
+            "  - One Who Bullies Bullies",
+            "  - Part-time Job, Full-time Hell",
+            "  - The Lovesick Cyberstalking Girl",
+            "  - Bad Medicine",
+            "  - Calling for Justice for Cats",
+            "  - Debunking the Psychic!",
+            "  - Who's Been Assaulting People?",
+            "  - We Aren't Just Your Slaves",
+            "  - [Normal Route] Fighting for Truth of Journalism",
+            "  - Who's Muscling in Yongen-Jaya?",
+            "  - Winners Don't Use Cheats (attempt needed to unlock Tower Rank 1)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/7",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/8",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/9",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/10",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/11",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/12",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Feed plant Mega Fertilizer (Kindness +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/13",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/14",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Money loans for collateral.\" (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/15",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/16",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/17",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Cats eating human tongues.\" (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/18",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Read \"Master Swordsman\""
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/19",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Money Reading (Y5000)",
+            "Luck Reading (Y5000) (Boost Knowledge)",
+            "Visit Kichijoji info stand, Ask the receptionist every question (Knowledge +3)",
+            "Reach treasure in Spaceport Palace",
+            "Need to obtain Empress and Tower personas"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Call Kawakami for massage",
+            "Crossword: \"Festival\" (Knowledge +3)",
+            "Trade Thief Mask for Magic UP Fuda x2",
+            "Star Rank 6 (Knowledge +3): 1. Choice 2: \"Is that frustrating?\" (+2), 2. Choice 3: \"Do what you love.\" (+2), 3. (Phone) Choice 2: \"You're imagining things.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/20",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Affinity Reading (Y5000) with matching arcana (Star +2)",
+            "Luck Reading (Y5000) (Boost Guts)",
+            "Send calling card"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Finish reading \"Master Swordsman\" (Guts +10) (Battle Route Guts Lv. 5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/21",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Central Europe.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Clear Spaceport Palace"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Call Kawakami for massage",
+            "Talk to Mishima in Akihabara streets, Moon Rank 6.1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/22",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Buy \"Heroic Revelations\" from Jinbocho",
+            "Talk to Shinya in Akihabara arcade",
+            "Tell Futaba outside Leblanc to hack site",
+            "Luck Reading (Y5000) (Boost Kindness)",
+            "Report back to Shinya, Tower Rank 1 (Kindness +7)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "TV Quiz: \"Ten years in prison.\" (Knowledge +2) (Knowledge Lv. 5)",
+            "Hierophant Rank 6 (Kindness +7) (Kindness Lv. 5): 1. Choice 3: \"To each his own.\" (+2), 2. Choice 3: \"Shut your mouth.\" (+3), 3. Choice 1: \"Saving Futaba was no mistake.\" (+2), 4. (Phone) Choice 3: \"If I can help somehow...\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/23",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Read \"Heroic Revelations\""
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Councillor Rank 6: 1. Choice 2: \"Another cup?\" (+2), 2. Choice 1: \"I can do that.\" (+3), 3. Any, 4. Choice 3: \"So give up.\" (+2), 5. Any, 6. Any, 7. (Phone) Choice 1: \"Calm down.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "[Normal Route] Devil Rank 8 (Charm +5): 1. Any, 2. Any, 3. Any, 4. Choice 3: \"I'll go with you\" (+3), 5. (Phone) Choice 1: \"Good luck.\" (+2)",
+            "[Battle Route] Affinity Reading (Y5000) with matching arcana (Devil +2), Devil Rank 6: 1. Any, 2. Choice 1: \"He must not like you.\" (+2), 3. Choice 2: \"You should trust in her.\" (+2), 4. Choice 1: \"That's the spirit\" (+2), 5. (Phone) Choice 3: \"I'll dig up some more for you.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/24",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Train",
+          "actions": [
+            "Finish reading \"Heroic Revelations\" (Knowledge +7)"
+          ]
+        },
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"20 white and 12 black.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Buy \"Call Me Chief\" from Jinbocho",
+            "Hermit Rank 4: 1. Choice 2: \"Let's do this together.\" (+3), 2. Any, 3. Choice 3: \"I think it's cute.\" (+3), 4. (Phone) Choice 3: \"I'll help you anytime.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hanged Rank 6: 1. Any, 2. Any, 3. Choice 2: \"Girls.\" (+3), 4. Choice 3: \"You should buy us something.\" (+3), 5. (Phone) Choice 1: \"He's my age, so it comes easier.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/25",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Affinity Reading (Y5000) with matching arcana (Hanged +2)",
+            "Priestess Rank 9 Friendship: 1. Choice 2: \"Your fight's with me.\" (+3), 2. Choice 1: \"We should get out of here.\" (+2), 3. Choice 2: \"That was the right move.\" (+2), 4. Choice 1: \"I'm a regular here.\" (+3), 5. Choice 1: \"You'll find someone someday.\" (+3), 6. (Phone) Choice 1: \"No problem at all.\" (+2)",
+            "OR Priestess Rank 9 Romance: 1. Choice 2: \"Your fight's with me.\" (+3), 2. Choice 1: \"We should get out of here.\" (+2), 3. Choice 2: \"That was the right move.\" (+2), 4. Choice 1: \"I'm a regular here.\" (+3), 5. Choice 2: \"I'll be your study partner.\" (+0), 6. Choice 1: \"I do.\" (+3), 7. (Phone) Choice 1: \"I'd do anything for you.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Jazz club with Priestess (Learns Concentrate)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/26",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Tower Rank 2 (Kindness +5): 1. Choice 2: \"Don't compare me to you.\" (+3), 2. Choice 2: \"What a rude employee.\" (+2), 3. Choice 2: \"Do you admire them?\" (+2), 4. Choice 3: \"I'll let them know.\" (+3), 5. (Phone) Choice 1: \"I'll work hard.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "Star Rank 7 (Knowledge +2): 1. Choice 3: \"It may come down to luck.\" (+3), 2. Choice 2: \"I believe in you.\" (+3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/27",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Interact with crane game in Akihabara arcade (Receive Jack Frost Doll)",
+            "Death Rank 8 (Guts +2): 1. Any, 2. Choice 2: \"Let's get to work, doctor.\" (+3), 3. Choice 1: \"It's for Miwa-chan.\" (+3), 4. (Phone) Choice 1: \"I'll be cheering you on.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Fortune Rank 8: 1. Choice 2: \"I know.\" (+3), 2. Choice 3: \"It's because you're strong.\" (+3), 3. Choice 2: \"Hell yeah I am.\" (+3), 4. (Phone) Choice 2: \"It was all your own will.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/28",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Train",
+          "actions": [
+            "Read \"Call Me Chief\""
+          ]
+        },
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Phantom.\", \"Vibration.\", and \"Syndrome.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hermit Rank 5: 1. Any, 2. Choice 1: \"I think you're right.\" (+3), 3. Choice 3: \"He's the protagonist.\" (+3), 4. (Phone) Choice 1: \"You did great.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Ranking\" (Knowledge +2)",
+            "Star Rank 7.1 (Requires Knowledge Lv. 5) (Request \"Upstaging the Stage Mother\" unlocked): 1. Any, 2. Choice 1: \"That won't work.\" (+2), 3. Any, 4. Any"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/29",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Imperial Household Agency.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Tower Rank 3 (Kindness +3): 1. Any, 2. Any, 3. Any, 4. Choice 1: \"That's the spirit.\" (+2), 5. (Phone) Choice 1: \"Sure.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "TV Quiz: \"Divulging someone's crimes.\" (Knowledge +2)",
+            "Fortune Rank 9 Friendship: 1. Any, 2. Choice 2: \"Well, fate can be changed.\" (+3), 3. Choice 1: \"I like having my fortune read.\" (+0), 4. (Phone) Choice 1: \"I'm planning on it.\" (+2)",
+            "OR Fortune Rank 9 Romance: 1. Any, 2. Choice 2: \"Well, fate can be changed.\" (+3), 3. Choice 2: \"So I can be with you.\" (+0), 4. (Phone) Choice 1: \"I wanted to hear your voice too.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/30",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Finish reading \"Call Me Chief\" (Kindness +7)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Buy \"The Art of Automata\" from Jinbocho",
+            "Councillor Rank 7: 1. Choice 3: \"Are you a fan?\" (+3), 2. Choice 2: \"As in, removing them?\" (+3), 3. Choice 1: \"The change of heart?\" (+3), 4. Choice 3: \"It's intriguing.\" (+3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "[Normal Route] Devil Rank 9 Friendship: 1. Any, 2. Choice 2: \"You're not giving up, are you?\" (+2), 3. Choice 1: \"I can't leave you.\" (+3), 4. Any, 5. Choice 2: \"I didn't take it seriously.\" (+0)",
+            "OR [Normal Route] Devil Rank 9 Romance: 1. Any, 2. Choice 2: \"You're not giving up, are you?\" (+2), 3. Choice 1: \"I can't leave you.\" (+3), 4. Any, 5. Choice 1: \"I took it seriously.\" (+0), 6. Choice 1: \"I love you, Ichiko.\" (+0), 7. (Phone) Choice 1: \"I wanted to hear your voice.\" (+2)",
+            "[Battle Route] Devil Rank 7 (Charm +5): 1. Any, 2. Choice 2: \"Don't let him provoke you.\" (+3), 3. Choice 2: \"You're charming as you are.\" (+3), 4. (Phone) Choice 1: \"That's the spirit.\" (+2)"
+          ]
+        }
+      ]
+    }
+  ],
+  "October": [
+    {
+      "date": "10/1",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "[Normal Route] Affinity Reading (Y5000) with matching arcana (Devil +2)",
+            "Tower Rank 4 (Kindness +3): 1. Choice 3: \"Yeah, you tell him!\" (+2), 2. Choice 2: \"Get your revenge.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hanged Rank 7: 1. Choice 2: \"Absolutely.\" (+3), 2. Choice 2: \"He's clever.\" (+3), 3. Any, 4. (Phone) Choice 1: \"Bring it on.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/2",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "[Normal Route] Affinity Reading (Y5000) with matching arcana (Devil +2)",
+            "Priestess Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Trade Calling Postcard for Strawberry Daifuku x2",
+            "Hanged Rank 7.1 (Requires Guts Lv. 5) (Request \"Shady Deal in the Shadows\" unlocked): 1. Choice 2: \"I did it all for Iwai.\" (+3), 2. Choice 1: \"I will.\" (+2), 3. Any"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/3",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Stars.\" (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/4",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "[Normal Route] Affinity Reading (Y5000) with matching arcana (Devil +2)",
+            "Death Rank 9 Friendship: 1. Choice 3: \"It was rough.\" (+3), 2. Any, 3. Choice 1: \"It wanted to see you.\" (+0), 4. Choice 1: \"I love you.\" (+2), 5. Choice 2: \"That sounds good.\" (+0), 6. (Phone) Choice 3: \"I'm glad we saw it through.\" (+2)",
+            "OR Death Rank 9 Romance: 1. Choice 3: \"It was rough.\" (+3), 2. Any, 3. Choice 1: \"It wanted to see you.\" (+0), 4. Choice 1: \"I love you.\" (+2), 5. Choice 1: \"It isn't a joke.\" (+3), 6. (Phone) Choice 2: \"So did you.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hierophant Rank 7 (Requires Kindness Lv. 5) (Kindness +3): 1. Choice 1: \"You might be right.\" (+2), 2. Any, 3. Any, 4. (Phone) Choice 3: \"Feel like a real dad now?\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/5",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Read \"The Art of Automata\""
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Affinity Reading (Y5000) with matching arcana (Death +2)",
+            "Hermit Rank 6: 1. Choice 2: \"That must have been a shock.\" (+3), 2. Choice 1: \"You didn't know any better.\" (+2), 3. Any, 4. (Phone) Choice 1: \"Are you running away again?\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Rain",
+            "Visit maid cafe in Akihabara, Order Sincere Omelette, Forgive the mistake (Charm +3, Kindness +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/6",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Train",
+          "actions": [
+            "Finish reading \"The Art of Automata\" (Proficiency +7)"
+          ]
+        },
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Joseph-Ignace Guillotin.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Buy \"Reckless Casanova\" from Jinbocho",
+            "Affinity Reading (Y5000) with matching arcana (Death +2)",
+            "Tower Rank 5 (Kindness +3): 1. Choice 1: \"It was pretty weird.\" (+3), 2. Choice 2: \"I'm sure you can do it.\" (+2), 3. Choice 2: \"You need a new strategy.\" (+3), 4. (Phone) Choice 1: \"I'll be cheering you on.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Black\" (Knowledge +2)",
+            "Hierophant Rank 8 (Request \"The Money-grubbing Uncle\" unlocked): 1. Choice 2: \"Something with curry.\" (+3), 2. Choice 2: \"I was just protecting Futaba.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/7",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Crane game (Receive Burger-kun Doll)",
+            "Talk to Futaba to initiate solo battle, Hierophant Rank 8.1"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "[Normal Route] Devil Rank 10",
+            "[Battle Route] Devil Rank 7.1 (Request \"Fighting for Truth of Journalism\" unlocked): 1. Choice 2: \"You seem tired.\" (+2), 2. Any"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/8",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Tower Rank 6 (Kindness +3): 1. Any, 2. Any, 3. Choice 2: \"I believe in you.\" (+3), 4. Choice 2: \"Not at all.\" (+3), 5. (Phone) Choice 1: \"Of course I won't.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Moon Rank 8"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/9",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Death Rank 10 Friendship (Friendship route only)",
+            "OR Free Time (Romance route only)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Fortune Rank 10"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/10",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Tower Rank 7: 1. Any, 2. Any, 3. Any, 4. Any"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Halloween\" (Knowledge +2)",
+            "Affinity Reading (Y5000) with matching arcana (Tower +2)",
+            "Hierophant Rank 9: 1. Choice 1: \"It's great.\" (+3), 2. Choice 2: \"You have a great daughter.\" (+3), 3. (Phone) Choice 2: \"Futaba did great.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/11",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Bouba.\" (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/12",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Read \"Reckless Casanova\""
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/13",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Finish reading \"Reckless Casanova\" (Charm +7)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/14",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Rain",
+            "Request \"The Killer Who Cleans Up Trash\" unlocked",
+            "Buy \"Knowing the Heart\" from Jinbocho",
+            "Councillor Rank 8: 1. Choice 2: \"What do you mean?\" (+3), 2. Choice 1: \"Ooh, really?\" (+3), 3. Choice 1: \"Thanks for the food!\" (+3), 4. Choice 3: \"We've made a deal.\" (+3), 5. Choice 1: \"Congratulations.\" (+3), 6. Choice 1: \"I sure do.\" (+3), 7. Any, 8. (Phone) Choice 1: \"He's a good friend.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hierophant Rank 10"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/15",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Chalk dodge (Charm +3)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Borrow \"Cry of Cthulhu\" from library",
+            "Tower Rank 8 (Kindness +5) (Request \"A Mother's Aggression\" unlocked): 1. Choice 2: \"No, she's not.\" (+2), 2. Choice 3: \"Believe in them.\" (+3), 3. Any, 4. Choice 1: \"Let's save her.\" (+3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Moon Rank 8"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/16",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Request \"Man of Many Faces and Debts\" unlocked",
+            "Visit capsule row in Akihabara, Roll gacha for Gear Girimehkala x2",
+            "Trade Gear Girimehkala with man near capsule row for Mystery Stew",
+            "Hermit Rank 7 (Request \"Daughter's Just a Meal Ticket\" unlocked): 1. Choice 2: \"We have to put a stop to this.\" (+2), 2. Choice 1: \"I'll do it, for you.\" (+3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Trade Gear Girimehkala for Hot-Blooded Sword",
+            "Strength Hangout Maid Cafe"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/17",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Exams: \"32 surfaces.\", \"It used to be one color.\", and \"Black and white picture.\""
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/18",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Exams: \"Charles-Henri Sanson\" and \"It's a hereditary profession.\""
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/19",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Exams: \"Slave labor.\", and \"3 bees in all of Europe.\""
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/20",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Finish reading \"Knowing the Heart\" (Additional Technical conditions unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/21",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Finish reading \"Cry of Cthulhu\" (Guts +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/22",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"15.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "[Normal Route] Moon Rank 9",
+            "[Battle Route] Darts with any two party members (Proficiency +5): 1. Score 180 in round 1 of game 1, 2. Let your game 1 partner finish on round 4 (Baton Pass Lv. 3), 3. Score 3 bulls (150) in round 1 of game 2, 4. Let your game 2 partner finish on round 4 (Baton Pass Lv. 3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/23",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Strength Hangout Destinyland"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/24",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Memory bias.\" (Knowledge +2)",
+            "Exam results (Charm +5)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Buy \"Nakano Walker\", \"Night Skies\", and \"Tokyo Shrines\" from Shibuya bookstore",
+            "Talk to Sojiro for exam reward - Leblanc Charm - Null Sleep",
+            "Strength Hangout Art Museum"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/25",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Finish reading \"Nakano Walker\" (Nakano unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/26",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/27",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Finish reading \"Night Skies\" (Ikebukuro unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/28",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/29",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Finish reading \"Chinese Sweets\" (Chinatown unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/30",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Money Reading (Y5000)",
+            "Reach barrier in Casino Palace"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Call Kawakami for massage",
+            "Trade Mystery Stew for Angel Badge - Angelic Grace",
+            "Darts with Justice (Proficiency +3): 1. Let Joker finish on round 5 (Baton Pass Lv. 2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/31",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Finish reading \"Tokyo Shrines\" (Meiji-Shrine unlocked)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Reach treasure in Casino Palace"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Stalls\" (Knowledge +2)",
+            "Call Kawakami for massage",
+            "Darts with Justice (Proficiency +3): 1. Let Joker finish on round 5 (Baton Pass Lv. 3)"
+          ]
+        }
+      ]
+    }
+  ],
+  "November": [
+    {
+      "date": "11/1",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Talk to Haru on Shujin rooftop, Empress Rank 1"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Trade Phantom Wafers for Strength Up Ofuda x2",
+            "Justice Rank 7: 1. Choice 3: \"You've got a lot of rivals.\" (+2), 2. Any, 3. Choice 1: \"Should I clean it for you?\" (+2), 4. Any, 5. Any, 6. Choice 3: \"That's an intriguing question.\" (+3), 7. (Phone) Choice 2: \"I'm game and you are.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/2",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"A share of the stolen goods.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Councillor Rank 9: 1. Any, 2. Choice 1: \"Kind of sad.\" (+3), 3. Any, 4. Any, 5. Any, 6. Any, 7. Any, 8. (Phone) Choice 1: \"It's been a fun time.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Rank 8: 1. Any, 2. Any, 3. Any, 4. Choice 1: \"I definitely wouldn't lose.\" (+3), 5. Choice 2: \"Same here.\" (+2), 6. Any, 7. Choice 2: \"I accept.\" (+0)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/3",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Money Reading (Y5000)",
+            "Mementos Palace:",
+            "  - Winners Don't Use Cheats",
+            "  - Upstaging the Stage Mother",
+            "  - Shady Deal in the Shadows",
+            "  - The Money-grubbing Uncle",
+            "  - A Mother's Aggression",
+            "  - Daughter's Just a Meal Ticket",
+            "  - The Killer Who Cleans Up Trash",
+            "  - Man of Many Faces and Debts",
+            "  - [Battle Route] Fighting for Truth of Journalism"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Call Kawakami for massage",
+            "Crossword: \"Reward\" (Knowledge +2)",
+            "Hierophant Hangout Asakusa: 1. Choice 1: \"Let's check it out.\" (+3), Receive Kumade"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/4",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"A sword.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Empress Rank 2: 1. Choice 2: \"Are you opening a café?\" (+3), 2. Choice 3: \"He sounds suspicious.\" (+3), 3. Choice 1: \"This is a great idea.\" (+3), 4. Choice 1: \"It'll be okay, I promise.\" (+3), 5. (Phone) Choice 1: \"I want to know more.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Bashing\" (Knowledge +2)",
+            "Star Rank 8: 1. Choice 3: \"I'm glad her heart changed.\" (+3), 2. Choice 2: \"Lose what?\" (+2), 3. (Phone) Choice 1: \"I'm support you.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/5",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Tower Rank 9: 1. Choice 1: \"I'm glad to hear that.\" (+3), 2. Choice 1: \"It means you've matured.\" (+3), 3. Choice 3: \"He wants to win at all costs.\" (+2), 4. (Phone) Choice 1: \"You really think so?\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hanged Rank 8: 1. Any, 2. Choice 1: \"I did it for you.\" (+3), 3. Any, 4. (Phone) Choice 2: \"Tell him the truth.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/6",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Tower Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Star Rank 9 Friendship: 1. Choice 2: \"Give it all you got.\" (+2), 2. Choice 1: \"A very queenly decision.\" (+3), 3. Choice 1: \"I want to become stronger.\" (+0), 4. (Phone) Choice 2: \"Thank you.\" (+2)",
+            "OR Star Rank 9 Romance: 1. Choice 2: \"Give it all you got.\" (+2), 2. Choice 1: \"A very queenly decision.\" (+3), 3. Choice 2: \"I want to stay by your side.\" (+0), 4. Choice 1: \"I want us to date.\" (+0), 5. (Phone) Choice 1: \"It was love at first sight.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/7",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Empress Rank 3: 1. Choice 1: \"They won't find out.\" (+3), 2. Choice 3: \"It'll be okay, I promise.\" (+3), 3. Choice 1: \"I don't want to go with you.\" (+3), 4. Choice 2: \"Not yet.\" (+3), 5. (Phone) Choice 1: \"Smart.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hanged Rank 9 Friendship: 1. Any, 2. Choice 1: \"Are you living a lie?\" (+3), 3. Choice 1: \"I'm a regular here.\" (+3), 4. Choice 1: \"He's a cool guy.\" (+0), 5. Any, 6. (Phone) Choice 1: \"You're right.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/8",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Any age.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hermit Rank 8: 1. Choice 1: \"That's unbelievable.\" (+2), 2. Choice 1: \"You worked hard too.\" (+3), 3. Any, 4. (Phone) Choice 2: \"Congrats.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Star Rank 10"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/9",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Empress Rank 4: 1. Choice 3: \"It must be hard.\" (+3), 2. Choice 1: \"That's the spirit.\" (+3), 3. Any, 4. Choice 2: \"Let's ask him.\" (+3), 5. Choice 1: \"I'm sure you will.\" (+3), 6. (Phone) Choice 3: \"I'll be there for you.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hanged Rank 10"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/10",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Crow eyes are hard to see.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Rain",
+            "Borrow \"Cry of Cthulhu\" from library",
+            "Hermit Rank 9 Friendship: 1. Choice 1: \"You've really matured.\" (+3), 2. Choice 2: \"Are you okay, Futaba?\" (+3), 3. Choice 2: \"If you want.\" (+2), 4. Choice 2: \"Because we're teammates.\" (+0)",
+            "OR Hermit Rank 9 Romance: 1. Choice 1: \"You've really matured.\" (+3), 2. Choice 2: \"Are you okay, Futaba?\" (+3), 3. Choice 2: \"If you want.\" (+2), 4. Choice 1: \"Because I love you.\" (+0), 5. Choice 1: \"The love between a man and a woman.\" (+0), 6. Choice 1: \"I can't help it.\" (+2), 7. (Phone) Choice 1: \"Do I really have to say it?\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "[Normal Route] Moon Rank 10",
+            "[Battle Route] Devil Rank 8 (Charm +5): 1. Any, 2. Any, 3. Any, 4. Choice 3: \"I'll go with you\" (+3), 5. (Phone) Choice 1: \"Good luck.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/11",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Empress Rank 5: 1. Choice 1: \"Somebody's telling the truth.\" (+3), 2. Choice 1: \"There has to be another way.\" (+3), 3. Choice 3: \"I don't think so.\" (+3), 4. (Phone) Choice 2: \"Pinch yourself.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/12",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Because the voice is synthesized.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Empress Rank 6: 1. Any, 2. Choice 3: \"I had no idea.\" (+3), 3. Choice 2: \"That would be bad.\" (+3), 4. Choice 3: \"Give it all you've got.\" (+3), 5. (Phone) Choice 1: \"You're not alone.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Charity\" (Knowledge +2)",
+            "[Normal Route] Free Time",
+            "[Battle Route] Devil Rank 9 Friendship/Romance"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/13",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hermit Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "[Normal Route] Free Time",
+            "[Battle Route] Devil Rank 10"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/14",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Because of high altitude.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Empress Rank 7: 1. Any, 2. Any, 3. Any, 4. Choice 1: \"You could try asking him.\" (+3), 5. (Phone) Choice 3: \"High kicks.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Compensation\" (Knowledge +2)",
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/15",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"His head was put on display.\" (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Empress Rank 8: 1. Choice 1: \"The soil?\" (+3), 2. Choice 1: \"He'll understand.\" (+3), 3. Any, 4. Choice 3: \"I'll always be there for you.\" (+3), 5. (Phone) Choice 1: \"Sounds delicious.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/16",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Empress Rank 9 Friendship: 1. Any, 2. Any, 3. Any, 4. Choice 1: \"He's an idiot.\" (+3), 5. Choice 2: \"I'm glad we're friends.\" (+0)",
+            "OR Empress Rank 9 Romance: 1. Any, 2. Any, 3. Any, 4. Choice 1: \"He's an idiot.\" (+3), 5. Choice 1: \"I love you, Haru.\" (+0), 6. (Phone) Choice 1: \"I wanted to hear your voice.\" (+2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/17",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: \"Cochleoid.\" (Knowledge +2)",
+            "Councillor Rank 10 (Auto)"
+          ]
+        },
+        {
+          "time": "Daytime",
+          "actions": [
+            "Empress Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Crossword: \"Territory\" (Knowledge +2)",
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/18",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Send calling card"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/19",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Clear Casino Palace"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/20",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "True Ending Route: 1. Choice 1: \"No.\", 2. Choice 1: \"Never heard of them.\", 3. Choice 1: \"I haven't.\", Justice Rank 9 (Auto), Justice Rank 10 (Auto)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/25",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Buy \"Game Secret Techniques\" from Akihabara",
+            "Clear Cruiser Palace in 1 day",
+            "Call Kawakami for massage",
+            "Free Time"
+          ]
+        }
+      ]
+    }
+  ],
+  "December": [
+    {
+      "date": "12/1",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Send calling card"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Cannot leave Leblanc",
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/2",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Clear Cruiser Palace"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Call Kawakami for massage",
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/22",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Mementos Depths Palace"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/24",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Qliphoth World Palace",
+            "Fool Rank 10 (Auto)"
+          ]
+        }
+      ]
+    }
+  ],
+  "January": [
+    {
+      "date": "1/2",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Laboratory Palace"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/9",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "True Ending choice: Choice 2: \"I refuse to accept this reality.\""
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/12",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Talk to Kasumi in Kichijoji, Faith Rank 6: 1. Choice 3: \"It's not your fault.\" (+2), 2. Choice 1: \"We'll find a way.\" (+3), 3. Choice 1: \"I'll always be with you.\" (+3), 4. (Phone) Choice 1: \"I'm glad you're safe.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/14",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Faith Rank 7: 1. Choice 1: \"You're not yourself.\" (+3), 2. Choice 2: \"Don't give up.\" (+3), 3. (Phone) Choice 1: \"You can do it.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/19",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Faith Rank 8: 1. Choice 1: \"Are you all right?\" (+3), 2. Choice 1: \"I believe in you.\" (+3), 3. (Phone) Choice 1: \"Keep moving forward.\" (+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/26",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Faith Rank 9 Friendship/Romance"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/28",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Faith Rank 10"
+          ]
+        }
+      ]
+    }
+  ],
+  "February": [
+    {
+      "date": "2/2",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Clear Laboratory Palace - Final Showdown"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2/3",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Final Boss: Maruki & Azathoth / Adam Kadmon"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2/14",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Valentine's Day Event with Confidant / Romance"
+          ]
+        }
+      ]
+    }
+  ]
+}

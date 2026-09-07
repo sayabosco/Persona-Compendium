@@ -207,8 +207,8 @@ export const BrowseHubView: React.FC<BrowseHubViewProps> = ({
         </div>
       </div>
 
-      {/* Feature Menu List matching the exact 10 items from screenshot */}
-      <div className="space-y-2.5">
+      {/* Feature Menu List: single column on mobile, 2-3 columns on PC */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
         {filteredFeatures.map((item, index) => {
           const Icon = item.icon;
           return (

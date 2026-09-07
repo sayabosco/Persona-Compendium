@@ -33,6 +33,7 @@ import {
 import { IosStatusBar } from './components/ios/IosStatusBar';
 import { IosNavBar } from './components/ios/IosNavBar';
 import { IosTabBar, MainTab } from './components/ios/IosTabBar';
+import { DesktopHeader } from './components/desktop/DesktopHeader';
 import { IosInstallPrompt } from './components/ios/IosInstallPrompt';
 import { IosConnectionModal } from './components/ios/IosConnectionModal';
 import { DeployGuideModal } from './components/ios/DeployGuideModal';
@@ -51,17 +52,26 @@ import { ItemsView } from './components/items/ItemsView';
 import { RequestsView } from './components/requests/RequestsView';
 import { GuidesView } from './components/guides/GuidesView';
 import { NegotiationView } from './components/negotiation/NegotiationView';
-import { Loader2 } from 'lucide-react';
+import { Loader2, ChevronLeft, Monitor, Smartphone } from 'lucide-react';
+
+const TAB_TITLES: Record<MainTab, string> = {
+  browse: 'Browse Hub',
+  personas: 'Compendium',
+  fusion: 'Fusion Lab',
+  enemies: 'Shadows & Bosses',
+  social: 'Confidants',
+  classroom: 'School Exams',
+  skills: 'Skills Codex',
+  items: 'Items & Gear',
+  requests: 'Mementos Requests',
+  guides: 'Calendar & Guides',
+  negotiation: 'Shadow Negotiation'
+};
 
 export default function App() {
   const [selectedGameId, setSelectedGameId] = useState<GameId>('p5r');
   const [activeTab, setActiveTab] = useState<MainTab>('browse');
-  const [isIPhoneFrameMode, setIsIPhoneFrameMode] = useState<boolean>(() => {
-    if (typeof window !== 'undefined') {
-      return window.innerWidth >= 768;
-    }
-    return false;
-  });
+  const [isIPhoneFrameMode, setIsIPhoneFrameMode] = useState<boolean>(false);
   const [fusionTargetPersona, setFusionTargetPersona] = useState<string>('');
   const [showInstallGuide, setShowInstallGuide] = useState<boolean>(false);
   const [isConnectModalOpen, setIsConnectModalOpen] = useState<boolean>(false);
@@ -192,41 +202,99 @@ export default function App() {
   const confidantsCount = Object.keys(socialLinksData).length;
 
   return (
-    <div className="min-h-screen bg-black text-zinc-100 flex flex-col items-center justify-start md:py-6 md:px-4 font-sans antialiased select-none">
+    <div className="min-h-screen bg-black text-zinc-100 flex flex-col items-center justify-start md:py-4 md:px-4 font-sans antialiased select-none">
       <ElementSpriteSheet />
-      {/* Container: on mobile it fills screen, on desktop user can toggle between iPhone frame and PC view */}
+
+      {/* When in iPhone Frame Mockup Mode on desktop, show a floating control to return to PC View */}
+      {isIPhoneFrameMode && (
+        <div className="hidden md:flex items-center justify-between w-full max-w-[430px] mb-3 px-2">
+          <div className="text-xs font-semibold text-zinc-400 flex items-center gap-1.5">
+            <Smartphone className="w-3.5 h-3.5 text-sky-400" />
+            <span>iPhone Frame Mockup</span>
+          </div>
+          <button
+            type="button"
+            onClick={() => setIsIPhoneFrameMode(false)}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-white text-xs font-bold transition-all border border-white/10 active:scale-95 shadow-md"
+          >
+            <Monitor className="w-3.5 h-3.5 text-emerald-400" />
+            <span>Switch to PC View</span>
+          </button>
+        </div>
+      )}
+
+      {/* Container: on mobile it fills screen, on desktop toggle between iPhone frame and optimized PC view */}
       <main
         id="ios-app-container"
         className={`w-full flex flex-col relative transition-all duration-300 overflow-hidden ${
           isIPhoneFrameMode
             ? 'md:max-w-[430px] md:h-[900px] md:rounded-[50px] md:border-[10px] md:border-zinc-800 md:shadow-[0_0_60px_rgba(0,0,0,0.8)] md:ring-1 md:ring-white/10'
-            : 'max-w-5xl min-h-screen md:rounded-3xl md:border md:border-white/10 md:shadow-2xl'
+            : 'max-w-7xl min-h-screen md:rounded-3xl md:border md:border-white/10 md:shadow-2xl'
         } bg-zinc-950 ${seriesThemeClass}`}
       >
-        {/* iOS Dynamic Status Bar with Clock and Capsule */}
-        <IosStatusBar
-          accentColor={currentGame.color}
-          gameTitle={currentGame.shortTitle}
-        />
+        {/* CASE A: If iPhone Frame Mockup Mode is active on desktop */}
+        {isIPhoneFrameMode ? (
+          <>
+            <IosStatusBar
+              accentColor={currentGame.color}
+              gameTitle={currentGame.shortTitle}
+            />
+            <IosNavBar
+              currentGame={currentGame}
+              onSelectGame={(newId) => setSelectedGameId(newId)}
+              isIPhoneFrameMode={isIPhoneFrameMode}
+              onToggleFrameMode={() => setIsIPhoneFrameMode((prev) => !prev)}
+              onOpenConnectModal={() => setIsConnectModalOpen(true)}
+              onOpenDeployModal={() => setIsDeployModalOpen(true)}
+              canBackToHub={activeTab !== 'browse'}
+              onBackToHub={() => setActiveTab('browse')}
+            />
+          </>
+        ) : (
+          /* CASE B: Standard / PC / Mobile Mode */
+          <>
+            {/* Desktop Header: Rendered only on desktop screens */}
+            <div className="hidden md:block">
+              <DesktopHeader
+                currentGame={currentGame}
+                onSelectGame={(newId) => setSelectedGameId(newId)}
+                activeTab={activeTab}
+                onTabChange={(tab) => setActiveTab(tab)}
+                onToggleFrameMode={() => setIsIPhoneFrameMode(true)}
+                onOpenConnectModal={() => setIsConnectModalOpen(true)}
+                onOpenDeployModal={() => setIsDeployModalOpen(true)}
+              />
+            </div>
 
-        {/* iOS Navigation Header with Back to Hub button */}
-        <IosNavBar
-          currentGame={currentGame}
-          onSelectGame={(newId) => {
-            setSelectedGameId(newId);
-          }}
-          isIPhoneFrameMode={isIPhoneFrameMode}
-          onToggleFrameMode={() => setIsIPhoneFrameMode((prev) => !prev)}
-          onOpenConnectModal={() => setIsConnectModalOpen(true)}
-          onOpenDeployModal={() => setIsDeployModalOpen(true)}
-          canBackToHub={activeTab !== 'browse'}
-          onBackToHub={() => setActiveTab('browse')}
-        />
+            {/* Mobile Subview Header: Rendered on iPhone/mobile ONLY when inside a subview (zero top bar on Browse Hub) */}
+            {activeTab !== 'browse' && (
+              <div className="md:hidden flex items-center justify-between px-3.5 py-2.5 bg-zinc-950/90 backdrop-blur-md border-b border-white/10 sticky top-0 z-30">
+                <button
+                  id="mobile-back-to-hub-btn"
+                  type="button"
+                  onClick={() => setActiveTab('browse')}
+                  className="flex items-center gap-1 text-xs font-bold text-zinc-300 hover:text-white px-2.5 py-1.5 rounded-xl bg-white/5 active:scale-95 transition-all border border-white/10"
+                >
+                  <ChevronLeft className="w-4 h-4 text-zinc-400" />
+                  <span>Browse Hub</span>
+                </button>
+                <span className="text-xs font-black uppercase tracking-wider text-zinc-200 truncate max-w-[180px]">
+                  {TAB_TITLES[activeTab] || activeTab}
+                </span>
+                <div className="w-16" />
+              </div>
+            )}
+          </>
+        )}
 
         {/* Scrollable Content Viewport */}
         <div
           id="ios-scroll-viewport"
-          className="flex-1 overflow-y-auto px-3.5 pt-2.5 pb-28 no-scrollbar -webkit-overflow-scrolling-touch space-y-3"
+          className={`flex-1 overflow-y-auto ${
+            isIPhoneFrameMode
+              ? 'px-3.5 pt-2.5 pb-28'
+              : 'px-3.5 md:px-8 pt-3 md:pt-6 pb-28 md:pb-12'
+          } no-scrollbar -webkit-overflow-scrolling-touch space-y-4`}
         >
           {/* Authentic Atlus Game Hero Banner with Logo & Quick Switcher */}
           <GameHeroBanner
@@ -369,13 +437,24 @@ export default function App() {
           )}
         </div>
 
-        {/* iOS Native Tab Bar */}
-        <IosTabBar
-          activeTab={activeTab}
-          onTabChange={setActiveTab}
-          accentColor={currentGame.color}
-          badgeCount={{ requests: requestsData.length }}
-        />
+        {/* iOS Native Tab Bar: shown on mobile, and shown in iPhone frame mockup */}
+        {!isIPhoneFrameMode ? (
+          <div className="md:hidden">
+            <IosTabBar
+              activeTab={activeTab}
+              onTabChange={setActiveTab}
+              accentColor={currentGame.color}
+              badgeCount={{ requests: requestsData.length }}
+            />
+          </div>
+        ) : (
+          <IosTabBar
+            activeTab={activeTab}
+            onTabChange={setActiveTab}
+            accentColor={currentGame.color}
+            badgeCount={{ requests: requestsData.length }}
+          />
+        )}
 
         {/* iOS Home Screen Installation Guide Prompt */}
         <IosInstallPrompt

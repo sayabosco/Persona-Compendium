@@ -45,11 +45,18 @@ export const GuidesView: React.FC<GuidesViewProps> = ({
     const results: { monthName: string; day: any }[] = [];
     dayGuides.forEach((m) => {
       m.days?.forEach((d) => {
+        const eventsMatch = Array.isArray(d.events) && d.events.some((ev) =>
+          ev.time.toLowerCase().includes(q) ||
+          ev.actions.some((a) => a.toLowerCase().includes(q))
+        );
+
         if (
           d.date.toLowerCase().includes(q) ||
           d.title.toLowerCase().includes(q) ||
           d.description.toLowerCase().includes(q) ||
-          d.category?.toLowerCase().includes(q)
+          d.day_of_week?.toLowerCase().includes(q) ||
+          d.category?.toLowerCase().includes(q) ||
+          eventsMatch
         ) {
           results.push({ monthName: m.month, day: d });
         }
@@ -57,6 +64,47 @@ export const GuidesView: React.FC<GuidesViewProps> = ({
     });
     return results;
   }, [dayGuides, currentMonth, searchQuery]);
+
+  // Helper for formatting time slots
+  const getTimeSlotBadge = (time: string) => {
+    const t = time.toLowerCase();
+    if (t.includes('train')) {
+      return { label: '🚆 Train', bg: 'bg-indigo-500/20 text-indigo-300 border-indigo-500/30' };
+    }
+    if (t.includes('class')) {
+      return { label: '🏫 Class', bg: 'bg-amber-500/20 text-amber-300 border-amber-500/30' };
+    }
+    if (t.includes('daytime') || t.includes('day') || t.includes('after school')) {
+      return { label: '☀️ Daytime', bg: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30' };
+    }
+    if (t.includes('evening') || t.includes('night')) {
+      return { label: '🌙 Evening', bg: 'bg-purple-500/20 text-purple-300 border-purple-500/30' };
+    }
+    return { label: `⏳ ${time}`, bg: 'bg-zinc-800 text-zinc-300 border-white/10' };
+  };
+
+  // Helper to format action text with highlights
+  const formatActionText = (text: string) => {
+    // Highlight stat increases like (Knowledge +2), (Charm +3), etc.
+    const statRegex = /\((Knowledge|Charm|Guts|Kindness|Proficiency|Technical|Baton Pass)[^)]*\)/gi;
+    const parts = text.split(statRegex);
+    if (parts.length === 1) return text;
+
+    return (
+      <span>
+        {parts.map((part, i) => {
+          if (['Knowledge', 'Charm', 'Guts', 'Kindness', 'Proficiency', 'Technical', 'Baton Pass'].some(s => s.toLowerCase() === part.toLowerCase())) {
+            return (
+              <span key={i} className="text-amber-300 font-bold">
+                {part}
+              </span>
+            );
+          }
+          return part;
+        })}
+      </span>
+    );
+  };
 
   // Filtered Boss Guides
   const filteredBosses = useMemo(() => {
@@ -183,10 +231,10 @@ export const GuidesView: React.FC<GuidesViewProps> = ({
             </div>
           )}
 
-          {/* Days Feed */}
-          <div className="space-y-2.5">
+          {/* Days Feed (Responsive 2-column grid on desktop to optimize space) */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
             {filteredDays.length === 0 ? (
-              <div className="py-12 text-center text-zinc-500 space-y-2">
+              <div className="col-span-full py-12 text-center text-zinc-500 space-y-2">
                 <Calendar className="w-8 h-8 mx-auto text-zinc-600" />
                 <p className="text-xs font-semibold text-zinc-400">No schedule events found</p>
               </div>
@@ -194,45 +242,87 @@ export const GuidesView: React.FC<GuidesViewProps> = ({
               filteredDays.map((item: any, idx) => {
                 const day = item.day || item;
                 const monthPrefix = item.monthName ? `${item.monthName} • ` : '';
+                const hasEvents = Array.isArray(day.events) && day.events.length > 0;
 
                 return (
                   <div
                     key={`${day.date}-${idx}`}
-                    className="p-3.5 rounded-2xl bg-zinc-900/80 border border-white/10 hover:border-white/20 transition-all space-y-1.5 shadow-sm"
+                    className="p-4 rounded-2xl bg-zinc-900/85 border border-white/10 hover:border-white/20 transition-all space-y-3 shadow-sm flex flex-col justify-between"
                   >
-                    {/* Top Date & Category */}
-                    <div className="flex items-center justify-between gap-2">
-                      <div className="flex items-center gap-2">
-                        <span
-                          className="font-mono text-xs font-black px-2 py-0.5 rounded-lg border shadow-sm"
-                          style={{
-                            backgroundColor: `${accentColor}20`,
-                            borderColor: `${accentColor}40`,
-                            color: accentColor
-                          }}
-                        >
-                          {day.date}
-                        </span>
-                        <span className="text-xs font-bold text-white tracking-tight">
-                          {monthPrefix}{day.title}
-                        </span>
+                    <div>
+                      {/* Top Date & Day of Week */}
+                      <div className="flex items-center justify-between gap-2 border-b border-white/5 pb-2.5">
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span
+                            className="font-mono text-xs font-black px-2.5 py-0.5 rounded-lg border shadow-xs"
+                            style={{
+                              backgroundColor: `${accentColor}25`,
+                              borderColor: `${accentColor}50`,
+                              color: accentColor
+                            }}
+                          >
+                            {day.date}
+                          </span>
+                          {day.day_of_week && (
+                            <span className="text-[11px] font-extrabold px-2 py-0.5 rounded-md bg-zinc-800 text-zinc-300 border border-white/5 uppercase tracking-wider">
+                              {day.day_of_week}
+                            </span>
+                          )}
+                          <span className="text-xs font-bold text-white tracking-tight">
+                            {monthPrefix}{day.title}
+                          </span>
+                        </div>
+
+                        {day.category && (
+                          <span
+                            className={`text-[9px] font-bold uppercase px-2 py-0.5 rounded-md border shrink-0 ${getCategoryBadge(
+                              day.category
+                            )}`}
+                          >
+                            {day.category}
+                          </span>
+                        )}
                       </div>
 
-                      {day.category && (
-                        <span
-                          className={`text-[10px] font-bold uppercase px-2 py-0.5 rounded-md border ${getCategoryBadge(
-                            day.category
-                          )}`}
-                        >
-                          {day.category}
-                        </span>
+                      {/* Content: Either Structured Events or Text Description */}
+                      {hasEvents ? (
+                        <div className="pt-2.5 space-y-2.5">
+                          {day.events.map((ev: any, eIdx: number) => {
+                            const badge = getTimeSlotBadge(ev.time);
+                            return (
+                              <div
+                                key={eIdx}
+                                className="p-2.5 rounded-xl bg-black/40 border border-white/5 space-y-1.5"
+                              >
+                                <div className="flex items-center justify-between">
+                                  <span
+                                    className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md border ${badge.bg}`}
+                                  >
+                                    {badge.label}
+                                  </span>
+                                </div>
+                                <ul className="space-y-1 text-xs text-zinc-300 leading-relaxed pl-1">
+                                  {ev.actions.map((act: string, aIdx: number) => (
+                                    <li key={aIdx} className="flex items-start gap-1.5">
+                                      <span className="text-zinc-500 select-none mt-0.5">•</span>
+                                      <div className="flex-1 break-words">
+                                        {formatActionText(act)}
+                                      </div>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      ) : (
+                        <div className="pt-2 pl-1">
+                          <p className="text-xs text-zinc-300 leading-relaxed whitespace-pre-line">
+                            {day.description}
+                          </p>
+                        </div>
                       )}
                     </div>
-
-                    {/* Day Instructions */}
-                    <p className="text-xs text-zinc-300 leading-relaxed pl-1 pt-0.5 whitespace-pre-line">
-                      {day.description}
-                    </p>
                   </div>
                 );
               })

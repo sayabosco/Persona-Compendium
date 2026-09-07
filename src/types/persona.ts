@@ -152,11 +152,18 @@ export interface BossGuide {
   buildPrep?: string;
 }
 
+export interface DayEvent {
+  time: string;
+  actions: string[];
+}
+
 export interface DayGuideItem {
   date: string;
   title: string;
   category?: string;
   description: string;
+  day_of_week?: string;
+  events?: DayEvent[];
 }
 
 export interface MonthGuide {
