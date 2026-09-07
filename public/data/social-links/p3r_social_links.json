@@ -1,0 +1,190 @@
+{
+  "Fool": {
+    "character": "SEES",
+    "arcana": "Fool",
+    "Rank 1": {
+      "Requirements": "Starts 4/18",
+      "Benefit": {
+        "Name": "Velvet Access",
+        "Description": "Full persona fusion access."
+      }
+    },
+    "Rank 10": {
+      "Requirements": "Automatic 12/31",
+      "Benefit": {
+        "Name": "Final Resolve",
+        "Description": "Unlocks Susano-o."
+      }
+    }
+  },
+  "Magician": {
+    "character": "Kenji Tomochika",
+    "arcana": "Magician",
+    "Rank 1": {
+      "Requirements": "Starts 4/23 classroom.",
+      "Benefit": {
+        "Name": "Class Bonds",
+        "Description": "Bonus EXP on Magician fusions."
+      }
+    },
+    "Rank 10": {
+      "Benefit": {
+        "Name": "Max Bond",
+        "Description": "Unlocks Surt."
+      }
+    }
+  },
+  "Priestess": {
+    "character": "Fuuka Yamagishi",
+    "arcana": "Priestess",
+    "Rank 1": {
+      "Requirements": "Starts 6/19 2F hallway. Requires Courage 6.",
+      "Benefit": {
+        "Name": "Tartarus Oracle",
+        "Description": "Dungeon scan and evasion support."
+      }
+    },
+    "Rank 10": {
+      "Benefit": {
+        "Name": "Max Bond",
+        "Description": "Unlocks Scathach."
+      }
+    }
+  },
+  "Emperor": {
+    "character": "Hidetoshi Odagiri",
+    "arcana": "Emperor",
+    "Rank 1": {
+      "Requirements": "Starts 4/27 Student Council.",
+      "Benefit": {
+        "Name": "Discipline",
+        "Description": "Bonus EXP on Emperor fusions."
+      }
+    },
+    "Rank 10": {
+      "Benefit": {
+        "Name": "Max Bond",
+        "Description": "Unlocks Odin."
+      }
+    }
+  },
+  "Hierophant": {
+    "character": "Bunkichi and Mitsuko",
+    "arcana": "Hierophant",
+    "Rank 1": {
+      "Requirements": "Starts 4/25 Bookworms bookstore in Iwatodai.",
+      "Benefit": {
+        "Name": "Warmth",
+        "Description": "Bonus EXP on Hierophant fusions."
+      }
+    },
+    "Rank 10": {
+      "Benefit": {
+        "Name": "Max Bond",
+        "Description": "Unlocks Kohryu."
+      }
+    }
+  },
+  "Lovers": {
+    "character": "Yukari Takeba",
+    "arcana": "Lovers",
+    "Rank 1": {
+      "Requirements": "Starts 7/24. Requires Max Charm.",
+      "Benefit": {
+        "Name": "Heart Bonds",
+        "Description": "Lovers persona fusion bonus."
+      }
+    },
+    "Rank 10": {
+      "Benefit": {
+        "Name": "Max Bond",
+        "Description": "Unlocks Cybele."
+      }
+    }
+  },
+  "Chariot": {
+    "character": "Kazushi Miyamoto",
+    "arcana": "Chariot",
+    "Rank 1": {
+      "Requirements": "Starts 4/23 Track Team.",
+      "Benefit": {
+        "Name": "Athletic Drive",
+        "Description": "Chariot persona fusion bonus."
+      }
+    },
+    "Rank 10": {
+      "Benefit": {
+        "Name": "Max Bond",
+        "Description": "Unlocks Thor."
+      }
+    }
+  },
+  "Justice": {
+    "character": "Chihiro Fushimi",
+    "arcana": "Justice",
+    "Rank 1": {
+      "Requirements": "Starts 5/7 Student Council.",
+      "Benefit": {
+        "Name": "Justice Heart",
+        "Description": "Justice persona fusion bonus."
+      }
+    },
+    "Rank 10": {
+      "Benefit": {
+        "Name": "Max Bond",
+        "Description": "Unlocks Melchizedek."
+      }
+    }
+  },
+  "Hermit": {
+    "character": "Maya (Online MMO)",
+    "arcana": "Hermit",
+    "Rank 1": {
+      "Requirements": "Starts 4/29 Innocent Sin Online on desk PC on Sundays.",
+      "Benefit": {
+        "Name": "MMO Chat",
+        "Description": "Hermit persona fusion bonus."
+      }
+    },
+    "Rank 10": {
+      "Benefit": {
+        "Name": "Max Bond",
+        "Description": "Unlocks Arahabaki."
+      }
+    }
+  },
+  "Death": {
+    "character": "Pharos",
+    "arcana": "Death",
+    "Rank 1": {
+      "Requirements": "Automatic on full moon.",
+      "Benefit": {
+        "Name": "Destiny",
+        "Description": "Death persona fusion bonus."
+      }
+    },
+    "Rank 10": {
+      "Benefit": {
+        "Name": "Farewell",
+        "Description": "Unlocks Thanatos."
+      }
+    }
+  },
+  "Aeon": {
+    "character": "Aigis",
+    "arcana": "Aeon",
+    "Rank 1": {
+      "Requirements": "Available in January classroom.",
+      "Benefit": {
+        "Name": "Heart of Steel",
+        "Description": "Aeon persona fusion bonus."
+      }
+    },
+    "Rank 10": {
+      "Benefit": {
+        "Name": "Humanity",
+        "Description": "Unlocks Metatron."
+      }
+    }
+  }
+}

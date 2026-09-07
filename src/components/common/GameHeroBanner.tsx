@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { GameInfo, GameId } from '../../types/persona';
-import { SUPPORTED_GAMES } from '../../utils/dataLoader';
+import { SUPPORTED_GAMES, resolveAssetUrl } from '../../utils/dataLoader';
 import { triggerHaptic } from '../../utils/haptics';
 import { Sparkles, Shield, BookOpen, ChevronRight } from 'lucide-react';
 
@@ -17,6 +17,11 @@ export const GameHeroBanner: React.FC<GameHeroBannerProps> = ({
   totalPersonas,
   activeTabName
 }) => {
+  const [imgError, setImgError] = useState<boolean>(false);
+
+  useEffect(() => {
+    setImgError(false);
+  }, [currentGame.id]);
   return (
     <div className="relative overflow-hidden rounded-3xl border border-white/10 shadow-2xl transition-all duration-300">
       {/* Background with series-themed artwork atmosphere */}
@@ -45,12 +50,13 @@ export const GameHeroBanner: React.FC<GameHeroBannerProps> = ({
         {/* Top row: Official Logo & Series Slogan Badge */}
         <div className="flex items-center justify-between gap-3">
           <div className="flex items-center gap-3">
-            {/* Official Atlus Game Logo */}
-            {currentGame.logo ? (
+            {/* Official Atlus Game Logo or Series Badge Fallback */}
+            {currentGame.logo && !imgError ? (
               <div className="h-11 sm:h-13 flex items-center justify-center p-1 rounded-xl bg-black/40 border border-white/10 backdrop-blur-md shadow-lg shrink-0">
                 <img
-                  src={currentGame.logo}
+                  src={resolveAssetUrl(currentGame.logo)}
                   alt={currentGame.title}
+                  onError={() => setImgError(true)}
                   className="h-full object-contain max-w-[140px] drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]"
                 />
               </div>

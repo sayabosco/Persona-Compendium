@@ -1,0 +1,2382 @@
+[
+  {
+    "name": "Abysmal Surge",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Abyssal Wings",
+    "element": "Curse",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Adverse Resolve",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Agi",
+    "element": "Fire",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Agidyne",
+    "element": "Fire",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Agilao",
+    "element": "Fire",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Agneyastra",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "All Foes",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Ailment Boost",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Ali Dance",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Almighty Boost",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Ambient Aid",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Amrita Drop",
+    "element": "Healing",
+    "cost": "6 SP",
+    "target": "1 Ally",
+    "effect": "Restores party HP and cleanses status ailments."
+  },
+  {
+    "name": "Amrita Shower",
+    "element": "Healing",
+    "cost": "6 SP",
+    "target": "1 Ally",
+    "effect": "Restores party HP and cleanses status ailments."
+  },
+  {
+    "name": "Angelic Grace",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Apt Pupil",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Arms Master",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Assault Dive",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "1 Foe",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Atomic Flare",
+    "element": "Nuke",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Attack Master",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Auto-Maraku",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Auto-Masuku",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Auto-Mataru",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Ayamur",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Bad Beat",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Baisudi",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Beast Weaver",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Black Viper",
+    "element": "Almighty",
+    "cost": "48 SP",
+    "target": "1 Foe",
+    "effect": "Deals heavy Almighty damage bypassing all elemental resistances."
+  },
+  {
+    "name": "Blazing Hell",
+    "element": "Fire",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Bless Amp",
+    "element": "Bless",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Bless Boost",
+    "element": "Bless",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Bloodbath",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Brain Buster",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Brain Jack",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Brain Shake",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Brainwash Boost",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Brave Blade",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "1 Foe",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Bufu",
+    "element": "Ice",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Bufudyne",
+    "element": "Ice",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Bufula",
+    "element": "Ice",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Burn Boost",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Cadenza",
+    "element": "Healing",
+    "cost": "6 SP",
+    "target": "All Allies",
+    "effect": "Restores party HP and cleanses status ailments."
+  },
+  {
+    "name": "Charge",
+    "element": "Support",
+    "cost": "10 SP",
+    "target": "1 Target",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Cleave",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "1 Foe",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Climate Decorum",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Concentrate",
+    "element": "Support",
+    "cost": "10 SP",
+    "target": "1 Target",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Confuse Boost",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Cornered Fang",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Cosmic Flare",
+    "element": "Nuke",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Counter",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Counterstrike",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "1 Foe",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Cripple",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Cross Slash",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "1 Foe",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Curse Amp",
+    "element": "Curse",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Curse Boost",
+    "element": "Curse",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Dazzler",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Deadly Fury",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Deathbound",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "All Foes",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Debilitate",
+    "element": "Support",
+    "cost": "24 SP",
+    "target": "1 Target",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Defense Master",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Dekaja",
+    "element": "Support",
+    "cost": "10 SP",
+    "target": "1 Target",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Dekunda",
+    "element": "Support",
+    "cost": "10 SP",
+    "target": "1 Target",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Demonic Decree",
+    "element": "Curse",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Despair Boost",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Dia",
+    "element": "Healing",
+    "cost": "6 SP",
+    "target": "1 Ally",
+    "effect": "Restores party HP and cleanses status ailments."
+  },
+  {
+    "name": "Diamond Dust",
+    "element": "Ice",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Diarahan",
+    "element": "Healing",
+    "cost": "6 SP",
+    "target": "1 Ally",
+    "effect": "Restores party HP and cleanses status ailments."
+  },
+  {
+    "name": "Diarama",
+    "element": "Healing",
+    "cost": "6 SP",
+    "target": "1 Ally",
+    "effect": "Restores party HP and cleanses status ailments."
+  },
+  {
+    "name": "Die For Me!",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Divine Grace",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Divine Judgement",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Dizzy Boost",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Dodge Bless",
+    "element": "Bless",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Dodge Curse",
+    "element": "Curse",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Dodge Elec",
+    "element": "Elec",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  },
+  {
+    "name": "Dodge Fire",
+    "element": "Fire",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Dodge Ice",
+    "element": "Ice",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Dodge Nuke",
+    "element": "Nuke",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Dodge Phys",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Dodge Psy",
+    "element": "Psy",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Dodge Wind",
+    "element": "Wind",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Door of Hades",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Dormin Rush",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Dormina",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Double Fangs",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Drain Bless",
+    "element": "Bless",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Drain Curse",
+    "element": "Curse",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Drain Fire",
+    "element": "Fire",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Drain Ice",
+    "element": "Ice",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Drain Nuke",
+    "element": "Nuke",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Drain Phys",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Drain Psy",
+    "element": "Psy",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Drain Wind",
+    "element": "Wind",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Dream Needle",
+    "element": "Gun",
+    "cost": "18% HP",
+    "target": "1 Foe",
+    "effect": "High-critical ballistic gun damage."
+  },
+  {
+    "name": "Eiga",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Eigaon",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Eiha",
+    "element": "Curse",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Elec Amp",
+    "element": "Elec",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  },
+  {
+    "name": "Elec Boost",
+    "element": "Elec",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  },
+  {
+    "name": "Elec Break",
+    "element": "Elec",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  },
+  {
+    "name": "Elec Wall",
+    "element": "Elec",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  },
+  {
+    "name": "Endure",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Enduring Soul",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Energy Drop",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Energy Shower",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Evade Bless",
+    "element": "Bless",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Evade Curse",
+    "element": "Curse",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Evade Elec",
+    "element": "Elec",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  },
+  {
+    "name": "Evade Fire",
+    "element": "Fire",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Evade Ice",
+    "element": "Ice",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Evade Nuke",
+    "element": "Nuke",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Evade Phys",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Evade Psy",
+    "element": "Psy",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Evade Wind",
+    "element": "Wind",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Evil Smile",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Evil Touch",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Fast Heal",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Fear Boost",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Fire Amp",
+    "element": "Fire",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Fire Boost",
+    "element": "Fire",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Fire Break",
+    "element": "Fire",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Fire Wall",
+    "element": "Fire",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Firm Stance",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Flash Bomb",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Forget Boost",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Fortified Moxy",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Fortify Spirit",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Foul Breath",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Freeze Boost",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Frei",
+    "element": "Nuke",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Freidyne",
+    "element": "Nuke",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Freila",
+    "element": "Nuke",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Garu",
+    "element": "Wind",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Garudyne",
+    "element": "Wind",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Garula",
+    "element": "Wind",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Ghastly Wail",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Giant Slice",
+    "element": "Ice",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Gigantomachia",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "All Foes",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "God's Hand",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "1 Foe",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Growth 1",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Growth 2",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Growth 3",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Hama",
+    "element": "Bless",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Hama Boost",
+    "element": "Bless",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Hamaon",
+    "element": "Bless",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Hassou Tobi",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "All Foes",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Headbutt",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Heat Riser",
+    "element": "Support",
+    "cost": "24 SP",
+    "target": "1 Target",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Heat Up",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Heat Wave",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "High Counter",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Hysterical Slap",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Ice Age",
+    "element": "Ice",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Ice Amp",
+    "element": "Ice",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Ice Boost",
+    "element": "Ice",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Ice Break",
+    "element": "Ice",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Ice Wall",
+    "element": "Ice",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Inferno",
+    "element": "Fire",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Insta-Heal",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Invigorate 1",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Invigorate 2",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Invigorate 3",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Kouga",
+    "element": "Bless",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Kougaon",
+    "element": "Bless",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Kouha",
+    "element": "Bless",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Life Aid",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Life Drain",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Lucky Punch",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Lullaby",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Lunge",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "1 Foe",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Mabaisudi",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "All Foes",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Mabufu",
+    "element": "Ice",
+    "cost": "18 SP",
+    "target": "All Foes",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Mabufudyne",
+    "element": "Ice",
+    "cost": "18 SP",
+    "target": "All Foes",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Mabufula",
+    "element": "Ice",
+    "cost": "18 SP",
+    "target": "All Foes",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Maeiga",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "All Foes",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Maeigaon",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "All Foes",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Maeiha",
+    "element": "Curse",
+    "cost": "22 SP",
+    "target": "All Foes",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Mafrei",
+    "element": "Nuke",
+    "cost": "20 SP",
+    "target": "All Foes",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Mafreidyne",
+    "element": "Nuke",
+    "cost": "20 SP",
+    "target": "All Foes",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Mafreila",
+    "element": "Nuke",
+    "cost": "20 SP",
+    "target": "All Foes",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Magaru",
+    "element": "Wind",
+    "cost": "18 SP",
+    "target": "All Foes",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Magarudyne",
+    "element": "Wind",
+    "cost": "18 SP",
+    "target": "All Foes",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Magarula",
+    "element": "Wind",
+    "cost": "18 SP",
+    "target": "All Foes",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Magatsu Mandala",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "All Foes",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Mahama",
+    "element": "Bless",
+    "cost": "22 SP",
+    "target": "All Foes",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Mahamaon",
+    "element": "Bless",
+    "cost": "22 SP",
+    "target": "All Foes",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Makajam",
+    "element": "Support",
+    "cost": "24 SP",
+    "target": "All",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Makajamaon",
+    "element": "Support",
+    "cost": "24 SP",
+    "target": "All",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Makara Break",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "All Foes",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Makarakarn",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "All Foes",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Makouga",
+    "element": "Bless",
+    "cost": "22 SP",
+    "target": "All Foes",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Makougaon",
+    "element": "Bless",
+    "cost": "22 SP",
+    "target": "All Foes",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Makouha",
+    "element": "Bless",
+    "cost": "22 SP",
+    "target": "All Foes",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Mamudo",
+    "element": "Curse",
+    "cost": "22 SP",
+    "target": "All Foes",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Mamudoon",
+    "element": "Curse",
+    "cost": "22 SP",
+    "target": "All Foes",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Mapsi",
+    "element": "Psy",
+    "cost": "20 SP",
+    "target": "All Foes",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Mapsio",
+    "element": "Psy",
+    "cost": "20 SP",
+    "target": "All Foes",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Mapsiodyne",
+    "element": "Psy",
+    "cost": "20 SP",
+    "target": "All Foes",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Maragi",
+    "element": "Fire",
+    "cost": "18 SP",
+    "target": "All Foes",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Maragidyne",
+    "element": "Fire",
+    "cost": "18 SP",
+    "target": "All Foes",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Maragion",
+    "element": "Fire",
+    "cost": "18 SP",
+    "target": "All Foes",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Marakukaja",
+    "element": "Support",
+    "cost": "24 SP",
+    "target": "All",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Marakunda",
+    "element": "Support",
+    "cost": "24 SP",
+    "target": "All",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Marin Karin",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "All Foes",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Masukukaja",
+    "element": "Support",
+    "cost": "24 SP",
+    "target": "All",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Masukunda",
+    "element": "Support",
+    "cost": "24 SP",
+    "target": "All",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Matarukaja",
+    "element": "Support",
+    "cost": "24 SP",
+    "target": "All",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Matarunda",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "All Foes",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Mazio",
+    "element": "Elec",
+    "cost": "18 SP",
+    "target": "All Foes",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  },
+  {
+    "name": "Maziodyne",
+    "element": "Elec",
+    "cost": "18 SP",
+    "target": "All Foes",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  },
+  {
+    "name": "Mazionga",
+    "element": "Elec",
+    "cost": "18 SP",
+    "target": "All Foes",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  },
+  {
+    "name": "Me Patra",
+    "element": "Healing",
+    "cost": "16 SP",
+    "target": "All Allies",
+    "effect": "Restores party HP and cleanses status ailments."
+  },
+  {
+    "name": "Media",
+    "element": "Healing",
+    "cost": "16 SP",
+    "target": "All Allies",
+    "effect": "Restores party HP and cleanses status ailments."
+  },
+  {
+    "name": "Mediarahan",
+    "element": "Healing",
+    "cost": "16 SP",
+    "target": "All Allies",
+    "effect": "Restores party HP and cleanses status ailments."
+  },
+  {
+    "name": "Mediarama",
+    "element": "Healing",
+    "cost": "16 SP",
+    "target": "All Allies",
+    "effect": "Restores party HP and cleanses status ailments."
+  },
+  {
+    "name": "Megaton Raid",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Megido",
+    "element": "Almighty",
+    "cost": "48 SP",
+    "target": "All Foes",
+    "effect": "Deals heavy Almighty damage bypassing all elemental resistances."
+  },
+  {
+    "name": "Megidola",
+    "element": "Almighty",
+    "cost": "48 SP",
+    "target": "All Foes",
+    "effect": "Deals heavy Almighty damage bypassing all elemental resistances."
+  },
+  {
+    "name": "Megidolaon",
+    "element": "Almighty",
+    "cost": "48 SP",
+    "target": "All Foes",
+    "effect": "Deals heavy Almighty damage bypassing all elemental resistances."
+  },
+  {
+    "name": "Memory Blow",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Mind Slice",
+    "element": "Ice",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Miracle Punch",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Morning Star",
+    "element": "Almighty",
+    "cost": "48 SP",
+    "target": "1 Foe",
+    "effect": "Deals heavy Almighty damage bypassing all elemental resistances."
+  },
+  {
+    "name": "Mudo",
+    "element": "Curse",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Mudo Boost",
+    "element": "Curse",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Mudoon",
+    "element": "Curse",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Myriad Slashes",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "1 Foe",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Negative Pile",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Nocturnal Flash",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Nuke Amp",
+    "element": "Nuke",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Nuke Boost",
+    "element": "Nuke",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Nuke Break",
+    "element": "Nuke",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Nuke Wall",
+    "element": "Nuke",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Null Bless",
+    "element": "Bless",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Null Brainwash",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Null Curse",
+    "element": "Curse",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Null Despair",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Null Dizzy",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Null Elec",
+    "element": "Elec",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  },
+  {
+    "name": "Null Fear",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Null Fire",
+    "element": "Fire",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Null Forget",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Null Nuke",
+    "element": "Nuke",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Null Phys",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Null Rage",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Null Sleep",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Null Wind",
+    "element": "Wind",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Ominous Words",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "One-shot Kill",
+    "element": "Gun",
+    "cost": "18% HP",
+    "target": "1 Foe",
+    "effect": "High-critical ballistic gun damage."
+  },
+  {
+    "name": "Oni Kagura",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Oratorio",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Panta Rhei",
+    "element": "Wind",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Patra",
+    "element": "Healing",
+    "cost": "6 SP",
+    "target": "1 Ally",
+    "effect": "Restores party HP and cleanses status ailments."
+  },
+  {
+    "name": "Pressing Stance",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Psi",
+    "element": "Psy",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Psio",
+    "element": "Psy",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Psiodyne",
+    "element": "Psy",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Psy Amp",
+    "element": "Psy",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Psy Boost",
+    "element": "Psy",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Psy Break",
+    "element": "Psy",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Psy Wall",
+    "element": "Psy",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Psycho Blast",
+    "element": "Psy",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Psycho Force",
+    "element": "Psy",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Pulinpa",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Rage Boost",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Rakukaja",
+    "element": "Support",
+    "cost": "10 SP",
+    "target": "1 Target",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Rakunda",
+    "element": "Support",
+    "cost": "10 SP",
+    "target": "1 Target",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Rampage",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Rebellion",
+    "element": "Support",
+    "cost": "10 SP",
+    "target": "1 Target",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Recarm",
+    "element": "Healing",
+    "cost": "6 SP",
+    "target": "1 Ally",
+    "effect": "Restores party HP and cleanses status ailments."
+  },
+  {
+    "name": "Regenerate 1",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Regenerate 2",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Regenerate 3",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Repel Curse",
+    "element": "Curse",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Curse damage or chance of instant kill."
+  },
+  {
+    "name": "Repel Elec",
+    "element": "Elec",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  },
+  {
+    "name": "Repel Fire",
+    "element": "Fire",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Fire damage to target with a chance to inflict Burn."
+  },
+  {
+    "name": "Repel Ice",
+    "element": "Ice",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Ice damage to target with a chance to inflict Freeze."
+  },
+  {
+    "name": "Repel Nuke",
+    "element": "Nuke",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Nuclear damage. Technical hit on Burn, Freeze, or Shock."
+  },
+  {
+    "name": "Repel Phys",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Resist Bless",
+    "element": "Bless",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Deals Bless damage or chance of instant kill."
+  },
+  {
+    "name": "Resist Brainwash",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Resist Confuse",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Resist Despair",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Resist Dizzy",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Resist Fear",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Resist Forget",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Resist Psy",
+    "element": "Psy",
+    "cost": "10 SP",
+    "target": "1 Foe",
+    "effect": "Deals Psychokinetic damage. Technical hit on mental ailments."
+  },
+  {
+    "name": "Resist Sleep",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Revolution",
+    "element": "Support",
+    "cost": "10 SP",
+    "target": "1 Target",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Riot Gun",
+    "element": "Gun",
+    "cost": "18% HP",
+    "target": "1 Foe",
+    "effect": "High-critical ballistic gun damage."
+  },
+  {
+    "name": "Rising Slash",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "1 Foe",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Salvation",
+    "element": "Healing",
+    "cost": "6 SP",
+    "target": "1 Ally",
+    "effect": "Restores party HP and cleanses status ailments."
+  },
+  {
+    "name": "Samarecarm",
+    "element": "Healing",
+    "cost": "6 SP",
+    "target": "1 Ally",
+    "effect": "Restores party HP and cleanses status ailments."
+  },
+  {
+    "name": "Samsara",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Sharp Student",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Shining Arrows",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Shock Boost",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Skull Cracker",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Sledgehammer",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Sleep Boost",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Snap",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Snipe",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Speed Master",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Spell Master",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Spirit Drain",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Stagnant Air",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Sukukaja",
+    "element": "Support",
+    "cost": "10 SP",
+    "target": "1 Target",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Sukunda",
+    "element": "Support",
+    "cost": "10 SP",
+    "target": "1 Target",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Survival Trick",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Swift Strike",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "1 Foe",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Sword Dance",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "1 Foe",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Tarukaja",
+    "element": "Support",
+    "cost": "10 SP",
+    "target": "1 Target",
+    "effect": "Buffs party stats or reduces enemy defense/attack/speed."
+  },
+  {
+    "name": "Tarunda",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Taunt",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Tempest Slash",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "1 Foe",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Tentarafoo",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Terror Claw",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Tetra Break",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Tetraja",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Tetrakarn",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Thermopylae",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Thunder Reign",
+    "element": "Elec",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  },
+  {
+    "name": "Titanomachia",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Touch n' Go",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Trigger Happy",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Triple Down",
+    "element": "Gun",
+    "cost": "18% HP",
+    "target": "1 Foe",
+    "effect": "High-critical ballistic gun damage."
+  },
+  {
+    "name": "Unshaken Will",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Vacuum Wave",
+    "element": "Wind",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Vajra Blast",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Vicious Strike",
+    "element": "Phys",
+    "cost": "16% HP",
+    "target": "1 Foe",
+    "effect": "Physical strike dealing severe physical damage."
+  },
+  {
+    "name": "Victory Cry",
+    "element": "Passive",
+    "cost": "Passive",
+    "target": "Self",
+    "effect": "Automatic passive tactical advantage."
+  },
+  {
+    "name": "Vorpal Blade",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Wage War",
+    "element": "Support",
+    "cost": "12 SP",
+    "target": "1 Foe",
+    "effect": "Special tactical ability or spell effect."
+  },
+  {
+    "name": "Wild Thunder",
+    "element": "Elec",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  },
+  {
+    "name": "Wind Amp",
+    "element": "Wind",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Wind Boost",
+    "element": "Wind",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Wind Break",
+    "element": "Wind",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Wind Wall",
+    "element": "Wind",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Wind damage to target with Technical combo synergy."
+  },
+  {
+    "name": "Zio",
+    "element": "Elec",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  },
+  {
+    "name": "Ziodyne",
+    "element": "Elec",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  },
+  {
+    "name": "Zionga",
+    "element": "Elec",
+    "cost": "8 SP",
+    "target": "1 Foe",
+    "effect": "Deals Electric damage to target with a chance to inflict Shock."
+  }
+]

@@ -55,7 +55,12 @@ import { Loader2 } from 'lucide-react';
 export default function App() {
   const [selectedGameId, setSelectedGameId] = useState<GameId>('p5r');
   const [activeTab, setActiveTab] = useState<MainTab>('browse');
-  const [isIPhoneFrameMode, setIsIPhoneFrameMode] = useState<boolean>(true);
+  const [isIPhoneFrameMode, setIsIPhoneFrameMode] = useState<boolean>(() => {
+    if (typeof window !== 'undefined') {
+      return window.innerWidth >= 768;
+    }
+    return false;
+  });
   const [fusionTargetPersona, setFusionTargetPersona] = useState<string>('');
   const [showInstallGuide, setShowInstallGuide] = useState<boolean>(false);
   const [isConnectModalOpen, setIsConnectModalOpen] = useState<boolean>(false);

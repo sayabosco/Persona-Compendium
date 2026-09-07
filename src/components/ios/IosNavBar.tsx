@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ChevronDown, ChevronLeft, Monitor, Smartphone, Sparkles, Check, QrCode, Github } from 'lucide-react';
 import { GameId, GameInfo } from '../../types/persona';
-import { SUPPORTED_GAMES } from '../../utils/dataLoader';
+import { SUPPORTED_GAMES, resolveAssetUrl } from '../../utils/dataLoader';
 import { triggerHaptic } from '../../utils/haptics';
 import { IosBottomSheet } from './IosBottomSheet';
 
@@ -27,6 +27,11 @@ export const IosNavBar = ({
   onBackToHub
 }: IosNavBarProps) => {
   const [isGamePickerOpen, setIsGamePickerOpen] = useState(false);
+  const [logoError, setLogoError] = useState(false);
+
+  useEffect(() => {
+    setLogoError(false);
+  }, [currentGame.id]);
 
   return (
     <>
@@ -59,11 +64,12 @@ export const IosNavBar = ({
             }}
             className="flex items-center gap-2 group text-left transition-transform active:scale-95 min-w-0"
           >
-            {currentGame.logo ? (
+            {currentGame.logo && !logoError ? (
               <div className="h-7 px-1.5 rounded-lg bg-black/50 border border-white/10 flex items-center justify-center shrink-0">
                 <img
-                  src={currentGame.logo}
+                  src={resolveAssetUrl(currentGame.logo)}
                   alt={currentGame.title}
+                  onError={() => setLogoError(true)}
                   className="h-4 object-contain max-w-[55px]"
                 />
               </div>
@@ -179,8 +185,12 @@ export const IosNavBar = ({
                   {game.logo ? (
                     <div className="h-10 px-2 rounded-xl bg-black/60 border border-white/10 flex items-center justify-center shrink-0">
                       <img
-                        src={game.logo}
+                        src={resolveAssetUrl(game.logo)}
                         alt={game.title}
+                        onError={(e) => {
+                          // If logo fails to load, hide image element
+                          e.currentTarget.style.display = 'none';
+                        }}
                         className="h-6 object-contain max-w-[90px]"
                       />
                     </div>

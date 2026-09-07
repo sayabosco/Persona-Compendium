@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "1",
+    "title": "Retrieve 1 Beetle Shell.",
+    "requirement": "Defeat Grave Beetles on floors 6-15 of the 1st block, Thebel, to retrieve 1 Beetle Shell.",
+    "reward": "¥12,000",
+    "walkthrough": "Defeat Grave Beetles on floors 6-15 of the 1st block, Thebel, to retrieve 1 Beetle Shell.\nAvailable: 4/30 | Deadline: 5/7",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "2",
+    "title": "Retrieve the first old document.",
+    "requirement": "Retrieve Old Document 01 from the top of the 1st block, Thebel, and return here before the deadline.",
+    "reward": "Bead Chain x1",
+    "walkthrough": "Retrieve Old Document 01 from the top of the 1st block, Thebel, and return here before the deadline.\nAvailable: 4/30 | Deadline: 5/7",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "3",
+    "title": "I'd like to sip a Muscle Drink.",
+    "requirement": "Have you tried a Muscle Drink? I am curious how it tastes. Can you please bring me one?",
+    "reward": "Dark Jacket x1Angora Sweater x1",
+    "walkthrough": "Have you tried a Muscle Drink? I am curious how it tastes. Can you please bring me one?\n\nGuide & Location: Aohige Pharmacy (4/22); Tanaka's Amazing Commodities (5/3 / 6/21); Common chests within Tartarus and Monad\nAvailable: 4/30 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "4",
+    "title": "Retrieve 3 Old Lanterns.",
+    "requirement": "Defeat Phantom Mages on floors 17-24 of the 2nd block, Arqa, to retrieve 3 Old Lanterns.",
+    "reward": "Umugi Water x2",
+    "walkthrough": "Defeat Phantom Mages on floors 17-24 of the 2nd block, Arqa, to retrieve 3 Old Lanterns.\nAvailable: 5/10 | Deadline: 6/6",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "5",
+    "title": "Retrieve the second old document.",
+    "requirement": "Retrieve Old Document 02 from the middle of the 2nd block, Arqa, and return here before the deadline.",
+    "reward": "Recarm Skill Card x1",
+    "walkthrough": "Retrieve Old Document 02 from the middle of the 2nd block, Arqa, and return here before the deadline.\nAvailable: 5/10 | Deadline: 6/6",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "6",
+    "title": "Create Jack Frost with Dia.",
+    "requirement": "Please create Jack Frost via fusion, and show me that he has the healing skill Dia.",
+    "reward": "Battle Panties x1",
+    "walkthrough": "Please create Jack Frost via fusion, and show me that he has the healing skill Dia.\n\nGuide & Location: Pixie + Unicorn; Unlocks #8\nAvailable: 5/10 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "7",
+    "title": "Retrieve 1 Lead Medal.",
+    "requirement": "Defeat the Wealth Hand, a rare monster in the 1st block, Thebel, to retrieve 1 Lead Medal.",
+    "reward": "Toy Bow x1",
+    "walkthrough": "Defeat the Wealth Hand, a rare monster in the 1st block, Thebel, to retrieve 1 Lead Medal.\n\nGuide & Location: Unlocks #14\nAvailable: 5/10 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "8",
+    "title": "Create Valkyrie with Tarukaja.",
+    "requirement": "Please create Valkyrie via fusion, and show me that she has the supportive skill Tarukaja.",
+    "reward": "Torn Black Cloth x1",
+    "walkthrough": "Please create Valkyrie via fusion, and show me that she has the supportive skill Tarukaja.\n\nGuide & Location: Forneus + Yomotsu Shikome; Allows the creation of Pale Rider; Unlocks #15\nAvailable: Complete #6 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "9",
+    "title": "Retrieve 5 Bronze Figurines.",
+    "requirement": "Defeat Bronze Dice on floors 41-46 of the 2nd block, Arqa, to retrieve 5 Bronze Figurines.",
+    "reward": "Sigma Drive x1",
+    "walkthrough": "Defeat Bronze Dice on floors 41-46 of the 2nd block, Arqa, to retrieve 5 Bronze Figurines.\nAvailable: 6/13 | Deadline: 7/5",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "10",
+    "title": "Retrieve 3 Snake Scale. sic",
+    "requirement": "Defeat the Lustful Snakes in the 2nd block, Arqa, that are surrounded by a red glow to retrieve 3 Snake Scales.",
+    "reward": "¥46,000",
+    "walkthrough": "Defeat the Lustful Snakes in the 2nd block, Arqa, that are surrounded by a red glow to retrieve 3 Snake Scales.\nAvailable: 6/13 | Deadline: 7/5",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "11",
+    "title": "Retrieve the third old document.",
+    "requirement": "Retrieve Old Document 03 from the top of the 2nd block, Arqa, and return here before the deadline.",
+    "reward": "¥50,000",
+    "walkthrough": "Retrieve Old Document 03 from the top of the 2nd block, Arqa, and return here before the deadline.\nAvailable: 6/13 | Deadline: 7/5",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "12",
+    "title": "Retrieve 1 Goggle-eyed Idol.",
+    "requirement": "I heard there's a rare item in your world known as a Goggle-eyed Idol. I'd like very much to see it.",
+    "reward": "W.Outfit Mitsuru x1",
+    "walkthrough": "I heard there's a rare item in your world known as a Goggle-eyed Idol. I'd like very much to see it.\n\nGuide & Location: Shinshoudo Antiques: Turquoise x2; Unlocks #16\nAvailable: 6/10 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "13",
+    "title": "Retrieve the shell of a man.",
+    "requirement": "I heard there's a creepy-looking model in your world that's used for scientific study. I'd like to see it.",
+    "reward": "Legendary Cleaver x1Beam Naginata x1",
+    "walkthrough": "I heard there's a creepy-looking model in your world that's used for scientific study. I'd like to see it.\n\nGuide & Location: Retrieve the Anatomical Model from the school Laboratory\nAvailable: 6/10 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "14",
+    "title": "Retrieve 1 Steel Medal.",
+    "requirement": "Defeat the Treasure Hand, a rare monster in the 2nd block, Arqa, to retrieve 1 Steel Medal.",
+    "reward": "Spiked Bat x1",
+    "walkthrough": "Defeat the Treasure Hand, a rare monster in the 2nd block, Arqa, to retrieve 1 Steel Medal.\n\nGuide & Location: Unlocks #21\nAvailable: Complete #7 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "15",
+    "title": "Create Oberon (lv 17+)",
+    "requirement": "Create Oberon via fusion, and return here once he is level 17 or higher.",
+    "reward": "W.Outfit Akihiko x1",
+    "walkthrough": "Create Oberon via fusion, and return here once he is level 17 or higher.\n\nGuide & Location: Jack Frost + Alp, level to 17+ through Social Links or battles; Unlocks #22\nAvailable: Complete #8 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "16",
+    "title": "Bring me strong medicine.",
+    "requirement": "I've heard there's a powerful, possibly dangerous medicine in the nurse's office. I would like a sample of it.",
+    "reward": "Balm of Life x1",
+    "walkthrough": "I've heard there's a powerful, possibly dangerous medicine in the nurse's office. I would like a sample of it.\n\nGuide & Location: Visit the Nurse's Office in Gekkoukan High School when Sick or Tired, then choose \"Don't drink.\"\nAvailable: Complete #12 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "17",
+    "title": "I'd like some funky school music.",
+    "requirement": "I'd like to listen to a song that is associated with your school...",
+    "reward": "Raglan T-Shirt x1Orange Cutsew x1",
+    "walkthrough": "I'd like to listen to a song that is associated with your school...\n\nGuide & Location: Retrieve from the school PA Room\nAvailable: Complete #13 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "18",
+    "title": "Retrieve 5 Relic Fragments.",
+    "requirement": "Defeat Creation Relics on floors 65-77 of the 3rd block, Yabbashah, to retrieve 5 Relic Fragments.",
+    "reward": "Land Badge x1",
+    "walkthrough": "Defeat Creation Relics on floors 65-77 of the 3rd block, Yabbashah, to retrieve 5 Relic Fragments.\nAvailable: 7/8 | Deadline: 8/4",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "19",
+    "title": "Retrieve 3 Greasy Gears.",
+    "requirement": "Defeat the Wild Drives in the 3rd block, Yabbashah, that are surrounded by a red glow to retrieve 3 Greasy Gears.",
+    "reward": "King of Wands x2",
+    "walkthrough": "Defeat the Wild Drives in the 3rd block, Yabbashah, that are surrounded by a red glow to retrieve 3 Greasy Gears.\nAvailable: 7/8 | Deadline: 8/4",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "20",
+    "title": "Retrieve the fourth old document.",
+    "requirement": "Retrieve Old Document 04 from the middle of the 3rd block, Yabbashah, and return here before the deadline.",
+    "reward": "Fast Retreat Skill Card x1",
+    "walkthrough": "Retrieve Old Document 04 from the middle of the 3rd block, Yabbashah, and return here before the deadline.\nAvailable: 7/8 | Deadline: 8/4",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "21",
+    "title": "Retrieve 1 Bronze Medal.",
+    "requirement": "Defeat the Supreme Hand, a rare monster in the 3rd block, Yabbashah, to retrieve 1 Bronze Medal.",
+    "reward": "Steel Pipe x1Lacross Stick x1",
+    "walkthrough": "Defeat the Supreme Hand, a rare monster in the 3rd block, Yabbashah, to retrieve 1 Bronze Medal.\nAvailable: Complete #14 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "22",
+    "title": "Create Vetala with Maragi.",
+    "requirement": "Please create Vetala via fusion, and show me that he has the Fire skill Maragi.",
+    "reward": "Sugar Key x1",
+    "walkthrough": "Please create Vetala via fusion, and show me that he has the Fire skill Maragi.\n\nGuide & Location: Pyro Jack + Jack Frost + Narcissus; Allows the creation of King Frost; Unlocks #23\nAvailable: Complete #15 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "23",
+    "title": "Create Orthrus with Dodge Slash.",
+    "requirement": "Please create Orthrus via fusion, and show me that he has the skill Dodge Slash.",
+    "reward": "W.Outfit Yukari x1",
+    "walkthrough": "Please create Orthrus via fusion, and show me that he has the skill Dodge Slash.\n\nGuide & Location: Valkyrie + Queen Mab + Ares; Unlocks #29\nAvailable: Complete #22 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "24",
+    "title": "Retrieve 5 Tiara's Hair.",
+    "requirement": "Defeat Shouting Tiaras on floors 102-113 of the 3rd block, Yabbashah, to retrieve 5 Tiara's Hair.",
+    "reward": "Precious Egg x2",
+    "walkthrough": "Defeat Shouting Tiaras on floors 102-113 of the 3rd block, Yabbashah, to retrieve 5 Tiara's Hair.\nAvailable: 8/7 | Deadline: 9/3",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "25",
+    "title": "Retrieve 4 Knight's Reins.",
+    "requirement": "Defeat Champion Knights in the 3rd block, Yabbashah, that are surrounded by a red glow to retrieve 4 Knight's Reins.",
+    "reward": "Greaves of Dawn x1",
+    "walkthrough": "Defeat Champion Knights in the 3rd block, Yabbashah, that are surrounded by a red glow to retrieve 4 Knight's Reins.\nAvailable: 8/7 | Deadline: 9/3",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "26",
+    "title": "Retrieve the fifth old document.",
+    "requirement": "Retrieve Old Document 05 from the top of the 3rd block, Yabbashah, and return here before the deadline.",
+    "reward": "¥120,000",
+    "walkthrough": "Retrieve Old Document 05 from the top of the 3rd block, Yabbashah, and return here before the deadline.\nAvailable: 8/7 | Deadline: 9/3",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "27",
+    "title": "Retrieve 1 Platinum Watch.",
+    "requirement": "Will you please buy for me 1 Platinum Watch from your world?",
+    "reward": "S.Outfit Mitsuru x1",
+    "walkthrough": "Will you please buy for me 1 Platinum Watch from your world?\n\nGuide & Location: Police Station\n(the protagonist must be level 26)\nAvailable: Complete #16 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "28",
+    "title": "I'd like a drink that shares my name.I'd like a drink with my sister's name.",
+    "requirement": "I've heard there's a drink in your world that shares my name... I'd like to try it someday.I've heard there's a drink in your world that shares my sister's name... I'd like to try it someday.",
+    "reward": "S.Outfit Junpei x1",
+    "walkthrough": "I've heard there's a drink in your world that shares my name... I'd like to try it someday.I've heard there's a drink in your world that shares my sister's name... I'd like to try it someday.\n\nGuide & Location: Visit Que Sera Sera on the outskirts of Port Island Station, requires high Charm\nAvailable: 9/8 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "29",
+    "title": "Create Oumitsunu (lv 33+).",
+    "requirement": "Create Oumitsunu via fusion, and return here once he is level 33 or higher.",
+    "reward": "Machine Core x1",
+    "walkthrough": "Create Oumitsunu via fusion, and return here once he is level 33 or higher.\n\nGuide & Location: Fuse Flauros + Oberon, level to 33+ through Social Links or battles; Allows the creation of Nata Taishi; Unlocks #36\nAvailable: Complete #23 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "30",
+    "title": "Retrieve 1 Homunculus.",
+    "requirement": "I've heard there's something in your world called a \"Homunculus.\" Can you bring me 1?",
+    "reward": "W.Outfit Junpei x1",
+    "walkthrough": "I've heard there's something in your world called a \"Homunculus.\" Can you bring me 1?\n\nGuide & Location: Shinshoudo Antiques: Diamond x1 + Sapphire x1; Tanaka's Amazing Commodities (8/17); Walk Koromaru; Dropped by Phantom King (Harabah 190F); Luck Door (Vision Quest); Rare chests in Arqa, Yabbashah, Tziah, Harabah, Adamah; Fixed chest in Yabbashah (85F)\nAvailable: Complete #27 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "31",
+    "title": "Find me a beautiful tile.",
+    "requirement": "I've heard there are small square tiles in your world with peacocks on them. I'd like to see one, if possible.",
+    "reward": "S.Outfit Akihiko x1",
+    "walkthrough": "I've heard there are small square tiles in your world with peacocks on them. I'd like to see one, if possible.\n\nGuide & Location: Go to Mahjong Club \"Red Hawk\" on the outskirts of Port Island Station; Unlocks #38\nAvailable: Complete #28 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "32",
+    "title": "Retrieve 1 Silver Medal.",
+    "requirement": "Defeat the Opulent Hand, a rare monster in the 4th block, Tziah, to retrieve 1 Silver Medal.",
+    "reward": "Bone x1",
+    "walkthrough": "Defeat the Opulent Hand, a rare monster in the 4th block, Tziah, to retrieve 1 Silver Medal.\nAvailable: Complete #21 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "33",
+    "title": "Retrieve 5 Empress's Mirrors.",
+    "requirement": "Defeat Elegant Mothers on floors 126-138 of the 4th block, Tziah, to retrieve 5 Empress's Mirrors.",
+    "reward": "Quick Pumps x1",
+    "walkthrough": "Defeat Elegant Mothers on floors 126-138 of the 4th block, Tziah, to retrieve 5 Empress's Mirrors.\nAvailable: 9/6 | Deadline: 10/2",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "34",
+    "title": "Retrieve 3 Gold Handguard. sic",
+    "requirement": "Defeat Hakurou Mushas in the 4th block, Tziah, that are surrounded by a red glow to retrieve 3 Gold Handguards.",
+    "reward": "Bus Stop Sign",
+    "walkthrough": "Defeat Hakurou Mushas in the 4th block, Tziah, that are surrounded by a red glow to retrieve 3 Gold Handguards.\nAvailable: 9/6 | Deadline: 10/2",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "35",
+    "title": "Retrieve the sixth old document.",
+    "requirement": "Retrieve Old Document 06 from the middle of the 4th block, Tziah, and return here before the deadline.",
+    "reward": "Bead x5",
+    "walkthrough": "Retrieve Old Document 06 from the middle of the 4th block, Tziah, and return here before the deadline.\nAvailable: 9/6 | Deadline: 10/3",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "36",
+    "title": "Create Black Frost.",
+    "requirement": "Create Black Frost via fusion and bring him here. Please do not confuse him with any other Frost.",
+    "reward": "Baseball Jersey x1",
+    "walkthrough": "Create Black Frost via fusion and bring him here. Please do not confuse him with any other Frost.\n\nGuide & Location: King Frost + Jack Frost + Pyro Jack + Queen Mab; Unlocks #42\nAvailable: Complete #29 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "37",
+    "title": "Bring me 3 Jack Frost Dolls.",
+    "requirement": "I've heard there are Jack Frost dolls in your world. I want one to display, one to trade, and one for myself...",
+    "reward": "Jack's Gloves x1",
+    "walkthrough": "I've heard there are Jack Frost dolls in your world. I want one to display, one to trade, and one for myself...\n\nGuide & Location: Win from the crane game at Paulownia Mall\nAvailable: 6/10 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "38",
+    "title": "I'd like to try sushi.",
+    "requirement": "I've heard there's a food in your world called \"sushi.\" I'd like to try it someday...",
+    "reward": "Scrub Brush x1",
+    "walkthrough": "I've heard there's a food in your world called \"sushi.\" I'd like to try it someday...\n\nGuide & Location: Get Inari Sushi from Naganaki Shrine, requires high Academics ; Unlocks #64\nAvailable: 10/5 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "39",
+    "title": "Retrieve 3 Gold Rings.",
+    "requirement": "Defeat Wondrous Magi on floors 151-159 of the 4th block, Tziah, to retrieve 3 Gold Rings.",
+    "reward": "¥340,000",
+    "walkthrough": "Defeat Wondrous Magi on floors 151-159 of the 4th block, Tziah, to retrieve 3 Gold Rings.\nAvailable: 10/5 | Deadline: 11/2",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "40",
+    "title": "Retrieve 2 Red Armor Plates.",
+    "requirement": "Defeat Scarlet Turrets in the 4th block, Tziah, that are surrounded by a red glow to retrieve 2 Red Armor Plates.",
+    "reward": "Spirit Bracers x1",
+    "walkthrough": "Defeat Scarlet Turrets in the 4th block, Tziah, that are surrounded by a red glow to retrieve 2 Red Armor Plates.\nAvailable: 10/5 | Deadline: 11/1",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "41",
+    "title": "Retrieve the seventh old document.",
+    "requirement": "Retrieve Old Document 07 from the top of the 4th block, Tziah, and return here before the deadline.",
+    "reward": "Megidolaon Gem x1",
+    "walkthrough": "Retrieve Old Document 07 from the top of the 4th block, Tziah, and return here before the deadline.\nAvailable: 10/5 | Deadline: 11/1",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "42",
+    "title": "Create Girimehkala.",
+    "requirement": "Create the Persona Girimehkala via fusion and return here.",
+    "reward": "Marionette x1",
+    "walkthrough": "Create the Persona Girimehkala via fusion and return here.\n\nGuide & Location: Gurr + Rangda + Vetala + Taraka; Allows the creation of Nebiros; Unlocks #43\nAvailable: Complete #36 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "43",
+    "title": "Create Daisoujou.",
+    "requirement": "Create the Persona Daisoujou via fusion and return here.",
+    "reward": "W.Outfit Ken x1",
+    "walkthrough": "Create the Persona Daisoujou via fusion and return here.\n\nGuide & Location: Mithra + Ara Mitama + Kusi Mitama + Saki Mitama + Nigi Mitama; Unlocks #48\nAvailable: Complete #42 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "44",
+    "title": "Retrieve 6 Pink Feathers.",
+    "requirement": "Defeat Gracious Cupids on floors 181-190 of the 5th block, Harabah, to retrieve 6 Pink Feathers.",
+    "reward": "Berserker's Seal x1",
+    "walkthrough": "Defeat Gracious Cupids on floors 181-190 of the 5th block, Harabah, to retrieve 6 Pink Feathers.\nAvailable: 11/5 | Deadline: 11/30",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "45",
+    "title": "Retrieve 3 Moon Tablets.",
+    "requirement": "Defeat Ruinous Idols in the 5th block, Harabah, that are surrounded by a red glow to retrieve 3 Moon Tablets.",
+    "reward": "Space Badge x1",
+    "walkthrough": "Defeat Ruinous Idols in the 5th block, Harabah, that are surrounded by a red glow to retrieve 3 Moon Tablets.\nAvailable: 11/5 | Deadline: 11/30",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "46",
+    "title": "Retrieve the last old document.",
+    "requirement": "Retrieve Old Document 08 from the top of the 5th block, Harabah, and return here before the deadline.",
+    "reward": "¥650,000",
+    "walkthrough": "Retrieve Old Document 08 from the top of the 5th block, Harabah, and return here before the deadline.\nAvailable: 11/5 | Deadline: 12/29",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "47",
+    "title": "Retrieve 2 Gold Medals.",
+    "requirement": "Defeat Luxury Hands, rare monsters in the 5th block, Harabah, to retrieve 2 Gold Medals.",
+    "reward": "Rocket Punch x1",
+    "walkthrough": "Defeat Luxury Hands, rare monsters in the 5th block, Harabah, to retrieve 2 Gold Medals.\nAvailable: Complete #32 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "48",
+    "title": "Create Alice with Megido.",
+    "requirement": "Please create Alice via fusion, and show me that she has the Almighty skill Megido.",
+    "reward": "Lily Petal x1",
+    "walkthrough": "Please create Alice via fusion, and show me that she has the Almighty skill Megido.\n\nGuide & Location: Oberon + Decarabia → Nata Taishi (with Megido) + Lilim + Pixie + Narcissus; Allows the creation of Lilith\nAvailable: Complete #47 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "49",
+    "title": "Retrieve 3 Sand of Time.",
+    "requirement": "Defeat Perpetual Sands on floors 202-210 of the 5th block, Harabah, to retrieve 3 Sand of Time.",
+    "reward": "Amakuni x1Atlus Stick x1",
+    "walkthrough": "Defeat Perpetual Sands on floors 202-210 of the 5th block, Harabah, to retrieve 3 Sand of Time.\nAvailable: 12/4 | Deadline: 12/29",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "50",
+    "title": "Retrieve 3 Rainbow Hairs.",
+    "requirement": "Defeat Daring Gigases in the 5th block, Harabah, that are surrounded by a red glow to retrieve 3 Rainbow Hairs.",
+    "reward": "Omega Drive x1",
+    "walkthrough": "Defeat Daring Gigases in the 5th block, Harabah, that are surrounded by a red glow to retrieve 3 Rainbow Hairs.\nAvailable: 12/4 | Deadline: 12/30",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "51",
+    "title": "Create Lilith with Mabufudyne.",
+    "requirement": "Please create Lilith via fusion, and show me that she has the Ice skill Mabufudyne.",
+    "reward": "Sacrificial Idol x1",
+    "walkthrough": "Please create Lilith via fusion, and show me that she has the Ice skill Mabufudyne.\n\nGuide & Location: Gabriel (Lvl 71) + Ara Mitama → Succubus (with Mabufudyne) + Lilim + Vetala + Incubus\nAvailable: Complete #48 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "52",
+    "title": "Create Loki (lv 63+).",
+    "requirement": "Create Loki via fusion, and return here once he is Lv 63 or higher.",
+    "reward": "Masakados x1",
+    "walkthrough": "Create Loki via fusion, and return here once he is Lv 63 or higher.\n\nGuide & Location: Legion + Ose + Decarabia; Level to 63+ via Social Links or battles; Allows the creation of Masakado\nAvailable: Complete #51 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "53",
+    "title": "Retrieve 1 Bloody Button.",
+    "requirement": "This is a difficult request... Defeat The Reaper and retrieve 1 Bloody Button.",
+    "reward": "¥5,000,000",
+    "walkthrough": "This is a difficult request... Defeat The Reaper and retrieve 1 Bloody Button.\n\nGuide & Location: Stay on a floor in Tartarus for about five minutes (faster if all Shadows are defeated) for the Reaper to spawn\nAvailable: 1/1 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "54",
+    "title": "Retrieve 3 Platinum Medals.",
+    "requirement": "Defeat Glorious Hands, rare monsters in the 6th block, Adamah, to retrieve 3 Platinum Medals.",
+    "reward": "Berserker's Seal x1",
+    "walkthrough": "Defeat Glorious Hands, rare monsters in the 6th block, Adamah, to retrieve 3 Platinum Medals.\nAvailable: Complete #47 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "55",
+    "title": "Defeat the ultimate opponent.",
+    "requirement": "Far below, beyond a door by the entrance of Tartarus, lies the ultimate adversary. Please fight this opponent alone.",
+    "reward": "Omnipotent Orb x1",
+    "walkthrough": "Far below, beyond a door by the entrance of Tartarus, lies the ultimate adversary. Please fight this opponent alone.\n\nGuide & Location: This request is only available in New Game+. Descend to the bottom of Monad and win the solo fight.\nAvailable: NG+, Unlock Monad, Complete #53 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "56",
+    "title": "I'd like to visit Paulownia Mall.",
+    "requirement": "I've taken an interest in your world. Please show me around the Paulownia Mall during the daytime.",
+    "reward": "Small Cheongsam x1",
+    "walkthrough": "I've taken an interest in your world. Please show me around the Paulownia Mall during the daytime.\n\nGuide & Location: Go on a date with Elizabeth/Theodore (Daytime, does not use up any time); Allows the creation of Hua Po\nAvailable: 4/30 | Deadline: 5/31",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "57",
+    "title": "I'd like to visit Iwatodai Station.",
+    "requirement": "I would like to explore your world further. Please take me to Iwatodai after school.",
+    "reward": "Blue Scale x1",
+    "walkthrough": "I would like to explore your world further. Please take me to Iwatodai after school.\n\nGuide & Location: Go on a date with Elizabeth/Theodore (Daytime, does not use up any time); Allows the creation of Empusa\nAvailable: 6/10 | Deadline: 7/5",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "58",
+    "title": "I'd like to visit Naganaki Shrine.",
+    "requirement": "I would like to explore your world further. Please take me to Naganaki Shrine before the sun sets.",
+    "reward": "Book of Ancients x1",
+    "walkthrough": "I would like to explore your world further. Please take me to Naganaki Shrine before the sun sets.\n\nGuide & Location: Go on a date with Elizabeth/Theodore (Daytime, does not use up any time); Allows the creation of Thoth\nAvailable: 8/7 | Deadline: 9/3",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "59",
+    "title": "I'd like to visit Gekkoukan High.",
+    "requirement": "I can no longer hide my curiosity about your world. Please take me to Gekkoukan High after school.",
+    "reward": "Red Muffler x1",
+    "walkthrough": "I can no longer hide my curiosity about your world. Please take me to Gekkoukan High after school.\n\nGuide & Location: Go on a date with Elizabeth/Theodore (Daytime, does not use up any time); Allows the creation of Hell Biker\nAvailable: 11/5 | Deadline: 11/30",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "60",
+    "title": "I'd like to visit your room.",
+    "requirement": "I can't wait to explore your world further... I'd like to see what your room looks like after school.",
+    "reward": "Rainbow Feather x1",
+    "walkthrough": "I can't wait to explore your world further... I'd like to see what your room looks like after school.\n\nGuide & Location: Go on a date with Elizabeth/Theodore (Daytime, does not use up any time); Allows the creation of Kartikeya\nAvailable: 12/4 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "61",
+    "title": "Bring me a Sengoku-era helm.",
+    "requirement": "I would like to see the \"helm\" from the Sengoku era... I heard that there is one who is never without it.",
+    "reward": "Final Armor x1Knee-High Maid x1",
+    "walkthrough": "I would like to see the \"helm\" from the Sengoku era... I heard that there is one who is never without it.\n\nGuide & Location: Accept the request, then visit the Faculty Office seven times\nAvailable: 10/5 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "62",
+    "title": "I'd like to try Oden Juice.",
+    "requirement": "I would love to try your world's \"Oden Juice\"... The drink-loving girl near the persimmon tree may have some.",
+    "reward": "Maid Outfit (A) x1",
+    "walkthrough": "I would love to try your world's \"Oden Juice\"... The drink-loving girl near the persimmon tree may have some.\n\nGuide & Location: Buy 1 of every vending machine drink during the Kyoto trip, then talk to the girl by the Persimmon Tree in Gekkoukan High School's first floor corridor\nAvailable: 11/5 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "63",
+    "title": "Bring me food fit for a wolf.",
+    "requirement": "Please bring me some Gourmet Dog Food. You may be able to get some on 11/12, when he who holds it is in a good mood.",
+    "reward": "Cross Dog Suit x1",
+    "walkthrough": "Please bring me some Gourmet Dog Food. You may be able to get some on 11/12, when he who holds it is in a good mood.\n\nGuide & Location: Obtain from Koromaru on 11/12\nAvailable: 11/5 | Deadline: 11/30",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "64",
+    "title": "Please go scrub the bathroom.",
+    "requirement": "Scrubbing the bathroom is a difficult, but necessary, task... Take your brush in hand and help clean the floors.",
+    "reward": "Maid Outfit (Y) x1",
+    "walkthrough": "Scrubbing the bathroom is a difficult, but necessary, task... Take your brush in hand and help clean the floors.\n\nGuide & Location: Clean the Port Island Station restrooms while the Scrub Brush is not equipped\nAvailable: 11/5, Complete #38 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "65",
+    "title": "Please go water the flowers.",
+    "requirement": "When I visited Gekkoukan High School, I saw a neglected patch of flowers. Could you bring them some water?",
+    "reward": "Maid Outfit (M) x1",
+    "walkthrough": "When I visited Gekkoukan High School, I saw a neglected patch of flowers. Could you bring them some water?\n\nGuide & Location: Interact with the flowers on the school's rooftop\nAvailable: 11/5 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "66",
+    "title": "Please go feed the cat.",
+    "requirement": "I heard there's a cat which hasn't eaten in a while. Can you find the poor cat and give it some food...?",
+    "reward": "S.Outfit Yukari x1",
+    "walkthrough": "I heard there's a cat which hasn't eaten in a while. Can you find the poor cat and give it some food...?\n\nGuide & Location: Buy four Super Cat Foods from Aohige Pharmacy and feed the cat located in the back alley of Port Island Station four times on four different days\nAvailable: 7/8 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "67",
+    "title": "Bring me a Featherman figure.",
+    "requirement": "I'd like an action figure of Phoenix Ranger Featherman R. I think its owner will be in a good mood on 11/21...",
+    "reward": "Ningen Mukotsu x1",
+    "walkthrough": "I'd like an action figure of Phoenix Ranger Featherman R. I think its owner will be in a good mood on 11/21...\n\nGuide & Location: Obtain from Ken on 11/21\nAvailable: 11/5 | Deadline: 11/30",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "68",
+    "title": "Bring me a Juzumaru.",
+    "requirement": "I would like to see a katana obtainable from Thebel, the first block: the Juzumaru.",
+    "reward": "Maragi Skill Card x1",
+    "walkthrough": "I would like to see a katana obtainable from Thebel, the first block: the Juzumaru.\n\nGuide & Location: Shuffle Time (Sword 2); Rare chests in Thebel (4F, 11F)\nAvailable: 4/30 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "69",
+    "title": "Bring me an Onimaru Kunitsuna.",
+    "requirement": "I would like to see a katana obtainable from Yabbashah, the third block: the Onimaru Kunitsuna.",
+    "reward": "Opal x3",
+    "walkthrough": "I would like to see a katana obtainable from Yabbashah, the third block: the Onimaru Kunitsuna.\n\nGuide & Location: Shuffle Time (Sword 5); Rare chests in Yabbashah (69F, 74F, 82F)\nAvailable: 7/8 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "70",
+    "title": "Bring me a Mikazuki Munechika.",
+    "requirement": "I would like to see a katana obtainable from Tziah, the fourth block: the Mikazuki Munechika.",
+    "reward": "Malachite x15",
+    "walkthrough": "I would like to see a katana obtainable from Tziah, the fourth block: the Mikazuki Munechika.\n\nGuide & Location: Shuffle Time (Sword 7); Rare chests in Tziah (118F, 128F, 132F)\nAvailable: 9/6 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "71",
+    "title": "Bring me an Outenta Mitsuyo.",
+    "requirement": "I would like to see a katana obtainable from Tziah, the fourth block: the Outenta Mitsuyo.",
+    "reward": "Ruby x3",
+    "walkthrough": "I would like to see a katana obtainable from Tziah, the fourth block: the Outenta Mitsuyo.\n\nGuide & Location: Shuffle Time (Sword 8); Rare chests in Tziah (142F, 150F, 156F)\nAvailable: 10/10 | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "72",
+    "title": "Bring me a Myohou Muramasa.",
+    "requirement": "That door that appeared in the lobby... I would like to see the katana obtainable from there: the Myohou Muramasa.",
+    "reward": "Soma x2",
+    "walkthrough": "That door that appeared in the lobby... I would like to see the katana obtainable from there: the Myohou Muramasa.\n\nGuide & Location: Rare chests in Monad (3F, 8F)\nAvailable: Complete #54, Monad unlocked | Deadline: -",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "73",
+    "title": "Bring me pine resin.",
+    "requirement": "I would like some pine resin used by the Archery Club members. 5/2 will most likely be your chance to obtain it.",
+    "reward": "Siren's Song x1",
+    "walkthrough": "I would like some pine resin used by the Archery Club members. 5/2 will most likely be your chance to obtain it.\n\nGuide & Location: Obtain from Yukari on 5/2\nAvailable: 4/30 | Deadline: 5/7",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "74",
+    "title": "Bring me a handheld game system.",
+    "requirement": "I would like to see a handheld game system. Your best opportunity to get it from someone will be on 5/14.",
+    "reward": "Two-Handed Sword x1",
+    "walkthrough": "I would like to see a handheld game system. Your best opportunity to get it from someone will be on 5/14.\n\nGuide & Location: Obtain from Junpei on 5/14\nAvailable: 5/10 | Deadline: 6/6",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "75",
+    "title": "Bring me a triangular sword.",
+    "requirement": "Please bring me a \"triangular sword.\" I think you will be able to get it from someone on 5/26.",
+    "reward": "Bulletproof Vest x1",
+    "walkthrough": "Please bring me a \"triangular sword.\" I think you will be able to get it from someone on 5/26.\n\nGuide & Location: Obtain from Mitsuru on 5/26\nAvailable: 5/10 | Deadline: 6/6",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "76",
+    "title": "Bring me a protein not for pros.",
+    "requirement": "Bring me protein that's not meant for pros. I'm sure you will be able to acquire it on 6/16.",
+    "reward": "Bladefist x1",
+    "walkthrough": "Bring me protein that's not meant for pros. I'm sure you will be able to acquire it on 6/16.\n\nGuide & Location: Obtain from Akihiko on 6/16\nAvailable: 6/10 | Deadline: 7/5",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "77",
+    "title": "Bring me a glasses wipe.",
+    "requirement": "I would like something used to wipe off spectacles. You should try to get it on 6/20.",
+    "reward": "Amigo Poncho x1",
+    "walkthrough": "I would like something used to wipe off spectacles. You should try to get it on 6/20.\n\nGuide & Location: Obtain from Ikutsuki on 6/20\nAvailable: 6/10 | Deadline: 7/5",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "78",
+    "title": "Bring me a Christmas star.",
+    "requirement": "Bring me the item known as a \"Christmas star.\" It should be easily obtainable from someone on 6/27.",
+    "reward": "Cyber Shoes x1",
+    "walkthrough": "Bring me the item known as a \"Christmas star.\" It should be easily obtainable from someone on 6/27.\n\nGuide & Location: Obtain from Fuuka on 6/27\nAvailable: 6/10 | Deadline: 7/5",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "79",
+    "title": "Bring me a fruit knife.",
+    "requirement": "I'd like to have a fruit knife. There should be no difficulty in acquiring one from someone on 9/17.",
+    "reward": "Guillotine Axe x1",
+    "walkthrough": "I'd like to have a fruit knife. There should be no difficulty in acquiring one from someone on 9/17.\n\nGuide & Location: Obtain from Shinjiro on 9/17\nAvailable: 9/6 | Deadline: 10/2",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "80",
+    "title": "Bring me oil.",
+    "requirement": "What I'd really like is some oil. Try to think of who might be the one to give it to you on 10/1.",
+    "reward": "Railgun x1",
+    "walkthrough": "What I'd really like is some oil. Try to think of who might be the one to give it to you on 10/1.\n\nGuide & Location: Obtain from Aigis on 10/1\nAvailable: 9/6 | Deadline: 10/2",
+    "giver": "Elizabeth"
+  },
+  {
+    "id": "1",
+    "title": "Retrieve 1 Beetle Shell.",
+    "requirement": "Defeat Grave Beetles on floors 6-15 of the 1st block, Thebel, to retrieve 1 Beetle Shell.",
+    "reward": "¥12,000",
+    "walkthrough": "Defeat Grave Beetles on floors 6-15 of the 1st block, Thebel, to retrieve 1 Beetle Shell.\nAvailable: 4/30 | Deadline: 5/7",
+    "giver": "Theodore"
+  },
+  {
+    "id": "2",
+    "title": "Retrieve the first old document.",
+    "requirement": "Retrieve Old Document 01 from the top of the 1st block, Thebel, and return here before the deadline.",
+    "reward": "Bead Chain x1",
+    "walkthrough": "Retrieve Old Document 01 from the top of the 1st block, Thebel, and return here before the deadline.\nAvailable: 4/30 | Deadline: 5/7",
+    "giver": "Theodore"
+  },
+  {
+    "id": "3",
+    "title": "I'd like to sip a Muscle Drink.",
+    "requirement": "Have you tried a Muscle Drink? I am curious how it tastes. Can you please bring me one?",
+    "reward": "Dark Jacket x1Angora Sweater x1",
+    "walkthrough": "Have you tried a Muscle Drink? I am curious how it tastes. Can you please bring me one?\n\nGuide & Location: Aohige Pharmacy (4/22); Tanaka's Amazing Commodities (5/3 / 6/21); Common chests within Tartarus and Monad\nAvailable: 4/30 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "4",
+    "title": "Retrieve 3 Old Lanterns.",
+    "requirement": "Defeat Phantom Mages on floors 17-24 of the 2nd block, Arqa, to retrieve 3 Old Lanterns.",
+    "reward": "Umugi Water x2",
+    "walkthrough": "Defeat Phantom Mages on floors 17-24 of the 2nd block, Arqa, to retrieve 3 Old Lanterns.\nAvailable: 5/10 | Deadline: 6/6",
+    "giver": "Theodore"
+  },
+  {
+    "id": "5",
+    "title": "Retrieve the second old document.",
+    "requirement": "Retrieve Old Document 02 from the middle of the 2nd block, Arqa, and return here before the deadline.",
+    "reward": "Recarm Skill Card x1",
+    "walkthrough": "Retrieve Old Document 02 from the middle of the 2nd block, Arqa, and return here before the deadline.\nAvailable: 5/10 | Deadline: 6/6",
+    "giver": "Theodore"
+  },
+  {
+    "id": "6",
+    "title": "Create Jack Frost with Dia.",
+    "requirement": "Please create Jack Frost via fusion, and show me that he has the healing skill Dia.",
+    "reward": "Battle Panties x1",
+    "walkthrough": "Please create Jack Frost via fusion, and show me that he has the healing skill Dia.\n\nGuide & Location: Pixie + Unicorn; Unlocks #8\nAvailable: 5/10 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "7",
+    "title": "Retrieve 1 Lead Medal.",
+    "requirement": "Defeat the Wealth Hand, a rare monster in the 1st block, Thebel, to retrieve 1 Lead Medal.",
+    "reward": "Toy Bow x1",
+    "walkthrough": "Defeat the Wealth Hand, a rare monster in the 1st block, Thebel, to retrieve 1 Lead Medal.\n\nGuide & Location: Unlocks #14\nAvailable: 5/10 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "8",
+    "title": "Create Valkyrie with Tarukaja.",
+    "requirement": "Please create Valkyrie via fusion, and show me that she has the supportive skill Tarukaja.",
+    "reward": "Torn Black Cloth x1",
+    "walkthrough": "Please create Valkyrie via fusion, and show me that she has the supportive skill Tarukaja.\n\nGuide & Location: Forneus + Yomotsu Shikome; Allows the creation of Pale Rider; Unlocks #15\nAvailable: Complete #6 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "9",
+    "title": "Retrieve 5 Bronze Figurines.",
+    "requirement": "Defeat Bronze Dice on floors 41-46 of the 2nd block, Arqa, to retrieve 5 Bronze Figurines.",
+    "reward": "Sigma Drive x1",
+    "walkthrough": "Defeat Bronze Dice on floors 41-46 of the 2nd block, Arqa, to retrieve 5 Bronze Figurines.\nAvailable: 6/13 | Deadline: 7/5",
+    "giver": "Theodore"
+  },
+  {
+    "id": "10",
+    "title": "Retrieve 3 Snake Scale. sic",
+    "requirement": "Defeat the Lustful Snakes in the 2nd block, Arqa, that are surrounded by a red glow to retrieve 3 Snake Scales.",
+    "reward": "¥46,000",
+    "walkthrough": "Defeat the Lustful Snakes in the 2nd block, Arqa, that are surrounded by a red glow to retrieve 3 Snake Scales.\nAvailable: 6/13 | Deadline: 7/5",
+    "giver": "Theodore"
+  },
+  {
+    "id": "11",
+    "title": "Retrieve the third old document.",
+    "requirement": "Retrieve Old Document 03 from the top of the 2nd block, Arqa, and return here before the deadline.",
+    "reward": "¥50,000",
+    "walkthrough": "Retrieve Old Document 03 from the top of the 2nd block, Arqa, and return here before the deadline.\nAvailable: 6/13 | Deadline: 7/5",
+    "giver": "Theodore"
+  },
+  {
+    "id": "12",
+    "title": "Retrieve 1 Goggle-eyed Idol.",
+    "requirement": "I heard there's a rare item in your world known as a Goggle-eyed Idol. I'd like very much to see it.",
+    "reward": "W.Outfit Mitsuru x1",
+    "walkthrough": "I heard there's a rare item in your world known as a Goggle-eyed Idol. I'd like very much to see it.\n\nGuide & Location: Shinshoudo Antiques: Turquoise x2; Unlocks #16\nAvailable: 6/10 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "13",
+    "title": "Retrieve the shell of a man.",
+    "requirement": "I heard there's a creepy-looking model in your world that's used for scientific study. I'd like to see it.",
+    "reward": "Legendary Cleaver x1Beam Naginata x1",
+    "walkthrough": "I heard there's a creepy-looking model in your world that's used for scientific study. I'd like to see it.\n\nGuide & Location: Retrieve the Anatomical Model from the school Laboratory\nAvailable: 6/10 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "14",
+    "title": "Retrieve 1 Steel Medal.",
+    "requirement": "Defeat the Treasure Hand, a rare monster in the 2nd block, Arqa, to retrieve 1 Steel Medal.",
+    "reward": "Spiked Bat x1",
+    "walkthrough": "Defeat the Treasure Hand, a rare monster in the 2nd block, Arqa, to retrieve 1 Steel Medal.\n\nGuide & Location: Unlocks #21\nAvailable: Complete #7 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "15",
+    "title": "Create Oberon (lv 17+)",
+    "requirement": "Create Oberon via fusion, and return here once he is level 17 or higher.",
+    "reward": "W.Outfit Akihiko x1",
+    "walkthrough": "Create Oberon via fusion, and return here once he is level 17 or higher.\n\nGuide & Location: Jack Frost + Alp, level to 17+ through Social Links or battles; Unlocks #22\nAvailable: Complete #8 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "16",
+    "title": "Bring me strong medicine.",
+    "requirement": "I've heard there's a powerful, possibly dangerous medicine in the nurse's office. I would like a sample of it.",
+    "reward": "Balm of Life x1",
+    "walkthrough": "I've heard there's a powerful, possibly dangerous medicine in the nurse's office. I would like a sample of it.\n\nGuide & Location: Visit the Nurse's Office in Gekkoukan High School when Sick or Tired, then choose \"Don't drink.\"\nAvailable: Complete #12 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "17",
+    "title": "I'd like some funky school music.",
+    "requirement": "I'd like to listen to a song that is associated with your school...",
+    "reward": "Raglan T-Shirt x1Orange Cutsew x1",
+    "walkthrough": "I'd like to listen to a song that is associated with your school...\n\nGuide & Location: Retrieve from the school PA Room\nAvailable: Complete #13 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "18",
+    "title": "Retrieve 5 Relic Fragments.",
+    "requirement": "Defeat Creation Relics on floors 65-77 of the 3rd block, Yabbashah, to retrieve 5 Relic Fragments.",
+    "reward": "Land Badge x1",
+    "walkthrough": "Defeat Creation Relics on floors 65-77 of the 3rd block, Yabbashah, to retrieve 5 Relic Fragments.\nAvailable: 7/8 | Deadline: 8/4",
+    "giver": "Theodore"
+  },
+  {
+    "id": "19",
+    "title": "Retrieve 3 Greasy Gears.",
+    "requirement": "Defeat the Wild Drives in the 3rd block, Yabbashah, that are surrounded by a red glow to retrieve 3 Greasy Gears.",
+    "reward": "King of Wands x2",
+    "walkthrough": "Defeat the Wild Drives in the 3rd block, Yabbashah, that are surrounded by a red glow to retrieve 3 Greasy Gears.\nAvailable: 7/8 | Deadline: 8/4",
+    "giver": "Theodore"
+  },
+  {
+    "id": "20",
+    "title": "Retrieve the fourth old document.",
+    "requirement": "Retrieve Old Document 04 from the middle of the 3rd block, Yabbashah, and return here before the deadline.",
+    "reward": "Fast Retreat Skill Card x1",
+    "walkthrough": "Retrieve Old Document 04 from the middle of the 3rd block, Yabbashah, and return here before the deadline.\nAvailable: 7/8 | Deadline: 8/4",
+    "giver": "Theodore"
+  },
+  {
+    "id": "21",
+    "title": "Retrieve 1 Bronze Medal.",
+    "requirement": "Defeat the Supreme Hand, a rare monster in the 3rd block, Yabbashah, to retrieve 1 Bronze Medal.",
+    "reward": "Steel Pipe x1Lacross Stick x1",
+    "walkthrough": "Defeat the Supreme Hand, a rare monster in the 3rd block, Yabbashah, to retrieve 1 Bronze Medal.\nAvailable: Complete #14 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "22",
+    "title": "Create Vetala with Maragi.",
+    "requirement": "Please create Vetala via fusion, and show me that he has the Fire skill Maragi.",
+    "reward": "Sugar Key x1",
+    "walkthrough": "Please create Vetala via fusion, and show me that he has the Fire skill Maragi.\n\nGuide & Location: Pyro Jack + Jack Frost + Narcissus; Allows the creation of King Frost; Unlocks #23\nAvailable: Complete #15 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "23",
+    "title": "Create Orthrus with Dodge Slash.",
+    "requirement": "Please create Orthrus via fusion, and show me that he has the skill Dodge Slash.",
+    "reward": "W.Outfit Yukari x1",
+    "walkthrough": "Please create Orthrus via fusion, and show me that he has the skill Dodge Slash.\n\nGuide & Location: Valkyrie + Queen Mab + Ares; Unlocks #29\nAvailable: Complete #22 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "24",
+    "title": "Retrieve 5 Tiara's Hair.",
+    "requirement": "Defeat Shouting Tiaras on floors 102-113 of the 3rd block, Yabbashah, to retrieve 5 Tiara's Hair.",
+    "reward": "Precious Egg x2",
+    "walkthrough": "Defeat Shouting Tiaras on floors 102-113 of the 3rd block, Yabbashah, to retrieve 5 Tiara's Hair.\nAvailable: 8/7 | Deadline: 9/3",
+    "giver": "Theodore"
+  },
+  {
+    "id": "25",
+    "title": "Retrieve 4 Knight's Reins.",
+    "requirement": "Defeat Champion Knights in the 3rd block, Yabbashah, that are surrounded by a red glow to retrieve 4 Knight's Reins.",
+    "reward": "Greaves of Dawn x1",
+    "walkthrough": "Defeat Champion Knights in the 3rd block, Yabbashah, that are surrounded by a red glow to retrieve 4 Knight's Reins.\nAvailable: 8/7 | Deadline: 9/3",
+    "giver": "Theodore"
+  },
+  {
+    "id": "26",
+    "title": "Retrieve the fifth old document.",
+    "requirement": "Retrieve Old Document 05 from the top of the 3rd block, Yabbashah, and return here before the deadline.",
+    "reward": "¥120,000",
+    "walkthrough": "Retrieve Old Document 05 from the top of the 3rd block, Yabbashah, and return here before the deadline.\nAvailable: 8/7 | Deadline: 9/3",
+    "giver": "Theodore"
+  },
+  {
+    "id": "27",
+    "title": "Retrieve 1 Platinum Watch.",
+    "requirement": "Will you please buy for me 1 Platinum Watch from your world?",
+    "reward": "S.Outfit Mitsuru x1",
+    "walkthrough": "Will you please buy for me 1 Platinum Watch from your world?\n\nGuide & Location: Police Station\n(the protagonist must be level 26)\nAvailable: Complete #16 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "28",
+    "title": "I'd like a drink that shares my name.I'd like a drink with my sister's name.",
+    "requirement": "I've heard there's a drink in your world that shares my name... I'd like to try it someday.I've heard there's a drink in your world that shares my sister's name... I'd like to try it someday.",
+    "reward": "S.Outfit Junpei x1",
+    "walkthrough": "I've heard there's a drink in your world that shares my name... I'd like to try it someday.I've heard there's a drink in your world that shares my sister's name... I'd like to try it someday.\n\nGuide & Location: Visit Que Sera Sera on the outskirts of Port Island Station, requires high Charm\nAvailable: 9/8 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "29",
+    "title": "Create Oumitsunu (lv 33+).",
+    "requirement": "Create Oumitsunu via fusion, and return here once he is level 33 or higher.",
+    "reward": "Machine Core x1",
+    "walkthrough": "Create Oumitsunu via fusion, and return here once he is level 33 or higher.\n\nGuide & Location: Fuse Flauros + Oberon, level to 33+ through Social Links or battles; Allows the creation of Nata Taishi; Unlocks #36\nAvailable: Complete #23 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "30",
+    "title": "Retrieve 1 Homunculus.",
+    "requirement": "I've heard there's something in your world called a \"Homunculus.\" Can you bring me 1?",
+    "reward": "W.Outfit Junpei x1",
+    "walkthrough": "I've heard there's something in your world called a \"Homunculus.\" Can you bring me 1?\n\nGuide & Location: Shinshoudo Antiques: Diamond x1 + Sapphire x1; Tanaka's Amazing Commodities (8/17); Walk Koromaru; Dropped by Phantom King (Harabah 190F); Luck Door (Vision Quest); Rare chests in Arqa, Yabbashah, Tziah, Harabah, Adamah; Fixed chest in Yabbashah (85F)\nAvailable: Complete #27 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "31",
+    "title": "Find me a beautiful tile.",
+    "requirement": "I've heard there are small square tiles in your world with peacocks on them. I'd like to see one, if possible.",
+    "reward": "S.Outfit Akihiko x1",
+    "walkthrough": "I've heard there are small square tiles in your world with peacocks on them. I'd like to see one, if possible.\n\nGuide & Location: Go to Mahjong Club \"Red Hawk\" on the outskirts of Port Island Station; Unlocks #38\nAvailable: Complete #28 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "32",
+    "title": "Retrieve 1 Silver Medal.",
+    "requirement": "Defeat the Opulent Hand, a rare monster in the 4th block, Tziah, to retrieve 1 Silver Medal.",
+    "reward": "Bone x1",
+    "walkthrough": "Defeat the Opulent Hand, a rare monster in the 4th block, Tziah, to retrieve 1 Silver Medal.\nAvailable: Complete #21 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "33",
+    "title": "Retrieve 5 Empress's Mirrors.",
+    "requirement": "Defeat Elegant Mothers on floors 126-138 of the 4th block, Tziah, to retrieve 5 Empress's Mirrors.",
+    "reward": "Quick Pumps x1",
+    "walkthrough": "Defeat Elegant Mothers on floors 126-138 of the 4th block, Tziah, to retrieve 5 Empress's Mirrors.\nAvailable: 9/6 | Deadline: 10/2",
+    "giver": "Theodore"
+  },
+  {
+    "id": "34",
+    "title": "Retrieve 3 Gold Handguard. sic",
+    "requirement": "Defeat Hakurou Mushas in the 4th block, Tziah, that are surrounded by a red glow to retrieve 3 Gold Handguards.",
+    "reward": "Bus Stop Sign",
+    "walkthrough": "Defeat Hakurou Mushas in the 4th block, Tziah, that are surrounded by a red glow to retrieve 3 Gold Handguards.\nAvailable: 9/6 | Deadline: 10/2",
+    "giver": "Theodore"
+  },
+  {
+    "id": "35",
+    "title": "Retrieve the sixth old document.",
+    "requirement": "Retrieve Old Document 06 from the middle of the 4th block, Tziah, and return here before the deadline.",
+    "reward": "Bead x5",
+    "walkthrough": "Retrieve Old Document 06 from the middle of the 4th block, Tziah, and return here before the deadline.\nAvailable: 9/6 | Deadline: 10/3",
+    "giver": "Theodore"
+  },
+  {
+    "id": "36",
+    "title": "Create Black Frost.",
+    "requirement": "Create Black Frost via fusion and bring him here. Please do not confuse him with any other Frost.",
+    "reward": "Baseball Jersey x1",
+    "walkthrough": "Create Black Frost via fusion and bring him here. Please do not confuse him with any other Frost.\n\nGuide & Location: King Frost + Jack Frost + Pyro Jack + Queen Mab; Unlocks #42\nAvailable: Complete #29 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "37",
+    "title": "Bring me 3 Jack Frost Dolls.",
+    "requirement": "I've heard there are Jack Frost dolls in your world. I want one to display, one to trade, and one for myself...",
+    "reward": "Jack's Gloves x1",
+    "walkthrough": "I've heard there are Jack Frost dolls in your world. I want one to display, one to trade, and one for myself...\n\nGuide & Location: Win from the crane game at Paulownia Mall\nAvailable: 6/10 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "38",
+    "title": "I'd like to try sushi.",
+    "requirement": "I've heard there's a food in your world called \"sushi.\" I'd like to try it someday...",
+    "reward": "Scrub Brush x1",
+    "walkthrough": "I've heard there's a food in your world called \"sushi.\" I'd like to try it someday...\n\nGuide & Location: Get Inari Sushi from Naganaki Shrine, requires high Academics ; Unlocks #64\nAvailable: 10/5 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "39",
+    "title": "Retrieve 3 Gold Rings.",
+    "requirement": "Defeat Wondrous Magi on floors 151-159 of the 4th block, Tziah, to retrieve 3 Gold Rings.",
+    "reward": "¥340,000",
+    "walkthrough": "Defeat Wondrous Magi on floors 151-159 of the 4th block, Tziah, to retrieve 3 Gold Rings.\nAvailable: 10/5 | Deadline: 11/2",
+    "giver": "Theodore"
+  },
+  {
+    "id": "40",
+    "title": "Retrieve 2 Red Armor Plates.",
+    "requirement": "Defeat Scarlet Turrets in the 4th block, Tziah, that are surrounded by a red glow to retrieve 2 Red Armor Plates.",
+    "reward": "Spirit Bracers x1",
+    "walkthrough": "Defeat Scarlet Turrets in the 4th block, Tziah, that are surrounded by a red glow to retrieve 2 Red Armor Plates.\nAvailable: 10/5 | Deadline: 11/1",
+    "giver": "Theodore"
+  },
+  {
+    "id": "41",
+    "title": "Retrieve the seventh old document.",
+    "requirement": "Retrieve Old Document 07 from the top of the 4th block, Tziah, and return here before the deadline.",
+    "reward": "Megidolaon Gem x1",
+    "walkthrough": "Retrieve Old Document 07 from the top of the 4th block, Tziah, and return here before the deadline.\nAvailable: 10/5 | Deadline: 11/1",
+    "giver": "Theodore"
+  },
+  {
+    "id": "42",
+    "title": "Create Girimehkala.",
+    "requirement": "Create the Persona Girimehkala via fusion and return here.",
+    "reward": "Marionette x1",
+    "walkthrough": "Create the Persona Girimehkala via fusion and return here.\n\nGuide & Location: Gurr + Rangda + Vetala + Taraka; Allows the creation of Nebiros; Unlocks #43\nAvailable: Complete #36 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "43",
+    "title": "Create Daisoujou.",
+    "requirement": "Create the Persona Daisoujou via fusion and return here.",
+    "reward": "W.Outfit Ken x1",
+    "walkthrough": "Create the Persona Daisoujou via fusion and return here.\n\nGuide & Location: Mithra + Ara Mitama + Kusi Mitama + Saki Mitama + Nigi Mitama; Unlocks #48\nAvailable: Complete #42 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "44",
+    "title": "Retrieve 6 Pink Feathers.",
+    "requirement": "Defeat Gracious Cupids on floors 181-190 of the 5th block, Harabah, to retrieve 6 Pink Feathers.",
+    "reward": "Berserker's Seal x1",
+    "walkthrough": "Defeat Gracious Cupids on floors 181-190 of the 5th block, Harabah, to retrieve 6 Pink Feathers.\nAvailable: 11/5 | Deadline: 11/30",
+    "giver": "Theodore"
+  },
+  {
+    "id": "45",
+    "title": "Retrieve 3 Moon Tablets.",
+    "requirement": "Defeat Ruinous Idols in the 5th block, Harabah, that are surrounded by a red glow to retrieve 3 Moon Tablets.",
+    "reward": "Space Badge x1",
+    "walkthrough": "Defeat Ruinous Idols in the 5th block, Harabah, that are surrounded by a red glow to retrieve 3 Moon Tablets.\nAvailable: 11/5 | Deadline: 11/30",
+    "giver": "Theodore"
+  },
+  {
+    "id": "46",
+    "title": "Retrieve the last old document.",
+    "requirement": "Retrieve Old Document 08 from the top of the 5th block, Harabah, and return here before the deadline.",
+    "reward": "¥650,000",
+    "walkthrough": "Retrieve Old Document 08 from the top of the 5th block, Harabah, and return here before the deadline.\nAvailable: 11/5 | Deadline: 12/29",
+    "giver": "Theodore"
+  },
+  {
+    "id": "47",
+    "title": "Retrieve 2 Gold Medals.",
+    "requirement": "Defeat Luxury Hands, rare monsters in the 5th block, Harabah, to retrieve 2 Gold Medals.",
+    "reward": "Rocket Punch x1",
+    "walkthrough": "Defeat Luxury Hands, rare monsters in the 5th block, Harabah, to retrieve 2 Gold Medals.\nAvailable: Complete #32 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "48",
+    "title": "Create Alice with Megido.",
+    "requirement": "Please create Alice via fusion, and show me that she has the Almighty skill Megido.",
+    "reward": "Lily Petal x1",
+    "walkthrough": "Please create Alice via fusion, and show me that she has the Almighty skill Megido.\n\nGuide & Location: Oberon + Decarabia → Nata Taishi (with Megido) + Lilim + Pixie + Narcissus; Allows the creation of Lilith\nAvailable: Complete #47 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "49",
+    "title": "Retrieve 3 Sand of Time.",
+    "requirement": "Defeat Perpetual Sands on floors 202-210 of the 5th block, Harabah, to retrieve 3 Sand of Time.",
+    "reward": "Amakuni x1Atlus Stick x1",
+    "walkthrough": "Defeat Perpetual Sands on floors 202-210 of the 5th block, Harabah, to retrieve 3 Sand of Time.\nAvailable: 12/4 | Deadline: 12/29",
+    "giver": "Theodore"
+  },
+  {
+    "id": "50",
+    "title": "Retrieve 3 Rainbow Hairs.",
+    "requirement": "Defeat Daring Gigases in the 5th block, Harabah, that are surrounded by a red glow to retrieve 3 Rainbow Hairs.",
+    "reward": "Omega Drive x1",
+    "walkthrough": "Defeat Daring Gigases in the 5th block, Harabah, that are surrounded by a red glow to retrieve 3 Rainbow Hairs.\nAvailable: 12/4 | Deadline: 12/30",
+    "giver": "Theodore"
+  },
+  {
+    "id": "51",
+    "title": "Create Lilith with Mabufudyne.",
+    "requirement": "Please create Lilith via fusion, and show me that she has the Ice skill Mabufudyne.",
+    "reward": "Sacrificial Idol x1",
+    "walkthrough": "Please create Lilith via fusion, and show me that she has the Ice skill Mabufudyne.\n\nGuide & Location: Gabriel (Lvl 71) + Ara Mitama → Succubus (with Mabufudyne) + Lilim + Vetala + Incubus\nAvailable: Complete #48 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "52",
+    "title": "Create Loki (lv 63+).",
+    "requirement": "Create Loki via fusion, and return here once he is Lv 63 or higher.",
+    "reward": "Masakados x1",
+    "walkthrough": "Create Loki via fusion, and return here once he is Lv 63 or higher.\n\nGuide & Location: Legion + Ose + Decarabia; Level to 63+ via Social Links or battles; Allows the creation of Masakado\nAvailable: Complete #51 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "53",
+    "title": "Retrieve 1 Bloody Button.",
+    "requirement": "This is a difficult request... Defeat The Reaper and retrieve 1 Bloody Button.",
+    "reward": "¥5,000,000",
+    "walkthrough": "This is a difficult request... Defeat The Reaper and retrieve 1 Bloody Button.\n\nGuide & Location: Stay on a floor in Tartarus for about five minutes (faster if all Shadows are defeated) for the Reaper to spawn\nAvailable: 1/1 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "54",
+    "title": "Retrieve 3 Platinum Medals.",
+    "requirement": "Defeat Glorious Hands, rare monsters in the 6th block, Adamah, to retrieve 3 Platinum Medals.",
+    "reward": "Berserker's Seal x1",
+    "walkthrough": "Defeat Glorious Hands, rare monsters in the 6th block, Adamah, to retrieve 3 Platinum Medals.\nAvailable: Complete #47 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "55",
+    "title": "Defeat the ultimate opponent.",
+    "requirement": "Defeat Theodore alone at the top of Monad Depth.",
+    "reward": "Omnipotent Orb x1",
+    "walkthrough": "Defeat Theodore alone at the top of Monad Depth.\n\nGuide & Location: Equip ultimate persona build (e.g. Orpheus Telos). Solo battle against Theodore on 10F Monad.\nAvailable: NG+, Unlock Monad, Complete #53 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "56",
+    "title": "I'd like to visit Paulownia Mall.",
+    "requirement": "Theodore would like to visit Paulownia Mall with you during the daytime.",
+    "reward": "Small Cheongsam x1",
+    "walkthrough": "Theodore would like to visit Paulownia Mall with you during the daytime.\n\nGuide & Location: Accept request and speak to Theodore outside the Velvet Room during daytime on an off day.\nAvailable: 4/30 | Deadline: 5/31",
+    "giver": "Theodore"
+  },
+  {
+    "id": "57",
+    "title": "I'd like to visit Iwatodai Station.",
+    "requirement": "Theodore wishes to experience the atmosphere at Iwatodai Station with you.",
+    "reward": "Blue Scale x1",
+    "walkthrough": "Theodore wishes to experience the atmosphere at Iwatodai Station with you.\n\nGuide & Location: Accept request and speak to Theodore outside the Velvet Room during daytime.\nAvailable: 6/10 | Deadline: 7/5",
+    "giver": "Theodore"
+  },
+  {
+    "id": "58",
+    "title": "I'd like to visit Naganaki Shrine.",
+    "requirement": "Theodore wishes to accompany you on a walk to Naganaki Shrine.",
+    "reward": "Book of Ancients x1",
+    "walkthrough": "Theodore wishes to accompany you on a walk to Naganaki Shrine.\n\nGuide & Location: Accept request and speak to Theodore outside the Velvet Room during daytime.\nAvailable: 8/7 | Deadline: 9/3",
+    "giver": "Theodore"
+  },
+  {
+    "id": "59",
+    "title": "I'd like to visit Gekkoukan High.",
+    "requirement": "Theodore would like a tour of Gekkoukan High School.",
+    "reward": "Red Muffler x1",
+    "walkthrough": "Theodore would like a tour of Gekkoukan High School.\n\nGuide & Location: Accept request and speak to Theodore outside the Velvet Room during daytime.\nAvailable: 11/5 | Deadline: 11/30",
+    "giver": "Theodore"
+  },
+  {
+    "id": "60",
+    "title": "I'd like to visit your room.",
+    "requirement": "Theodore wishes to visit your room at the dorm.",
+    "reward": "Rainbow Feather x1",
+    "walkthrough": "Theodore wishes to visit your room at the dorm.\n\nGuide & Location: Accept request and speak to Theodore outside the Velvet Room during daytime.\nAvailable: 12/4 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "61",
+    "title": "Bring me a Sengoku-era helm.",
+    "requirement": "I would like to see the \"helm\" from the Sengoku era... I heard that there is one who is never without it.",
+    "reward": "Final Armor x1Knee-High Maid x1",
+    "walkthrough": "I would like to see the \"helm\" from the Sengoku era... I heard that there is one who is never without it.\n\nGuide & Location: Accept the request, then visit the Faculty Office seven times\nAvailable: 10/5 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "62",
+    "title": "I'd like to try Oden Juice.",
+    "requirement": "I would love to try your world's \"Oden Juice\"... The drink-loving girl near the persimmon tree may have some.",
+    "reward": "Maid Outfit (A) x1",
+    "walkthrough": "I would love to try your world's \"Oden Juice\"... The drink-loving girl near the persimmon tree may have some.\n\nGuide & Location: Buy 1 of every vending machine drink during the Kyoto trip, then talk to the girl by the Persimmon Tree in Gekkoukan High School's first floor corridor\nAvailable: 11/5 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "63",
+    "title": "Bring me food fit for a wolf.",
+    "requirement": "Please bring me some Gourmet Dog Food. You may be able to get some on 11/12, when he who holds it is in a good mood.",
+    "reward": "Cross Dog Suit x1",
+    "walkthrough": "Please bring me some Gourmet Dog Food. You may be able to get some on 11/12, when he who holds it is in a good mood.\n\nGuide & Location: Obtain from Koromaru on 11/12\nAvailable: 11/5 | Deadline: 11/30",
+    "giver": "Theodore"
+  },
+  {
+    "id": "64",
+    "title": "Please go scrub the bathroom.",
+    "requirement": "Scrubbing the bathroom is a difficult, but necessary, task... Take your brush in hand and help clean the floors.",
+    "reward": "Maid Outfit (Y) x1",
+    "walkthrough": "Scrubbing the bathroom is a difficult, but necessary, task... Take your brush in hand and help clean the floors.\n\nGuide & Location: Clean the Port Island Station restrooms while the Scrub Brush is not equipped\nAvailable: 11/5, Complete #38 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "65",
+    "title": "Please go water the flowers.",
+    "requirement": "When I visited Gekkoukan High School, I saw a neglected patch of flowers. Could you bring them some water?",
+    "reward": "Maid Outfit (M) x1",
+    "walkthrough": "When I visited Gekkoukan High School, I saw a neglected patch of flowers. Could you bring them some water?\n\nGuide & Location: Interact with the flowers on the school's rooftop\nAvailable: 11/5 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "66",
+    "title": "Please go feed the cat.",
+    "requirement": "I heard there's a cat which hasn't eaten in a while. Can you find the poor cat and give it some food...?",
+    "reward": "S.Outfit Yukari x1",
+    "walkthrough": "I heard there's a cat which hasn't eaten in a while. Can you find the poor cat and give it some food...?\n\nGuide & Location: Buy four Super Cat Foods from Aohige Pharmacy and feed the cat located in the back alley of Port Island Station four times on four different days\nAvailable: 7/8 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "67",
+    "title": "Bring me a Featherman figure.",
+    "requirement": "I'd like an action figure of Phoenix Ranger Featherman R. I think its owner will be in a good mood on 11/21...",
+    "reward": "Ningen Mukotsu x1",
+    "walkthrough": "I'd like an action figure of Phoenix Ranger Featherman R. I think its owner will be in a good mood on 11/21...\n\nGuide & Location: Obtain from Ken on 11/21\nAvailable: 11/5 | Deadline: 11/30",
+    "giver": "Theodore"
+  },
+  {
+    "id": "68",
+    "title": "Bring me a Juzumaru.",
+    "requirement": "I would like to see a katana obtainable from Thebel, the first block: the Juzumaru.",
+    "reward": "Maragi Skill Card x1",
+    "walkthrough": "I would like to see a katana obtainable from Thebel, the first block: the Juzumaru.\n\nGuide & Location: Shuffle Time (Sword 2); Rare chests in Thebel (4F, 11F)\nAvailable: 4/30 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "69",
+    "title": "Bring me an Onimaru Kunitsuna.",
+    "requirement": "I would like to see a katana obtainable from Yabbashah, the third block: the Onimaru Kunitsuna.",
+    "reward": "Opal x3",
+    "walkthrough": "I would like to see a katana obtainable from Yabbashah, the third block: the Onimaru Kunitsuna.\n\nGuide & Location: Shuffle Time (Sword 5); Rare chests in Yabbashah (69F, 74F, 82F)\nAvailable: 7/8 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "70",
+    "title": "Bring me a Mikazuki Munechika.",
+    "requirement": "I would like to see a katana obtainable from Tziah, the fourth block: the Mikazuki Munechika.",
+    "reward": "Malachite x15",
+    "walkthrough": "I would like to see a katana obtainable from Tziah, the fourth block: the Mikazuki Munechika.\n\nGuide & Location: Shuffle Time (Sword 7); Rare chests in Tziah (118F, 128F, 132F)\nAvailable: 9/6 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "71",
+    "title": "Bring me an Outenta Mitsuyo.",
+    "requirement": "I would like to see a katana obtainable from Tziah, the fourth block: the Outenta Mitsuyo.",
+    "reward": "Ruby x3",
+    "walkthrough": "I would like to see a katana obtainable from Tziah, the fourth block: the Outenta Mitsuyo.\n\nGuide & Location: Shuffle Time (Sword 8); Rare chests in Tziah (142F, 150F, 156F)\nAvailable: 10/10 | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "72",
+    "title": "Bring me a Myohou Muramasa.",
+    "requirement": "That door that appeared in the lobby... I would like to see the katana obtainable from there: the Myohou Muramasa.",
+    "reward": "Soma x2",
+    "walkthrough": "That door that appeared in the lobby... I would like to see the katana obtainable from there: the Myohou Muramasa.\n\nGuide & Location: Rare chests in Monad (3F, 8F)\nAvailable: Complete #54, Monad unlocked | Deadline: -",
+    "giver": "Theodore"
+  },
+  {
+    "id": "73",
+    "title": "Bring me pine resin.",
+    "requirement": "I would like some pine resin used by the Archery Club members. 5/2 will most likely be your chance to obtain it.",
+    "reward": "Siren's Song x1",
+    "walkthrough": "I would like some pine resin used by the Archery Club members. 5/2 will most likely be your chance to obtain it.\n\nGuide & Location: Obtain from Yukari on 5/2\nAvailable: 4/30 | Deadline: 5/7",
+    "giver": "Theodore"
+  },
+  {
+    "id": "74",
+    "title": "Bring me a handheld game system.",
+    "requirement": "I would like to see a handheld game system. Your best opportunity to get it from someone will be on 5/14.",
+    "reward": "Two-Handed Sword x1",
+    "walkthrough": "I would like to see a handheld game system. Your best opportunity to get it from someone will be on 5/14.\n\nGuide & Location: Obtain from Junpei on 5/14\nAvailable: 5/10 | Deadline: 6/6",
+    "giver": "Theodore"
+  },
+  {
+    "id": "75",
+    "title": "Bring me a triangular sword.",
+    "requirement": "Please bring me a \"triangular sword.\" I think you will be able to get it from someone on 5/26.",
+    "reward": "Bulletproof Vest x1",
+    "walkthrough": "Please bring me a \"triangular sword.\" I think you will be able to get it from someone on 5/26.\n\nGuide & Location: Obtain from Mitsuru on 5/26\nAvailable: 5/10 | Deadline: 6/6",
+    "giver": "Theodore"
+  },
+  {
+    "id": "76",
+    "title": "Bring me a protein not for pros.",
+    "requirement": "Bring me protein that's not meant for pros. I'm sure you will be able to acquire it on 6/16.",
+    "reward": "Bladefist x1",
+    "walkthrough": "Bring me protein that's not meant for pros. I'm sure you will be able to acquire it on 6/16.\n\nGuide & Location: Obtain from Akihiko on 6/16\nAvailable: 6/10 | Deadline: 7/5",
+    "giver": "Theodore"
+  },
+  {
+    "id": "77",
+    "title": "Bring me a glasses wipe.",
+    "requirement": "I would like something used to wipe off spectacles. You should try to get it on 6/20.",
+    "reward": "Amigo Poncho x1",
+    "walkthrough": "I would like something used to wipe off spectacles. You should try to get it on 6/20.\n\nGuide & Location: Obtain from Ikutsuki on 6/20\nAvailable: 6/10 | Deadline: 7/5",
+    "giver": "Theodore"
+  },
+  {
+    "id": "78",
+    "title": "Bring me a Christmas star.",
+    "requirement": "Bring me the item known as a \"Christmas star.\" It should be easily obtainable from someone on 6/27.",
+    "reward": "Cyber Shoes x1",
+    "walkthrough": "Bring me the item known as a \"Christmas star.\" It should be easily obtainable from someone on 6/27.\n\nGuide & Location: Obtain from Fuuka on 6/27\nAvailable: 6/10 | Deadline: 7/5",
+    "giver": "Theodore"
+  },
+  {
+    "id": "79",
+    "title": "Bring me a fruit knife.",
+    "requirement": "I'd like to have a fruit knife. There should be no difficulty in acquiring one from someone on 9/17.",
+    "reward": "Guillotine Axe x1",
+    "walkthrough": "I'd like to have a fruit knife. There should be no difficulty in acquiring one from someone on 9/17.\n\nGuide & Location: Obtain from Shinjiro on 9/17\nAvailable: 9/6 | Deadline: 10/2",
+    "giver": "Theodore"
+  },
+  {
+    "id": "80",
+    "title": "Bring me oil.",
+    "requirement": "What I'd really like is some oil. Try to think of who might be the one to give it to you on 10/1.",
+    "reward": "Railgun x1",
+    "walkthrough": "What I'd really like is some oil. Try to think of who might be the one to give it to you on 10/1.\n\nGuide & Location: Obtain from Aigis on 10/1\nAvailable: 9/6 | Deadline: 10/2",
+    "giver": "Theodore"
+  }
+]

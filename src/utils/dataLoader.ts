@@ -11,7 +11,7 @@ export const SUPPORTED_GAMES: GameInfo[] = [
     bgGradient: 'from-rose-950/40 via-zinc-950 to-zinc-950',
     badge: 'Phantom Thieves',
     sub: 'Shujin Academy & The Metaverse',
-    logo: '/assets/p5r_logo.png',
+    logo: 'assets/p5r_logo.png',
     slogan: 'Take Your Heart',
     tagline: 'Phantom Thieves of Hearts'
   },
@@ -25,7 +25,7 @@ export const SUPPORTED_GAMES: GameInfo[] = [
     bgGradient: 'from-yellow-950/30 via-zinc-950 to-zinc-950',
     badge: 'Investigation Team',
     sub: 'Inaba & The Midnight Channel',
-    logo: '/assets/p4g_logo.png',
+    logo: 'assets/p4g_logo.png',
     slogan: 'Reach Out to the Truth',
     tagline: 'Inaba Investigation Team'
   },
@@ -39,7 +39,7 @@ export const SUPPORTED_GAMES: GameInfo[] = [
     bgGradient: 'from-sky-950/40 via-zinc-950 to-zinc-950',
     badge: 'S.E.E.S.',
     sub: 'Tatsumi Port Island & Tartarus',
-    logo: '/assets/p3r_logo.png',
+    logo: 'assets/p3r_logo.png',
     slogan: 'Memento Mori',
     tagline: 'Specialized Extracurricular Execution Squad'
   },
@@ -53,7 +53,7 @@ export const SUPPORTED_GAMES: GameInfo[] = [
     bgGradient: 'from-cyan-950/40 via-zinc-950 to-zinc-950',
     badge: 'FeMC / Male Route',
     sub: 'Classic Portable Edition',
-    logo: '/assets/p3r_logo.png',
+    logo: 'assets/p3r_logo.png',
     slogan: 'Memento Mori',
     tagline: 'Portable FeMC Edition'
   }
@@ -109,43 +109,83 @@ export const RESIST_MAP: Record<string, { label: string; badgeClass: string; col
 
 const cache = new Map<string, any>();
 
-export async function fetchJson<T>(url: string): Promise<T> {
-  const baseUrl = (import.meta as any).env?.BASE_URL || '/';
-  const cleanUrl = url.startsWith('/') ? url.slice(1) : url;
-  const resolvedUrl = url.startsWith('http')
-    ? url
-    : `${baseUrl.endsWith('/') ? baseUrl : baseUrl + '/'}${cleanUrl}`;
+export function resolveAssetUrl(url?: string): string {
+  if (!url) return '';
+  if (url.startsWith('http') || url.startsWith('data:')) return url;
+  const baseUrl = (import.meta as any).env?.BASE_URL || './';
+  const clean = url.startsWith('/') ? url.slice(1) : url;
+  return `${baseUrl.endsWith('/') ? baseUrl : baseUrl + '/'}${clean}`;
+}
 
-  if (cache.has(resolvedUrl)) {
-    return cache.get(resolvedUrl) as T;
+export async function fetchJson<T>(url: string): Promise<T> {
+  const baseUrl = (import.meta as any).env?.BASE_URL || './';
+  const cleanUrl = url.startsWith('/') ? url.slice(1) : url;
+  
+  // Strategy: Try candidate paths (base relative, direct relative, absolute, and repo subpath)
+  const candidateUrls: string[] = [
+    url.startsWith('http') ? url : `${baseUrl.endsWith('/') ? baseUrl : baseUrl + '/'}${cleanUrl}`,
+    `./${cleanUrl}`,
+    url,
+    `/Persona-Compendium/${cleanUrl}`
+  ];
+
+  for (const target of candidateUrls) {
+    if (cache.has(target)) {
+      return cache.get(target) as T;
+    }
   }
   
-  let response = await fetch(resolvedUrl).catch(() => null);
-  if (!response || !response.ok) {
-    // Fallback to absolute or direct path
-    response = await fetch(url);
-    if (!response.ok) {
-      throw new Error(`Failed to load ${url}: ${response.statusText}`);
+  let response: Response | null = null;
+  let successUrl = candidateUrls[0];
+
+  for (const target of candidateUrls) {
+    try {
+      const res = await fetch(target);
+      if (res && res.ok) {
+        response = res;
+        successUrl = target;
+        break;
+      }
+    } catch {
+      // Continue to next candidate
     }
   }
 
-  const data = await response.json();
-  cache.set(resolvedUrl, data);
+  if (!response || !response.ok) {
+    throw new Error(`Failed to load ${url} (candidates: ${candidateUrls.join(', ')})`);
+  }
+
+  let text = await response.text();
+  if (text.charCodeAt(0) === 0xFEFF) {
+    text = text.slice(1);
+  }
+  const data = JSON.parse(text);
+  cache.set(successUrl, data);
+  cache.set(url, data);
   return data as T;
 }
 
 export async function loadPersonas(game: GameId): Promise<PersonaData[]> {
-  const pathMap: Record<GameId, string> = {
-    p5r: '/data/persona5/royal_personas.json',
-    p5: '/data/persona5/personas.json',
-    p4g: '/data/persona4/golden_personas.json',
-    p4: '/data/persona4/personas.json',
-    p3r: '/data/persona3/reload_personas.json',
-    p3p: '/data/persona3/portable_personas.json',
-    p3fes: '/data/persona3/personas.json'
+  const pathMap: Record<GameId, string[]> = {
+    p5r: ['/data/persona5/royal_personas.json', '/data/persona5/personas.json'],
+    p5: ['/data/persona5/personas.json'],
+    p4g: ['/data/persona4/golden_personas.json', '/data/persona4/personas.json'],
+    p4: ['/data/persona4/personas.json'],
+    p3r: ['/data/persona3/reload_personas.json', '/data/persona3/personas.json'],
+    p3p: ['/data/persona3/portable_personas.json', '/data/persona3/personas.json'],
+    p3fes: ['/data/persona3/personas.json']
   };
 
-  const raw = await fetchJson<Record<string, any>>(pathMap[game] || pathMap.p5r);
+  const candidates = pathMap[game] || pathMap.p5r;
+  let raw: Record<string, any> = {};
+  for (const path of candidates) {
+    try {
+      raw = await fetchJson<Record<string, any>>(path);
+      if (raw && Object.keys(raw).length > 0) break;
+    } catch {
+      // try next candidate
+    }
+  }
   const personas: PersonaData[] = [];
 
   for (const [name, p] of Object.entries(raw)) {
@@ -355,9 +395,17 @@ export async function loadQuestGuides(game: GameId): Promise<any[]> {
     p3fes: 'p3fes'
   };
   const targetId = seriesMap[game] || 'p3r';
-  const group = allQuests.find((q) => q.gameId === targetId || q.gameId === game);
-  if (group && group.quests) {
-    return group.quests;
+  const matching = allQuests.filter((q) => q.gameId === targetId || q.gameId === game);
+  if (matching.length > 0) {
+    const list: any[] = [];
+    matching.forEach((m) => {
+      if (Array.isArray(m.quests)) {
+        m.quests.forEach((q: any) => {
+          list.push({ ...q, giver: m.giver });
+        });
+      }
+    });
+    return list;
   }
   return [];
 }

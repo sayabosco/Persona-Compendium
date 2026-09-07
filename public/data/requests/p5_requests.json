@@ -1,0 +1,290 @@
+[
+  {
+    "id": "1",
+    "title": "Rank 1: Jack Frost with Mabufu",
+    "requirement": "Jack Frost (Magician) with Mabufu",
+    "reward": "Strength Social Link Rank 1, Unlocks Group Guillotine",
+    "walkthrough": "Fuse Berith (Hierophant) with Silky (Priestess). Alternatively, level Jack Frost to level 12 to learn Mabufu naturally.",
+    "giver": "The Twins"
+  },
+  {
+    "id": "2",
+    "title": "Rank 2: Shiisaa with Frei",
+    "requirement": "Shiisaa (Chariot) with Frei",
+    "reward": "Strength Social Link Rank 2",
+    "walkthrough": "Fuse Jack-o'-Lantern (Magician) with Makami (Temperance). Makami knows Frei, inherit it during fusion.",
+    "giver": "The Twins"
+  },
+  {
+    "id": "3",
+    "title": "Rank 3: Matador with Magaru",
+    "requirement": "Matador (Death) with Magaru",
+    "reward": "Strength Social Link Rank 3, Unlocks Lockdown",
+    "walkthrough": "Fuse Nekomata (Magician) with Obariyon (Fool). Nekomata knows Magaru, inherit it.",
+    "giver": "The Twins"
+  },
+  {
+    "id": "4",
+    "title": "Rank 4: Flauros with Tarukaja",
+    "requirement": "Flauros (Devil) with Tarukaja",
+    "reward": "Strength Social Link Rank 4",
+    "walkthrough": "Advanced Guillotine fusion: Berith + Andras + Eligor. Eligor has Tarukaja naturally, inherit it.",
+    "giver": "The Twins"
+  },
+  {
+    "id": "5",
+    "title": "Rank 5: Ame-no-Uzume with Dodge Psy",
+    "requirement": "Ame-no-Uzume (Lovers) with Dodge Psy",
+    "reward": "Strength Social Link Rank 5, Unlocks Guillotine Booster",
+    "walkthrough": "Fuse Kin-Ki (Chariot) with Sui-Ki (Chariot). Sui-Ki learns Dodge Psy at level 27, level him up and inherit the skill.",
+    "giver": "The Twins"
+  },
+  {
+    "id": "6",
+    "title": "Rank 6: Neko Shogun with Dekaja",
+    "requirement": "Neko Shogun (Star) with Dekaja",
+    "reward": "Strength Social Link Rank 6",
+    "walkthrough": "Advanced Guillotine fusion: Kodama + Sudama + Anzu. First fuse Orobas (knows Dekaja) with Kodama to get Sudama with Dekaja. Then complete the fusion.",
+    "giver": "The Twins"
+  },
+  {
+    "id": "7",
+    "title": "Rank 7: Lachesis with Tetraja",
+    "requirement": "Lachesis (Fortune) with Tetraja",
+    "reward": "Strength Social Link Rank 7",
+    "walkthrough": "Fuse Koppu Tengu (who knows Tetraja) with Pixie to make Clotho with Tetraja. Then fuse Clotho with Regent or Stone of Scone to get Lachesis.",
+    "giver": "The Twins"
+  },
+  {
+    "id": "8",
+    "title": "Rank 8: Hecatoncheires with Masukukaja",
+    "requirement": "Hecatoncheires (Hanged Man) with Masukukaja",
+    "reward": "Strength Social Link Rank 8, Unlocks Isolation",
+    "walkthrough": "Fuse Lilim (Devil) with Anzu (Hierophant). Lilim learns Masukukaja at level 34, level her up first and inherit it.",
+    "giver": "The Twins"
+  },
+  {
+    "id": "9",
+    "title": "Rank 9: Bugs with Samarearm",
+    "requirement": "Bugs (Fool) with Samarearm",
+    "reward": "Strength Social Link Rank 9",
+    "walkthrough": "Advanced Guillotine fusion: Pixie + Pisaca + Hariti. Hariti learns Samarearm at level 41. Level Hariti up first and inherit it.",
+    "giver": "The Twins"
+  },
+  {
+    "id": "10",
+    "title": "Rank 10: Seth with High Counter",
+    "requirement": "Seth (Tower) with High Counter",
+    "reward": "Strength Social Link Rank 10, Unlocks Special Treatment & Zaou-Gongen",
+    "walkthrough": "Advanced Guillotine fusion: Isis + Anubis + Thoth + Horus. You can obtain a High Counter Skill Card from request 'The Killer Who Cleans Up' on 10/14, or fuse Dakini (learns it at level 52) with Pale Rider to get Horus, inheriting High Counter.",
+    "giver": "The Twins"
+  },
+  {
+    "id": "01",
+    "title": "Beware the Clingy Ex-boyfriend*",
+    "requirement": "Target: Natsuhiko Nakanohara (Obariyon) | Area: Qimranut: Area 1",
+    "reward": "Attachment Pearl (accessory)",
+    "walkthrough": "Target Name: Natsuhiko Nakanohara\nDemon Form: Obariyon\nLocation: Qimranut: Area 1\nWeakness: Elec\nDifficulty: D\nAvailable Date / Trigger: 5/7\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Elec or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "02",
+    "title": "The Bark and Bite of a Bully*",
+    "requirement": "Target: Daisuke Takanashi (Jack Frost) | Area: Aiyatsbus: Area 2",
+    "reward": "Protein (consumable)",
+    "walkthrough": "Target Name: Daisuke Takanashi\nDemon Form: Jack Frost\nLocation: Aiyatsbus: Area 2\nWeakness: None\nDifficulty: D\nAvailable Date / Trigger: 5/9\nStrategy: Find the Shadow on the indicated Mementos floor, exploit None or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "03",
+    "title": "One Who Bullies Bullies*",
+    "requirement": "Target: Yoshimori Sakoda (Black Frost) | Area: Aiyatsbus: Area 5",
+    "reward": "Evil Snow Crystal (key item)",
+    "walkthrough": "Target Name: Yoshimori Sakoda\nDemon Form: Black Frost\nLocation: Aiyatsbus: Area 5\nWeakness: Bless\nDifficulty: D\nAvailable Date / Trigger: Complete previous mission, Moon Confidant rank 3\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Bless or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "04",
+    "title": "Phantom Thieves VS Burglary Ring",
+    "requirement": "Target: Kazuya Makigami (Mithras) | Area: Aiyatsbus: Area 6",
+    "reward": "Old Key (key item)",
+    "walkthrough": "Target Name: Kazuya Makigami\nDemon Form: Mithras\nLocation: Aiyatsbus: Area 6\nWeakness: Curse\nDifficulty: D\nAvailable Date / Trigger: 6/18\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Curse or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "05",
+    "title": "Sadism Is Just a Sign of Love*",
+    "requirement": "Target: Hikari Shimizu (Yaksini) | Area: Aiyatsbus: Area 7",
+    "reward": "Whip Sword (weapon)",
+    "walkthrough": "Target Name: Hikari Shimizu\nDemon Form: Yaksini\nLocation: Aiyatsbus: Area 7\nWeakness: Fire/Bless\nDifficulty: D\nAvailable Date / Trigger: 6/6\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Fire/Bless or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "06",
+    "title": "Part-time Job, Full-time Hell*",
+    "requirement": "Target: Nozomi Odo (Setanta) | Area: Chemdah: Area 1",
+    "reward": "Chinese Sweets (book)",
+    "walkthrough": "Target Name: Nozomi Odo\nDemon Form: Setanta\nLocation: Chemdah: Area 1\nWeakness: None\nDifficulty: C\nAvailable Date / Trigger: 6/6\nStrategy: Find the Shadow on the indicated Mementos floor, exploit elemental attacks or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "07",
+    "title": "Bad Medicine",
+    "requirement": "Target: Shoichi Oyamada (Thoth) | Area: Chemdah: Area 2",
+    "reward": "Mediarama (card)",
+    "walkthrough": "Target Name: Shoichi Oyamada\nDemon Form: Thoth\nLocation: Chemdah: Area 2\nWeakness: None\nDifficulty: C\nAvailable Date / Trigger: Death Confidant rank 7\nStrategy: Find the Shadow on the indicated Mementos floor, exploit elemental attacks or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "08",
+    "title": "Ending the Boyfriend's Abuse",
+    "requirement": "Target: Yuya Uchimura (Fuu-Ki) | Area: Chemdah: Area 3",
+    "reward": "Sleep Stick (weapon)",
+    "walkthrough": "Target Name: Yuya Uchimura\nDemon Form: Fuu-Ki\nLocation: Chemdah: Area 3\nWeakness: Psy\nDifficulty: C\nAvailable Date / Trigger: Confront Chihaya Mifune about fake Holy Stone\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Psy or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "09",
+    "title": "A Teacher Maid to Suffer",
+    "requirement": "Target: Toshio and Hiromi Takase (Oberon and Titania) | Area: Chemdah: Area 7",
+    "reward": "Envy Chain (weapon)",
+    "walkthrough": "Target Name: Toshio and Hiromi Takase\nDemon Form: Oberon and Titania\nLocation: Chemdah: Area 7\nWeakness: Fire (Titania), Psy (Oberon)\nDifficulty: C\nAvailable Date / Trigger: Temperance Confidant Rank 8\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Fire (Titania), Psy (Oberon) or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "10",
+    "title": "The Lovesick Cyberstalking Girl*",
+    "requirement": "Target: Yumeko Mogami (Bugs) | Area: Chemdah: Area 8",
+    "reward": "Sticky Hairball (key item)",
+    "walkthrough": "Target Name: Yumeko Mogami\nDemon Form: Bugs\nLocation: Chemdah: Area 8\nWeakness: None\nDifficulty: C\nAvailable Date / Trigger: 7/10\nStrategy: Find the Shadow on the indicated Mementos floor, exploit elemental attacks or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "11",
+    "title": "Calling for Justice for Cats*",
+    "requirement": "Target: Kazuo Tsuboi (Pisaca) | Area: Kaitul: Area 1",
+    "reward": "Blood Scimitar (weapon)",
+    "walkthrough": "Target Name: Kazuo Tsuboi\nDemon Form: Pisaca\nLocation: Kaitul: Area 1\nWeakness: Fire\nDifficulty: C\nAvailable Date / Trigger: 8/11, Moon Confidant Rank 5\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Fire or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "12",
+    "title": "Debunking the Psychic!",
+    "requirement": "Target: Yuichi Fukurai (Baphomet) | Area: Kaitul: Area 3",
+    "reward": "Prophet's Hand (weapon)",
+    "walkthrough": "Target Name: Yuichi Fukurai\nDemon Form: Baphomet\nLocation: Kaitul: Area 3\nWeakness: Bless, Ice\nDifficulty: C\nAvailable Date / Trigger: Fortune Confidant Rank 7\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Bless, Ice or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "13",
+    "title": "Shady Deal in the Shadows",
+    "requirement": "Target: Akimitsu Tsuda (Belphegor) | Area: Kaitul: Area 4",
+    "reward": "Weird Wrap (armor)",
+    "walkthrough": "Target Name: Akimitsu Tsuda\nDemon Form: Belphegor\nLocation: Kaitul: Area 4\nWeakness: None\nDifficulty: C\nAvailable Date / Trigger: Hanged Man Confidant Rank 7\nStrategy: Find the Shadow on the indicated Mementos floor, exploit elemental attacks or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "14",
+    "title": "Who's Been Assaulting People?*",
+    "requirement": "Target: Taizo Naguri (Kin-Ki) | Area: Kaitul: Area 5",
+    "reward": "Charge (card)",
+    "walkthrough": "Target Name: Taizo Naguri\nDemon Form: Kin-Ki\nLocation: Kaitul: Area 5\nWeakness: None\nDifficulty: C\nAvailable Date / Trigger: 8/5\nStrategy: Find the Shadow on the indicated Mementos floor, exploit None or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "15",
+    "title": "We Aren't Just Your Slaves*",
+    "requirement": "Target: Shinsuke Kishi (Kumbhanda) | Area: Kaitul: Area 8",
+    "reward": "Theme Park Escort (book)",
+    "walkthrough": "Target Name: Shinsuke Kishi\nDemon Form: Kumbhanda\nLocation: Kaitul: Area 8\nWeakness: Bless\nDifficulty: C\nAvailable Date / Trigger: 8/2\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Bless or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "16",
+    "title": "Fighting for Truth in Journalism",
+    "requirement": "Target: Shinpei Honjo (Take-Minakata) | Area: Kaitul: Area 9",
+    "reward": "Invigorate 3 (card)",
+    "walkthrough": "Target Name: Shinpei Honjo\nDemon Form: Take-Minakata\nLocation: Kaitul: Area 9\nWeakness: Wind\nDifficulty: C\nAvailable Date / Trigger: Devil Confidant Rank 7\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Wind or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "17",
+    "title": "Who's Muscling in Yongen-Jaya?*",
+    "requirement": "Target: Yasuo Jochi (Ippon-Datara) | Area: Kaitul: Area 10",
+    "reward": "Shitamachi Reborn (book)",
+    "walkthrough": "Target Name: Yasuo Jochi\nDemon Form: Ippon-Datara\nLocation: Kaitul: Area 10\nWeakness: Elec\nDifficulty: C\nAvailable Date / Trigger: 8/30\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Elec or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "18",
+    "title": "Man of Many Faces and Debts*",
+    "requirement": "Target: Fumio Akitsu (Legion) | Area: Akzeriyyuth: Area 3",
+    "reward": "Thermopylae (card)",
+    "walkthrough": "Target Name: Fumio Akitsu\nDemon Form: Legion\nLocation: Akzeriyyuth: Area 3\nWeakness: Elec\nDifficulty: B\nAvailable Date / Trigger: 9/19\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Elec or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "19",
+    "title": "Winners Don't Use Cheats",
+    "requirement": "Target: Yoshikuni Nejima (Ose) | Area: Akzeriyyuth: Area 5",
+    "reward": "Null Phys (card)",
+    "walkthrough": "Target Name: Yoshikuni Nejima\nDemon Form: Ose\nLocation: Akzeriyyuth: Area 5\nWeakness: None\nDifficulty: B\nAvailable Date / Trigger: 9/4\nStrategy: Find the Shadow on the indicated Mementos floor, exploit elemental attacks or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "20",
+    "title": "Upstaging the Stage Mother",
+    "requirement": "Target: Mitsuyo Togo (Lilim) | Area: Akzeriyyuth: Area 6",
+    "reward": "Bead Chain (consumable)",
+    "walkthrough": "Target Name: Mitsuyo Togo\nDemon Form: Lilim\nLocation: Akzeriyyuth: Area 6\nWeakness: Bless\nDifficulty: B\nAvailable Date / Trigger: Star Confidant Rank 7\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Bless or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "21",
+    "title": "The Killer Who Cleans Up Trash*",
+    "requirement": "Target: Yohei Kiritani (Rakshasa) | Area: Akzeriyyuth: Area 12",
+    "reward": "High Counter (card)",
+    "walkthrough": "Target Name: Yohei Kiritani\nDemon Form: Rakshasa\nLocation: Akzeriyyuth: Area 12\nWeakness: None\nDifficulty: B\nAvailable Date / Trigger: 10/14\nStrategy: Find the Shadow on the indicated Mementos floor, exploit None or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "22",
+    "title": "The Money-grubbing Uncle",
+    "requirement": "Target: Youji Isshiki (Girimekhala) | Area: Adyeshach*",
+    "reward": "Venture Saber (weapon)",
+    "walkthrough": "Target Name: Youji Isshiki\nDemon Form: Girimekhala\nLocation: Adyeshach*\nWeakness: None\nDifficulty: B\nAvailable Date / Trigger: Hierophant Confidant Rank 8\nStrategy: Find the Shadow on the indicated Mementos floor, exploit elemental attacks or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "23",
+    "title": "Daughter's Just a Meal Ticket",
+    "requirement": "Target: Kouta and Asami Magario (Incubus and Succubus) | Area: Adyeshach: Area 3",
+    "reward": "Growth 3 (card)",
+    "walkthrough": "Target Name: Kouta and Asami Magario\nDemon Form: Incubus and Succubus\nLocation: Adyeshach: Area 3\nWeakness: Ice (Succubus), Fire (Incubus)\nDifficulty: A\nAvailable Date / Trigger: Hermit Confidant Rank 7\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Ice (Succubus), Fire (Incubus) or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "24",
+    "title": "A Mother's Aggression",
+    "requirement": "Target: Hanae Oda (Dakini) | Area: Adyeshach: Area 11",
+    "reward": "Soma (consumable)",
+    "walkthrough": "Target Name: Hanae Oda\nDemon Form: Dakini\nLocation: Adyeshach: Area 11\nWeakness: Fire\nDifficulty: A\nAvailable Date / Trigger: Tower Confidant Rank 8\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Fire or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "25",
+    "title": "Swindling Old Folk is Pretty Low*",
+    "requirement": "Target: Yoshihito Wakasa (Chernobog) | Area: Adyeshach: Area 13",
+    "reward": "Haten Robe (armor)",
+    "walkthrough": "Target Name: Yoshihito Wakasa\nDemon Form: Chernobog\nLocation: Adyeshach: Area 13\nWeakness: None\nDifficulty: A\nAvailable Date / Trigger: 11/25\nStrategy: Find the Shadow on the indicated Mementos floor, exploit None or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  },
+  {
+    "id": "26",
+    "title": "The Head Honcho in Showbiz*",
+    "requirement": "Target: Shiro Asakura (Mara) | Area: Sheriruth: Area 14",
+    "reward": "Immortal Vest (armor)",
+    "walkthrough": "Target Name: Shiro Asakura\nDemon Form: Mara\nLocation: Sheriruth: Area 14\nWeakness: Nuke\nDifficulty: S\nAvailable Date / Trigger: 12/3†\nStrategy: Find the Shadow on the indicated Mementos floor, exploit Nuke or use physical crits to knock them down for an All-Out Attack.",
+    "giver": "Mementos Targets"
+  }
+]
