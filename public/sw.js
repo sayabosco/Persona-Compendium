@@ -41,7 +41,8 @@ self.addEventListener('fetch', (event) => {
         const cached = await caches.match(event.request);
         if (cached) return cached;
         if (event.request.mode === 'navigate') {
-          return caches.match('/index.html');
+          const match = (await caches.match('./index.html')) || (await caches.match(self.registration.scope)) || (await caches.match('/Persona-Compendium/index.html'));
+          if (match) return match;
         }
         return new Response('Offline', { status: 503, statusText: 'Offline' });
       })

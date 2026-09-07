@@ -15,9 +15,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Persona" />
     <meta name="theme-color" content="#09090b" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/webp" href="/icon.webp" />
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.json" />
 
     <!-- Fonts & Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +30,7 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js').then((reg) => {
+          navigator.serviceWorker.register('./sw.js').then((reg) => {
             reg.update().catch(() => {});
           }).catch(() => {});
         });

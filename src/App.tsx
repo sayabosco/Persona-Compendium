@@ -37,6 +37,7 @@ import { IosInstallPrompt } from './components/ios/IosInstallPrompt';
 import { IosConnectionModal } from './components/ios/IosConnectionModal';
 import { DeployGuideModal } from './components/ios/DeployGuideModal';
 import { GameHeroBanner } from './components/common/GameHeroBanner';
+import { ElementSpriteSheet } from './components/common/ElementSpriteSheet';
 
 // Main views
 import { BrowseHubView } from './components/browse/BrowseHubView';
@@ -192,6 +193,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-black text-zinc-100 flex flex-col items-center justify-start md:py-6 md:px-4 font-sans antialiased select-none">
+      <ElementSpriteSheet />
       {/* Container: on mobile it fills screen, on desktop user can toggle between iPhone frame and PC view */}
       <main
         id="ios-app-container"

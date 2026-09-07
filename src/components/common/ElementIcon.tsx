@@ -90,7 +90,7 @@ export const ElementIcon: React.FC<ElementIconProps> = ({
       viewBox="0 0 256 256"
       style={{ color: config.color }}
     >
-      <use href={`/assets/icons/elem_sprites.svg#${config.symbol}`} />
+      <use href={`#${config.symbol}`} />
     </svg>
   );
 
