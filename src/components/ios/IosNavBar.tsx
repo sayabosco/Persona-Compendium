@@ -164,69 +164,141 @@ export const IosNavBar = ({
         subtitle="Switch compendium, fusions, confidants, and school answers"
         accentColor={currentGame.color}
       >
-        <div className="space-y-2">
-          {SUPPORTED_GAMES.map((game) => {
-            const isSelected = game.id === currentGame.id;
-            return (
-              <div
-                key={game.id}
-                onClick={() => {
-                  triggerHaptic('medium');
-                  onSelectGame(game.id);
-                  setIsGamePickerOpen(false);
-                }}
-                className={`p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center justify-between ${
-                  isSelected
-                    ? 'bg-zinc-800/90 border-white/20 shadow-md'
-                    : 'bg-zinc-950/60 border-white/5 hover:bg-zinc-900'
-                }`}
-              >
-                <div className="flex items-center gap-3">
-                  {game.logo ? (
-                    <div className="h-10 px-2 rounded-xl bg-black/60 border border-white/10 flex items-center justify-center shrink-0">
-                      <img
-                        src={resolveAssetUrl(game.logo)}
-                        alt={game.title}
-                        onError={(e) => {
-                          // If logo fails to load, hide image element
-                          e.currentTarget.style.display = 'none';
+        <div className="space-y-3">
+          {/* Main Titles */}
+          <div className="space-y-2">
+            {SUPPORTED_GAMES.filter((g) => g.series !== 'p3').map((game) => {
+              const isSelected = game.id === currentGame.id;
+              return (
+                <div
+                  key={game.id}
+                  onClick={() => {
+                    triggerHaptic('medium');
+                    onSelectGame(game.id);
+                    setIsGamePickerOpen(false);
+                  }}
+                  className={`p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center justify-between ${
+                    isSelected
+                      ? 'bg-zinc-800/90 border-white/20 shadow-md'
+                      : 'bg-zinc-950/60 border-white/5 hover:bg-zinc-900'
+                  }`}
+                >
+                  <div className="flex items-center gap-3">
+                    {game.logo ? (
+                      <div className="h-10 px-2 rounded-xl bg-black/60 border border-white/10 flex items-center justify-center shrink-0">
+                        <img
+                          src={resolveAssetUrl(game.logo)}
+                          alt={game.title}
+                          onError={(e) => {
+                            e.currentTarget.style.display = 'none';
+                          }}
+                          className="h-6 object-contain max-w-[90px]"
+                        />
+                      </div>
+                    ) : (
+                      <div
+                        className="w-10 h-10 rounded-xl flex items-center justify-center font-bold text-sm shadow-sm border"
+                        style={{
+                          backgroundColor: `${game.color}25`,
+                          borderColor: `${game.color}50`,
+                          color: game.color
                         }}
-                        className="h-6 object-contain max-w-[90px]"
-                      />
+                      >
+                        {game.series.toUpperCase()}
+                      </div>
+                    )}
+                    <div>
+                      <h4 className="text-sm font-bold text-white flex items-center gap-1.5">
+                        {game.title}
+                        {isSelected && (
+                          <span className="text-[9px] px-1.5 py-0.2 rounded-full bg-white/20 text-white font-bold">
+                            Active
+                          </span>
+                        )}
+                      </h4>
+                      <p className="text-xs text-zinc-400">{game.sub}</p>
                     </div>
-                  ) : (
-                    <div
-                      className="w-10 h-10 rounded-xl flex items-center justify-center font-bold text-sm shadow-sm border"
-                      style={{
-                        backgroundColor: `${game.color}25`,
-                        borderColor: `${game.color}50`,
-                        color: game.color
-                      }}
-                    >
-                      {game.series.toUpperCase()}
-                    </div>
-                  )}
-                  <div>
-                    <h4 className="text-sm font-bold text-white flex items-center gap-1.5">
-                      {game.title}
-                      {isSelected && (
-                        <span className="text-[9px] px-1.5 py-0.2 rounded-full bg-white/20 text-white font-bold">
-                          Active
-                        </span>
-                      )}
-                    </h4>
-                    <p className="text-xs text-zinc-400">{game.sub}</p>
                   </div>
-                </div>
 
-                {isSelected ? (
-                  <Check className="w-5 h-5 text-emerald-400" />
-                ) : (
-                  <div className="w-2 h-2 rounded-full" style={{ backgroundColor: game.color }} />
-                )}
-              </div>
-            );
-          })}
+                  {isSelected ? (
+                    <Check className="w-5 h-5 text-emerald-400" />
+                  ) : (
+                    <div className="w-2 h-2 rounded-full" style={{ backgroundColor: game.color }} />
+                  )}
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Persona 3 Group */}
+          <div className="pt-2 border-t border-white/10">
+            <div className="text-[11px] font-bold uppercase tracking-wider text-sky-400 mb-2 px-1">
+              Persona 3 Series (3 Editions)
+            </div>
+            <div className="space-y-2">
+              {SUPPORTED_GAMES.filter((g) => g.series === 'p3').map((game) => {
+                const isSelected = game.id === currentGame.id;
+                return (
+                  <div
+                    key={game.id}
+                    onClick={() => {
+                      triggerHaptic('medium');
+                      onSelectGame(game.id);
+                      setIsGamePickerOpen(false);
+                    }}
+                    className={`p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center justify-between ${
+                      isSelected
+                        ? 'bg-sky-950/40 border-sky-500/30 shadow-md'
+                        : 'bg-zinc-950/60 border-white/5 hover:bg-zinc-900'
+                    }`}
+                  >
+                    <div className="flex items-center gap-3">
+                      {game.logo ? (
+                        <div className="h-10 px-2 rounded-xl bg-black/60 border border-white/10 flex items-center justify-center shrink-0">
+                          <img
+                            src={resolveAssetUrl(game.logo)}
+                            alt={game.title}
+                            onError={(e) => {
+                              e.currentTarget.style.display = 'none';
+                            }}
+                            className="h-6 object-contain max-w-[90px]"
+                          />
+                        </div>
+                      ) : (
+                        <div
+                          className="w-10 h-10 rounded-xl flex items-center justify-center font-bold text-sm shadow-sm border"
+                          style={{
+                            backgroundColor: `${game.color}25`,
+                            borderColor: `${game.color}50`,
+                            color: game.color
+                          }}
+                        >
+                          P3
+                        </div>
+                      )}
+                      <div>
+                        <h4 className="text-sm font-bold text-white flex items-center gap-1.5">
+                          {game.title}
+                          {isSelected && (
+                            <span className="text-[9px] px-1.5 py-0.2 rounded-full bg-sky-500/30 text-sky-300 font-bold border border-sky-400/30">
+                              Active
+                            </span>
+                          )}
+                        </h4>
+                        <p className="text-xs text-zinc-400">{game.badge}</p>
+                      </div>
+                    </div>
+
+                    {isSelected ? (
+                      <Check className="w-5 h-5 text-sky-400" />
+                    ) : (
+                      <div className="w-2 h-2 rounded-full" style={{ backgroundColor: game.color }} />
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </IosBottomSheet>
     </>

@@ -1,0 +1,2111 @@
+{
+  "Fool": {
+    "character": "Igor",
+    "arcana": "Fool",
+    "Rank 1": {
+      "Requirements": "Automatic progression on 4/12",
+      "Benefit": {
+        "Name": "Wild Talk & Arcana Burst",
+        "Description": "Allows holding multiple Personas and grants bonus EXP upon fusing Fool Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Automatic on 4/28",
+      "Benefit": {
+        "Name": "Third Eye",
+        "Description": "Allows sensing invisible enemies, hidden chests, and grappling hook points in Palaces."
+      }
+    },
+    "Rank 3": {
+      "Requirements": "Automatic on 5/5",
+      "Benefit": {
+        "Name": "Stock Increase",
+        "Description": "Increases max Persona stock capacity from 6 to 8."
+      }
+    },
+    "Rank 5": {
+      "Requirements": "Automatic on 6/11",
+      "Benefit": {
+        "Name": "Stock Increase",
+        "Description": "Increases max Persona stock capacity to 10."
+      }
+    },
+    "Rank 6": {
+      "Requirements": "Automatic on 7/9",
+      "Benefit": {
+        "Name": "High Arcana Burst",
+        "Description": "Further boosts fusion bonus EXP awarded to newly created Personas."
+      }
+    },
+    "Rank 8": {
+      "Requirements": "Automatic on 8/31",
+      "Benefit": {
+        "Name": "Stock Increase",
+        "Description": "Increases max Persona stock capacity to maximum 12."
+      }
+    },
+    "Rank 10": {
+      "Requirements": "Automatic on 12/24",
+      "Benefit": {
+        "Name": "Infinity Arcana Burst & Ultimate Persona",
+        "Description": "Unlocks ultimate Fool Persona Vishnu for fusion and maximizes fusion EXP."
+      }
+    }
+  },
+  "Magician": {
+    "character": "Morgana",
+    "arcana": "Magician",
+    "Rank 1": {
+      "Requirements": "Automatic on 4/15",
+      "Benefit": {
+        "Name": "Infiltration Tools",
+        "Description": "Allows crafting basic infiltration tools at your workbench."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Automatic on 4/25",
+      "Benefit": {
+        "Name": "Infiltration Tools II",
+        "Description": "Enables crafting lockpicks and stealth tools."
+      }
+    },
+    "Rank 3": {
+      "Requirements": "Automatic on 6/5",
+      "Benefit": {
+        "Name": "Follow Up",
+        "Description": "Morgana may perform an opportunistic critical follow-up attack if Joker's attack doesn't down the enemy."
+      }
+    },
+    "Rank 4": {
+      "Requirements": "Automatic on 6/20",
+      "Benefit": {
+        "Name": "Kitty Talk",
+        "Description": "Allows Morgana to intervene when demon negotiations fail, giving a second chance."
+      }
+    },
+    "Rank 5": {
+      "Requirements": "Automatic on 8/28",
+      "Benefit": {
+        "Name": "Pickpocket",
+        "Description": "Chance to obtain an item when Morgana performs a physical attack."
+      }
+    },
+    "Rank 6": {
+      "Requirements": "Automatic on 9/19",
+      "Benefit": {
+        "Name": "Ace Tools",
+        "Description": "Allows crafting all infiltration tools at your workbench."
+      }
+    },
+    "Rank 7": {
+      "Requirements": "Automatic on 10/11",
+      "Benefit": {
+        "Name": "Harisen Recovery",
+        "Description": "Morgana may cure status ailments inflicted on party members automatically."
+      }
+    },
+    "Rank 8": {
+      "Requirements": "Automatic on 10/26",
+      "Benefit": {
+        "Name": "Endure",
+        "Description": "Survives a lethal blow with 1 HP remaining."
+      }
+    },
+    "Rank 9": {
+      "Requirements": "Automatic on 11/25",
+      "Benefit": {
+        "Name": "Protect",
+        "Description": "Morgana steps in to take a fatal attack in place of Joker."
+      }
+    },
+    "Rank 10": {
+      "Requirements": "Automatic on 12/23",
+      "Benefit": {
+        "Name": "Second Awakening",
+        "Description": "Morgana's Zorro awakens into Mercurius; unlocks ultimate Magician Persona Futsunushi."
+      }
+    }
+  },
+  "Priestess": {
+    "character": "Makoto Niijima",
+    "arcana": "Priestess",
+    "Rank 1": {
+      "Requirements": "Available from 6/25 after Kaneshiro's Palace infiltration starts. Requires Knowledge Rank 3 (Scholarly). Location: Shujin Academy 3F Hallway or Aoyama-Itchome.",
+      "Benefit": {
+        "Name": "Shadow Analyze",
+        "Description": "View enemy affinities and item drops on previously encountered Shadows in battle analysis."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Daytime after school",
+      "Choices": [
+        {
+          "Answer": "You're very well informed.",
+          "Points": 2
+        },
+        {
+          "Answer": "That was dangerous.",
+          "Points": 3
+        },
+        {
+          "Answer": "Couldn't agree more.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Daytime after school",
+      "Choices": [
+        {
+          "Answer": "You have the wrong idea.",
+          "Points": 2
+        },
+        {
+          "Answer": "You can be whatever you want.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Daytime after school",
+      "Choices": [
+        {
+          "Answer": "That's unlike you.",
+          "Points": 2
+        },
+        {
+          "Answer": "With me?",
+          "Points": 3
+        },
+        {
+          "Answer": "I'd love to.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Daytime after school",
+      "Choices": [
+        {
+          "Answer": "He sounds suspicious.",
+          "Points": 3
+        },
+        {
+          "Answer": "I got this.",
+          "Points": 3
+        },
+        {
+          "Answer": "Only if you take me out again.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Requires Charm Rank 5 (Debonair)!",
+      "Choices": [
+        {
+          "Answer": "We just started dating.",
+          "Points": 3
+        },
+        {
+          "Answer": "Love comes in many forms.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Daytime after school",
+      "Benefit": {
+        "Name": "Shadow Factorization",
+        "Description": "Reveals nullified, repelled, and drained elemental attributes during battle analysis."
+      },
+      "Choices": [
+        {
+          "Answer": "That's a horrible story.",
+          "Points": 3
+        },
+        {
+          "Answer": "He was a good cop.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm sure he was proud of you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Daytime after school",
+      "Choices": [
+        {
+          "Answer": "He says that to all his girls.",
+          "Points": 3
+        },
+        {
+          "Answer": "Absolutely.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Daytime after school",
+      "Note": "Romance Route Choice: Choose 'I'll be your boyfriend' to enter romance, or 'You have study partners' for friendship.",
+      "Choices": [
+        {
+          "Answer": "Your fight is with reality.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'll be your boyfriend.",
+          "Points": 3
+        },
+        {
+          "Answer": "I do.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Second Awakening & Ultimate Priestess",
+        "Description": "Makoto's Johanna transforms into Anat; unlocks Cybele for fusion."
+      }
+    }
+  },
+  "Empress": {
+    "character": "Haru Okumura",
+    "arcana": "Empress",
+    "Rank 1": {
+      "Requirements": "Available starting 10/30 on Shujin Academy Rooftop. Requires Proficiency Rank 5 (Transcendent) to progress past Rank 1.",
+      "Benefit": {
+        "Name": "Cultivation",
+        "Description": "Allows growing special SP-restoring vegetables on the Shujin Academy rooftop garden."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Requires Proficiency Rank 5",
+      "Choices": [
+        {
+          "Answer": "Are you opening a café?",
+          "Points": 3
+        },
+        {
+          "Answer": "He sounds like a scoundrel.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'll help you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Daytime on Rooftop",
+      "Choices": [
+        {
+          "Answer": "They won't leave you alone?",
+          "Points": 3
+        },
+        {
+          "Answer": "I don't mind at all.",
+          "Points": 3
+        },
+        {
+          "Answer": "Cheers.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Daytime on Rooftop",
+      "Benefit": {
+        "Name": "Selective Breeding",
+        "Description": "Increases vegetable crop yield on the rooftop garden."
+      },
+      "Choices": [
+        {
+          "Answer": "Somebody had to.",
+          "Points": 3
+        },
+        {
+          "Answer": "I will.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Daytime on Rooftop",
+      "Benefit": {
+        "Name": "Soil Improvement",
+        "Description": "Shortens vegetable growth time by 1 day."
+      },
+      "Choices": [
+        {
+          "Answer": "What does your heart say?",
+          "Points": 3
+        },
+        {
+          "Answer": "I'll always be by your side.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Daytime on Rooftop",
+      "Note": "Romance Route Choice: Choose 'I like you too' to date Haru, or 'He's a lucky guy' for friendship.",
+      "Choices": [
+        {
+          "Answer": "Are you sure?",
+          "Points": 3
+        },
+        {
+          "Answer": "I like you too, Haru.",
+          "Points": 3
+        },
+        {
+          "Answer": "I missed you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Second Awakening & Mother Harlot",
+        "Description": "Haru's Milady awakens into Astarte; unlocks Mother Harlot for fusion."
+      }
+    }
+  },
+  "Emperor": {
+    "character": "Yusuke Kitagawa",
+    "arcana": "Emperor",
+    "Rank 1": {
+      "Requirements": "Available from 6/18 at Shibuya Underground Walkway.",
+      "Benefit": {
+        "Name": "Card Duplication",
+        "Description": "Allows Yusuke to copy skill cards using blank cards."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Daytime at Shibuya Underground Walkway",
+      "Choices": [
+        {
+          "Answer": "It's novel.",
+          "Points": 2
+        },
+        {
+          "Answer": "I can't wait.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're already an artist.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Daytime. Requires Proficiency Rank 4 for later ranks.",
+      "Choices": [
+        {
+          "Answer": "Don't let it bother you.",
+          "Points": 2
+        },
+        {
+          "Answer": "This isn't like you.",
+          "Points": 3
+        },
+        {
+          "Answer": "That's the spirit.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Daytime at Shibuya",
+      "Choices": [
+        {
+          "Answer": "Why are we in a boat?",
+          "Points": 2
+        },
+        {
+          "Answer": "Love comes in all forms.",
+          "Points": 3
+        },
+        {
+          "Answer": "Don't get discouraged.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Daytime at Shibuya",
+      "Benefit": {
+        "Name": "Card Creation",
+        "Description": "Yusuke can recreate previously copied skill cards without needing an original."
+      },
+      "Choices": [
+        {
+          "Answer": "Make me your model.",
+          "Points": 3
+        },
+        {
+          "Answer": "There's still hope.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Requires Proficiency Rank 4 (Masterful)",
+      "Choices": [
+        {
+          "Answer": "It feels nostalgic.",
+          "Points": 2
+        },
+        {
+          "Answer": "I understand.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Daytime at Shibuya",
+      "Benefit": {
+        "Name": "Live Painting",
+        "Description": "Yusuke can duplicate and create skill cards on the spot inside safe rooms in Palaces and Mementos."
+      },
+      "Choices": [
+        {
+          "Answer": "What do you mean?",
+          "Points": 2
+        },
+        {
+          "Answer": "The truth is within you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Daytime at Shibuya",
+      "Choices": [
+        {
+          "Answer": "It has to be Ann.",
+          "Points": 2
+        },
+        {
+          "Answer": "You've grown, Yusuke.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Daytime at Shibuya",
+      "Choices": [
+        {
+          "Answer": "Her love for her son.",
+          "Points": 3
+        },
+        {
+          "Answer": "You've really matured.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Second Awakening & Odin",
+        "Description": "Yusuke's Goemon awakens into Kamu Susano-o; unlocks Odin for fusion."
+      }
+    }
+  },
+  "Hierophant": {
+    "character": "Sojiro Sakura",
+    "arcana": "Hierophant",
+    "Rank 1": {
+      "Requirements": "Available on 4/20 evening inside Café Leblanc.",
+      "Benefit": {
+        "Name": "Coffee Basics",
+        "Description": "Brew single-target SP restoring coffee at Leblanc counter."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Night at Leblanc counter",
+      "Choices": [
+        {
+          "Answer": "Making coffee.",
+          "Points": 2
+        },
+        {
+          "Answer": "That guy was suspicious.",
+          "Points": 2
+        },
+        {
+          "Answer": "I want the ladies to love me.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Night at Leblanc",
+      "Choices": [
+        {
+          "Answer": "Medium-fine.",
+          "Points": 2
+        },
+        {
+          "Answer": "Is it a secret?",
+          "Points": 3
+        },
+        {
+          "Answer": "Thank you for the meal.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Night at Leblanc",
+      "Benefit": {
+        "Name": "Leblanc Curry",
+        "Description": "Allows cooking SP restoring curry for the whole party."
+      },
+      "Choices": [
+        {
+          "Answer": "Tell me more.",
+          "Points": 3
+        },
+        {
+          "Answer": "Call Sojiro's phone.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Night at Leblanc",
+      "Note": "Rank is locked until Futaba is rescued and finishes recovery on 8/22.",
+      "Choices": [
+        {
+          "Answer": "A focus on flavor.",
+          "Points": 3
+        },
+        {
+          "Answer": "I think I'm hooked.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Night at Leblanc",
+      "Benefit": {
+        "Name": "Coffee Mastery",
+        "Description": "Brew master-grade coffee that recovers huge SP for a party member."
+      },
+      "Choices": [
+        {
+          "Answer": "To each his own.",
+          "Points": 2
+        },
+        {
+          "Answer": "Shut your mouth.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're not giving up, are you?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Requires Max Kindness Rank 5 (Angelic)!",
+      "Choices": [
+        {
+          "Answer": "You might be right.",
+          "Points": 2
+        },
+        {
+          "Answer": "Feel like a real dad yet?",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Requires completing Mementos Request 'The Money-grubbing Uncle'",
+      "Choices": [
+        {
+          "Answer": "You're a good dad.",
+          "Points": 3
+        },
+        {
+          "Answer": "She was proud of you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Night at Leblanc",
+      "Benefit": {
+        "Name": "Curry Mastery",
+        "Description": "Cook master-grade curry that restores 100 SP to all allies."
+      },
+      "Choices": [
+        {
+          "Answer": "Good for you.",
+          "Points": 3
+        },
+        {
+          "Answer": "You have a great family.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Grand Boss & Kohryu",
+        "Description": "Maxes Hierophant bond; unlocks ultimate Hierophant Persona Kohryu."
+      }
+    }
+  },
+  "Lovers": {
+    "character": "Ann Takamaki",
+    "arcana": "Lovers",
+    "Rank 1": {
+      "Requirements": "Starts 5/6 at Shibuya Underground Mall.",
+      "Benefit": {
+        "Name": "Girl Talk",
+        "Description": "Chance to step in and fix negotiations with female Shadows."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Requires Kindness Rank 2",
+      "Choices": [
+        {
+          "Answer": "She's so cool.",
+          "Points": 3
+        },
+        {
+          "Answer": "It can't be helped.",
+          "Points": 3
+        },
+        {
+          "Answer": "You couldn't have known.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Daytime in Shibuya",
+      "Choices": [
+        {
+          "Answer": "Can we stop yet?",
+          "Points": 3
+        },
+        {
+          "Answer": "Has that happened to you?",
+          "Points": 3
+        },
+        {
+          "Answer": "That's great.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Daytime in Shibuya",
+      "Benefit": {
+        "Name": "Crocodile Tears",
+        "Description": "Ann can pacify enraged Shadows during battle to lower requirements."
+      },
+      "Choices": [
+        {
+          "Answer": "Give it up.",
+          "Points": 2
+        },
+        {
+          "Answer": "She's amazing, huh?",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Daytime in Shibuya",
+      "Benefit": {
+        "Name": "Endure",
+        "Description": "Survives a lethal blow with 1 HP remaining."
+      },
+      "Choices": [
+        {
+          "Answer": "You have me.",
+          "Points": 3
+        },
+        {
+          "Answer": "You'll stand up to her.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Daytime in Shibuya",
+      "Note": "Romance Route Choice: Choose 'You have me' to date Ann, or 'You have the others' for friendship.",
+      "Choices": [
+        {
+          "Answer": "Hang in there.",
+          "Points": 3
+        },
+        {
+          "Answer": "I love you.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm always here for you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Second Awakening & Ishtar",
+        "Description": "Ann's Carmen awakens into Hecate; unlocks Ishtar for fusion."
+      }
+    }
+  },
+  "Chariot": {
+    "character": "Ryuji Sakamoto",
+    "arcana": "Chariot",
+    "Rank 1": {
+      "Requirements": "Automatic progression on 4/12",
+      "Benefit": {
+        "Name": "Punk Talk",
+        "Description": "Chance to recover failed negotiations with upbeat/cheerful Shadows."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Daytime at Shujin 2F or Shibuya Arcade",
+      "Choices": [
+        {
+          "Answer": "I'm counting on you.",
+          "Points": 3
+        },
+        {
+          "Answer": "You seem pretty excited.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Daytime after school",
+      "Benefit": {
+        "Name": "Follow Up",
+        "Description": "Ryuji can perform a follow-up strike on downed enemies."
+      },
+      "Choices": [
+        {
+          "Answer": "Let's not fight.",
+          "Points": 2
+        },
+        {
+          "Answer": "Calm down, Ryuji.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Daytime after school",
+      "Choices": [
+        {
+          "Answer": "Protein powder?",
+          "Points": 3
+        },
+        {
+          "Answer": "You seem conflicted.",
+          "Points": 2
+        },
+        {
+          "Answer": "So he's an athlete?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Daytime after school",
+      "Benefit": {
+        "Name": "Insta-kill (Royal Buff)",
+        "Description": "Dash through green-outline Shadows in Palaces/Mementos to instantly defeat them, gaining full EXP, money, and Personas without entering battle!"
+      },
+      "Choices": [
+        {
+          "Answer": "Let's talk to Takeishi.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm proud of you, Ryuji.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Daytime after school",
+      "Choices": [
+        {
+          "Answer": "All right.",
+          "Points": 2
+        },
+        {
+          "Answer": "Things are turning around.",
+          "Points": 3
+        },
+        {
+          "Answer": "I can't wait.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Daytime after school",
+      "Choices": [
+        {
+          "Answer": "Are you satisfied now?",
+          "Points": 3
+        },
+        {
+          "Answer": "Don't do it.",
+          "Points": 3
+        },
+        {
+          "Answer": "Agree with him.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Second Awakening & Chi You",
+        "Description": "Ryuji's Captain Kidd awakens into Seiten Taisei; unlocks Chi You for fusion."
+      }
+    }
+  },
+  "Justice": {
+    "character": "Goro Akechi",
+    "arcana": "Justice",
+    "Rank 1": {
+      "Requirements": "Automatic on 6/10 TV station studio visit.",
+      "Benefit": {
+        "Name": "Tactical Insight",
+        "Description": "P5R exclusive manual ranks! Unlocks unique battle tactical knowledge and Third Semester true ending conditions."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Available at Kichijoji outside Darts & Billiards on Wednesday / Saturday evenings. Requires Knowledge Rank 3.",
+      "Choices": [
+        {
+          "Answer": "You always look busy.",
+          "Points": 2
+        },
+        {
+          "Answer": "Shoot your shot.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'll take you on anytime.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Kichijoji evening. Requires Knowledge Rank 3 and Charm Rank 3.",
+      "Choices": [
+        {
+          "Answer": "That was fun.",
+          "Points": 2
+        },
+        {
+          "Answer": "Should I be worried?",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Kichijoji evening at Jazz Jin club",
+      "Benefit": {
+        "Name": "Jazz Club Access",
+        "Description": "Unlocks Jazz Jin club in Kichijoji to boost party members' stats and teach new skills."
+      },
+      "Choices": [
+        {
+          "Answer": "Now this is fancy.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm with you on that.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Available after 9/3 inside Leblanc. Requires Knowledge Rank 4.",
+      "Choices": [
+        {
+          "Answer": "A relaxing bath.",
+          "Points": 2
+        },
+        {
+          "Answer": "Are you stressed?",
+          "Points": 3
+        },
+        {
+          "Answer": "We're rivals, aren't we?",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Available after 11/2 at Kichijoji. Requires Knowledge Rank 4.",
+      "Note": "CRITICAL FOR TRUE ENDING: Must reach Rank 8 before 11/17 deadline!",
+      "Choices": [
+        {
+          "Answer": "That's why I'm here.",
+          "Points": 3
+        },
+        {
+          "Answer": "I couldn't beat you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Available after 11/2. Duel in Mementos.",
+      "Note": "CRITICAL: Choose 'I accept' when Akechi throws the glove to fulfill the Third Semester true ending requirement!",
+      "Choices": [
+        {
+          "Answer": "I won.",
+          "Points": 3
+        },
+        {
+          "Answer": "I accept.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Automatic in Shido's Palace on 12/4 after boss battle."
+    },
+    "Rank 10": {
+      "Requirements": "Automatic on 12/4; unlocks Metatron for fusion and ultimate awakening in Third Semester."
+    }
+  },
+  "Hermit": {
+    "character": "Futaba Sakura",
+    "arcana": "Hermit",
+    "Rank 1": {
+      "Requirements": "Starts 8/31 outside Leblanc. Requires Kindness Rank 4 (Generous).",
+      "Benefit": {
+        "Name": "Moral Support",
+        "Description": "Futaba has a chance to cast Kaja buffs or heal HP/SP during battle."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Daytime outside Leblanc",
+      "Benefit": {
+        "Name": "Mementos Scan",
+        "Description": "Chance to map an entire floor upon entering Mementos."
+      },
+      "Choices": [
+        {
+          "Answer": "That's a lot of great stuff.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'll always be with you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Daytime outside Leblanc",
+      "Benefit": {
+        "Name": "Position Hack",
+        "Description": "Chance to hold-up all enemies at the very start of a battle."
+      },
+      "Choices": [
+        {
+          "Answer": "Let's do this.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm right beside you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Daytime outside Leblanc",
+      "Benefit": {
+        "Name": "Active Support",
+        "Description": "Moral Support can now recover party member SP directly."
+      },
+      "Choices": [
+        {
+          "Answer": "That must have hurt.",
+          "Points": 3
+        },
+        {
+          "Answer": "You've grown so much.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Requires completing Mementos Request 'Daughter's Just a Meal Ticket'",
+      "Benefit": {
+        "Name": "Treasure Reboot",
+        "Description": "Chance to respawn searchable items in a Palace after combat."
+      },
+      "Choices": [
+        {
+          "Answer": "That was brave of you.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm so proud of you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Daytime outside Leblanc",
+      "Benefit": {
+        "Name": "Emergency Shift",
+        "Description": "Swap out incapacitated party members when 2 or more are KO'd."
+      },
+      "Note": "Romance Route Choice: Choose 'Because I love you' to date Futaba, or 'Because we're teammates' for friendship.",
+      "Choices": [
+        {
+          "Answer": "You did great.",
+          "Points": 3
+        },
+        {
+          "Answer": "Because I love you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Final Guard & Ongyo-Ki",
+        "Description": "Futaba completely nullifies a fatal attack directed at any ally; unlocks Ongyo-Ki."
+      }
+    }
+  },
+  "Fortune": {
+    "character": "Chihaya Mifune",
+    "arcana": "Fortune",
+    "Rank 1": {
+      "Requirements": "Starts at Shinjuku Red-light district in evening. Buy Holy Stone for 100,000 yen, then complete Mementos request 'Ending the Boyfriend's Abuse'.",
+      "Benefit": {
+        "Name": "Luck Reading",
+        "Description": "Boosts growth of a chosen Social Stat for the rest of the day without passing time."
+      }
+    },
+    "Rank 3": {
+      "Requirements": "Evening at Shinjuku",
+      "Benefit": {
+        "Name": "Money Reading",
+        "Description": "Increases battle money rewards by 200% when finishing combat with an All-Out Attack."
+      },
+      "Choices": [
+        {
+          "Answer": "Follow your instincts.",
+          "Points": 2
+        },
+        {
+          "Answer": "You're a hard worker.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Evening at Shinjuku",
+      "Benefit": {
+        "Name": "Affinity Reading",
+        "Description": "Adds Confidant affinity points to any Confidant of choice without passing time!"
+      },
+      "Choices": [
+        {
+          "Answer": "You're so honest.",
+          "Points": 3
+        },
+        {
+          "Answer": "You have a gift.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Requires completing Mementos Request 'Debutante in Reverse'",
+      "Benefit": {
+        "Name": "Special Fate Reading",
+        "Description": "Reveals all future dialogue answers for a selected Confidant."
+      },
+      "Choices": [
+        {
+          "Answer": "I don't mind.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm glad I met you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Evening at Shinjuku",
+      "Benefit": {
+        "Name": "Celestial Reading (P5R Buff)",
+        "Description": "Triggers an immediate Fusion Alarm in the Velvet Room for the rest of the day!"
+      },
+      "Choices": [
+        {
+          "Answer": "I know you can do it.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm here for you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "True Fate Reading & Lakshmi",
+        "Description": "Reveals all Confidant abilities; unlocks ultimate Fortune Persona Lakshmi."
+      }
+    }
+  },
+  "Strength": {
+    "character": "Caroline & Justine",
+    "arcana": "Strength",
+    "Rank 1": {
+      "Requirements": "Starts 5/18 in Velvet Room. Complete Persona fusion tasks with specified skills.",
+      "Benefit": {
+        "Name": "Group Guillotine",
+        "Description": "Perform 3-way advanced Persona fusions."
+      },
+      "Note": "Task 1: Fuse Jack Frost with Pulinpa."
+    },
+    "Rank 3": {
+      "Requirements": "Velvet Room fusion task",
+      "Benefit": {
+        "Name": "Lockdown",
+        "Description": "Leave a Persona in solitary lockdown to gain elemental resistances."
+      },
+      "Note": "Task 3: Fuse Flauros with Tarukaja."
+    },
+    "Rank 5": {
+      "Requirements": "Velvet Room fusion task",
+      "Benefit": {
+        "Name": "Special Treatment",
+        "Description": "Allows fusing Personas higher than Joker's current level by paying yen!"
+      },
+      "Note": "Task 5: Fuse Ame-no-Uzume with Dodge Psy."
+    },
+    "Rank 8": {
+      "Requirements": "Velvet Room fusion task",
+      "Benefit": {
+        "Name": "Isolation",
+        "Description": "Lockdown grants even stronger elemental null/absorb skills."
+      },
+      "Note": "Task 8: Fuse Hecatoncheires with Masukunda."
+    },
+    "Rank 10": {
+      "Requirements": "Velvet Room fusion task",
+      "Benefit": {
+        "Name": "VIP Treatment & Zaou-Gongen",
+        "Description": "Drastically reduces the yen cost of high-level fusions; unlocks Zaou-Gongen."
+      },
+      "Note": "Task 10: Fuse Seth with High Counter."
+    }
+  },
+  "Hanged Man": {
+    "character": "Munehisa Iwai",
+    "arcana": "Hanged Man",
+    "Rank 1": {
+      "Requirements": "Starts 5/6 at Untouchable airsoft shop in Shibuya. Requires Guts Rank 4 (Dauntless).",
+      "Benefit": {
+        "Name": "Starter Customization",
+        "Description": "Allows customizing and upgrading firearms with accuracy/damage mods."
+      }
+    },
+    "Rank 4": {
+      "Requirements": "Night at Untouchable",
+      "Benefit": {
+        "Name": "Medium Customization",
+        "Description": "Enables status affliction upgrades on firearms."
+      },
+      "Choices": [
+        {
+          "Answer": "I can take it.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm with you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Requires Guts Rank 5 (Lionhearted)",
+      "Benefit": {
+        "Name": "Expert Customization",
+        "Description": "Enables top-tier firearm upgrades and heavy damage mods."
+      },
+      "Choices": [
+        {
+          "Answer": "He's your son.",
+          "Points": 3
+        },
+        {
+          "Answer": "I understand completely.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Requires completing Mementos Request 'Shady Deal in the Shadows'",
+      "Choices": [
+        {
+          "Answer": "I did it for Iwai.",
+          "Points": 3
+        },
+        {
+          "Answer": "Kaoru is stronger than you think.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "On the House & Attis",
+        "Description": "Customizing firearms is completely free; unlocks ultimate Hanged Man Attis."
+      }
+    }
+  },
+  "Death": {
+    "character": "Tae Takemi",
+    "arcana": "Death",
+    "Rank 1": {
+      "Requirements": "Starts 4/18 at Yongen-Jaya Clinic.",
+      "Benefit": {
+        "Name": "Rejuvenation",
+        "Description": "Purchasing basic HP recovery medicine at the clinic."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Daytime at Clinic. Requires Guts Rank 2.",
+      "Choices": [
+        {
+          "Answer": "I have a heart condition.",
+          "Points": 2
+        },
+        {
+          "Answer": "I agree.",
+          "Points": 2
+        },
+        {
+          "Answer": "I'm fine with it.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Daytime at Clinic",
+      "Benefit": {
+        "Name": "Immunization",
+        "Description": "Unlocks SP Adhesive accessories that regenerate SP every turn in combat!"
+      },
+      "Choices": [
+        {
+          "Answer": "Don't worry about me.",
+          "Points": 3
+        },
+        {
+          "Answer": "That's good to hear.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Daytime at Clinic",
+      "Benefit": {
+        "Name": "Discount",
+        "Description": "Gives a permanent 50% discount on all medicine and SP Adhesive accessories!"
+      },
+      "Choices": [
+        {
+          "Answer": "It's for my dear doctor.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm glad we're working together.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Requires Charm Rank 4 (Charismatic) and Mementos Request 'Bad Medicine'",
+      "Choices": [
+        {
+          "Answer": "I'm glad she's okay.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm happy to help.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Daytime at Clinic",
+      "Note": "Romance Route Choice: Choose 'I want to see you' to date Tae, or 'It's for my exams' for friendship.",
+      "Choices": [
+        {
+          "Answer": "Don't worry about it.",
+          "Points": 3
+        },
+        {
+          "Answer": "I want to see you.",
+          "Points": 3
+        },
+        {
+          "Answer": "I love you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Resuscitation & Alice",
+        "Description": "Purchasing full HP revive items at 50% off; unlocks ultimate Death Persona Alice."
+      }
+    }
+  },
+  "Temperance": {
+    "character": "Sadayo Kawakami",
+    "arcana": "Temperance",
+    "Rank 1": {
+      "Requirements": "Starts 5/24 after Operation Maid Watch. Call her from Leblanc payphone on Friday/Saturday nights (5,000 yen per visit). Requires Guts Rank 3.",
+      "Benefit": {
+        "Name": "Slack Off",
+        "Description": "Allows reading books, crafting tools, or sleeping during certain school classes."
+      }
+    },
+    "Rank 3": {
+      "Requirements": "Night visit via phone",
+      "Benefit": {
+        "Name": "Housekeeping",
+        "Description": "Allows asking Kawakami to brew coffee or wash laundry for you."
+      },
+      "Choices": [
+        {
+          "Answer": "Yeah, they do.",
+          "Points": 2
+        },
+        {
+          "Answer": "I'll request you again.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Night visit via phone",
+      "Benefit": {
+        "Name": "Free Time",
+        "Description": "Gain free time in classes taught by other teachers."
+      },
+      "Choices": [
+        {
+          "Answer": "It's fun.",
+          "Points": 2
+        },
+        {
+          "Answer": "How terrible...",
+          "Points": 2
+        },
+        {
+          "Answer": "You want to quit?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Night visit via phone",
+      "Benefit": {
+        "Name": "Super Housekeeping",
+        "Description": "Allows asking Kawakami to cook curry or make infiltration tools."
+      },
+      "Choices": [
+        {
+          "Answer": "Don't pay them.",
+          "Points": 3
+        },
+        {
+          "Answer": "Think about it carefully.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Requires completing Mementos Request 'A Teacher Maid to Suffer'",
+      "Choices": [
+        {
+          "Answer": "Are you okay?",
+          "Points": 3
+        },
+        {
+          "Answer": "Be confident in yourself.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Night visit via phone",
+      "Note": "Romance Route Choice: Choose 'I want to keep seeing you' and 'I mean what I say' to date Kawakami.",
+      "Choices": [
+        {
+          "Answer": "Nonsense.",
+          "Points": 3
+        },
+        {
+          "Answer": "I want to keep seeing you.",
+          "Points": 3
+        },
+        {
+          "Answer": "I mean as a lover.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Special Massage & Ardha",
+        "Description": "Special massage lets you go out at night even after exploring Palaces/Mementos! Unlocks Ardha."
+      }
+    }
+  },
+  "Devil": {
+    "character": "Ichiko Ohya",
+    "arcana": "Devil",
+    "Rank 1": {
+      "Requirements": "Starts 6/23 at Shinjuku Crossroads Bar in the evening.",
+      "Benefit": {
+        "Name": "Rumor-Filled Scoop",
+        "Description": "Reduces Palace security level when resting in safe rooms."
+      }
+    },
+    "Rank 4": {
+      "Requirements": "Evening at Crossroads Bar",
+      "Benefit": {
+        "Name": "Shocking Scoop",
+        "Description": "Further reduces Palace alert level rate."
+      },
+      "Choices": [
+        {
+          "Answer": "Leave it to me.",
+          "Points": 2
+        },
+        {
+          "Answer": "I'm with you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Requires Charm Rank 4 and completing Mementos Request 'Fighting for Truth in Journalism'",
+      "Benefit": {
+        "Name": "Outrageous Scoop",
+        "Description": "Allows fast traveling between safe rooms even with high Palace alert levels."
+      },
+      "Choices": [
+        {
+          "Answer": "Don't give up.",
+          "Points": 3
+        },
+        {
+          "Answer": "I believe in you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Legendary Scoop & Beelzebub",
+        "Description": "Security level never increases above 0% in Palaces; unlocks ultimate Devil Beelzebub."
+      }
+    }
+  },
+  "Tower": {
+    "character": "Shinya Oda",
+    "arcana": "Tower",
+    "Rank 1": {
+      "Requirements": "Starts 9/4 at Akihabara Gigolo Arcade after initiating Mementos Request 'Winners Don't Use Cheats'.",
+      "Benefit": {
+        "Name": "Down Shot",
+        "Description": "Fires a special bullet during combat that instantly downs any non-boss enemy."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Daytime at Akihabara Arcade",
+      "Benefit": {
+        "Name": "Bullet Hail",
+        "Description": "Chance to start an ambush combat with an all-out gun firing barrage."
+      },
+      "Choices": [
+        {
+          "Answer": "Don't compare me to him.",
+          "Points": 3
+        },
+        {
+          "Answer": "What a jerk.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Daytime at Arcade",
+      "Benefit": {
+        "Name": "Warning Shot",
+        "Description": "Scare Shadows during negotiation to easily obtain their Persona mask."
+      },
+      "Choices": [
+        {
+          "Answer": "It was for your sake.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm with you, kid.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Requires completing Mementos Request 'A Mother's Aggression'",
+      "Benefit": {
+        "Name": "Electric Slug",
+        "Description": "Down Shot now inflicts Shock status on surrounding foes."
+      },
+      "Choices": [
+        {
+          "Answer": "Believe in him.",
+          "Points": 3
+        },
+        {
+          "Answer": "You've grown so much.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Oda Special & Mada",
+        "Description": "Joker's gun attacks penetrate all gun resistances, reflects, and absorbs; unlocks Mada."
+      }
+    }
+  },
+  "Star": {
+    "character": "Hifumi Togo",
+    "arcana": "Star",
+    "Rank 1": {
+      "Requirements": "Starts 6/25 at Kanda Church in the evening. Requires Charm Rank 3 (Suave).",
+      "Benefit": {
+        "Name": "Koma Sabaki",
+        "Description": "Allows swapping active party members with backup party members during Joker's turn!"
+      }
+    },
+    "Rank 3": {
+      "Requirements": "Evening at Kanda Church",
+      "Benefit": {
+        "Name": "Uchikomi",
+        "Description": "Chance for backup party members to perform a follow-up attack when a foe is downed."
+      },
+      "Choices": [
+        {
+          "Answer": "That's pleasing to hear.",
+          "Points": 2
+        },
+        {
+          "Answer": "It's not your fault.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Evening at Kanda Church",
+      "Benefit": {
+        "Name": "Kakoi Kuzushi",
+        "Description": "Allows escaping from battles even when ambushed or surrounded by Shadows."
+      },
+      "Choices": [
+        {
+          "Answer": "She's scary.",
+          "Points": 2
+        },
+        {
+          "Answer": "You've got this.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Requires Knowledge Rank 5 (Scholarly)",
+      "Benefit": {
+        "Name": "Narikin",
+        "Description": "Double money earned from battles won in 1 turn after an ambush."
+      },
+      "Choices": [
+        {
+          "Answer": "Believe in your shogi.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'll support you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Requires completing Mementos Request 'Upstaging the Stage Mother'",
+      "Choices": [
+        {
+          "Answer": "I'm glad she changed.",
+          "Points": 3
+        },
+        {
+          "Answer": "You made the right move.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Evening at Kanda Church",
+      "Note": "Romance Route Choice: Choose 'I want to stay by your side' to date Hifumi.",
+      "Benefit": {
+        "Name": "Touryou",
+        "Description": "Escape from combat takes 0 turns and succeeds instantly."
+      },
+      "Choices": [
+        {
+          "Answer": "Give it your all.",
+          "Points": 3
+        },
+        {
+          "Answer": "I want to stay by your side.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Togo System & Lucifer",
+        "Description": "Swap active party members on ANY party member's turn! Unlocks ultimate Star Lucifer."
+      }
+    }
+  },
+  "Moon": {
+    "character": "Yuuki Mishima",
+    "arcana": "Moon",
+    "Rank 1": {
+      "Requirements": "Automatic on 5/6 at Shibuya.",
+      "Benefit": {
+        "Name": "Mishima's Support",
+        "Description": "Backup party members gain EXP from battles."
+      }
+    },
+    "Rank 3": {
+      "Requirements": "Night at Shibuya Central Street / Shinjuku",
+      "Benefit": {
+        "Name": "Mishima's Enthusiasm",
+        "Description": "Increases overall EXP earned from battles for all active party members."
+      },
+      "Choices": [
+        {
+          "Answer": "Great idea.",
+          "Points": 3
+        },
+        {
+          "Answer": "We're counting on you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Night at Central Street",
+      "Benefit": {
+        "Name": "Mishima's Desperation",
+        "Description": "Further increases battle EXP earned."
+      },
+      "Choices": [
+        {
+          "Answer": "You're doing great.",
+          "Points": 3
+        },
+        {
+          "Answer": "Keep it up.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Night at Akihabara / Central Street",
+      "Benefit": {
+        "Name": "Phanboy",
+        "Description": "Significantly boosts battle EXP for backup party members."
+      },
+      "Choices": [
+        {
+          "Answer": "Maybe so.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're the producer.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Salvation Wish & Sandalphon",
+        "Description": "Backup members earn 100% equal EXP as active members; unlocks Sandalphon."
+      }
+    }
+  },
+  "Sun": {
+    "character": "Toranosuke Yoshida",
+    "arcana": "Sun",
+    "Rank 1": {
+      "Requirements": "Starts outside Shibuya Station Square in the evening after working at Beef Bowl Shop twice. Deadline: Must max before 11/13!",
+      "Benefit": {
+        "Name": "Baton Pass Bonus",
+        "Description": "Gains speech charisma and negotiation advantages."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Sunday evening at Shibuya Station",
+      "Benefit": {
+        "Name": "Diplomacy",
+        "Description": "Chance to ask for more money or items during Shadow negotiations."
+      },
+      "Choices": [
+        {
+          "Answer": "I want to improve my speech.",
+          "Points": 2
+        },
+        {
+          "Answer": "One person can make a difference.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Sunday evening at Shibuya Station",
+      "Benefit": {
+        "Name": "Fundraising",
+        "Description": "Allows repeatedly demanding money from Shadows during hold-ups."
+      },
+      "Choices": [
+        {
+          "Answer": "His speech was great.",
+          "Points": 2
+        },
+        {
+          "Answer": "You have conviction.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Sunday evening at Shibuya Station",
+      "Benefit": {
+        "Name": "Manipulation",
+        "Description": "Shadows may give rare items during negotiations."
+      },
+      "Choices": [
+        {
+          "Answer": "The media is biased.",
+          "Points": 3
+        },
+        {
+          "Answer": "I support you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Sunday evening at Shibuya Station",
+      "Benefit": {
+        "Name": "Mind Control",
+        "Description": "Chance to skip negotiation entirely and instantly recruit a Shadow."
+      },
+      "Choices": [
+        {
+          "Answer": "That's inspiring.",
+          "Points": 3
+        },
+        {
+          "Answer": "You can win this.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event before 11/13 deadline",
+      "Benefit": {
+        "Name": "Charismatic Speech & Asura",
+        "Description": "Allows recruiting Personas higher than Joker's level during negotiations! Unlocks Asura."
+      }
+    }
+  },
+  "Judgement": {
+    "character": "Sae Niijima",
+    "arcana": "Judgement",
+    "Rank 1": {
+      "Requirements": "Automatic progression during interrogation scene on 7/9.",
+      "Benefit": {
+        "Name": "True Interrogation",
+        "Description": "Advances automatically as the story progresses up to 11/20."
+      }
+    },
+    "Rank 10": {
+      "Requirements": "Automatic on 11/20 when avoiding the bad ending by refusing to sell out your teammates.",
+      "Benefit": {
+        "Name": "Absolute Truth & Satan",
+        "Description": "Maxes Judgement arcana; unlocks ultimate Judgement Persona Satan for fusion."
+      }
+    }
+  },
+  "Councillor": {
+    "character": "Takuto Maruki",
+    "arcana": "Councillor",
+    "Rank 1": {
+      "Requirements": "Starts automatically 5/13 at Shujin Academy Nurse's Office. CRITICAL: Must reach Rank 9 before 11/17 to unlock Third Semester!",
+      "Benefit": {
+        "Name": "Mindfulness",
+        "Description": "Chance for Joker to instantly recover 20 SP in battle when low."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Daytime after school outside Nurse's Office",
+      "Benefit": {
+        "Name": "Detox X",
+        "Description": "Chance for Joker to instantly recover from any status ailment at start of turn."
+      },
+      "Choices": [
+        {
+          "Answer": "It's a little stiff.",
+          "Points": 2
+        },
+        {
+          "Answer": "Sounds fascinating.",
+          "Points": 3
+        },
+        {
+          "Answer": "Thanks for the treat.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Daytime outside Nurse's Office",
+      "Benefit": {
+        "Name": "Flow",
+        "Description": "Chance to start combat with Charge and Concentrate effects applied to Joker!"
+      },
+      "Choices": [
+        {
+          "Answer": "So they have no choice?",
+          "Points": 2
+        },
+        {
+          "Answer": "That's a sound argument.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're a good listener.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Daytime outside Nurse's Office",
+      "Benefit": {
+        "Name": "Mindfulness UP",
+        "Description": "Increases SP restored by Mindfulness to 40 SP."
+      },
+      "Choices": [
+        {
+          "Answer": "This looks delicious.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm happy to help.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Available starting 9/20 outside Nurse's Office",
+      "Benefit": {
+        "Name": "Flow UP",
+        "Description": "Greatly increases the trigger rate of Flow at battle start."
+      },
+      "Choices": [
+        {
+          "Answer": "You're very dedicated.",
+          "Points": 3
+        },
+        {
+          "Answer": "That sounds great.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Daytime outside Nurse's Office. Must be completed before 11/17 deadline!",
+      "Note": "CRITICAL: Reaching Rank 9 before 11/17 unlocks Rank 10 on 11/18 and unlocks the Third Semester story content!",
+      "Benefit": {
+        "Name": "Detox DX",
+        "Description": "Greatly increases trigger chance of recovering from status ailments."
+      },
+      "Choices": [
+        {
+          "Answer": "I'm going to miss this.",
+          "Points": 3
+        },
+        {
+          "Answer": "Thank you for everything.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Automatic on 11/18 if Rank 9 was reached; unlocks Vohu Manah and Third Semester access.",
+      "Benefit": {
+        "Name": "Third Semester & Vohu Manah",
+        "Description": "Unlocks the full P5R Royal Third Semester Palace and ultimate Councillor Persona Vohu Manah."
+      }
+    }
+  },
+  "Faith": {
+    "character": "Kasumi Yoshizawa",
+    "arcana": "Faith",
+    "Rank 1": {
+      "Requirements": "Available starting 5/30 at Kichijoji. Ranks 1-5 capped until Third Semester; Ranks 6-10 available in January!",
+      "Benefit": {
+        "Name": "Graceful Step",
+        "Description": "Reduces chances of being ambushed by Shadows."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Daytime at Kichijoji",
+      "Choices": [
+        {
+          "Answer": "We're just getting started.",
+          "Points": 2
+        },
+        {
+          "Answer": "You're so polite.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm impressed.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Daytime at Kichijoji",
+      "Benefit": {
+        "Name": "Athletic Step",
+        "Description": "Chance to evade fatal attacks."
+      },
+      "Choices": [
+        {
+          "Answer": "Making bento?",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm glad you're happy.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Daytime at Kichijoji",
+      "Benefit": {
+        "Name": "Wire Ambush",
+        "Description": "Use grappling hook in Palaces to ambush enemies from afar and inflict distress or dizzy on Shadows!"
+      },
+      "Choices": [
+        {
+          "Answer": "You're really trying.",
+          "Points": 3
+        },
+        {
+          "Answer": "I love it.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Daytime at Kichijoji. Capped before 12/22!",
+      "Note": "CRITICAL: Must reach Rank 5 before 12/22 to unlock Ranks 6-10 in the Third Semester!",
+      "Choices": [
+        {
+          "Answer": "You've got this.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'll always watch over you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Available starting 1/13 in Third Semester",
+      "Benefit": {
+        "Name": "Harisen Recovery & Follow-up",
+        "Description": "Sumire joins battle party; gains status cures and critical follow-up hits."
+      }
+    },
+    "Rank 9": {
+      "Requirements": "Third Semester in January",
+      "Note": "Romance Route Choice: Choose 'I love you too' to date Sumire.",
+      "Choices": [
+        {
+          "Answer": "You're amazing.",
+          "Points": 3
+        },
+        {
+          "Answer": "I love you too, Sumire.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event in Third Semester",
+      "Benefit": {
+        "Name": "Second Awakening & Maria",
+        "Description": "Sumire's Cendrillon awakens into Vanadis; unlocks ultimate Faith Persona Maria."
+      }
+    }
+  }
+}

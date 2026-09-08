@@ -115,11 +115,12 @@ export const DesktopHeader: React.FC<DesktopHeaderProps> = ({
                 className="fixed inset-0 z-40"
                 onClick={() => setIsGameDropdownOpen(false)}
               />
-              <div className="absolute left-0 mt-2 w-72 rounded-2xl bg-zinc-900 border border-white/15 shadow-2xl p-2 z-50 space-y-1 animate-in fade-in zoom-in-95 duration-150">
-                <div className="px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-zinc-400">
-                  Switch Persona Title
+              <div className="absolute left-0 mt-2 w-72 rounded-2xl bg-zinc-900/95 backdrop-blur-xl border border-white/15 shadow-2xl p-2 z-50 space-y-1 animate-in fade-in zoom-in-95 duration-150">
+                <div className="px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-zinc-400 border-b border-white/5 pb-1 mb-1">
+                  Select Persona Title
                 </div>
-                {SUPPORTED_GAMES.map((game) => {
+                {/* P5 and P4 games */}
+                {SUPPORTED_GAMES.filter((g) => g.series !== 'p3').map((game) => {
                   const isSelected = game.id === currentGame.id;
                   return (
                     <button
@@ -149,6 +150,49 @@ export const DesktopHeader: React.FC<DesktopHeaderProps> = ({
                       </div>
                       {isSelected && (
                         <span className="text-[10px] font-bold text-emerald-400 uppercase tracking-wider">
+                          Active
+                        </span>
+                      )}
+                    </button>
+                  );
+                })}
+
+                {/* Persona 3 Group Header */}
+                <div className="px-3 pt-2 pb-1 text-[10px] font-bold uppercase tracking-wider text-sky-400 border-t border-white/10 mt-1">
+                  Persona 3 Series (3 Editions)
+                </div>
+
+                {/* Persona 3 games */}
+                {SUPPORTED_GAMES.filter((g) => g.series === 'p3').map((game) => {
+                  const isSelected = game.id === currentGame.id;
+                  return (
+                    <button
+                      key={game.id}
+                      type="button"
+                      onClick={() => {
+                        triggerHaptic('medium');
+                        onSelectGame(game.id);
+                        setIsGameDropdownOpen(false);
+                      }}
+                      className={`w-full flex items-center gap-3 p-2.5 rounded-xl transition-all text-left ${
+                        isSelected
+                          ? 'bg-sky-500/20 text-white border border-sky-500/30 shadow-sm'
+                          : 'text-zinc-300 hover:bg-white/5 hover:text-white'
+                      }`}
+                    >
+                      <div
+                        className="w-3.5 h-3.5 rounded-full shrink-0 border"
+                        style={{
+                          backgroundColor: game.color,
+                          borderColor: isSelected ? '#ffffff' : 'transparent'
+                        }}
+                      />
+                      <div className="min-w-0 flex-1">
+                        <div className="text-xs font-bold truncate">{game.title}</div>
+                        <div className="text-[10px] text-zinc-400">{game.badge}</div>
+                      </div>
+                      {isSelected && (
+                        <span className="text-[10px] font-bold text-sky-400 uppercase tracking-wider">
                           Active
                         </span>
                       )}

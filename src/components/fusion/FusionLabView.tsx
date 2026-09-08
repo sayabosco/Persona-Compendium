@@ -60,6 +60,18 @@ export const FusionLabView = ({
     }
   }, [initialTarget, personaMap]);
 
+  // Keep target and fusion slots valid when personas change across game switches
+  useEffect(() => {
+    if (personas.length > 0) {
+      if (!selectedTargetName || !personaMap[selectedTargetName]) {
+        setSelectedTargetName(personas[0].name);
+      }
+    }
+    if (slot1 && !personaMap[slot1]) setSlot1('');
+    if (slot2 && !personaMap[slot2]) setSlot2('');
+    if (slot3 && !personaMap[slot3]) setSlot3('');
+  }, [personas, personaMap]);
+
   // Calculated reverse recipes for selected persona
   const reverseRecipes = useMemo(() => {
     if (!fusionChart || !selectedTargetName || !personaMap[selectedTargetName]) {

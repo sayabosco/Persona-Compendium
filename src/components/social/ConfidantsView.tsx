@@ -73,11 +73,12 @@ export const ConfidantsView = ({
       </div>
 
       {/* Confidants Card List */}
-      <div className="space-y-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
         {filteredConfidants.map((confidant) => {
           const ranks = confidant.data;
           const rankKeys = Object.keys(ranks || {}).filter((k) => k.toLowerCase().includes('rank'));
-          const maxRank = rankKeys.length ? 10 : 10;
+          const maxRank = rankKeys.length ? rankKeys.length : 10;
+          const perk = ranks?.['Rank 1']?.Benefit?.Name || ranks?.['Rank 10']?.Benefit?.Name;
 
           return (
             <div
@@ -86,11 +87,11 @@ export const ConfidantsView = ({
                 triggerHaptic('light');
                 setSelectedConfidant(confidant);
               }}
-              className="p-3.5 bg-zinc-900/70 active:bg-zinc-800/80 border border-white/[0.07] rounded-2xl flex items-center justify-between cursor-pointer transition-all shadow-sm"
+              className="p-3.5 bg-zinc-900/70 hover:bg-zinc-800/80 active:bg-zinc-800 border border-white/[0.08] hover:border-white/20 rounded-2xl flex items-center justify-between cursor-pointer transition-all shadow-sm group"
             >
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 min-w-0">
                 <div
-                  className="w-10 h-10 rounded-xl flex items-center justify-center font-bold text-sm shrink-0 border"
+                  className="w-11 h-11 rounded-xl flex items-center justify-center font-black text-sm shrink-0 border transition-transform group-hover:scale-105"
                   style={{
                     backgroundColor: `${accentColor}20`,
                     borderColor: `${accentColor}40`,
@@ -99,19 +100,27 @@ export const ConfidantsView = ({
                 >
                   {confidant.arcana.slice(0, 2).toUpperCase()}
                 </div>
-                <div>
-                  <h3 className="text-base font-bold text-white tracking-tight">
+                <div className="min-w-0">
+                  <h3 className="text-base font-bold text-white tracking-tight truncate group-hover:text-zinc-100">
                     {confidant.character}
                   </h3>
-                  <p className="text-xs text-zinc-400 font-medium">{confidant.arcana} Arcana</p>
+                  <div className="flex items-center gap-1.5 text-xs text-zinc-400 font-medium truncate">
+                    <span>{confidant.arcana} Arcana</span>
+                    {perk && (
+                      <>
+                        <span className="text-zinc-600">&bull;</span>
+                        <span className="text-[11px] text-zinc-400 truncate max-w-[130px]">{perk}</span>
+                      </>
+                    )}
+                  </div>
                 </div>
               </div>
 
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 shrink-0 ml-2">
                 <span className="text-xs font-mono font-bold px-2 py-1 rounded-lg bg-zinc-950 border border-white/5 text-zinc-300">
                   {maxRank} Ranks
                 </span>
-                <ChevronRight className="w-4 h-4 text-zinc-500" />
+                <ChevronRight className="w-4 h-4 text-zinc-500 group-hover:text-white transition-colors" />
               </div>
             </div>
           );

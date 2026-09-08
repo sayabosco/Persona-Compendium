@@ -2,189 +2,2699 @@
   "Fool": {
     "character": "SEES",
     "arcana": "Fool",
+    "availability": "Automatic story progression",
+    "location": "Iwatodai Dormitory",
     "Rank 1": {
-      "Requirements": "Starts 4/18",
+      "Requirements": "Starts 4/18 automatically.",
       "Benefit": {
         "Name": "Velvet Access",
-        "Description": "Full persona fusion access."
+        "Description": "Full persona fusion and compendium access."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Progresses 4/20 automatically.",
+      "Benefit": {
+        "Name": "Persona Capacity",
+        "Description": "Can hold up to 6 Personas."
+      }
+    },
+    "Rank 3": {
+      "Requirements": "Progresses 5/9 after defeating the Priestess Shadow.",
+      "Benefit": {
+        "Name": "Tension Gauge",
+        "Description": "Unlocks Theurgy / Tactics command."
+      }
+    },
+    "Rank 4": {
+      "Requirements": "Progresses 7/7 after defeating the Empress & Emperor Shadows.",
+      "Benefit": {
+        "Name": "Persona Capacity +2",
+        "Description": "Can hold up to 8 Personas."
+      }
+    },
+    "Rank 5": {
+      "Requirements": "Progresses 7/23 during Yakushima trip.",
+      "Benefit": {
+        "Name": "Bond of SEES",
+        "Description": "Increased EXP when fusing Fool personas."
+      }
+    },
+    "Rank 6": {
+      "Requirements": "Progresses 8/6 after defeating Hierophant & Lovers.",
+      "Benefit": {
+        "Name": "Resolve",
+        "Description": "SEES member combat morale rises."
+      }
+    },
+    "Rank 7": {
+      "Requirements": "Progresses 9/5 after defeating Chariot & Justice.",
+      "Benefit": {
+        "Name": "Persona Capacity +2",
+        "Description": "Can hold up to 10 Personas."
+      }
+    },
+    "Rank 8": {
+      "Requirements": "Progresses 10/4 after defeating Hermit Shadow.",
+      "Benefit": {
+        "Name": "Unified Force",
+        "Description": "Major Fool fusion EXP bonus."
+      }
+    },
+    "Rank 9": {
+      "Requirements": "Progresses 11/4 after defeating Fortune & Strength.",
+      "Benefit": {
+        "Name": "Persona Capacity +2",
+        "Description": "Can hold up to 12 Personas (Maximum)."
       }
     },
     "Rank 10": {
-      "Requirements": "Automatic 12/31",
+      "Requirements": "Completes 12/31 after choosing to fight Nyx.",
       "Benefit": {
         "Name": "Final Resolve",
-        "Description": "Unlocks Susano-o."
+        "Description": "Unlocks ultimate Fool persona: Susano-o / Loki."
       }
     }
   },
   "Magician": {
     "character": "Kenji Tomochika",
     "arcana": "Magician",
+    "availability": "Tue, Thu, Fri (After School)",
+    "location": "Classroom 2-F",
     "Rank 1": {
-      "Requirements": "Starts 4/23 classroom.",
+      "Requirements": "Available starting 4/23 in Classroom 2-F.",
       "Benefit": {
-        "Name": "Class Bonds",
-        "Description": "Bonus EXP on Magician fusions."
+        "Name": "Classmate Bond",
+        "Description": "EXP bonus when fusing Magician personas."
       }
     },
+    "Rank 2": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "I like older women.",
+          "Points": 3
+        },
+        {
+          "Answer": "What kind of woman?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "What, of life?",
+          "Points": 3
+        },
+        {
+          "Answer": "Good luck!",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "Good luck with that.",
+          "Points": 3
+        },
+        {
+          "Answer": "Are you serious?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "A whole new world.",
+          "Points": 3
+        },
+        {
+          "Answer": "I agree.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "You should do it.",
+          "Points": 3
+        },
+        {
+          "Answer": "Think it through first.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "Congrats!",
+          "Points": 3
+        },
+        {
+          "Answer": "What are you going to do?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "You should apologize.",
+          "Points": 3
+        },
+        {
+          "Answer": "Are you okay?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "Cheer up, man.",
+          "Points": 3
+        },
+        {
+          "Answer": "Let it go.",
+          "Points": 2
+        }
+      ]
+    },
     "Rank 10": {
+      "Requirements": "Classroom 2-F after school.",
       "Benefit": {
-        "Name": "Max Bond",
-        "Description": "Unlocks Surt."
-      }
+        "Name": "Max Magician",
+        "Description": "Unlocks ultimate Magician persona: Surt."
+      },
+      "Choices": [
+        {
+          "Answer": "You have grown a lot.",
+          "Points": 3
+        }
+      ]
     }
   },
   "Priestess": {
     "character": "Fuuka Yamagishi",
     "arcana": "Priestess",
+    "availability": "Mon, Thu, Sat (After School)",
+    "location": "Gekkoukan High 2F Hallway",
     "Rank 1": {
-      "Requirements": "Starts 6/19 2F hallway. Requires Courage 6.",
+      "Requirements": "Starts 6/19. Requires Courage Rank 6 (Badass).",
       "Benefit": {
-        "Name": "Tartarus Oracle",
-        "Description": "Dungeon scan and evasion support."
+        "Name": "Oracle Scan",
+        "Description": "EXP bonus for Priestess personas."
       }
     },
+    "Rank 2": {
+      "Requirements": "2F Hallway outside classroom.",
+      "Choices": [
+        {
+          "Answer": "Sure, let us do it.",
+          "Points": 3
+        },
+        {
+          "Answer": "You can practice on me.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "2F Hallway.",
+      "Choices": [
+        {
+          "Answer": "Keep practicing.",
+          "Points": 3
+        },
+        {
+          "Answer": "It tastes pretty good.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "2F Hallway.",
+      "Choices": [
+        {
+          "Answer": "You made this?",
+          "Points": 3
+        },
+        {
+          "Answer": "It is delicious!",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "2F Hallway.",
+      "Choices": [
+        {
+          "Answer": "You are really trying hard.",
+          "Points": 3
+        },
+        {
+          "Answer": "I am happy to help.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "2F Hallway.",
+      "Choices": [
+        {
+          "Answer": "I will be there.",
+          "Points": 3
+        },
+        {
+          "Answer": "Do your best.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "2F Hallway.",
+      "Choices": [
+        {
+          "Answer": "They are just jealous.",
+          "Points": 3
+        },
+        {
+          "Answer": "You are great as you are.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "2F Hallway.",
+      "Choices": [
+        {
+          "Answer": "I believe in you.",
+          "Points": 3
+        },
+        {
+          "Answer": "You have gotten so good.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "2F Hallway. Romance flag option available.",
+      "Choices": [
+        {
+          "Answer": "I love you, Fuuka.",
+          "Points": 3
+        },
+        {
+          "Answer": "We will always be friends.",
+          "Points": 2
+        }
+      ]
+    },
     "Rank 10": {
+      "Requirements": "2F Hallway.",
       "Benefit": {
-        "Name": "Max Bond",
-        "Description": "Unlocks Scathach."
+        "Name": "Max Priestess",
+        "Description": "Unlocks ultimate Priestess persona: Scathach."
+      },
+      "Choices": [
+        {
+          "Answer": "I will always be by your side.",
+          "Points": 3
+        }
+      ]
+    }
+  },
+  "Empress": {
+    "character": "Mitsuru Kirijo",
+    "arcana": "Empress",
+    "availability": "Tue, Thu, Sat (After School)",
+    "location": "Gekkoukan High 1F Faculty Office Hallway",
+    "Rank 1": {
+      "Requirements": "Starts 11/21. Requires Academics Rank 6 (Genius).",
+      "Benefit": {
+        "Name": "Noble Heart",
+        "Description": "EXP bonus for Empress personas."
       }
+    },
+    "Rank 2": {
+      "Requirements": "1F Faculty Hallway.",
+      "Choices": [
+        {
+          "Answer": "Is it your first time eating ramen?",
+          "Points": 3
+        },
+        {
+          "Answer": "Let us eat.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "1F Faculty Hallway.",
+      "Choices": [
+        {
+          "Answer": "Want me to take you somewhere else?",
+          "Points": 3
+        },
+        {
+          "Answer": "That makes sense.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "1F Faculty Hallway.",
+      "Choices": [
+        {
+          "Answer": "Did something happen?",
+          "Points": 3
+        },
+        {
+          "Answer": "I will listen anytime.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "1F Faculty Hallway.",
+      "Choices": [
+        {
+          "Answer": "Glad to hear that.",
+          "Points": 3
+        },
+        {
+          "Answer": "A motorbike?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "1F Faculty Hallway.",
+      "Choices": [
+        {
+          "Answer": "You need to calm down.",
+          "Points": 3
+        },
+        {
+          "Answer": "I am right here with you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "1F Faculty Hallway.",
+      "Choices": [
+        {
+          "Answer": "It is okay to rely on others.",
+          "Points": 3
+        },
+        {
+          "Answer": "I will protect you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "1F Faculty Hallway.",
+      "Choices": [
+        {
+          "Answer": "I want to be your pillar.",
+          "Points": 3
+        },
+        {
+          "Answer": "Do not bottle it inside.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "1F Faculty Hallway. Romance flag option.",
+      "Choices": [
+        {
+          "Answer": "I love you, Mitsuru-san.",
+          "Points": 3
+        },
+        {
+          "Answer": "You are an indispensable partner.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "1F Faculty Hallway.",
+      "Benefit": {
+        "Name": "Max Empress",
+        "Description": "Unlocks ultimate Empress persona: Alilat."
+      },
+      "Choices": [
+        {
+          "Answer": "Together forever.",
+          "Points": 3
+        }
+      ]
     }
   },
   "Emperor": {
     "character": "Hidetoshi Odagiri",
     "arcana": "Emperor",
+    "availability": "Mon, Wed, Fri (After School)",
+    "location": "Student Council Room",
     "Rank 1": {
-      "Requirements": "Starts 4/27 Student Council.",
+      "Requirements": "Starts 4/27 joining Student Council in Faculty Office.",
       "Benefit": {
-        "Name": "Discipline",
-        "Description": "Bonus EXP on Emperor fusions."
+        "Name": "Student Disciplinary",
+        "Description": "EXP bonus for Emperor personas."
       }
     },
+    "Rank 2": {
+      "Requirements": "Student Council Room.",
+      "Choices": [
+        {
+          "Answer": "It is hard work.",
+          "Points": 3
+        },
+        {
+          "Answer": "Do not push yourself too hard.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Student Council Room.",
+      "Choices": [
+        {
+          "Answer": "Rules are important.",
+          "Points": 3
+        },
+        {
+          "Answer": "Maybe ease up a bit.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Student Council Room.",
+      "Choices": [
+        {
+          "Answer": "I will help you.",
+          "Points": 3
+        },
+        {
+          "Answer": "Do not take it personally.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Student Council Room.",
+      "Choices": [
+        {
+          "Answer": "They just do not understand.",
+          "Points": 3
+        },
+        {
+          "Answer": "Stay calm.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Student Council Room.",
+      "Choices": [
+        {
+          "Answer": "I trust you.",
+          "Points": 3
+        },
+        {
+          "Answer": "Let us find the culprit.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Student Council Room.",
+      "Choices": [
+        {
+          "Answer": "It takes courage to admit that.",
+          "Points": 3
+        },
+        {
+          "Answer": "Good for you.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Student Council Room.",
+      "Choices": [
+        {
+          "Answer": "You are doing great.",
+          "Points": 3
+        },
+        {
+          "Answer": "We have your back.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Student Council Room.",
+      "Choices": [
+        {
+          "Answer": "Do what you think is right.",
+          "Points": 3
+        },
+        {
+          "Answer": "I will stand with you.",
+          "Points": 3
+        }
+      ]
+    },
     "Rank 10": {
+      "Requirements": "Student Council Room.",
       "Benefit": {
-        "Name": "Max Bond",
-        "Description": "Unlocks Odin."
-      }
+        "Name": "Max Emperor",
+        "Description": "Unlocks ultimate Emperor persona: Odin."
+      },
+      "Choices": [
+        {
+          "Answer": "You have become a true leader.",
+          "Points": 3
+        }
+      ]
     }
   },
   "Hierophant": {
     "character": "Bunkichi and Mitsuko",
     "arcana": "Hierophant",
+    "availability": "Tue to Sun (Daytime / After School)",
+    "location": "Bookworms Used Bookstore (Iwatodai Strip Mall)",
     "Rank 1": {
-      "Requirements": "Starts 4/25 Bookworms bookstore in Iwatodai.",
+      "Requirements": "Starts 4/25. Inspect persimmon tree in High School Courtyard to get Leaf, bring to bookstore.",
       "Benefit": {
-        "Name": "Warmth",
-        "Description": "Bonus EXP on Hierophant fusions."
+        "Name": "Elderly Warmth",
+        "Description": "EXP bonus for Hierophant personas."
       }
     },
+    "Rank 2": {
+      "Requirements": "Bookworms Bookstore.",
+      "Choices": [
+        {
+          "Answer": "I will help you search.",
+          "Points": 3
+        },
+        {
+          "Answer": "Tell me about your son.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Bookworms Bookstore.",
+      "Choices": [
+        {
+          "Answer": "I am looking for a book.",
+          "Points": 3
+        },
+        {
+          "Answer": "I worry about you two.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Bookworms Bookstore.",
+      "Choices": [
+        {
+          "Answer": "Now I am worried.",
+          "Points": 3
+        },
+        {
+          "Answer": "Let us check on the tree.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Bookworms Bookstore.",
+      "Choices": [
+        {
+          "Answer": "I will sign the petition.",
+          "Points": 3
+        },
+        {
+          "Answer": "The tree is a wonderful memorial.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Bookworms Bookstore.",
+      "Choices": [
+        {
+          "Answer": "Do not worry, we will save it.",
+          "Points": 3
+        },
+        {
+          "Answer": "Please eat and stay healthy.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Bookworms Bookstore.",
+      "Choices": [
+        {
+          "Answer": "What did the letter say?",
+          "Points": 3
+        },
+        {
+          "Answer": "That is wonderful news!",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Bookworms Bookstore.",
+      "Choices": [
+        {
+          "Answer": "You did what was right.",
+          "Points": 3
+        },
+        {
+          "Answer": "Your son would be so proud.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Bookworms Bookstore.",
+      "Choices": [
+        {
+          "Answer": "I will always visit you.",
+          "Points": 3
+        },
+        {
+          "Answer": "Thank you both so much.",
+          "Points": 3
+        }
+      ]
+    },
     "Rank 10": {
+      "Requirements": "Bookworms Bookstore.",
       "Benefit": {
-        "Name": "Max Bond",
-        "Description": "Unlocks Kohryu."
-      }
+        "Name": "Max Hierophant",
+        "Description": "Unlocks ultimate Hierophant persona: Kohryu."
+      },
+      "Choices": [
+        {
+          "Answer": "You two are family to me.",
+          "Points": 3
+        }
+      ]
     }
   },
   "Lovers": {
     "character": "Yukari Takeba",
     "arcana": "Lovers",
+    "availability": "Mon, Wed, Thu, Sat (After School)",
+    "location": "Classroom 2-F",
     "Rank 1": {
-      "Requirements": "Starts 7/24. Requires Max Charm.",
+      "Requirements": "Starts 7/24. Requires Charm Rank 6 (Charismatic).",
       "Benefit": {
-        "Name": "Heart Bonds",
-        "Description": "Lovers persona fusion bonus."
+        "Name": "Pure Compassion",
+        "Description": "EXP bonus for Lovers personas."
       }
     },
+    "Rank 2": {
+      "Requirements": "Classroom 2-F.",
+      "Choices": [
+        {
+          "Answer": "Pink looks cute on you.",
+          "Points": 3
+        },
+        {
+          "Answer": "Let us go shopping.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Classroom 2-F.",
+      "Choices": [
+        {
+          "Answer": "I can understand that.",
+          "Points": 3
+        },
+        {
+          "Answer": "Do not force yourself.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Classroom 2-F.",
+      "Choices": [
+        {
+          "Answer": "Are you alright?",
+          "Points": 3
+        },
+        {
+          "Answer": "I will always be here for you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Classroom 2-F.",
+      "Choices": [
+        {
+          "Answer": "You are stronger than you think.",
+          "Points": 3
+        },
+        {
+          "Answer": "I am glad we talked.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Classroom 2-F.",
+      "Choices": [
+        {
+          "Answer": "Anytime you need to vent.",
+          "Points": 3
+        },
+        {
+          "Answer": "I want to protect you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Classroom 2-F.",
+      "Choices": [
+        {
+          "Answer": "Sounds like a great dream.",
+          "Points": 3
+        },
+        {
+          "Answer": "You can do anything.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Classroom 2-F.",
+      "Choices": [
+        {
+          "Answer": "Step between her and the thugs.",
+          "Points": 3
+        },
+        {
+          "Answer": "I won let anyone hurt you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Classroom 2-F. Romance branch.",
+      "Choices": [
+        {
+          "Answer": "I love you, Yukari.",
+          "Points": 3
+        },
+        {
+          "Answer": "You are my precious friend.",
+          "Points": 2
+        }
+      ]
+    },
     "Rank 10": {
+      "Requirements": "Classroom 2-F.",
       "Benefit": {
-        "Name": "Max Bond",
-        "Description": "Unlocks Cybele."
-      }
+        "Name": "Max Lovers",
+        "Description": "Unlocks ultimate Lovers persona: Cybele."
+      },
+      "Choices": [
+        {
+          "Answer": "I promise to stay with you.",
+          "Points": 3
+        }
+      ]
     }
   },
   "Chariot": {
     "character": "Kazushi Miyamoto",
     "arcana": "Chariot",
+    "availability": "Mon, Tue, Thu, Fri (After School)",
+    "location": "Gym Track / Hallway 1F",
     "Rank 1": {
-      "Requirements": "Starts 4/23 Track Team.",
+      "Requirements": "Starts 4/23 joining Track/Swim Club.",
       "Benefit": {
-        "Name": "Athletic Drive",
-        "Description": "Chariot persona fusion bonus."
+        "Name": "Athletic Zeal",
+        "Description": "EXP bonus for Chariot personas."
       }
     },
+    "Rank 2": {
+      "Requirements": "Club Practice / 1F.",
+      "Choices": [
+        {
+          "Answer": "Toughen up!",
+          "Points": 3
+        },
+        {
+          "Answer": "Do not push your knee too hard.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Club Practice.",
+      "Choices": [
+        {
+          "Answer": "Are you hurt?",
+          "Points": 3
+        },
+        {
+          "Answer": "Take a break if you need to.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Club Practice.",
+      "Choices": [
+        {
+          "Answer": "What about your knee?",
+          "Points": 3
+        },
+        {
+          "Answer": "Do not overdo it.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Club Practice.",
+      "Choices": [
+        {
+          "Answer": "You should see a doctor.",
+          "Points": 3
+        },
+        {
+          "Answer": "Think about your future.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Club Practice.",
+      "Choices": [
+        {
+          "Answer": "What about your nephew?",
+          "Points": 3
+        },
+        {
+          "Answer": "I believe in your resolve.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Club Practice.",
+      "Choices": [
+        {
+          "Answer": "Do not give up on your dream.",
+          "Points": 3
+        },
+        {
+          "Answer": "Winning is not everything.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Club Practice.",
+      "Choices": [
+        {
+          "Answer": "You made the right choice.",
+          "Points": 3
+        },
+        {
+          "Answer": "Your knee will heal.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Club Practice.",
+      "Choices": [
+        {
+          "Answer": "You ran an amazing race.",
+          "Points": 3
+        },
+        {
+          "Answer": "You are an inspiration.",
+          "Points": 3
+        }
+      ]
+    },
     "Rank 10": {
+      "Requirements": "Club Practice.",
       "Benefit": {
-        "Name": "Max Bond",
-        "Description": "Unlocks Thor."
-      }
+        "Name": "Max Chariot",
+        "Description": "Unlocks ultimate Chariot persona: Thor."
+      },
+      "Choices": [
+        {
+          "Answer": "Best rivals and best friends.",
+          "Points": 3
+        }
+      ]
     }
   },
   "Justice": {
     "character": "Chihiro Fushimi",
     "arcana": "Justice",
+    "availability": "Tue, Thu, Sat (After School)",
+    "location": "2F Student Council Hallway",
     "Rank 1": {
-      "Requirements": "Starts 5/7 Student Council.",
+      "Requirements": "Starts after talking to her 3 times on separate days starting 5/7 (Emperor Rank 2 required).",
       "Benefit": {
-        "Name": "Justice Heart",
-        "Description": "Justice persona fusion bonus."
+        "Name": "Earnest Justice",
+        "Description": "EXP bonus for Justice personas."
       }
     },
+    "Rank 2": {
+      "Requirements": "2F Student Council Hallway.",
+      "Choices": [
+        {
+          "Answer": "Do not worry about it.",
+          "Points": 3
+        },
+        {
+          "Answer": "I am happy to walk with you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "2F Hallway.",
+      "Choices": [
+        {
+          "Answer": "I like reading too.",
+          "Points": 3
+        },
+        {
+          "Answer": "You are very mature.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "2F Hallway.",
+      "Choices": [
+        {
+          "Answer": "Hold her hand.",
+          "Points": 3
+        },
+        {
+          "Answer": "Do not let them intimidate you.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "2F Hallway.",
+      "Choices": [
+        {
+          "Answer": "You are doing great.",
+          "Points": 3
+        },
+        {
+          "Answer": "I will be with you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "2F Hallway.",
+      "Choices": [
+        {
+          "Answer": "Just take a breath.",
+          "Points": 3
+        },
+        {
+          "Answer": "It is not your fault.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "2F Hallway.",
+      "Choices": [
+        {
+          "Answer": "We will prove your innocence.",
+          "Points": 3
+        },
+        {
+          "Answer": "I trust you completely.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "2F Hallway.",
+      "Choices": [
+        {
+          "Answer": "I am proud of you.",
+          "Points": 3
+        },
+        {
+          "Answer": "You stood up for yourself.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "2F Hallway. Romance flag branch.",
+      "Choices": [
+        {
+          "Answer": "I love you, Chihiro.",
+          "Points": 3
+        },
+        {
+          "Answer": "We have a special bond.",
+          "Points": 2
+        }
+      ]
+    },
     "Rank 10": {
+      "Requirements": "2F Hallway.",
       "Benefit": {
-        "Name": "Max Bond",
-        "Description": "Unlocks Melchizedek."
-      }
+        "Name": "Max Justice",
+        "Description": "Unlocks ultimate Justice persona: Melchizedek."
+      },
+      "Choices": [
+        {
+          "Answer": "I will cherish you always.",
+          "Points": 3
+        }
+      ]
     }
   },
   "Hermit": {
     "character": "Maya (Online MMO)",
     "arcana": "Hermit",
+    "availability": "Sun and Days Off (Daytime)",
+    "location": "Protagonist Desk Laptop",
     "Rank 1": {
-      "Requirements": "Starts 4/29 Innocent Sin Online on desk PC on Sundays.",
+      "Requirements": "Starts 4/29 using MMORPG Innocent Sin Online in your dorm room desk.",
       "Benefit": {
-        "Name": "MMO Chat",
-        "Description": "Hermit persona fusion bonus."
+        "Name": "Net Connectivity",
+        "Description": "EXP bonus for Hermit personas."
       }
     },
+    "Rank 2": {
+      "Requirements": "Desk PC on holidays.",
+      "Choices": [
+        {
+          "Answer": "Of course I will play with you.",
+          "Points": 3
+        },
+        {
+          "Answer": "What kind of work do you do?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Desk PC on holidays.",
+      "Choices": [
+        {
+          "Answer": "Stay positive!",
+          "Points": 3
+        },
+        {
+          "Answer": "Teaching sounds difficult.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Desk PC on holidays.",
+      "Choices": [
+        {
+          "Answer": "Why not talk to him?",
+          "Points": 3
+        },
+        {
+          "Answer": "You are a good teacher.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Desk PC on holidays.",
+      "Choices": [
+        {
+          "Answer": "Men are all like that?",
+          "Points": 3
+        },
+        {
+          "Answer": "Do not drink so much.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Desk PC on holidays.",
+      "Choices": [
+        {
+          "Answer": "What is your teacher nickname?",
+          "Points": 3
+        },
+        {
+          "Answer": "You are hilarious, Maya.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Desk PC on holidays.",
+      "Choices": [
+        {
+          "Answer": "I will listen all night.",
+          "Points": 3
+        },
+        {
+          "Answer": "He does not deserve you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Desk PC on holidays.",
+      "Choices": [
+        {
+          "Answer": "What would you say if we met?",
+          "Points": 3
+        },
+        {
+          "Answer": "Let us marry in the game.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Desk PC on holidays.",
+      "Choices": [
+        {
+          "Answer": "I will be there for you in real life too.",
+          "Points": 3
+        },
+        {
+          "Answer": "Do not give up on yourself.",
+          "Points": 3
+        }
+      ]
+    },
     "Rank 10": {
+      "Requirements": "Desk PC on holidays.",
       "Benefit": {
-        "Name": "Max Bond",
-        "Description": "Unlocks Arahabaki."
+        "Name": "Max Hermit",
+        "Description": "Unlocks ultimate Hermit persona: Arahabaki."
+      },
+      "Choices": [
+        {
+          "Answer": "Thank you for everything, Ms. Toriumi.",
+          "Points": 3
+        }
+      ]
+    }
+  },
+  "Fortune": {
+    "character": "Keisuke Hiraga",
+    "arcana": "Fortune",
+    "availability": "Tue, Wed, Thu (After School)",
+    "location": "Art Club / Music Club / Photography Room",
+    "Rank 1": {
+      "Requirements": "Starts 6/17 joining Cultural Club on 1F.",
+      "Benefit": {
+        "Name": "Destined Path",
+        "Description": "EXP bonus for Fortune personas."
       }
+    },
+    "Rank 2": {
+      "Requirements": "Culture Club Room.",
+      "Choices": [
+        {
+          "Answer": "You are very talented.",
+          "Points": 3
+        },
+        {
+          "Answer": "Keep practicing.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Culture Club Room.",
+      "Choices": [
+        {
+          "Answer": "You should do what you love.",
+          "Points": 3
+        },
+        {
+          "Answer": "Family expectations are hard.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Culture Club Room.",
+      "Choices": [
+        {
+          "Answer": "Complain to him.",
+          "Points": 3
+        },
+        {
+          "Answer": "Do not let him push you around.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Culture Club Room.",
+      "Choices": [
+        {
+          "Answer": "Medicine is important too.",
+          "Points": 3
+        },
+        {
+          "Answer": "Follow your own heart.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Culture Club Room.",
+      "Choices": [
+        {
+          "Answer": "Are you okay?",
+          "Points": 3
+        },
+        {
+          "Answer": "Do not rush your decision.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Culture Club Room.",
+      "Choices": [
+        {
+          "Answer": "Helping people is in your blood.",
+          "Points": 3
+        },
+        {
+          "Answer": "You would make a great doctor.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Culture Club Room.",
+      "Choices": [
+        {
+          "Answer": "You saved that person.",
+          "Points": 3
+        },
+        {
+          "Answer": "You did amazing.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Culture Club Room.",
+      "Choices": [
+        {
+          "Answer": "Tell your father your choice.",
+          "Points": 3
+        },
+        {
+          "Answer": "I support you 100%.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Culture Club Room.",
+      "Benefit": {
+        "Name": "Max Fortune",
+        "Description": "Unlocks ultimate Fortune persona: Norn."
+      },
+      "Choices": [
+        {
+          "Answer": "You will become a wonderful doctor.",
+          "Points": 3
+        }
+      ]
+    }
+  },
+  "Strength": {
+    "character": "Yuko Nishiwaki",
+    "arcana": "Strength",
+    "availability": "Wed, Sat (After School)",
+    "location": "Gekkoukan High 2F Hallway",
+    "Rank 1": {
+      "Requirements": "Starts 4/28 by walking her home twice after Chariot club practice.",
+      "Benefit": {
+        "Name": "Fierce Will",
+        "Description": "EXP bonus for Strength personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "2F Hallway after school.",
+      "Choices": [
+        {
+          "Answer": "Let us walk together.",
+          "Points": 3
+        },
+        {
+          "Answer": "Kids are cute.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "2F Hallway after school.",
+      "Choices": [
+        {
+          "Answer": "Not at all.",
+          "Points": 3
+        },
+        {
+          "Answer": "As long as you are having fun.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "2F Hallway after school.",
+      "Choices": [
+        {
+          "Answer": "Do you want to coach them?",
+          "Points": 3
+        },
+        {
+          "Answer": "You are great with children.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "2F Hallway after school.",
+      "Choices": [
+        {
+          "Answer": "You can rely on me.",
+          "Points": 3
+        },
+        {
+          "Answer": "Do your best!",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "2F Hallway after school.",
+      "Choices": [
+        {
+          "Answer": "Kids have boundless energy.",
+          "Points": 3
+        },
+        {
+          "Answer": "You look really happy.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "2F Hallway after school.",
+      "Choices": [
+        {
+          "Answer": "What kind of future do you want?",
+          "Points": 3
+        },
+        {
+          "Answer": "You will be a great instructor.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "2F Hallway after school.",
+      "Choices": [
+        {
+          "Answer": "I will run with you.",
+          "Points": 3
+        },
+        {
+          "Answer": "Do not give up now!",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "2F Hallway after school. Romance branch.",
+      "Choices": [
+        {
+          "Answer": "I love you, Yuko.",
+          "Points": 3
+        },
+        {
+          "Answer": "You are an awesome friend.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "2F Hallway after school.",
+      "Benefit": {
+        "Name": "Max Strength",
+        "Description": "Unlocks ultimate Strength persona: Siegfried."
+      },
+      "Choices": [
+        {
+          "Answer": "I will cheer for you always.",
+          "Points": 3
+        }
+      ]
+    }
+  },
+  "Hanged Man": {
+    "character": "Maiko Oohashi",
+    "arcana": "Hanged Man",
+    "availability": "Mon, Wed, Sat (After School)",
+    "location": "Naganaki Shrine Playground",
+    "Rank 1": {
+      "Requirements": "Starts 5/6. Give her Weird Takoyaki and Mad Bull at shrine playground.",
+      "Benefit": {
+        "Name": "Innocent Devotion",
+        "Description": "EXP bonus for Hanged Man personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Naganaki Shrine Playground.",
+      "Choices": [
+        {
+          "Answer": "Sure, let us play.",
+          "Points": 3
+        },
+        {
+          "Answer": "What do you want to play?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Naganaki Shrine Playground.",
+      "Choices": [
+        {
+          "Answer": "Do your parents fight a lot?",
+          "Points": 3
+        },
+        {
+          "Answer": "I am always here for you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Naganaki Shrine Playground.",
+      "Choices": [
+        {
+          "Answer": "Nobody hates you.",
+          "Points": 3
+        },
+        {
+          "Answer": "It is not your fault.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Naganaki Shrine Playground.",
+      "Choices": [
+        {
+          "Answer": "That is terrible...",
+          "Points": 3
+        },
+        {
+          "Answer": "You do not have to pick sides.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Naganaki Shrine Playground.",
+      "Choices": [
+        {
+          "Answer": "Calm down, Maiko.",
+          "Points": 3
+        },
+        {
+          "Answer": "We will find a solution.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Naganaki Shrine Playground.",
+      "Choices": [
+        {
+          "Answer": "Running away won fix it.",
+          "Points": 3
+        },
+        {
+          "Answer": "Let us go home together.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Naganaki Shrine Playground.",
+      "Choices": [
+        {
+          "Answer": "You are a brave girl.",
+          "Points": 3
+        },
+        {
+          "Answer": "Your parents love you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Naganaki Shrine Playground.",
+      "Choices": [
+        {
+          "Answer": "I will never forget you.",
+          "Points": 3
+        },
+        {
+          "Answer": "Write to me anytime.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Naganaki Shrine Playground.",
+      "Benefit": {
+        "Name": "Max Hanged Man",
+        "Description": "Unlocks ultimate Hanged Man persona: Attis."
+      },
+      "Choices": [
+        {
+          "Answer": "We will always be friends forever.",
+          "Points": 3
+        }
+      ]
     }
   },
   "Death": {
     "character": "Pharos",
     "arcana": "Death",
+    "availability": "Nighttime Automatic Story Progression",
+    "location": "Protagonist Dorm Room",
     "Rank 1": {
-      "Requirements": "Automatic on full moon.",
+      "Requirements": "Starts 6/12 night automatically.",
       "Benefit": {
-        "Name": "Destiny",
-        "Description": "Death persona fusion bonus."
+        "Name": "Harbinger of End",
+        "Description": "EXP bonus for Death personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Night of Full Moon (Automatic).",
+      "Benefit": {
+        "Name": "Premonition",
+        "Description": "Death persona fusion EXP boost."
+      }
+    },
+    "Rank 3": {
+      "Requirements": "Night 7/12 (Automatic).",
+      "Benefit": {
+        "Name": "Dark Recollection",
+        "Description": "Death persona fusion EXP boost."
+      }
+    },
+    "Rank 4": {
+      "Requirements": "Night of Full Moon (Automatic).",
+      "Benefit": {
+        "Name": "Awakening Echo",
+        "Description": "Death persona fusion EXP boost."
+      }
+    },
+    "Rank 5": {
+      "Requirements": "Night 9/10 (Automatic).",
+      "Benefit": {
+        "Name": "Whispers in Dark",
+        "Description": "Death persona fusion EXP boost."
+      }
+    },
+    "Rank 6": {
+      "Requirements": "Night of Full Moon (Automatic).",
+      "Benefit": {
+        "Name": "Fragmented Mind",
+        "Description": "Death persona fusion EXP boost."
+      }
+    },
+    "Rank 7": {
+      "Requirements": "Night 10/6 (Automatic).",
+      "Benefit": {
+        "Name": "The Looming Bell",
+        "Description": "Death persona fusion EXP boost."
+      }
+    },
+    "Rank 8": {
+      "Requirements": "Night of Full Moon (Automatic).",
+      "Benefit": {
+        "Name": "Torn Threads",
+        "Description": "Death persona fusion EXP boost."
+      }
+    },
+    "Rank 9": {
+      "Requirements": "Night 11/1 (Automatic).",
+      "Benefit": {
+        "Name": "Near Departure",
+        "Description": "Death persona fusion EXP boost."
       }
     },
     "Rank 10": {
+      "Requirements": "Completes 11/4 night automatically.",
       "Benefit": {
-        "Name": "Farewell",
-        "Description": "Unlocks Thanatos."
+        "Name": "Max Death",
+        "Description": "Unlocks ultimate Death persona: Thanatos."
+      }
+    }
+  },
+  "Temperance": {
+    "character": "Bebe (Andre Laurent Jean Geraux)",
+    "arcana": "Temperance",
+    "availability": "Tue, Wed, Fri (After School)",
+    "location": "Home Economics Room 1F",
+    "Rank 1": {
+      "Requirements": "Starts after Hierophant Rank 3. Requires Academics Rank 2 (Average).",
+      "Benefit": {
+        "Name": "Artistic Harmony",
+        "Description": "EXP bonus for Temperance personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Home Economics Room.",
+      "Choices": [
+        {
+          "Answer": "Japan is a great country.",
+          "Points": 3
+        },
+        {
+          "Answer": "You are very good at sewing.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Home Economics Room.",
+      "Choices": [
+        {
+          "Answer": "Traditional kimonos are beautiful.",
+          "Points": 3
+        },
+        {
+          "Answer": "I like modern fashion.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Home Economics Room.",
+      "Choices": [
+        {
+          "Answer": "Are you homesick?",
+          "Points": 3
+        },
+        {
+          "Answer": "France sounds wonderful.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Home Economics Room.",
+      "Choices": [
+        {
+          "Answer": "I will help you sew.",
+          "Points": 3
+        },
+        {
+          "Answer": "Take it step by step.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Home Economics Room.",
+      "Choices": [
+        {
+          "Answer": "Do not give up on your dream.",
+          "Points": 3
+        },
+        {
+          "Answer": "You have talent.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Home Economics Room.",
+      "Choices": [
+        {
+          "Answer": "Your aunt will understand.",
+          "Points": 3
+        },
+        {
+          "Answer": "Stay true to who you are.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Home Economics Room.",
+      "Choices": [
+        {
+          "Answer": "He will be proud of you.",
+          "Points": 3
+        },
+        {
+          "Answer": "Finish the kimono.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Home Economics Room.",
+      "Choices": [
+        {
+          "Answer": "It looks stunning!",
+          "Points": 3
+        },
+        {
+          "Answer": "A true masterwork.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Home Economics Room.",
+      "Benefit": {
+        "Name": "Max Temperance",
+        "Description": "Unlocks ultimate Temperance persona: Yurlungur."
+      },
+      "Choices": [
+        {
+          "Answer": "France and Japan are united in your heart.",
+          "Points": 3
+        }
+      ]
+    }
+  },
+  "Devil": {
+    "character": "President Tanaka",
+    "arcana": "Devil",
+    "availability": "Tue, Sat (Night)",
+    "location": "Paulownia Mall Fountain",
+    "Rank 1": {
+      "Requirements": "Starts after Hermit Rank 4. Requires Charm Rank 4 (Smooth) & 40,000 yen (given in 3 installments).",
+      "Benefit": {
+        "Name": "Capitalist Drive",
+        "Description": "EXP bonus for Devil personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Paulownia Mall Night.",
+      "Choices": [
+        {
+          "Answer": "Placebo effect?",
+          "Points": 3
+        },
+        {
+          "Answer": "Sounds profitable.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Paulownia Mall Night.",
+      "Choices": [
+        {
+          "Answer": "Is that legal?",
+          "Points": 3
+        },
+        {
+          "Answer": "Money makes the world go round.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Paulownia Mall Night.",
+      "Choices": [
+        {
+          "Answer": "Sure did.",
+          "Points": 3
+        },
+        {
+          "Answer": "You are quite something, Tanaka.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Paulownia Mall Night.",
+      "Choices": [
+        {
+          "Answer": "The customer is always right?",
+          "Points": 3
+        },
+        {
+          "Answer": "Salesmanship is art.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Paulownia Mall Night.",
+      "Choices": [
+        {
+          "Answer": "Sounds tough at the top.",
+          "Points": 3
+        },
+        {
+          "Answer": "Are you lonely?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Paulownia Mall Night.",
+      "Choices": [
+        {
+          "Answer": "The organic food craze?",
+          "Points": 3
+        },
+        {
+          "Answer": "You never rest, do you?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Paulownia Mall Night.",
+      "Choices": [
+        {
+          "Answer": "Is there anyone you care about?",
+          "Points": 3
+        },
+        {
+          "Answer": "You have changed a bit.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Paulownia Mall Night.",
+      "Choices": [
+        {
+          "Answer": "Donate it to charity.",
+          "Points": 3
+        },
+        {
+          "Answer": "Keep being yourself, Tanaka.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Paulownia Mall Night.",
+      "Benefit": {
+        "Name": "Max Devil",
+        "Description": "Unlocks ultimate Devil persona: Beelzebub."
+      },
+      "Choices": [
+        {
+          "Answer": "You taught me a lot about the world.",
+          "Points": 3
+        }
+      ]
+    }
+  },
+  "Tower": {
+    "character": "Mutatsu (Unorthodox Monk)",
+    "arcana": "Tower",
+    "availability": "Thu, Fri, Sat, Sun (Night)",
+    "location": "Club Escapade 2F Lounge (Paulownia Mall)",
+    "Rank 1": {
+      "Requirements": "Starts after Strength Rank 4. Talk to Yuko about the monk, then talk to bartender in Escapade, get order right to talk to him. Requires Courage Rank 4 (Tough).",
+      "Benefit": {
+        "Name": "Unshakable Soul",
+        "Description": "EXP bonus for Tower personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Club Escapade 2F.",
+      "Choices": [
+        {
+          "Answer": "None of your business.",
+          "Points": 3
+        },
+        {
+          "Answer": "I am just here to chill.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Club Escapade 2F.",
+      "Choices": [
+        {
+          "Answer": "I do not have any friends.",
+          "Points": 3
+        },
+        {
+          "Answer": "Friends are overrated.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Club Escapade 2F.",
+      "Choices": [
+        {
+          "Answer": "Yeah, that is true.",
+          "Points": 3
+        },
+        {
+          "Answer": "You have deep regrets, don you?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Club Escapade 2F.",
+      "Choices": [
+        {
+          "Answer": "I have not thought about it.",
+          "Points": 3
+        },
+        {
+          "Answer": "Family can be difficult.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Club Escapade 2F.",
+      "Choices": [
+        {
+          "Answer": "You should apologize to them.",
+          "Points": 3
+        },
+        {
+          "Answer": "Do not drink so much.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Club Escapade 2F.",
+      "Choices": [
+        {
+          "Answer": "You really love your son.",
+          "Points": 3
+        },
+        {
+          "Answer": "It is not too late.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Club Escapade 2F.",
+      "Choices": [
+        {
+          "Answer": "Go visit them.",
+          "Points": 3
+        },
+        {
+          "Answer": "You deserve forgiveness.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Club Escapade 2F.",
+      "Choices": [
+        {
+          "Answer": "I will miss our talks.",
+          "Points": 3
+        },
+        {
+          "Answer": "Keep following your path, monk.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Club Escapade 2F.",
+      "Benefit": {
+        "Name": "Max Tower",
+        "Description": "Unlocks ultimate Tower persona: Chi You."
+      },
+      "Choices": [
+        {
+          "Answer": "You are a true master in my eyes.",
+          "Points": 3
+        }
+      ]
+    }
+  },
+  "Star": {
+    "character": "Mamoru Hayase",
+    "arcana": "Star",
+    "availability": "Wed, Fri, Sun (After School)",
+    "location": "Iwatodai Strip Mall Bench",
+    "Rank 1": {
+      "Requirements": "Starts 8/2 after athletic competition. Requires Courage Rank 4 (Tough).",
+      "Benefit": {
+        "Name": "Radiant Starlight",
+        "Description": "EXP bonus for Star personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Iwatodai Strip Mall.",
+      "Choices": [
+        {
+          "Answer": "Yeah, boy eats a lot.",
+          "Points": 3
+        },
+        {
+          "Answer": "Let us race again sometime.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Iwatodai Strip Mall.",
+      "Choices": [
+        {
+          "Answer": "Family comes first.",
+          "Points": 3
+        },
+        {
+          "Answer": "You are a great brother.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Iwatodai Strip Mall.",
+      "Choices": [
+        {
+          "Answer": "Do not give up on running.",
+          "Points": 3
+        },
+        {
+          "Answer": "You have real talent.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Iwatodai Strip Mall.",
+      "Choices": [
+        {
+          "Answer": "We can work through this.",
+          "Points": 3
+        },
+        {
+          "Answer": "Do your siblings know?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Iwatodai Strip Mall.",
+      "Choices": [
+        {
+          "Answer": "I believe in you.",
+          "Points": 3
+        },
+        {
+          "Answer": "Stay strong, Mamoru.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Iwatodai Strip Mall.",
+      "Choices": [
+        {
+          "Answer": "You will find a scholarship.",
+          "Points": 3
+        },
+        {
+          "Answer": "Your hard work will pay off.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Iwatodai Strip Mall.",
+      "Choices": [
+        {
+          "Answer": "Do what you love.",
+          "Points": 3
+        },
+        {
+          "Answer": "Your siblings look up to you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Iwatodai Strip Mall.",
+      "Choices": [
+        {
+          "Answer": "Go for it, champion!",
+          "Points": 3
+        },
+        {
+          "Answer": "I will be cheering in the stands.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Iwatodai Strip Mall.",
+      "Benefit": {
+        "Name": "Max Star",
+        "Description": "Unlocks ultimate Star persona: Helel."
+      },
+      "Choices": [
+        {
+          "Answer": "You are a shining star, brother.",
+          "Points": 3
+        }
+      ]
+    }
+  },
+  "Moon": {
+    "character": "Nozomi Suemitsu (Gourmet King)",
+    "arcana": "Moon",
+    "availability": "Mon, Tue, Wed, Thu (After School)",
+    "location": "Paulownia Mall Diner Bench",
+    "Rank 1": {
+      "Requirements": "Starts after Magician Rank 3. Requires Charm Rank 2 (Unpolished) and correct answers to food trivia quizzes.",
+      "Benefit": {
+        "Name": "Gourmet Wisdom",
+        "Description": "EXP bonus for Moon personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Paulownia Mall.",
+      "Choices": [
+        {
+          "Answer": "Sure, whatever you say.",
+          "Points": 3
+        },
+        {
+          "Answer": "You know your food.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Paulownia Mall.",
+      "Choices": [
+        {
+          "Answer": "Eating is life.",
+          "Points": 3
+        },
+        {
+          "Answer": "Are you feeling sick?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Paulownia Mall.",
+      "Choices": [
+        {
+          "Answer": "Sounds suspicious...",
+          "Points": 3
+        },
+        {
+          "Answer": "Be careful with cults.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Paulownia Mall.",
+      "Choices": [
+        {
+          "Answer": "Your brother was amazing?",
+          "Points": 3
+        },
+        {
+          "Answer": "You are your own person.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Paulownia Mall.",
+      "Choices": [
+        {
+          "Answer": "Do not let them scam you.",
+          "Points": 3
+        },
+        {
+          "Answer": "Wake up, Nozomi!",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Paulownia Mall.",
+      "Choices": [
+        {
+          "Answer": "You do not have to replace him.",
+          "Points": 3
+        },
+        {
+          "Answer": "You have your own value.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Paulownia Mall.",
+      "Choices": [
+        {
+          "Answer": "I will protect you from them.",
+          "Points": 3
+        },
+        {
+          "Answer": "Cut ties with that cult.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Paulownia Mall.",
+      "Choices": [
+        {
+          "Answer": "You have finally grown up.",
+          "Points": 3
+        },
+        {
+          "Answer": "I am proud of you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Paulownia Mall.",
+      "Benefit": {
+        "Name": "Max Moon",
+        "Description": "Unlocks ultimate Moon persona: Sandalphon."
+      },
+      "Choices": [
+        {
+          "Answer": "A true Gourmet King in heart and deed.",
+          "Points": 3
+        }
+      ]
+    }
+  },
+  "Sun": {
+    "character": "Akinari Kamiki (Dying Young Man)",
+    "arcana": "Sun",
+    "availability": "Sun (Daytime)",
+    "location": "Naganaki Shrine Bench",
+    "Rank 1": {
+      "Requirements": "Starts after Hanged Man Rank 3. Requires Academics Rank 4 (Smart). Find his Red Fountain Pen under Koromaru in the dorm.",
+      "Benefit": {
+        "Name": "Radiant Sunset",
+        "Description": "EXP bonus for Sun personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Naganaki Shrine Bench.",
+      "Choices": [
+        {
+          "Answer": "I would love to read your story.",
+          "Points": 3
+        },
+        {
+          "Answer": "Why pink alligator?",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Naganaki Shrine Bench.",
+      "Choices": [
+        {
+          "Answer": "That is really deep.",
+          "Points": 3
+        },
+        {
+          "Answer": "I feel that too sometimes.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Naganaki Shrine Bench.",
+      "Choices": [
+        {
+          "Answer": "You are not a burden.",
+          "Points": 3
+        },
+        {
+          "Answer": "People care about you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Naganaki Shrine Bench.",
+      "Choices": [
+        {
+          "Answer": "The bird was kind.",
+          "Points": 3
+        },
+        {
+          "Answer": "Tell me the next chapter.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Naganaki Shrine Bench.",
+      "Choices": [
+        {
+          "Answer": "You have given me so much hope.",
+          "Points": 3
+        },
+        {
+          "Answer": "Do not give up writing.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Naganaki Shrine Bench.",
+      "Choices": [
+        {
+          "Answer": "It is a wonderful fable.",
+          "Points": 3
+        },
+        {
+          "Answer": "I will never forget it.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Naganaki Shrine Bench.",
+      "Choices": [
+        {
+          "Answer": "You are living right now.",
+          "Points": 3
+        },
+        {
+          "Answer": "Stay with me a little longer.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Naganaki Shrine Bench.",
+      "Choices": [
+        {
+          "Answer": "I will read your completed book.",
+          "Points": 3
+        },
+        {
+          "Answer": "You are my dear friend.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Naganaki Shrine Bench.",
+      "Benefit": {
+        "Name": "Max Sun",
+        "Description": "Unlocks ultimate Sun persona: Asura."
+      },
+      "Choices": [
+        {
+          "Answer": "Your story will live on in our hearts forever.",
+          "Points": 3
+        }
+      ]
+    }
+  },
+  "Judgement": {
+    "character": "Nyx Annihilation Team",
+    "arcana": "Judgement",
+    "availability": "Automatic progression through Tartarus final block (Adamah)",
+    "location": "Tartarus floors 215-263",
+    "Rank 1": {
+      "Requirements": "Starts 12/31 automatically after resolving to fight Nyx.",
+      "Benefit": {
+        "Name": "Vow of Annihilation",
+        "Description": "EXP bonus for Judgement personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Reach Floor 218 in Tartarus.",
+      "Benefit": {
+        "Name": "Unwavering Resolve",
+        "Description": "Judgement fusion bonus."
+      }
+    },
+    "Rank 3": {
+      "Requirements": "Reach Floor 224 in Tartarus.",
+      "Benefit": {
+        "Name": "Path of Truth",
+        "Description": "Judgement fusion bonus."
+      }
+    },
+    "Rank 4": {
+      "Requirements": "Reach Floor 228 in Tartarus.",
+      "Benefit": {
+        "Name": "Bonds Across Shadow",
+        "Description": "Judgement fusion bonus."
+      }
+    },
+    "Rank 5": {
+      "Requirements": "Reach Floor 236 in Tartarus.",
+      "Benefit": {
+        "Name": "The Dark Hour Crest",
+        "Description": "Judgement fusion bonus."
+      }
+    },
+    "Rank 6": {
+      "Requirements": "Reach Floor 240 in Tartarus.",
+      "Benefit": {
+        "Name": "Ascending Light",
+        "Description": "Judgement fusion bonus."
+      }
+    },
+    "Rank 7": {
+      "Requirements": "Reach Floor 246 in Tartarus.",
+      "Benefit": {
+        "Name": "Adamah Sanctum",
+        "Description": "Judgement fusion bonus."
+      }
+    },
+    "Rank 8": {
+      "Requirements": "Reach Floor 251 in Tartarus.",
+      "Benefit": {
+        "Name": "Final Gates",
+        "Description": "Judgement fusion bonus."
+      }
+    },
+    "Rank 9": {
+      "Requirements": "Reach Floor 254 in Tartarus.",
+      "Benefit": {
+        "Name": "Apex of the Tower",
+        "Description": "Judgement fusion bonus."
+      }
+    },
+    "Rank 10": {
+      "Requirements": "Reach Floor 263 (Tartarus Apex).",
+      "Benefit": {
+        "Name": "Max Judgement",
+        "Description": "Unlocks ultimate Judgement persona: Messiah."
       }
     }
   },
   "Aeon": {
     "character": "Aigis",
     "arcana": "Aeon",
+    "availability": "Mon, Wed, Fri, Sat (After School)",
+    "location": "Classroom 2-F",
     "Rank 1": {
-      "Requirements": "Available in January classroom.",
+      "Requirements": "Starts 1/8. Talk to Aigis in Classroom 2-F after school.",
       "Benefit": {
         "Name": "Heart of Steel",
-        "Description": "Aeon persona fusion bonus."
+        "Description": "EXP bonus for Aeon personas."
       }
     },
+    "Rank 2": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "I like it here.",
+          "Points": 3
+        },
+        {
+          "Answer": "You are very human.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "I do not mind at all.",
+          "Points": 3
+        },
+        {
+          "Answer": "Let us walk together.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "You are special to me.",
+          "Points": 3
+        },
+        {
+          "Answer": "We have made so many memories.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "You do have a heart.",
+          "Points": 3
+        },
+        {
+          "Answer": "I feel warmth from you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "He was wrong.",
+          "Points": 3
+        },
+        {
+          "Answer": "You are alive right now.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "I want to be with you.",
+          "Points": 3
+        },
+        {
+          "Answer": "Do not be afraid of loss.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "I love you, Aigis.",
+          "Points": 3
+        },
+        {
+          "Answer": "I will protect you with my life.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Classroom 2-F after school.",
+      "Choices": [
+        {
+          "Answer": "Hold her hand tightly.",
+          "Points": 3
+        },
+        {
+          "Answer": "We will stay together to the end.",
+          "Points": 3
+        }
+      ]
+    },
     "Rank 10": {
+      "Requirements": "Classroom 2-F after school.",
       "Benefit": {
-        "Name": "Humanity",
-        "Description": "Unlocks Metatron."
-      }
+        "Name": "Max Aeon",
+        "Description": "Unlocks ultimate Aeon persona: Metatron."
+      },
+      "Choices": [
+        {
+          "Answer": "I will always be by your side, Aigis.",
+          "Points": 3
+        }
+      ]
     }
   }
 }

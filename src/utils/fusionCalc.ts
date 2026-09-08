@@ -98,18 +98,16 @@ export function calcReverseRecipes(
   // Group personas by Arcana excluding special fusions
   const byArcana: Record<string, PersonaData[]> = {};
   for (const p of Object.values(personaMap)) {
-    if (specialData[p.name]) continue;
-    if (['party', 'accident', 'special'].includes(p.fusion || '')) continue;
+    if (p.name !== targetName) {
+      if (specialData[p.name]) continue;
+      if (['party', 'accident', 'special'].includes(p.fusion || '')) continue;
+    }
     if (!byArcana[p.arcana]) byArcana[p.arcana] = [];
     byArcana[p.arcana].push(p);
   }
   for (const list of Object.values(byArcana)) {
     list.sort((a, b) => a.level - b.level);
   }
-
-  const resultLvls = (byArcana[targetArcana] || []).map((p) => p.level);
-  const targetLvlIndex = resultLvls.indexOf(targetLevel);
-  if (targetLvlIndex < 0) return recipes;
 
   // Same Arcana combination (downgrade)
   const sameArcanaList = byArcana[targetArcana] || [];
@@ -132,22 +130,29 @@ export function calcReverseRecipes(
 
   // Cross Arcana combinations
   const arcanaPairs = fissionTable[targetArcana] || {};
-  const minLvl = targetLvlIndex === 0 ? 0 : (resultLvls[targetLvlIndex - 1] - 1) * 2;
-  const maxLvl = (targetLevel - 1) * 2;
+  const targetCandidates = byArcana[targetArcana] || [];
+  const findResultInArcana = (lvlA: number, lvlB: number): PersonaData | null => {
+    if (!targetCandidates.length) return null;
+    const baseLvl = Math.floor((lvlA + lvlB) / 2) + 1;
+    for (const c of targetCandidates) {
+      if (c.level >= baseLvl) return c;
+    }
+    return targetCandidates[targetCandidates.length - 1];
+  };
 
   for (const [arcA, listB] of Object.entries(arcanaPairs)) {
     const listA = byArcana[arcA] || [];
     for (const arcB of listB) {
       const bList = byArcana[arcB] || [];
       for (const pA of listA) {
-        const lvlA = pA.level;
+        if (pA.name === targetName) continue;
         for (const pB of bList) {
-          const lvlB = pB.level;
-          const sum = lvlA + lvlB;
-          if (sum > minLvl && sum <= maxLvl) {
+          if (pB.name === targetName || (arcA === arcB && pA.name === pB.name)) continue;
+          const result = findResultInArcana(pA.level, pB.level);
+          if (result && result.name === targetName) {
             recipes.push({
               ingredients: [pA, pB],
-              cost: lvlA + lvlB
+              cost: pA.level + pB.level
             });
           }
         }

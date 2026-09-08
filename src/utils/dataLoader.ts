@@ -56,6 +56,20 @@ export const SUPPORTED_GAMES: GameInfo[] = [
     logo: 'assets/p3r_logo.png',
     slogan: 'Memento Mori',
     tagline: 'Portable FeMC Edition'
+  },
+  {
+    id: 'p3fes',
+    title: 'Persona 3 FES',
+    series: 'p3',
+    shortTitle: 'P3 FES',
+    color: '#0ea5e9',
+    accentColor: '#0284c7',
+    bgGradient: 'from-blue-950/40 via-zinc-950 to-zinc-950',
+    badge: 'The Journey & The Answer',
+    sub: 'Tatsumi Port Island & The Abyss of Time',
+    logo: 'assets/p3r_logo.png',
+    slogan: 'Memento Mori',
+    tagline: 'The Journey & The Answer (Director\'s Cut)'
   }
 ];
 
@@ -128,51 +142,70 @@ export function resolveAssetUrl(url?: string): string {
 }
 
 export async function fetchJson<T>(url: string): Promise<T> {
-  const baseUrl = (import.meta as any).env?.BASE_URL || './';
   const cleanUrl = url.startsWith('/') ? url.slice(1) : url;
-  
-  // Strategy: Try candidate paths (base relative, direct relative, absolute, and repo subpath)
-  const candidateUrls: string[] = [
-    url.startsWith('http') ? url : `${baseUrl.endsWith('/') ? baseUrl : baseUrl + '/'}${cleanUrl}`,
-    `./${cleanUrl}`,
-    url,
-    `/Persona-Compendium/${cleanUrl}`
-  ];
 
+  // Immediate cache hit
+  if (cache.has(url)) return cache.get(url) as T;
+  if (cache.has(cleanUrl)) return cache.get(cleanUrl) as T;
+
+  const baseUrl = (import.meta as any).env?.BASE_URL || './';
+  const candidateUrls: string[] = [];
+
+  if (url.startsWith('http')) {
+    candidateUrls.push(url);
+  } else {
+    // 1. Direct absolute URL from root (e.g. /data/...)
+    candidateUrls.push(`/${cleanUrl}`);
+    // 2. Relative URL from base (e.g. ./data/...)
+    candidateUrls.push(`./${cleanUrl}`);
+    // 3. Raw provided URL if different
+    if (!candidateUrls.includes(url)) candidateUrls.push(url);
+    // 4. Base-prefixed URL
+    const prefixed = `${baseUrl.endsWith('/') ? baseUrl : baseUrl + '/'}${cleanUrl}`;
+    if (!candidateUrls.includes(prefixed)) candidateUrls.push(prefixed);
+    // 5. GitHub Pages repo root if applicable
+    if (typeof window !== 'undefined') {
+      const parts = window.location.pathname.split('/').filter(Boolean);
+      if (parts.length > 0 && window.location.hostname.endsWith('github.io')) {
+        candidateUrls.push(`/${parts[0]}/${cleanUrl}`);
+      }
+    }
+  }
+
+  // Check cache for any candidate
   for (const target of candidateUrls) {
     if (cache.has(target)) {
       return cache.get(target) as T;
     }
   }
-  
-  let response: Response | null = null;
-  let successUrl = candidateUrls[0];
 
   for (const target of candidateUrls) {
     try {
       const res = await fetch(target);
-      if (res && res.ok) {
-        response = res;
-        successUrl = target;
-        break;
+      if (!res || !res.ok) continue;
+
+      // Ensure response is JSON and not Vite SPA index.html fallback
+      const contentType = res.headers.get('content-type') || '';
+      if (contentType.includes('text/html')) continue;
+
+      let text = await res.text();
+      if (text.charCodeAt(0) === 0xFEFF) {
+        text = text.slice(1);
       }
+      const trimmed = text.trim();
+      if (trimmed.startsWith('<')) continue; // Reject HTML response
+
+      const data = JSON.parse(trimmed);
+      cache.set(target, data);
+      cache.set(url, data);
+      cache.set(cleanUrl, data);
+      return data as T;
     } catch {
-      // Continue to next candidate
+      // Continue to next candidate URL
     }
   }
 
-  if (!response || !response.ok) {
-    throw new Error(`Failed to load ${url} (candidates: ${candidateUrls.join(', ')})`);
-  }
-
-  let text = await response.text();
-  if (text.charCodeAt(0) === 0xFEFF) {
-    text = text.slice(1);
-  }
-  const data = JSON.parse(text);
-  cache.set(successUrl, data);
-  cache.set(url, data);
-  return data as T;
+  throw new Error(`Failed to load valid JSON from ${url}`);
 }
 
 export async function loadPersonas(game: GameId): Promise<PersonaData[]> {
@@ -258,16 +291,37 @@ export async function loadClassroomAnswers(game: GameId): Promise<Record<string,
 }
 
 export async function loadSocialLinks(game: GameId): Promise<Record<string, any>> {
-  const pathMap: Record<string, string> = {
-    p5r: '/data/social-links/p5+p5r_social_links.json',
-    p5: '/data/social-links/p5+p5r_social_links.json',
-    p4g: '/data/social-links/p4+p4g_social_links.json',
-    p4: '/data/social-links/p4+p4g_social_links.json',
-    p3r: '/data/social-links/p3r_social_links.json',
-    p3p: '/data/social-links/p3p_male_social_links.json',
-    p3fes: '/data/social-links/p3fes_social_links.json'
+  const pathMap: Record<GameId, string[]> = {
+    p5r: ['/data/social-links/p5r_social_links.json'],
+    p5: ['/data/social-links/p5r_social_links.json'],
+    p4g: ['/data/social-links/p4g_social_links.json'],
+    p4: ['/data/social-links/p4g_social_links.json'],
+    p3r: [
+      '/data/social-links/p3r_social_links.json',
+      '/data/social-links/p3p_male_social_links.json'
+    ],
+    p3p: [
+      '/data/social-links/p3p_male_social_links.json',
+      '/data/social-links/p3r_social_links.json'
+    ],
+    p3fes: [
+      '/data/social-links/p3fes_social_links.json',
+      '/data/social-links/p3r_social_links.json'
+    ]
   };
-  return fetchJson<Record<string, any>>(pathMap[game] || pathMap.p5r);
+
+  const candidates = pathMap[game] || pathMap.p5r;
+  for (const url of candidates) {
+    try {
+      const data = await fetchJson<Record<string, any>>(url);
+      if (data && Object.keys(data).length > 0) {
+        return data;
+      }
+    } catch {
+      // try next candidate
+    }
+  }
+  return {};
 }
 
 export async function loadRequests(game: GameId): Promise<any[]> {
@@ -374,76 +428,125 @@ export async function loadItems(game: GameId): Promise<ItemData[]> {
   return [];
 }
 
+function parseWalkthroughEvents(
+  data: Record<string, any[]>,
+  gameTitle: string
+): MonthGuide[] {
+  return Object.entries(data).map(([monthName, daysList]) => {
+    return {
+      month: monthName,
+      overview: `${gameTitle} 100% Calendar Walkthrough for ${monthName} — Daily schedule, classroom answers, stat priorities, dungeon deadlines, and social link / confidant choices.`,
+      days: (daysList || []).map((d: any) => {
+        const allActions: string[] = [];
+        if (Array.isArray(d.events)) {
+          d.events.forEach((ev: any) => {
+            if (Array.isArray(ev.actions)) {
+              allActions.push(...ev.actions);
+            }
+          });
+        }
+
+        // Determine concise title
+        let title = d.title;
+        if (!title) {
+          if (allActions.length > 0) {
+            title = allActions[0].replace(/^Question:\s*/, 'Q: ');
+            if (title.length > 65) title = title.slice(0, 62) + '...';
+          } else {
+            title = 'Free Activity / Exploration';
+          }
+        }
+
+        // Categorize for filtering
+        const isExam = allActions.some(
+          (a) =>
+            a.toLowerCase().includes('exam') ||
+            a.toLowerCase().includes('question') ||
+            a.toLowerCase().includes('class')
+        );
+        const isDungeon = allActions.some(
+          (a) =>
+            a.toLowerCase().includes('palace') ||
+            a.toLowerCase().includes('calling card') ||
+            a.toLowerCase().includes('mementos') ||
+            a.toLowerCase().includes('tartarus') ||
+            a.toLowerCase().includes('full moon') ||
+            a.toLowerCase().includes('dungeon') ||
+            a.toLowerCase().includes('infiltrate') ||
+            a.toLowerCase().includes('void quest') ||
+            a.toLowerCase().includes('secret laboratory') ||
+            a.toLowerCase().includes('heaven') ||
+            a.toLowerCase().includes('magatsu') ||
+            a.toLowerCase().includes('hollow forest') ||
+            a.toLowerCase().includes('yomotsu') ||
+            a.toLowerCase().includes('castle') ||
+            a.toLowerCase().includes('bathhouse') ||
+            a.toLowerCase().includes('striptease')
+        );
+        const isRank = allActions.some(
+          (a) =>
+            a.toLowerCase().includes('rank') ||
+            a.toLowerCase().includes('social link') ||
+            a.toLowerCase().includes('confidant') ||
+            a.toLowerCase().includes('link')
+        );
+
+        let category = 'daily';
+        if (isExam) category = 'exam';
+        else if (isDungeon) category = 'palace';
+        else if (isRank) category = 'confidant';
+
+        // Format description fallback
+        const description = Array.isArray(d.events)
+          ? d.events
+              .map(
+                (ev: any) =>
+                  `[${ev.time || 'Schedule'}]\n${(ev.actions || []).map((a: string) => `• ${a}`).join('\n')}`
+              )
+              .join('\n\n')
+          : (d.description || '');
+
+        return {
+          date: d.date || '',
+          day_of_week: d.day_of_week,
+          title,
+          category,
+          description,
+          events: d.events || []
+        };
+      })
+    };
+  });
+}
+
 export async function loadDayGuides(game: GameId): Promise<MonthGuide[]> {
-  // If game is Persona 5 Royal, load the detailed user-provided walkthrough
-  if (game === 'p5r') {
+  // 1. Comprehensive calendar walkthroughs for P5R, P4G, and P3R
+  const guideSourceMap: Record<GameId, { file: string; title: string } | null> = {
+    p5r: { file: '/data/guides/p5r_walkthrough.json', title: 'Persona 5 Royal' },
+    p5: { file: '/data/guides/p5r_walkthrough.json', title: 'Persona 5' },
+    p4g: { file: '/data/guides/p4g_walkthrough.json', title: 'Persona 4 Golden' },
+    p4: { file: '/data/guides/p4g_walkthrough.json', title: 'Persona 4' },
+    p3r: { file: '/data/guides/p3r_walkthrough.json', title: 'Persona 3 Reload' },
+    p3p: { file: '/data/guides/p3r_walkthrough.json', title: 'Persona 3 Portable' },
+    p3fes: { file: '/data/guides/p3r_walkthrough.json', title: 'Persona 3 FES' }
+  };
+
+  const targetGuide = guideSourceMap[game];
+  if (targetGuide) {
     try {
-      const p5rData = await fetchJson<Record<string, any[]>>('/data/guides/p5r_walkthrough.json');
-      if (p5rData && typeof p5rData === 'object') {
-        const months: MonthGuide[] = Object.entries(p5rData).map(([monthName, daysList]) => {
-          return {
-            month: monthName,
-            overview: `Persona 5 Royal 100% Calendar Walkthrough for ${monthName} — Daily schedule, classroom answers, stat priorities, palace deadlines, and confidant rank-up choices.`,
-            days: (daysList || []).map((d: any) => {
-              const allActions: string[] = [];
-              if (Array.isArray(d.events)) {
-                d.events.forEach((ev: any) => {
-                  if (Array.isArray(ev.actions)) {
-                    allActions.push(...ev.actions);
-                  }
-                });
-              }
-
-              // Determine concise title
-              let title = d.title;
-              if (!title) {
-                if (allActions.length > 0) {
-                  title = allActions[0].replace(/^Question:\s*/, 'Q: ');
-                  if (title.length > 65) title = title.slice(0, 62) + '...';
-                } else {
-                  title = 'Free Activity / Exploration';
-                }
-              }
-
-              // Categorize for filtering
-              const isExam = allActions.some((a) => a.toLowerCase().includes('exam') || a.toLowerCase().includes('question'));
-              const isPalace = allActions.some((a) => a.toLowerCase().includes('palace') || a.toLowerCase().includes('calling card') || a.toLowerCase().includes('mementos'));
-              const isRank = allActions.some((a) => a.toLowerCase().includes('rank'));
-
-              let category = 'daily';
-              if (isExam) category = 'exam';
-              else if (isPalace) category = 'palace';
-              else if (isRank) category = 'confidant';
-
-              // Format description fallback
-              const description = Array.isArray(d.events)
-                ? d.events
-                    .map((ev: any) => `[${ev.time || 'Schedule'}]\n${(ev.actions || []).map((a: string) => `• ${a}`).join('\n')}`)
-                    .join('\n\n')
-                : (d.description || '');
-
-              return {
-                date: d.date || '',
-                day_of_week: d.day_of_week,
-                title,
-                category,
-                description,
-                events: d.events || []
-              };
-            })
-          };
-        });
-
-        if (months.length > 0) {
-          return months;
+      const guideData = await fetchJson<Record<string, any[]>>(targetGuide.file);
+      if (guideData && typeof guideData === 'object' && Object.keys(guideData).length > 0) {
+        const parsed = parseWalkthroughEvents(guideData, targetGuide.title);
+        if (parsed.length > 0) {
+          return parsed;
         }
       }
     } catch (err) {
-      console.warn('Could not load p5r_walkthrough.json, falling back to day_guides.json', err);
+      console.warn(`Could not load walkthrough from ${targetGuide.file}, falling back:`, err);
     }
   }
 
-  // Keep other game walkthroughs (P3, P4, etc.) as they are
+  // Fallback to day_guides.json
   const allGuides = await fetchJson<any[]>('/data/guides/day_guides.json').catch(() => []);
   const seriesMap: Record<GameId, string> = {
     p5r: 'p5r',

@@ -1,5 +1,5 @@
-import { useState, useMemo } from 'react';
-import { Search, Heart, Shield, Sparkles, Filter, ChevronRight, X, Zap, Swords } from 'lucide-react';
+import { useState, useMemo, useRef, useEffect } from 'react';
+import { Search, Heart, Shield, Sparkles, Filter, ChevronRight, ChevronDown, Check, X, Zap, Swords } from 'lucide-react';
 import { PersonaData, GameId } from '../../types/persona';
 import { GAME_ELEMENTS, RESIST_MAP } from '../../utils/dataLoader';
 import { triggerHaptic } from '../../utils/haptics';
@@ -28,8 +28,26 @@ export const CompendiumView = ({
 }: CompendiumViewProps) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedArcana, setSelectedArcana] = useState<string>('all');
+  const [isTypeDropdownOpen, setIsTypeDropdownOpen] = useState(false);
+  const [typeSearch, setTypeSearch] = useState('');
   const [onlyFavorites, setOnlyFavorites] = useState(false);
   const [selectedPersona, setSelectedPersona] = useState<PersonaData | null>(null);
+  const typeDropdownRef = useRef<HTMLDivElement>(null);
+
+  // Close type dropdown on outside click
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (typeDropdownRef.current && !typeDropdownRef.current.contains(event.target as Node)) {
+        setIsTypeDropdownOpen(false);
+      }
+    }
+    if (isTypeDropdownOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isTypeDropdownOpen]);
 
   // Index skills by name for quick lookup in the status sheet
   const skillLookup = useMemo(() => {
@@ -51,6 +69,23 @@ export const CompendiumView = ({
     return Array.from(set).sort();
   }, [personas]);
 
+  // Filtered arcana list for dropdown search
+  const filteredArcanaList = useMemo(() => {
+    if (!typeSearch.trim()) return arcanaList;
+    return arcanaList.filter((a) => a.toLowerCase().includes(typeSearch.toLowerCase()));
+  }, [arcanaList, typeSearch]);
+
+  // Counts per arcana
+  const arcanaCounts = useMemo(() => {
+    const map = new Map<string, number>();
+    for (const p of personas) {
+      if (p.arcana) {
+        map.set(p.arcana, (map.get(p.arcana) || 0) + 1);
+      }
+    }
+    return map;
+  }, [personas]);
+
   // Filtered Personas
   const filteredPersonas = useMemo(() => {
     const q = searchQuery.toLowerCase().trim();
@@ -67,6 +102,17 @@ export const CompendiumView = ({
       return true;
     });
   }, [personas, searchQuery, selectedArcana, onlyFavorites, favorites]);
+
+  const [visibleCount, setVisibleCount] = useState<number>(40);
+
+  // Reset pagination when filters change
+  useEffect(() => {
+    setVisibleCount(40);
+  }, [searchQuery, selectedArcana, onlyFavorites, personas]);
+
+  const displayedPersonas = useMemo(() => {
+    return filteredPersonas.slice(0, visibleCount);
+  }, [filteredPersonas, visibleCount]);
 
   const elements = GAME_ELEMENTS[series] || GAME_ELEMENTS.p5;
 
@@ -98,14 +144,14 @@ export const CompendiumView = ({
         )}
       </div>
 
-      {/* Quick Filter Horizontal Scroll */}
-      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar text-xs font-medium">
+      {/* Filter Bar with Type Drop-off List */}
+      <div className="flex items-center gap-2 text-xs font-medium relative">
         <button
           onClick={() => {
             triggerHaptic('light');
             setOnlyFavorites((prev) => !prev);
           }}
-          className={`px-3 py-1.5 rounded-full flex items-center gap-1.5 transition-all whitespace-nowrap border ${
+          className={`px-3 py-1.5 rounded-full flex items-center gap-1.5 transition-all whitespace-nowrap border shrink-0 ${
             onlyFavorites
               ? 'bg-rose-500/20 text-rose-300 border-rose-500/40 font-semibold'
               : 'bg-zinc-900 text-zinc-400 border-white/5 hover:text-zinc-200'
@@ -119,8 +165,9 @@ export const CompendiumView = ({
           onClick={() => {
             triggerHaptic('light');
             setSelectedArcana('all');
+            setIsTypeDropdownOpen(false);
           }}
-          className={`px-3 py-1.5 rounded-full transition-all whitespace-nowrap border ${
+          className={`px-3 py-1.5 rounded-full transition-all whitespace-nowrap border shrink-0 ${
             selectedArcana === 'all'
               ? 'bg-zinc-100 text-zinc-950 border-white font-bold shadow-sm'
               : 'bg-zinc-900 text-zinc-400 border-white/5 hover:text-zinc-200'
@@ -129,30 +176,117 @@ export const CompendiumView = ({
           All Arcana ({personas.length})
         </button>
 
-        {arcanaList.map((arcana) => {
-          const isSelected = selectedArcana === arcana;
-          return (
-            <button
-              key={arcana}
-              onClick={() => {
-                triggerHaptic('light');
-                setSelectedArcana(arcana);
-              }}
-              className={`px-3 py-1.5 rounded-full transition-all whitespace-nowrap border ${
-                isSelected
-                  ? 'bg-zinc-100 text-zinc-950 border-white font-bold shadow-sm'
-                  : 'bg-zinc-900 text-zinc-400 border-white/5 hover:text-zinc-200'
+        {/* Drop-off List under category named "Type" */}
+        <div className="relative shrink-0" ref={typeDropdownRef}>
+          <button
+            onClick={() => {
+              triggerHaptic('light');
+              setIsTypeDropdownOpen((prev) => !prev);
+              setTypeSearch('');
+            }}
+            className={`px-3 py-1.5 rounded-full transition-all whitespace-nowrap border flex items-center gap-1.5 ${
+              selectedArcana !== 'all'
+                ? 'bg-zinc-100 text-zinc-950 border-white font-bold shadow-sm'
+                : 'bg-zinc-900 text-zinc-400 border-white/5 hover:text-zinc-200 hover:border-white/15'
+            }`}
+          >
+            <span>{selectedArcana !== 'all' ? `Type: ${selectedArcana}` : 'Type'}</span>
+            <ChevronDown
+              className={`w-3.5 h-3.5 transition-transform duration-200 ${
+                isTypeDropdownOpen ? 'rotate-180' : ''
               }`}
-            >
-              {arcana}
-            </button>
-          );
-        })}
+            />
+          </button>
+
+          {/* Drop-off List Menu */}
+          {isTypeDropdownOpen && (
+            <>
+              <div
+                className="fixed inset-0 z-40"
+                onClick={() => setIsTypeDropdownOpen(false)}
+              />
+              <div className="absolute left-0 mt-2 w-64 sm:w-72 max-h-80 overflow-hidden rounded-2xl bg-zinc-900/95 backdrop-blur-xl border border-white/15 shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 duration-150 flex flex-col">
+                <div className="px-2.5 py-1.5 text-[10px] font-bold uppercase tracking-wider text-zinc-400 flex items-center justify-between border-b border-white/10 pb-2 mb-1.5 shrink-0">
+                  <span>Arcana Type</span>
+                  <span className="text-[10px] text-zinc-500 font-mono">{arcanaList.length} Types</span>
+                </div>
+
+                {/* Quick Search inside Type Dropdown */}
+                <div className="px-1 mb-1.5 shrink-0">
+                  <div className="relative flex items-center">
+                    <Search className="w-3.5 h-3.5 text-zinc-500 absolute left-2.5 pointer-events-none" />
+                    <input
+                      type="text"
+                      value={typeSearch}
+                      onChange={(e) => setTypeSearch(e.target.value)}
+                      placeholder="Filter type..."
+                      className="w-full pl-8 pr-2.5 py-1.5 rounded-xl bg-zinc-950 border border-white/10 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-white/30"
+                      autoFocus
+                    />
+                  </div>
+                </div>
+
+                {/* Arcana Items */}
+                <div className="overflow-y-auto space-y-0.5 flex-1 pr-0.5 max-h-56 no-scrollbar">
+                  <button
+                    onClick={() => {
+                      triggerHaptic('light');
+                      setSelectedArcana('all');
+                      setIsTypeDropdownOpen(false);
+                    }}
+                    className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-left transition-all text-xs ${
+                      selectedArcana === 'all'
+                        ? 'bg-white/15 text-white font-bold'
+                        : 'text-zinc-300 hover:bg-white/5 hover:text-white'
+                    }`}
+                  >
+                    <span>All Arcana</span>
+                    <span className="text-xs text-zinc-400 font-mono">{personas.length}</span>
+                  </button>
+
+                  {filteredArcanaList.map((arcana) => {
+                    const isSelected = selectedArcana === arcana;
+                    const count = arcanaCounts.get(arcana) || 0;
+                    return (
+                      <button
+                        key={arcana}
+                        onClick={() => {
+                          triggerHaptic('light');
+                          setSelectedArcana(arcana);
+                          setIsTypeDropdownOpen(false);
+                        }}
+                        className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-left transition-all text-xs ${
+                          isSelected
+                            ? 'bg-white/15 text-white font-bold border border-white/15'
+                            : 'text-zinc-300 hover:bg-white/5 hover:text-white'
+                        }`}
+                      >
+                        <div className="flex items-center gap-2 min-w-0">
+                          <span
+                            className="w-2 h-2 rounded-full shrink-0"
+                            style={{ backgroundColor: accentColor }}
+                          />
+                          <span className="truncate">{arcana}</span>
+                        </div>
+                        <div className="flex items-center gap-2 shrink-0">
+                          <span className="text-[11px] font-mono text-zinc-400">{count}</span>
+                          {isSelected && <Check className="w-3.5 h-3.5 text-white" />}
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            </>
+          )}
+        </div>
       </div>
 
       {/* Results Header */}
       <div className="flex items-center justify-between px-1 text-xs text-zinc-400">
-        <span>Showing {filteredPersonas.length} Personas</span>
+        <span>
+          Showing {displayedPersonas.length} of {filteredPersonas.length} Personas
+        </span>
         {selectedArcana !== 'all' && (
           <button
             onClick={() => setSelectedArcana('all')}
@@ -165,7 +299,7 @@ export const CompendiumView = ({
 
       {/* Persona Cards List with Persona Art Flair */}
       <div className="space-y-2.5">
-        {filteredPersonas.map((persona) => {
+        {displayedPersonas.map((persona) => {
           const isFav = favorites.has(persona.name);
           const resists = persona.resists || '';
 
@@ -303,6 +437,23 @@ export const CompendiumView = ({
             </div>
           );
         })}
+
+        {filteredPersonas.length > visibleCount && (
+          <div className="pt-2 pb-2 flex justify-center">
+            <button
+              onClick={() => {
+                triggerHaptic('light');
+                setVisibleCount((prev) => prev + 40);
+              }}
+              className="px-6 py-2.5 rounded-xl bg-zinc-900 hover:bg-zinc-800 active:scale-95 text-xs font-bold text-zinc-200 border border-white/10 hover:border-white/20 transition-all shadow-md flex items-center gap-2"
+            >
+              <span>Show More Personas</span>
+              <span className="text-zinc-500 font-normal">
+                ({visibleCount} of {filteredPersonas.length})
+              </span>
+            </button>
+          </div>
+        )}
 
         {filteredPersonas.length === 0 && (
           <div className="p-8 text-center bg-zinc-900/40 rounded-2xl border border-white/5 space-y-2">

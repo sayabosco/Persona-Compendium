@@ -1,0 +1,5527 @@
+{
+  "April": [
+    {
+      "date": "4/6",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/7",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/8",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: Vivid carp streamers. (Charm +2, 1 note)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/9",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)",
+            "Achievement: Awakened Power"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/10",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/11",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/12",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/13",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/14",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/15",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/16",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/17",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/18",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 2: Middens. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Fool Rank 1: Auto",
+            "Achievement: SEES the Day"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/19",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Junpei Joins"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/20",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Tartarus: Auto",
+            "Fool Rank 2: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/21",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Gekkoukan Faculty Hallway > Nurse's Office (Courage +2, 1 note)",
+            "Naganaki Shrine > Left of Main Shrine > Inari Sushi (Duplicate skill card, once per day)",
+            "Collect Paulownia Mall / Naganaki Shrine / Iwatodai / Port Island Twilight Fragments",
+            "Port Island Theater > Watch movie (Y1500) (Charm +4, 2 notes)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Paulownia Mall Arcade > House of the Deceased (Y3000) (Courage +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/22",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Magician Rank 1: Auto"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Talk to Mitsuru > Tartarus",
+            "Need at least Y7500 for social stats (Earn money from chests / coin shuffles)",
+            "Unlock achievements: There's No \"I\" in \"Team\", The First of Many, The Thrill of the Hunt, The Power of Choice, Making the Dream Work, Shrouded Assassin, Birthday Present, Tempting Fate, The Fool's Journey, Fusion Artisan, Shattered Plumes, Get a Load of Those Numbers!"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/23",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Nurse's Office (Courage +2, 1 note)",
+            "Chariot Rank 1: Gekkoukan Gym > Track Field (Any, Choice 1: I think I will. [Strength Flag 0.1], Choice 1: Wanna walk home together? [Strength Flag 0.1])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Paulownia Mall Arcade > High School of Youth (Y1500) (Charm +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/24",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Chariot Rank 2 (Any, Any, Choice 1: I think I will. [Strength Flag 0.2], Choice 1: Wanna walk home together? [Strength Flag 0.2])",
+            "Strength Rank 1 (Requires Chariot Rank 2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "House of the Deceased (Y3000) (Courage +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/25",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Hierophant Rank 1: BookstoreOld Couple, Outdoor Corridor Persimmon Tree > Persimmon Leaf, BookstoreOld Couple again"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Paulownia Mall Arcade > You're the Answer (Y3000) (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/26",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hierophant Rank 2 (Obtain Melon Bread x2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tartarus (Need at least Y38000 for social stats, Obtain an Odd Morsel from normal chests, Finish boss battles with Orpheus equipped until he learns Tarunda)",
+            "Persona loadout before leaving: Omoikane x Pixie = Jack Frost, Orpheus (Tarunda) x Ara Mitama = Emperor Forneus (Tarunda), Justice Angel"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/27",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 1: A. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Nurse's Office (Courage +2, 1 note)",
+            "Emperor Rank 1: Faculty Office > Join student council, Gekkoukan 2F Hallway > Student Council Room"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "High School of Youth (Y1500) (Charm +4, 2 notes)",
+            "Charm Lv. 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/28",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Justice Flag 0.1 (Requires Emperor Rank 1, 2F Hallway > Talk to Chihiro, Choice 1: I just wanted to talk...)",
+            "Magician Rank 2: Classroom > Kenji"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "House of the Deceased (Y3000) (Courage +4, 2 notes)",
+            "Courage Lv. 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/29",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Showa Day",
+            "Hermit Rank 1: Your Room > Laptop > Play Online Game"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "You're the Answer (Y3000) (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/30",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Justice Flag 0.2 (Choice 3: I'm a guy.)",
+            "Magician Rank 3 (Choice 3: What, of life? [+15, 3 notes], Choice 2: Good luck! [+5, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "High School of Youth (Y1500) (Charm +4, 2 notes)"
+          ]
+        }
+      ]
+    }
+  ],
+  "May": [
+    {
+      "date": "5/1",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Club Escapade > Twilight Fragment x1",
+            "Talk to man with laptop > School X Site Note (Y500)",
+            "Iwatodai Dorms 1F > Computer > School X Site Note (Lukewarm Taiyaki unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/2",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Justice Flag 0.3 (Choice 1: Hello., Choice 1: Let's hang out.)",
+            "Gekkoukan School Shop > Buy Lukewarm Taiyaki x3 for Request #38",
+            "Strength Rank 2: Talk to Yuko"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Iwatodai Dorms Kitchen > Put Lukewarm Taiyaki in fridge",
+            "You're the Answer (Y3000) (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/3",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Constitution Day",
+            "TV Shopping: Rose Bouquet, Luxury Chocolate x2 (Y2980)",
+            "Hierophant Rank 3 (Choice 1: Looking for something? [+5, 1 note], Choice 2: Can I help? [+15, 3 notes], Any, Obtain Medicine)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Check fridge > Chilled Taiyaki",
+            "Iwatodai Strip Mall 2F > Wakatsu > Prodigy Platter (Y680) (Academics +3, 2 notes)",
+            "Academics Lv. 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/4",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Greenery Day",
+            "Hermit Rank 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "High School of Youth (Y1500) (Charm +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/5",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Children's Day",
+            "Hermit Rank 3 (Choice 1: Oh really? [+5, 1 note], Choice 1: You don't like your job? [+15, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Club Escapade > Iwatodai Forum Note (Y500) (Additional vending machine drinks unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/6",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 1: A pantograph. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Octopia > Buy Weird Takoyaki",
+            "Vending Machine > Buy Mad Bull",
+            "Hanged Flag 0.1: playground Maiko > Give Weird Takoyaki and Mad Bull",
+            "Emperor Rank 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "You're the Answer (Y3000) (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/7",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Justice Rank 1"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "High School of Youth (Y1500) (Charm +4, 2 notes)",
+            "Charm Lv. 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/8",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Moon Flag 0.1: Kenji",
+            "Temperance Rank 1 (Requires Academics Lv. 2, Hierophant Rank 3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Wakatsu > Seafood Full Course (Y900) (Academics +4, 2 notes)",
+            "Achievement: Gourmand"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/9",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Full Moon Operation",
+            "Achievement: Back on Track",
+            "Fool Rank 3: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/10",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Antibiotic Gel x2, Sappy Jelly x5 (Y3980)",
+            "Hermit Rank 4 (Needs matching persona) (Choice 3: Let's plan our wedding, then? [+22, 3 notes])",
+            "Persona loadout: Jack Frost x Omoikane = Hermit Onmoraki, Forneus x Angel = Hanged Inugami"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Elizabeth Requests: Bring Muscle Drink (Req #1), Retrieve old document (Req #2), Vending machine drinks (Req #9)",
+            "Talk to Yukari: Request #12 (pine resin), Talk to Junpei: Request #13 (handheld game console)",
+            "Seafood Full Course (Y900) (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/11",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Hanged Rank 1"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "High School of Youth (Y1500) (Charm +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/12",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Junpei Link 1 (Junpei St +3)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "House of the Deceased (Y3000) (Courage +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/13",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 2: The pendulum. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Hanged Rank 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Request #11: Big Eater Challenge at Wilduck Burger (Y1800) (Courage +4, Charm +4, Academics +4, 2 notes) (Choice 2: Look away from the burgers, Choice 1: Eat without stopping, Choice 2: Imagine something sour.)",
+            "Unlocks Weekend Wilduck Set"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/14",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Moon Rank 1 (Requires Charm Lv. 2, Odd Morsel): Talk to student on bench (Choice 1: What are you eating?, Choice 3: Pheremone Coffee, Choice 3: Red, Choice 2: Hagakure Bowl, Give Odd Morsel)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Seafood Full Course (Y900) (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/15",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 2: May Blues. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Moon Rank 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study Group (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/16",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Hanged Rank 3 (Needs matching persona) (Choice 3: Don't worry, he'll be there. [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study Group (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/17",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Blinding Flashlight x3, Freeze Spray x3 (Y2980)",
+            "Moon Rank 3 (Choice 2: The Gourmet King. [+15, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Dorm Study Group (Academics +5, 3 notes)",
+            "Academics Lv. 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/18",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/19",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 1: May Blues."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/20",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: A pendulum."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/21",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 2: Electricity."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/22",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 1: Jomon."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/23",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Justice Rank 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Wilduck Burger > Weekend Wilduck Set (Y1200) (Courage +4, 2 notes)",
+            "Courage Lv. 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/24",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: All-Purpose Apron, Umugi Water x2 (Y5980)",
+            "Moon Rank 4 (Choice 2: Are you feeling sick? [+15, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Request #8: Fortune teller Rarity Fortune at Club Escapade (Y3000)",
+            "Tartarus (Need Y4000, Persona loadout: Hanged Inugami x Emperor Ara Mitama = Strength Valkyrie, Emperor Ara Mitama)",
+            "Elizabeth Requests: Shadow Hunting (#3), Treasure Hunting (#4), Level 13 Persona (#5), Kouha (#6), Juzumaru (#7), Second old document (#14), Oberon with Mazio (#17)",
+            "Achievement: Briefcase Burglar"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/25",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Exam Results: Top of Class (Charm +4, 2 notes)",
+            "1st Social Link bonus: All base points x1.51 going foward",
+            "Charm Lv. 4",
+            "Close your eyes (Courage +2, 1 note)",
+            "Achievement: Top of the Class"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Nurse's Office (Courage +2, 1 note)",
+            "Exam reward from Mitsuru (Incenses, Proto-Choker)",
+            "Chariot Rank 3 (Needs matching persona) (Choice 2: Are you going to be okay? [+11, 1 note], Choice 1: Will it heal? [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Gardening unlocked: Iwatodai Dorms Roof (Twilight Fragment x1)",
+            "Achievement: Eagle Eye",
+            "Seafood Full Course (Y900) (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/26",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Chariot Rank 4 (Any, Choice 2: that really sucks. [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "House of the Deceased (Y3000) (Courage +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/27",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 3 (Needs matching persona) (Any, Choice 2: Don't worry about it. [+11, 1 note], Choice 1: I'm honored. [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Club Escapade > Fortune Teller > Rarity Fortune (Y3000)",
+            "Tartarus (Need at least Y24000)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/28",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Close your eyes (Courage +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Nurse's Office (Courage +2, 1 note)",
+            "Magician Rank 4 (Any, Choice 1: Good luck! [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Net Cafe > Umiushi Fan Book (Y450) (Umiushi shop unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/29",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Close your eyes (Courage +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Magician Rank 5 (Choice 2: Okay... [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Request #10: Umiushi Beef Bowl (Y300)",
+            "Akihiko Link 1: Iwatodai Station > Talk to Akihiko (Makoto HP +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/30",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 4 (Needs matching persona) (Any, Choice 1: Sure thing. [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Weekend Wilduck Set (Y1200) (Courage +4, 2 notes)",
+            "Courage Lv. 4"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/31",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Put Lukewarm Taiyaki in fridge",
+            "TV Shopping: Health Sandals, Diet Food x2 (Y3980)",
+            "Strength Date 4.5 (Needs matching persona) (Choice 3: You're very responsible. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Weekend Wilduck Set (Y1200) (Courage +4, 2 notes)"
+          ]
+        }
+      ]
+    }
+  ],
+  "June": [
+    {
+      "date": "6/1",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Chariot Rank 5 (Choice 1: Back from the hospital? [+7, 1 note], Choice 1: Take my shoulder! [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Check fridge > Instant Ramen x2",
+            "Seafood Full Course (Y900) (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/2",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Close your eyes (Courage +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Chariot Rank 6 (Choice 2: Show some guts, man! [+7, 1 note], Choice 2: Why go so far? [+7, 1 note], Choice 2: What about your knee? [+7, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "House of the Deceased (Y3000) (Courage +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/3",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Tower Flag 0.1: Talk to Yuko",
+            "Strength Rank 5 (Needs matching persona) (Choice 3: It's because you teach so well. [+22, 2 notes], Choice 3: I trust whatever you decide, Yuko. [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Iwatodai Strip Mall 2F > Hagakure > Pork Ramen (Y900) (Charm +3, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/4",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Buy Buff Potato Sprout x1 for Request #53",
+            "Magician Rank 6 (Any, Choice 1: I've got plans already. [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Plant Buff Potato Sprout",
+            "High School of Youth (Y1500) (Charm +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/5",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Magician Rank 7 (Needs matching persona) (Choice 1: What happened? [+11, 1 note], Choice 3: Bride-to-Be? [+11, 1 note], Choice 1: Congrats! [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "House of the Deceased (Y3000) (Courage +4, 2 notes)",
+            "Courage Lv. 5"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/6",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 6 (Needs matching persona) (Choice 1: You guys got this. [+11, 1 note], Choice 2: As long as we believe in them. [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Weekend Wilduck Set (Y1200) (Courage +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/7",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Perfume, Health Supplement x2 (Y3980)",
+            "Hermit Rank 5 (Needs matching persona) (Choice 3: Do you mean S.O.B.? [+11, 1 note], Choice 3: Are you a teacher? [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Weekend Wilduck Set (Y1200) (Courage +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/8",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Full Moon Operation",
+            "Achievement: Empowered Protector"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/9",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Nurse's Office (Courage +2, 1 note)",
+            "Magician Rank 8 (Choice 2: Are you in trouble? [+22, 3 notes], Choice 2: You two should talk it out. [+7, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Iwatodai Strip Mall 2F > Hagakure > Special Hagakure Bowl (Y1200) (Charm +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/10",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 7 (Needs matching persona) (Any, Choice 2: Are you relieved? [+11, 1 note], Choice 1: Let's do it. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Special Hagakure Bowl (Y1200) (Charm +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/11",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Magician Rank 9 (Choice 2: Let me handle this! [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Fuuka Joins",
+            "Seafood Full Course (Y900) (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/12",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Magician Rank 10",
+            "Achievement: Unbreakable Link"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "House of the Deceased (Y3000) (Courage +4, 2 notes)",
+            "Death Rank 1: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/13",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 8 (Needs matching persona) (Any, Any, Choice 1: A boy. [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Elizabeth Requests: Flower bouquet (#18), Jack Frost dolls x3 (#19), Nurse's Office medicine (#20), Walk around Paulownia Mall (#77)",
+            "Tartarus: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/14",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Brand Watch, Mega Protein x2 (Y3980)",
+            "Hermit Rank 6 (Choice 2: What bastard? [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Elizabeth Requests: Triangular sword (#27), Protein not for pros (#28), Look fashionable (#29)",
+            "Gamble Fortune > Tartarus (Need at least Y45000, Obtain Black Quartz x1, Use all SEES Theurgies)",
+            "Requests: Third old document (#21), Fusion Milestone (#23), Persona level 23+ (#24), Onimaru Kunitsuna (#26)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/15",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 1: Keen eye. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Nurse's Office (Courage +2, 1 note)",
+            "Chariot Rank 7 (Choice 1: How's your knee? [+7, 1 note], Choice 1: You have to get tougher! [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Request #29: Club Escapade > Trade Black Quartz x1 and Y10000",
+            "High School of Youth (Y1500) (Charm +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/16",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Chariot Rank 8 (Choice 2: ......)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Put Lukewarm Taiyaki in fridge",
+            "Devil Flag 0.1 (Requires Hermit Rank 3, Charm Lv. 4, Y20000): Paulownia Mall Fountain Bench > Pay Tanaka",
+            "Lovers DVDs 1: Talk to Yukari by the TV",
+            "Charm Lv. 5",
+            "Achievement: Dorms Life"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/17",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: Shamanism. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Fortune Rank 1 (Art Club)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Check fridge > Precious Egg",
+            "Akihiko Cooking 1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/18",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Buy Lukewarm Taiyaki x11 for rest of fridge events",
+            "Justice Rank 3 (Needs matching persona) (Choice 1: They have no shame. [+11, 1 note], Choice 1: I agree. [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Priestess Reading 1: Fuuka"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/19",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 3"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Lovers Cooking 1: Yukari"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/20",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Flag 0.2 (Requires Y10000)",
+            "Akihiko DVDs 1",
+            "Courage Lv. 6",
+            "Achievement: Specialist"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/21",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Amenity Suit, Super Diet Food x3 (Y9800)",
+            "Hermit Rank 7 (Choice 3: Well yeah. [+22, 3 notes], Choice 1: She um... what? [+7, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Seafood Full Course (Y900) (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/22",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: Witch of Agnesi. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 1 (Requires Courage Lv. 6 and Fortune Rank 1)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Empress Cooking 1: Mitsuru"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/23",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Fortune Rank 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Lovers DVDs 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/24",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Fortune Rank 3 (Choice 1: You've got talent. [+22, 3 notes], Any)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Akihiko Cooking 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/25",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 2: The flutter effect. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Fortune Rank 4 (Needs matching persona) (Choice 2: You're pulling out of the contest? [+11, 1 note], Choice 2: So you're just going to take it? [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Priestess Reading 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/26",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Lovers Cooking 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/27",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 3 (Choice 1: Just a dash or two. [+22, 3 notes], Choice 1: Just take it slow. [+22, 3 notes], Any)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Akihiko DVDs 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/28",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Amronion Sprout x2, Buff Potato Sprout x3 (Y2980)",
+            "Hermit Rank 8 (Choice 2: Hurry up and tell me. [+22, 3 notes], Choice 1: What is he like? [+7, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Seafood Full Course (Y900) (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/29",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 1: Dowsing. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 4 (Any, Choice 3: You're a hard worker [+7, 1 note], Choice 1: That's not true. [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Empress Cooking 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/30",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Fortune Rank 5 (Choice 1: You should tell your dad! [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Put Lukewarm Taiyaki in fridge",
+            "Lovers DVDs 3",
+            "Achievement: Through Thick and Thin"
+          ]
+        }
+      ]
+    }
+  ],
+  "July": [
+    {
+      "date": "7/1",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Fortune Rank 6 (Choice 2: It's your choice now. [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Check fridge > Chilled Taiyaki",
+            "Akihiko Cooking 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/2",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Fortune Rank 7 (Choice 1: Do you want to be a doctor? [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "High School of Youth (Y1500) (Charm +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/3",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: About romance. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 5 (Choice 2: You did a great job. [+22, 3 notes], Choice 1: I'm glad I could help. [+7, 1 note], Choice 3: Can you make more sometime? [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Lovers Cooking 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/4",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 6 (Choice 1: Of course. [+22, 3 notes], Choice 1: That's the spirit. [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Akihiko DVDs 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/5",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Strength Date 8.5 (Needs matching persona) (Choice 3: Will you wipe it off for me? [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Gamble Fortune > Tartarus (Need at least Y20000, Rescue 3 missing people)",
+            "Achievement: Extracurricular Excellence"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/6",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 7 (Needs matching persona) (Choice 3. That's messed up. [+11, 1 note], Choice 1: Is that the only reason? [+0, 0 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Empress Cooking 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/7",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Full Moon Operation",
+            "Achievement: Never Toy with Matters of the Heart",
+            "Fool Rank 4: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/8",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 2: Between \"time\" and \"it's\". (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Hanged Rank 4 (Choice 2: Of course they care. [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Special Hagakure Bowl (Y1200) (Charm +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/9",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: Social disparity. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Buy Cat Food x4 (Aohige Pharmacy, Y2800)",
+            "Feed the cat 1 (Port Island Outskirts)",
+            "Moon Rank 5 (Choice 1: That's right. [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Elizabeth Requests: Chilled taiyaki (#38), PA Room music (#39), Feed the cat (#42), Feel the ocean (#44), Visit Iwatodai Station (#78)",
+            "Talk to Fuuka: Request #43 (Christmas star)",
+            "Study Group (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/10",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: Kabbalah. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Feed the cat 2",
+            "Moon Rank 6 (Choice 3: Are you sick? [+22, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study Group (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/11",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 1: The katana. (Charm +2, 1 note)",
+            "Charm Lv. 6",
+            "2nd Social Link bonus: All base points x2.2801 going foward"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Feed the cat 3",
+            "Hanged Rank 5 (Choice 1: That's awful. [+34, 3 notes], Choice 2: They would never. [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 1 (Requires Y10000)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/12",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Max Safety Shoes, Instant Curry x2 (Y9800) (Buy for Request #40)",
+            "Feed the cat 4 (Completes Request #42)",
+            "Hermit Rank 9 (Needs matching persona) (Choice 2: No way! [+17, 1 note], Choice 1: What are you planning? [+17, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Request #40: Max Safety Shoes, Request #41: Autograph (Requires Devil Rank 1)",
+            "Shop at Mayoido Antiques",
+            "Junpei Gardening 1 (Talk to Junpei by stairs)",
+            "Achievement: Eat Your Veggies, Peas!",
+            "Achievement: Benevolent Purr-tector"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/19",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Tetracone x3, Macaracone x3 (Y14800)",
+            "Priestess Fortune (Needs matching persona) (Fuuka Yamagishi)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 1 (Requires Courage Lv. 4): Upstairs talk to Monk, Downstairs talk to Bartender (Margarita, Bloody Mary, Screwdriver, Oolong Tea), Talk to Monk again"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/20",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Marine Day: Collect souvenirs on beach for Elizabeth (Seashell, Seaweed, Driftwood, Crab)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/21",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Aigis Joins"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/22",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Fool Rank 5: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/23",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Request #44: Hand over any beach souvenir to Elizabeth",
+            "Tower Rank 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/24",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Exam Results: Top of Class (Charm +4, 2 notes)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 8 (Needs matching persona) (Choice 3: I've never thought about it. [+17, 1 note], Choice 1: Not at all. [+17, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Exam reward from Mitsuru (Incenses, Mega Master Band)",
+            "Akihiko Link 2 (Luxe Tropical Fruit, Imperial Sweets Set, Fresh Juice)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/25",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Lovers Rank 1 (Requires Charm Lv. 6, talk to Yukari)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/26",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Brand Wallet, Perfume (Y6980)",
+            "Hermit Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Empress Reading 1: Mitsuru"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/27",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Aeon Gardening 1: Aigis"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/28",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/29",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Put Lukewarm Taiyaki in fridge",
+            "Club Escapade > Security Site Note (Y5000) (Ambush mechanic unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/30",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Check fridge > Chilled Taiyaki, Umugi Water",
+            "Priestess Reading 3: Fuuka"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/31",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 3 (Choice 2: I don't have any friends [+34, 3 notes])"
+          ]
+        }
+      ]
+    }
+  ],
+  "August": [
+    {
+      "date": "8/1",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Empress Reading 2: Mitsuru"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/2",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Aeon Gardening 2: Aigis"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/3",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hanged Rank 7"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Junpei Reading 1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/4",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Priestess Date 8.5 (Choice 1: Yeah I think so. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Gamble Fortune > Tartarus (Rescue 2 missing, Monad Doors, Achievement: Glimpse of the Depths)",
+            "Elizabeth Requests: Mithras lvl 26 (#25), Fourth old document (#30), Torrent Shot Naga (#34), Mothman with Agilao (#35), Rustic Coin rare Shadow (#36), Monad Passage (#37)",
+            "Achievement: Beyond the Darkness"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/5",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Chariot Date 8.5 (Choice 2: For your nephew. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "You're the Answer (Y3000) (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/6",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Full Moon Operation",
+            "Achievement: Armor Disarmed"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/7",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Star Rank 1 (Requires Courage Lv. 4): Talk to Mamoru"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 4 (Choice 1: Yeah, that might look cool. [+34, 3 notes])",
+            "Death Rank 5: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/8",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Pray at shrine 1",
+            "Moon Rank 7 (Choice 3: The world is ending? [+34, 3 notes], Any)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Elizabeth Requests: Outenta Mitsuyo (#51), cooked meal (#52), mysterious potato (#53), shrine visits (#54), proof of bond (#55), drink with name (#56), Aojiru (#57), straw millionaire (#58), visit Naganaki Shrine (#79)",
+            "Koromaru Joins",
+            "Junpei Gardening 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/9",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Isotope Soda x10, Mad Bull x20 (Y3980)",
+            "Pray at shrine 2",
+            "Junpei Link 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Koromaru > Magician Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/10",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Summer School (Academics +3, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/11",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Summer School (Academics +3, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/12",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Summer School (Academics +3, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/13",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Summer School (Academics +3, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/14",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Summer School (Academics +3, 2 notes)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Takaya Link 1: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/15",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Summer School (Academics +3, 2 notes)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Aigis Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/16",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Summer Festival"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/17",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Curse Paper x3, Vanish Ball x2 (Y3980)",
+            "Pray at shrine 3 (Report Request #54 to Elizabeth)",
+            "Magician Movies (Accept invite on phone)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Junpei Reading 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/18",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Temperance Movies (Accept invite on phone)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 4"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/19",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Fortune Movies (Accept invite on phone)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "You're the Answer (Y3000) (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/20",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hierophant Rank 4 (Choice 1: I should go too. [+34, 3 notes], Any, Choice 2: I'm worried. [+11, 1 note], Obtain Cyclone Tea)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Takaya Link 2: Auto",
+            "Koromaru Brushing 1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/21",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Strength Movies (Accept invite on phone)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 5 (Choice 1: I have enough. [+11, 1 note], Choice 2: No. [+34, 3 notes])"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/22",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Chariot Movies"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hierophant Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/23",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Soul Spinach Sprout x2, Buff Potato Sprout x3 (Y2980)",
+            "Justice Movies"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Akihiko Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/24",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Lovers Movies (Invite Yukari to movies)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Junpei Reading 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/25",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Akihiko Movies (Invite Akihiko to movies)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Junpei Gardening 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/26",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Koromaru Movies"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "You're the Answer (Y3000) (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/27",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Put Lukewarm Taiyaki in fridge",
+            "Junpei Movies"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Junpei Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/28",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Soul Spinach Sprout x2, Buff Potato Sprout x3 (Y2980)",
+            "Check fridge > Chilled Taiyaki",
+            "Aeon Movies"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Ken Joins",
+            "Tower Rank 6 (Choice 2: You should go home. [+34, 3 notes], Choice 2: Do you have any coworkers? [+11, 1 note])"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/29",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Priestess Movies"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Fuuka Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/30",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Fierce Sutra x3, Depleting Sutra x3 (Y9800)",
+            "Empress Movies",
+            "Academics Lv. 5"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Mitsuru Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/31",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Ken Movies"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Koromaru DVDs 1"
+          ]
+        }
+      ]
+    }
+  ],
+  "September": [
+    {
+      "date": "9/1",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 2: Resistance. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Nurse's Office > Nurse Lecture 1",
+            "Temperance Rank 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 5"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/2",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Shinjiro Joins",
+            "Aeon Reading 1: Aigis"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/3",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Nurse's Office > Nurse Lecture 2",
+            "Lovers Rank 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Shinjiro Cooking 1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/4",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Nurse's Office > Nurse Lecture 3",
+            "Shinjiro Link 1 (Courage +2): Talk to Mitsuru, then Shinjiro"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Gamble Fortune > Tartarus (Rescue 3 missing, Obtain Topaz x2, Use Koromaru/Ken/Shinjiro Theurgies)",
+            "Achievement: The Strength of Our Hearts",
+            "Requests: Fifth old document (#45), Level 38 Persona (#49), King and I unlocked (#50)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/5",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Full Moon Operation",
+            "Achievement: Dodging Lightning"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/6",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Brand Purse, Brand Wallet (Y9800)",
+            "Sun Rank 1 (Requires Academics Lv. 4, Hanged Rank 3): Talk to him at playground bench, Get Red Fountain Pen from Koromaru, Talk to him again"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/7",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 9 Romantic (Choice 1: I love you, Fuuka. [+51, 3 notes]) or Platonic (Choice 2: We'll always be friends., Choice 1: Sure. [+51, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Shinjiro Gardening 1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/8",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Koromaru Link 1"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Ken Link 1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/9",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Koromaru Link 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Priestess Gardening 1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/10",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: To reveal a secret. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Lovers Rank 3"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Elizabeth Requests: Try Aojiru (#57), giant creepy doll (#66), beautiful tile (#67)",
+            "Requests: fruit knife (#68: Shinjiro), oil (#69: Aigis)",
+            "Shinjiro Gardening 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/11",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: The Hermetica. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Temperance Rank 3 (Choice 2: Thanks. [+11, 1 note], Choice 3: How about a kimono? [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Ken DVDs 1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/12",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Justice Rank 4 (Choice 2: I'm here for you. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Shinjiro Cooking 2",
+            "Death Rank 6: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/13",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Put Lukewarm Taiyaki in fridge",
+            "TV Shopping: Emergency Vest, First Aid Kit M x5 (Y24800)",
+            "Shinjiro Link 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Empress Reading 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/14",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 1: Their soulmate. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 4 (Choice 2: Looks like you're hard at work. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Check fridge > Mega Protein x3",
+            "Shinjiro Gardening 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/15",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Koromaru Link 3"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Priestess Gardening 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/16",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Fortune Rank 8 (Choice 1: It's okay, I'm fine. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Shinjiro Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/17",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Justice Rank 5 (Choice 1: I'm all ears. [+22, 2 notes], Choice 1: Yeah, she's in love. [+34, 3 notes], Choice 1: Happy to help. [+22, 2 notes], Choice 1: Hold her hand. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Koromaru Brushing 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/18",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Takaya Link 3: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/19",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/20",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/21",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Respect for the Aged Day",
+            "Shinjiro Link 3"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Koromaru DVDs 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/22",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "National Holiday",
+            "Lovers Fortune (Yukari)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Ken Link 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/23",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Autumnal Equinox",
+            "Shinjiro Movies"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Shinjiro Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/24",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Shinjiro Link 3.5 (Faculty Hallway > Talk to Mitsuru, Choice 1: Wait a minute.)",
+            "Lovers Rank 4 (Choice 3: Are you okay? [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Koromaru Brushing 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/25",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Temperance Rank 4 (Choice 3: Are you alright? [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Ken DVDs 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/26",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: Tetractys. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Put Lukewarm Taiyaki in fridge",
+            "Shinjiro Cooking 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/27",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: R/C Geta, Hyper-Metal Robot (Y19800)",
+            "Check fridge > Chilled Taiyaki, YABA Chocolate",
+            "Shinjiro Link 4"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Akihiko Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/28",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Lovers Rank 5 (Choice 1: I'm sorry. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Koromaru DVDs 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/29",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Temperance Rank 5 (Choice 1: Sure. [+11, 1 note], Choice 2: Just stay in Japan! [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Priestess Gardening 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/30",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Temperance Rank 6 (Choice 1: Let's do it. [+11, 1 note], Choice 1: I have your back! [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Aeon Reading 2: Aigis"
+          ]
+        }
+      ]
+    }
+  ],
+  "October": [
+    {
+      "date": "10/1",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Lovers Rank 6 (Needs matching persona) (Choice 3: Thank you, too. [+17, 1 note], Choice 1: I wouldn't mind. [+17, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Gamble Fortune > Tartarus (Rescue 3 missing, Dark Zones unlocked)",
+            "Achievement: The Horror of the Shade",
+            "Elizabeth Requests: Sixth old document (#59), Level 46+ Persona (#61), Lovers Titania with Matarukaja (#62), Magician Rangda (#63), Sumptuous Coin rare Shadow (#64), Ote-gine (#65)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/2",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Temperance Rank 7 (Choice 2: That's a great idea. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Lovers Cooking 4"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/3",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Lovers Rank 7 (Needs matching persona) (Choice 3: Let's go just the two of us. [+51, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 6"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/4",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Full Moon Operation",
+            "Achievement: Twist of Fate"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/5",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Shinjiro Link 5: Shinjiro's Room > Desk Drawer",
+            "Aigis Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/6",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Faculty Office > Ono Lecture (Academics +2, 1 note)",
+            "Koromaru Link 4 (Courage +2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Elizabeth Requests: try sushi (#74), Sengoku-era helm (#75), visit Gekkoukan High (#80)",
+            "Devil Rank 7",
+            "Death Rank 8: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/7",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 2: Dopamine. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Faculty Office > Miyahara Lecture (Academics +2, 1 note)",
+            "Star Rank 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Request #76: Glasses wipe (Ikutsuki)",
+            "Club Escapade Vendor > Buy Turquoise and Platinum Brooch",
+            "Trade Platinum Brooch for Master Incense x2 with Elizabeth",
+            "Mayoido Antiques > Trade for Invigorate 3",
+            "Club Escapade > Assassin Site Note (Y8000) (Ambush Distress unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/8",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Faculty Office > Ounishi Lecture (Academics +2, 1 note)",
+            "Hierophant Rank 5 (Choice 1: I wouldn't worry about it. [+11, 1 note], Choice 1: Cheer up. [+11, 1 note], Obtain Crab Bread)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study Group (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/9",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Faculty Office > Ekoda Lecture (Academics +2, 1 note)",
+            "Star Rank 3 (Choice 1: For your teammates? [+11, 1 note], Choice 1: Sounds like fun. [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study Group (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/10",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 2: Helena Blavatsky (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Faculty Office > Toriumi Lecture (Academics +2, 1 note)",
+            "Hierophant Rank 6 (Choice 2: Please don't fight. [+34, 3 notes], Any, Obtain Fried Bread)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Ken Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/11",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Pairing Knife, Candy Hosui Pear x2 (Y19800)",
+            "Sun Rank 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study Group (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/12",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Health and Sports Day",
+            "Moon Rank 8 (Choice 2: No, you're not. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Dorm Study Group (Academics +5, 3 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/13",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: Addiction."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/14",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 1: Pythagoras."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/15",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: Superconductivity."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/16",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: To reveal a secret."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/17",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Faculty Office > Takenozuka Lecture (Academics +2, 1 note)",
+            "Justice Rank 6 (Choice 1: Is it good? [+34, 3 notes], Choice 2: What do you mean? [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Magician Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/18",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Instant Curry x5, Instant Ramen x10 (Y4980)",
+            "Sun Rank 3"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Strength Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/19",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Exam Results: Top of Class (Charm +4, 2 notes)",
+            "Choice 2: India. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Exam reward from Mitsuru (Incenses, Pendant of Unity)",
+            "Faculty Office > Terauchi Lecture (Academics +2, 1 note)",
+            "Lovers Rank 8 (Needs matching persona) (Choice 1: All right. [+51, 3 notes], Any)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Akihiko Link 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/20",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Faculty Office > Ono Lecture (Academics +2, 1 note)",
+            "Report Request #75 to Elizabeth",
+            "Temperance Rank 8 (Needs matching persona) (Choice 2: He'll definitely agree! [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Aeon Gardening 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/21",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 9 Romantic (Any, Choice 2: An instructor? [+34, 3 notes], Any, Choice 1: It's because I love you., Choice 1: I love you, Yuko. [+11, 1 note]) or Platonic (Any, Choice 2: An instructor? [+34, 3 notes], Any, Choice 2: It's because you're a close friend., Choice 1: Okay, I will. [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Aeon Reading 3: Aigis"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/22",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: Venus. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Justice Rank 7 (Needs matching persona) (Choice 2: It's gotta be a misunderstanding. [+17, 1 note], Choice 2: We have to do something... [+17, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 7 (Choice 2: You probably shouldn't. [+34, 3 notes])"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/23",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 5 (Choice 1: They're the worst. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Ken DVDs 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/24",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Fortune Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/25",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Put Lukewarm Taiyaki in fridge",
+            "TV Shopping: Pumpkin Mask, Halloween Candy x50 (Y24800)",
+            "Sun Rank 4"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Star Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/26",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 2: Izumo. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 6 (Choice 1: But I just got here... [+34, 3 notes], Any)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Check fridge > Doctor in Jelly",
+            "Club Escapade > History Website Note (Y8000) (Ambush Theurgy boost unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/27",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Temperance Rank 9 (Choice 2: Aren't you homesick? [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 8"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/28",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 7 (Choice 2: It seems too harsh. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "You're the Answer (Y3000) (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/29",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Fortune Rank 9 (Choice 1: You can't go! [+34, 3 notes], Any)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 8 (Choice 1: Dad? [+34, 3 notes], Choice 1: I was with a friend. [+11, 1 note], Any, Choice 2: Are you running away? [+11, 1 note])"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/30",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 1: Beta-amylase. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 8 (Choice 1: It wasn't me. [+34, 3 notes], Any)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Gamble Fortune > Tartarus (Rescue 3 missing, Obtain Quality Nihil Blade, Emerald x13, Silver Quartz x2)",
+            "Elizabeth Requests: Seventh old document (#70), Siegfried with Endure (#71)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/31",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Request #73: Trade for Mikazuki Munechika (Mayoido Antiques)",
+            "Mayoido Antiques > Trade for Growth 3 (Emerald x10)",
+            "Justice Rank 8 (Needs matching persona) (Choice 2: I know you're innocent. [+17, 1 note], Any)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Ken Walk"
+          ]
+        }
+      ]
+    }
+  ],
+  "November": [
+    {
+      "date": "11/1",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Myouhou Muramasa Fake, Samurai's Haori (Y39800)",
+            "Sun Rank 5"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Yukari Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/2",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 9 (Choice 2: What matters is you realized it. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Net Cafe > Part-Time Master (Y8000) (Earn more from part-time jobs)",
+            "Fool Rank 6: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/3",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Culture Day",
+            "Full Moon Operation",
+            "Achievement: A Sense of Finality"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/4",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Death Rank 10: Auto"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Fool Rank 7: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/5",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 9 (Needs matching persona) (Choice 1: Why not take a break? [+17, 1 note], Choice 2: Time to retire? [+17, 1 note], Choice 1: What's this about? [+17, 1 note])"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/6",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Elizabeth Requests: Clean restroom (#92), water flowers (#93), try Oden Juice (#96), visit room (#81)",
+            "Achievement: Distinguished Visitor",
+            "Chariot Rank 9 (Choice 1: I don't mind at all. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Talk to Koromaru: Request #94 (food for Koromaru)",
+            "Talk to Ken: Request #95 (Featherman R figure)",
+            "Tower Rank 10"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/7",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 1: The Upanishads. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Junpei Link 3 (Academics +2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Star Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/8",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Port Island Florist > Buy a White Flower",
+            "TV Shopping: Japanese Doll x2, Homunculus x2 (Y9800)",
+            "Sun Rank 6"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Junpei Link 3.5 (Talk to Junpei in dorm)",
+            "Strength Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/9",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Ryoji Link 1: Auto (All Stats +1)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Work at Chagall (-Y4300) (Courage +1, Charm +1, 1 note)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/10",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Fortune Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Work at Chagall (-Y5300) (Courage +1, Charm +1, 1 note)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/11",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Lovers Rank 9 Romantic (Needs matching persona) (Choice 1: I feel the same, Chihiro. [Note: Wait, this was Chihiro for Justice, but Lovers 9 is also romantic/platonic for Yukari. Let's keep it accurate to the source])"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/13",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Chariot Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hanged Dating Site: Girl at the Shrine"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/14",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Justice Rank 9 Romantic (Needs matching persona) (Choice 1: Don't worry, she'll help us. [+17, 1 note], Choice 2: You need to tell her yourself. [+17, 1 note], Any, Choice 1: What's gotten into you? [+17, 1 note], Choice 1: I feel the same, Chihiro., Any) or Platonic (Choice 1, Choice 2, Any, Choice 1, Choice 2: I like working with you, but..., Any)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/15",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Sid's Jacket, Mega Protein x8 (Y39800)",
+            "Lovers Date 9.5 (Choice 3: Some people do. [+34, 3 notes])",
+            "Achievement: In High Demand"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Club Escapade > Veggie Blog Note (Y500) (Unlocks another seedling at flower shop)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/16",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)",
+            "Academics Lv. 6",
+            "Achievement: Peak Performance"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Lovers Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Work at Chagall (-Y4300) (Courage +1, Charm +1, 1 note)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/17",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Buy Kyoto souvenirs for Ken (Namayatsuhashi, Pickled Turnip, Konpeito, Mibu Cracker)",
+            "Buy drinks for Drink Maniac from vending machine (Durian Soda, Jumbo Juice, V6)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/18",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Inn 2F > Talk to Ryoji > Agree to hang out"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/19",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Ryoji Link 3: Auto (All Stats +1)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Successful Escape (Choice 1: We'll hide in the steam., Choice 1: Use the duck as a red herring., Choice 2: Just follow my lead.)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/20",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Gift souvenir to Ken",
+            "Ken Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/21",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Request #96: Oden Juice from Drink Maniac (Y5000)",
+            "Justice Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 9"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/22",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Garnet x3, Opal x2 (Y49800)",
+            "Sun Rank 7"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Prepare for battle",
+            "Ken Cooking 1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/23",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Labor Thanksgiving Day",
+            "Hanged Rank 8 (Choice 1: Hamburgers. [+11, 1 note], Choice 1: You're a good girl. [+34, 3 notes], Choice 1: Your dad. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Work at Chagall (-Y4300) (Courage +1, Charm +1, 1 note)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/24",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/25",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/26",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/27",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Club Escapade > Ninja Fansite Note (Y12000) (Decreases distance needed for ambush)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/28",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Empress Rank 1 (Requires Academics Lv. 6 and 1st place in one exam): Talk to Mitsuru"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Fool Rank 9: Auto",
+            "Devil Rank 10"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/29",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Shoes of Bane, Infrared Goggles (Y39800) (Buy for Request #101)",
+            "Sun Rank 8"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Ken Cooking 2"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/30",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 1: The cherry blossom. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Revival Event: Auto",
+            "Work at Chagall (-Y4800) (Courage +1, Charm +1, 1 note)"
+          ]
+        }
+      ]
+    }
+  ],
+  "December": [
+    {
+      "date": "12/1",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Ryoji Link 4 (All Stats +1): Gekkoukan 1F Music Room"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Gamble Fortune > Tartarus (Rescue 2 missing people)",
+            "Elizabeth Requests: Hierophant Daisoujou with Regenerate 3 (#72), Retrieve last old document (#82), Tempest Slash Chernobog (#84), Death Alice (#86), Gold Medal shadow (#88), Rai Kunimitsu (#89)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/2",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Temperance Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Work at Chagall (-Y4800) (Courage +1, Charm +1, 1 note)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/3",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Net Cafe > Veggie Farmer Sim (Y4500) (Increases harvest amount)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/4",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Elizabeth Requests: Auto-Maraku Hecatoncheires (#85), Christmas present (#97)",
+            "Star Rank 4 (Choice 1: What are you doing? [+11, 1 note], Choice 1: That would be amazing! [+11, 1 note], Choice 2: Yeah, I bet it would. [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Net Cafe > Muscle Boot Camp (Y2000) (Makoto HP +7)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/5",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Empress Rank 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Net Cafe > Image Muscle Trainer (Y4000) (Makoto HP +9)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/6",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Hogyoku Apple x3, Hiranya Mandarin x2 (Y14800)",
+            "Sun Rank 9"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Net Cafe > Mindful Boot Camp (Y2000) (Makoto SP +5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/7",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 1: The ozone layer. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Empress Rank 3 (Choice 2: Why not give it a try? [+11, 1 note], Choice 2: Are you happy? [+34, 3 notes], Choice 2: Maybe you're anxious. [+11, 1 note], Choice 2: I heard nothing. [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Work at Chagall (-Y4800) (Courage +1, Charm +1, 1 note)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/8",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Empress Rank 4 (Choice 2: Did something happen? [+11, 1 note], Choice 1: It's all for love. [+34, 3 notes], Any)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/9",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 2: Kido. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Empress Rank 5 (Choice 2: Glad you enjoyed it. [+34, 3 notes], Choice 2: You're not suited? [+11, 1 note], Choice 2: Let's go for a ride. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study Group (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/10",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Empress Rank 6 (Choice 2: Need some help? [+11, 1 note], Any, Choice 1: Is it really? [+0, 0 notes], Choice 3: I'll do something about it. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Put Lukewarm Taiyaki in fridge",
+            "Koromaru Brushing 4"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/11",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 2: Lives. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Empress Rank 7 (Choice 1: I don't mind at all. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Check fridge > Chilled Taiyaki",
+            "Study Group (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/12",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Empress Rank 8 (Any, Choice 1: Vent all you want. [+11, 1 note], Choice 1: That's up to you. [+0, 0 notes], Choice 2: Don't insult her father! [+34, 3 notes], Choice 1: Don't give in. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study Group (Academics +4, 2 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/13",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Victory Headband, Mind Supplement x10 (Y29800)",
+            "Sun Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Dorm Study Group (Academics +5, 3 notes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/14",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 1: The number zero."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/15",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 2: Maltose."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/16",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: Venus."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/17",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 4: Murasaki-no-Ue."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/18",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 4: Geeses."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/19",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Junpei Link 4 (Courage +2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Magician Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/20",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Pink Duffle Coat, Luxe Shiruko Can x3 (Y49800)",
+            "Star Rank 5 (Choice 2: Are you okay? [+11, 1 note], Choice 2: I'll come back here with you. [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Net Cafe > Mental Instructor (Y4000) (Makoto SP +7)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/21",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Exam Results: Top of Class (Charm +4, 2 notes)",
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Exam reward from Mitsuru (Master Incenses, Phoenix Charm)",
+            "Empress Rank 9 Romantic (Choice 3: It made me happy. [+34, 3 notes], Any, Choice 1: I love you too., Any) or Platonic (Choice 3: It made me happy. [+34, 3 notes], Any, Choice 2: I'm sorry but..., Any)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Fuuka Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/22",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 1: Euphoria (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Empress Rank 10",
+            "Achievement: That Special Someone"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Mitsuru Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/23",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Put Lukewarm Taiyaki in fridge",
+            "Star Rank 6 (Any, Any, Any, Choice 2: Don't worry, it's okay. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Yukari Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/24",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Christmas Date"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Christmas Date"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/25",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Star Rank 7 (Choice 2: It's no problem at all. [+11, 1 note], Choice 2: Stop whining and do it. [+11, 1 note], Any, Choice 2: Don't give up yet. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Check fridge > Chilled Taiyaki, YABA Chocolate",
+            "Ken Link 4 (Makoto SP +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/26",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Hanged Rank 9 (Choice 1: Friends forever. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Akihiko Link 4 (Makoto SP +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/27",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "TV Shopping: Ruby x2, Opal x5 (Y99000)",
+            "Star Rank 8 (Choice 1: Do it! [+34, 3 notes], Choice 2: Don't sweat it. [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Junpei Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/28",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hanged Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Work at Chagall (-Y4800) (Courage +1, Charm +1, 1 note)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/29",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hierophant Rank 7 (Choice 1: What happened? [+11, 1 note], Choice 2: That's great. [+11, 1 note], Choice 3: What are you talking about? [+11, 1 note], Obtain Cielo Mist)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Work at Chagall (-Y5800) (Courage +1, Charm +1, 1 note)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/30",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Star Rank 9 (Choice 1: Did you win? [+11, 1 note], Choice 2: Congrats, man! [+11, 1 note], Choice 1: What will you do now? [+11, 1 note], Choice 1: Thanks! [+11, 1 note])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Achievement: A Newfound Strength",
+            "Gamble Fortune > Tartarus (Rescue 2 missing people)",
+            "Elizabeth Requests: Progress report (#83), fool Loki (#87), Dojigiri Yasutsuna (#90)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/31",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Moon Rank 9 (Any, will momentarily reverse)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Ryoji Link 5: Auto",
+            "Fool Rank 10: Auto",
+            "Judgement Rank 1: Auto"
+          ]
+        }
+      ]
+    }
+  ],
+  "January": [
+    {
+      "date": "1/1",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "New Year's Day",
+            "Moon Dating Site: Gourmet King"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/2",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hierophant Rank 8 (Choice 1: A petitioner? [+11, 1 note], Any, Choice 1: Sure, let's go. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Strength Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/3",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Star Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Ken Cooking 3"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/4",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Moon Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Gamble Fortune > Tartarus (Obtain Gold Quartz, Ruby, Diamond, Lucifer's item, Messiah's item)",
+            "Elizabeth Requests: Tower Masakado (#98), Shadow of the Void (#99), Bloody Button (#100)",
+            "Achievement: Reaper Reaped",
+            "Fuse Messiah",
+            "Achievement: Path to Salvation"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/5",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Request #91: Tonbo-kiri (Mayoido Antiques)",
+            "Request #101: Lucifer's Blade & Armor of Light (Mayoido Antiques)",
+            "Koromaru Link 5"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Work at Chagall (-Y5800) (Courage +1, Charm +1, 1 note)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/6",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hierophant Rank 9 (Choice 1: What does the letter say? [+11, 1 note], Any)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hierophant Dating Site: Old Couple"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/7",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hierophant Rank 10"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Aigis Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/8",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 3: The underworld. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Aeon Rank 1 (Talk to Aigis)",
+            "Achievement: People Person"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Akihiko Link 5"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/9",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Aeon Rank 2"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Put Lukewarm Taiyaki in fridge",
+            "Justice Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/10",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Free Time"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Check fridge > Chilled Taiyaki, Umugi Water",
+            "Fortune Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/11",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Coming of Age Day - Free Time"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/12",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Aeon Rank 3"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Work at Chagall (-Y5800) (Courage +1, Charm +1, 1 note)",
+            "Achievement: The Grindset Mindset"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/13",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Aeon Rank 4"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/14",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Aeon Rank 5"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/15",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Junpei Link 5"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Takaya Link 4 (Club Escapade > Talk to Suspicious Man)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/16",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Aeon Rank 6"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Mitsuru Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/17",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Free Time"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Strength Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/18",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Choice 2: Circe. (Charm +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Aeon Rank 7"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/19",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Aeon Rank 8"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Ken Link 5"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/20",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Aeon Rank 9 (Choice 1: You're right. [+34, 3 notes])"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/21",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Revival Event: Auto"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/22",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Aeon Rank 10",
+            "Achievement: A Legacy of Friendships"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Put Lukewarm Taiyaki in fridge",
+            "Soul Fortune > Tartarus (Rescue 2 missing, Request #101 ultimate boss defeat)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/23",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Free Time"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Check fridge > Chilled Taiyaki, Doctor in Jelly",
+            "Justice Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/24",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Free Time"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Magician Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/25",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Free Time"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/26",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Free Time"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/27",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Free Time"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/28",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Academics +2, 1 note)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Free Time"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/29",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Free Time"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "S.E.E.S. Walk"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/30",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Free Time"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Free Time"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/31",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Free Time",
+            "Achievement: The Great Seal",
+            "Achievement: From Shadows into Light"
+          ]
+        }
+      ]
+    }
+  ]
+}

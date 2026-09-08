@@ -86,6 +86,16 @@ export const EnemiesView: React.FC<EnemiesViewProps> = ({
     });
   }, [enemies, searchQuery, filterType, selectedArea]);
 
+  const [visibleCount, setVisibleCount] = useState<number>(40);
+
+  React.useEffect(() => {
+    setVisibleCount(40);
+  }, [searchQuery, filterType, selectedArea, enemies]);
+
+  const displayedEnemies = useMemo(() => {
+    return filteredEnemies.slice(0, visibleCount);
+  }, [filteredEnemies, visibleCount]);
+
   const elements = GAME_ELEMENTS[series] || GAME_ELEMENTS.p5;
 
   return (
@@ -207,7 +217,7 @@ export const EnemiesView: React.FC<EnemiesViewProps> = ({
             <p className="text-xs">Try adjusting your search terms or filters.</p>
           </div>
         ) : (
-          filteredEnemies.slice(0, 150).map((enemy, idx) => {
+          displayedEnemies.map((enemy, idx) => {
             const resists = enemy.resists || '';
 
             return (
@@ -349,6 +359,23 @@ export const EnemiesView: React.FC<EnemiesViewProps> = ({
               </div>
             );
           })
+        )}
+
+        {filteredEnemies.length > visibleCount && (
+          <div className="pt-2 pb-2 flex justify-center">
+            <button
+              onClick={() => {
+                triggerHaptic('light');
+                setVisibleCount((prev) => prev + 40);
+              }}
+              className="px-6 py-2.5 rounded-xl bg-zinc-900 hover:bg-zinc-800 active:scale-95 text-xs font-bold text-zinc-200 border border-white/10 hover:border-white/20 transition-all shadow-md flex items-center gap-2"
+            >
+              <span>Show More Shadows</span>
+              <span className="text-zinc-500 font-normal">
+                ({visibleCount} of {filteredEnemies.length})
+              </span>
+            </button>
+          </div>
         )}
       </div>
 

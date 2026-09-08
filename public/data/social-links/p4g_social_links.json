@@ -1,0 +1,1534 @@
+{
+  "Fool": {
+    "character": "Investigation Team",
+    "arcana": "Fool",
+    "Rank 1": {
+      "Requirements": "Automatic on 4/17 upon establishing the Investigation Team.",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Grants bonus EXP when fusing Fool Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Automatic on 4/30 after Yukiko's Castle rescue."
+    },
+    "Rank 3": {
+      "Requirements": "Automatic on 5/18 after opening Steamy Bathhouse."
+    },
+    "Rank 4": {
+      "Requirements": "Automatic on 6/6 after Kanji's rescue."
+    },
+    "Rank 5": {
+      "Requirements": "Automatic on 7/10 after Rise's TV world arrival."
+    },
+    "Rank 6": {
+      "Requirements": "Automatic on 7/29 after Marukyu Striptease rescue."
+    },
+    "Rank 7": {
+      "Requirements": "Automatic on 8/19 after Void Quest dungeon."
+    },
+    "Rank 8": {
+      "Requirements": "Automatic on 10/6 after Secret Laboratory."
+    },
+    "Rank 9": {
+      "Requirements": "Automatic on 11/6 after Heaven dungeon opens."
+    },
+    "Rank 10": {
+      "Requirements": "Automatic on 12/3 during the hospital confrontation when seeking the truth.",
+      "Benefit": {
+        "Name": "Max Bond & Lokapala",
+        "Description": "Unlocks ultimate Fool Persona Lokapala (Susano-o / Loki) for fusion."
+      }
+    }
+  },
+  "Magician": {
+    "character": "Yosuke Hanamura",
+    "arcana": "Magician",
+    "Rank 1": {
+      "Requirements": "Automatic progression on 4/16 at Junes Department Store.",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Magician Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Available on Class 2-2 hallway or Junes food court on Mon/Thu/Fri.",
+      "Choices": [
+        {
+          "Answer": "It must be tough.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're doing great.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Daytime after school",
+      "Benefit": {
+        "Name": "Follow Up",
+        "Description": "Yosuke can perform a follow-up critical physical attack during combat."
+      },
+      "Choices": [
+        {
+          "Answer": "Don't feel bad.",
+          "Points": 2
+        },
+        {
+          "Answer": "You did what you could.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Daytime after school",
+      "Choices": [
+        {
+          "Answer": "Cheer him up.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're a hard worker.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Daytime after school",
+      "Choices": [
+        {
+          "Answer": "You've got me.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm right here with you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Daytime after school",
+      "Benefit": {
+        "Name": "Rise from Ashes",
+        "Description": "Yosuke can cure ailments inflicted on allies with Harisen Recovery."
+      },
+      "Choices": [
+        {
+          "Answer": "You're not pathetic.",
+          "Points": 3
+        },
+        {
+          "Answer": "It's all right.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Daytime after school",
+      "Benefit": {
+        "Name": "Endure",
+        "Description": "Survives a fatal blow in combat with 1 HP remaining."
+      },
+      "Choices": [
+        {
+          "Answer": "You're not alone.",
+          "Points": 3
+        },
+        {
+          "Answer": "You've matured.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Daytime after school",
+      "Benefit": {
+        "Name": "Protect",
+        "Description": "Yosuke steps in to take a fatal blow in place of the Protagonist."
+      },
+      "Choices": [
+        {
+          "Answer": "Cheer him on.",
+          "Points": 3
+        },
+        {
+          "Answer": "You did great.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Persona Awakening & Mada",
+        "Description": "Yosuke's Jiraiya awakens into Susano-o; unlocks ultimate Magician Persona Mada."
+      }
+    }
+  },
+  "Priestess": {
+    "character": "Yukiko Amagi",
+    "arcana": "Priestess",
+    "Rank 1": {
+      "Requirements": "Starts 5/17 at Classroom 2-2 hallway after rescuing her from Yukiko's Castle.",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Priestess Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Mon/Tue/Wed/Thu after school at Class 2-2 hallway",
+      "Choices": [
+        {
+          "Answer": "Going to get a license?",
+          "Points": 3
+        },
+        {
+          "Answer": "All right.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Daytime after school",
+      "Benefit": {
+        "Name": "Follow Up",
+        "Description": "Yukiko can perform a follow-up attack on downed enemies."
+      },
+      "Choices": [
+        {
+          "Answer": "Making dinner?",
+          "Points": 3
+        },
+        {
+          "Answer": "I'll eat it.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Daytime after school",
+      "Choices": [
+        {
+          "Answer": "Let's eat together.",
+          "Points": 3
+        },
+        {
+          "Answer": "There's always next time.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Daytime after school",
+      "Benefit": {
+        "Name": "Harisen Recovery",
+        "Description": "Chance to cure party member status ailments automatically."
+      },
+      "Choices": [
+        {
+          "Answer": "I'll be there for you.",
+          "Points": 3
+        },
+        {
+          "Answer": "Keep trying.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Daytime after school",
+      "Benefit": {
+        "Name": "Endure",
+        "Description": "Survives a lethal blow with 1 HP."
+      },
+      "Choices": [
+        {
+          "Answer": "You're not selfish.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're really trying.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Daytime after school",
+      "Note": "Romance Route Choice: Choose 'I really like you' to enter romance, or 'You have everyone' for friendship.",
+      "Choices": [
+        {
+          "Answer": "For the inn's sake?",
+          "Points": 3
+        },
+        {
+          "Answer": "I really like you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Second Awakening & Scathach",
+        "Description": "Yukiko's Konohana Sakuya awakens into Amaterasu; unlocks Scathach for fusion."
+      }
+    }
+  },
+  "Empress": {
+    "character": "Margaret",
+    "arcana": "Empress",
+    "Rank 1": {
+      "Requirements": "Available starting 5/19 in the Velvet Room. Requires Knowledge Rank 3 (Expert) to initiate.",
+      "Benefit": {
+        "Name": "Velvet Patronage",
+        "Description": "Bonus EXP when fusing Empress Personas."
+      },
+      "Note": "Rank 1 Task: Present Ippon-Datara with Sukukaja."
+    },
+    "Rank 2": {
+      "Requirements": "Velvet Room fusion task",
+      "Note": "Task 2: Present Matador with Mahama."
+    },
+    "Rank 3": {
+      "Requirements": "Velvet Room fusion task",
+      "Note": "Task 3: Present Taotie with Auto-Tarukaja."
+    },
+    "Rank 5": {
+      "Requirements": "Velvet Room fusion task",
+      "Note": "Task 5: Present King Frost with Auto-Sukukaja."
+    },
+    "Rank 7": {
+      "Requirements": "Velvet Room fusion task",
+      "Note": "Task 7: Present Yatsufusa with Mediarama."
+    },
+    "Rank 9": {
+      "Requirements": "Velvet Room fusion task",
+      "Note": "Task 9: Present Trumpeter with Mind Charge."
+    },
+    "Rank 10": {
+      "Requirements": "Velvet Room Max Rank",
+      "Benefit": {
+        "Name": "Master Bond & Isis",
+        "Description": "Unlocks ultimate Empress Persona Isis for fusion and secret super-boss conditions."
+      }
+    }
+  },
+  "Emperor": {
+    "character": "Kanji Tatsumi",
+    "arcana": "Emperor",
+    "Rank 1": {
+      "Requirements": "Available after 6/9 at Practice Building 1F hallway. Talk to female student on 2F first, then speak with Kanji.",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Emperor Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Wed/Thu/Sat/Sun at Practice Building 1F",
+      "Choices": [
+        {
+          "Answer": "You're good with your hands.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm with you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Daytime at Practice Building",
+      "Benefit": {
+        "Name": "Follow Up",
+        "Description": "Kanji can execute follow-up physical assaults on downed foes."
+      },
+      "Choices": [
+        {
+          "Answer": "You're innocent, Kanji.",
+          "Points": 3
+        },
+        {
+          "Answer": "Don't sweat it.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Daytime at Practice Building",
+      "Choices": [
+        {
+          "Answer": "It was pretty cool.",
+          "Points": 3
+        },
+        {
+          "Answer": "Believe in yourself.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Daytime at Practice Building",
+      "Benefit": {
+        "Name": "Endure",
+        "Description": "Survives fatal combat damage with 1 HP."
+      },
+      "Choices": [
+        {
+          "Answer": "You're not running anymore.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm proud of you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Second Awakening & Odin",
+        "Description": "Kanji's Take-Mikazuchi awakens into Dairoku Tenmaou; unlocks Odin for fusion."
+      }
+    }
+  },
+  "Hierophant": {
+    "character": "Ryotaro Dojima",
+    "arcana": "Hierophant",
+    "Rank 1": {
+      "Requirements": "Starts 5/6 evening inside the Dojima Residence living room.",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Hierophant Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Requires Expression Rank 2",
+      "Choices": [
+        {
+          "Answer": "Working late?",
+          "Points": 2
+        },
+        {
+          "Answer": "That's rough.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Evening at Dojima Residence",
+      "Choices": [
+        {
+          "Answer": "Is it about Chisato?",
+          "Points": 3
+        },
+        {
+          "Answer": "I don't mind.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Requires Expression Rank 3 (Persuasive)",
+      "Choices": [
+        {
+          "Answer": "Can I help?",
+          "Points": 3
+        },
+        {
+          "Answer": "Nanako is waiting.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Evening at Dojima Residence",
+      "Choices": [
+        {
+          "Answer": "Cheer him up.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're a good father.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Requires Expression Rank 4 (Touching)",
+      "Choices": [
+        {
+          "Answer": "Nanako loves you.",
+          "Points": 3
+        },
+        {
+          "Answer": "We're family.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event (complete before November!)",
+      "Benefit": {
+        "Name": "Fatherly Bond & Kohryu",
+        "Description": "Unlocks ultimate Hierophant Persona Kohryu for fusion."
+      }
+    }
+  },
+  "Lovers": {
+    "character": "Rise Kujikawa",
+    "arcana": "Lovers",
+    "Rank 1": {
+      "Requirements": "Starts 7/23 at Classroom 2-2 hallway after rescuing her from the Striptease.",
+      "Benefit": {
+        "Name": "Support Scan",
+        "Description": "Rise provides battle navigation and reveals enemy weaknesses."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Fri/Sat/Sun at Classroom 2-2 or Junes",
+      "Benefit": {
+        "Name": "Weakness Scan",
+        "Description": "Reveals enemy elemental weaknesses automatically at battle start."
+      },
+      "Choices": [
+        {
+          "Answer": "I don't mind.",
+          "Points": 3
+        },
+        {
+          "Answer": "Just be yourself.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Daytime after school",
+      "Benefit": {
+        "Name": "Healing Wave",
+        "Description": "Restores 5% HP to all party members after every battle!"
+      },
+      "Choices": [
+        {
+          "Answer": "I'm with you.",
+          "Points": 3
+        },
+        {
+          "Answer": "Rise is Risette.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Daytime after school",
+      "Benefit": {
+        "Name": "Cheering",
+        "Description": "Rise can randomly cast buffs or Charge/Concentrate on allies."
+      },
+      "Choices": [
+        {
+          "Answer": "Cheer her up.",
+          "Points": 3
+        },
+        {
+          "Answer": "You have me.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Daytime after school",
+      "Benefit": {
+        "Name": "Mind Wave",
+        "Description": "Restores 5% SP to all party members after every battle!"
+      },
+      "Choices": [
+        {
+          "Answer": "Hold her tight.",
+          "Points": 3
+        },
+        {
+          "Answer": "I love you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Daytime after school",
+      "Note": "Romance Route Choice: Choose 'Hold her' and 'Stand firm' to romance Rise.",
+      "Choices": [
+        {
+          "Answer": "Hold her.",
+          "Points": 3
+        },
+        {
+          "Answer": "Because I love you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Second Awakening & Ishtar",
+        "Description": "Rise's Himiko awakens into Kanzeon; reveals all enemy stats and unlocks Ishtar."
+      }
+    }
+  },
+  "Chariot": {
+    "character": "Chie Satonaka",
+    "arcana": "Chariot",
+    "Rank 1": {
+      "Requirements": "Starts 4/18 at Yasogami High Rooftop.",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Chariot Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Mon/Tue/Thu/Sat at High School Rooftop",
+      "Choices": [
+        {
+          "Answer": "Right on.",
+          "Points": 3
+        },
+        {
+          "Answer": "Count me in.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Daytime on Rooftop",
+      "Benefit": {
+        "Name": "Follow Up",
+        "Description": "Chie can kick a downed enemy completely out of the battlefield for an instant KO!"
+      },
+      "Choices": [
+        {
+          "Answer": "It's cute.",
+          "Points": 3
+        },
+        {
+          "Answer": "I don't mind.",
+          "Points": 2
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Daytime on Rooftop",
+      "Choices": [
+        {
+          "Answer": "Looks delicious.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'll protect you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Daytime on Rooftop",
+      "Benefit": {
+        "Name": "Harisen Recovery",
+        "Description": "Chance to cure allies of mental ailments."
+      },
+      "Choices": [
+        {
+          "Answer": "You're a girl, Chie.",
+          "Points": 3
+        },
+        {
+          "Answer": "I like you as you are.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Daytime on Rooftop",
+      "Benefit": {
+        "Name": "Endure",
+        "Description": "Survives a lethal attack with 1 HP remaining."
+      },
+      "Choices": [
+        {
+          "Answer": "That's the spirit.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're not weak.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Daytime on Rooftop",
+      "Note": "Romance Route Choice: Choose 'Will you be my girlfriend?' to romance Chie.",
+      "Choices": [
+        {
+          "Answer": "You're doing great.",
+          "Points": 3
+        },
+        {
+          "Answer": "Will you be my girlfriend?",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Second Awakening & Futsunushi",
+        "Description": "Chie's Tomoe awakens into Suzuka Gongen; unlocks ultimate Chariot Futsunushi."
+      }
+    }
+  },
+  "Justice": {
+    "character": "Nanako Dojima",
+    "arcana": "Justice",
+    "Rank 1": {
+      "Requirements": "Starts 5/3 evening inside Dojima Residence living room.",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Justice Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Evening at Dojima Residence",
+      "Choices": [
+        {
+          "Answer": "I'll help you.",
+          "Points": 3
+        },
+        {
+          "Answer": "Let's work together.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Requires Expression Rank 3",
+      "Choices": [
+        {
+          "Answer": "I'll buy it for you.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm not going anywhere.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Evening at Residence",
+      "Choices": [
+        {
+          "Answer": "He's working hard.",
+          "Points": 3
+        },
+        {
+          "Answer": "He loves you very much.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Requires Expression Rank 4 (Touching)",
+      "Choices": [
+        {
+          "Answer": "She's in heaven.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're not alone, Nanako.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Requires Expression Rank 5 (Enthralling)",
+      "Choices": [
+        {
+          "Answer": "I'll always be your big brother.",
+          "Points": 3
+        },
+        {
+          "Answer": "We'll always be together.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event (complete before November!)",
+      "Benefit": {
+        "Name": "Pure Bond & Sraosha",
+        "Description": "Maxes Justice bond; unlocks ultimate Justice Persona Sraosha."
+      }
+    }
+  },
+  "Hermit": {
+    "character": "Fox",
+    "arcana": "Hermit",
+    "Rank 1": {
+      "Requirements": "Starts 5/5 at Tatsuhime Shrine. Complete shrine ema prayer quests to advance rank!",
+      "Benefit": {
+        "Name": "Healing Paws",
+        "Description": "Fox can restore full SP to party members in the TV World for a yen fee."
+      }
+    },
+    "Rank 3": {
+      "Requirements": "Complete Ema Quest 2 (Feeder)",
+      "Benefit": {
+        "Name": "Price Reduction I",
+        "Description": "Reduces SP recovery fee by 15%."
+      }
+    },
+    "Rank 5": {
+      "Requirements": "Complete Ema Quest 4 (Dog)",
+      "Benefit": {
+        "Name": "Price Reduction II",
+        "Description": "Reduces SP recovery fee by 30%."
+      }
+    },
+    "Rank 7": {
+      "Requirements": "Complete Ema Quest 6 (Cat)",
+      "Benefit": {
+        "Name": "Price Reduction III",
+        "Description": "Reduces SP recovery fee by 50%."
+      }
+    },
+    "Rank 10": {
+      "Requirements": "Catch the River Guardian and Sea Guardian to fulfill final prayer",
+      "Benefit": {
+        "Name": "Master Blessing & Ongyo-Ki",
+        "Description": "SP healing cost reduced to practically pennies; unlocks ultimate Hermit Ongyo-Ki."
+      }
+    }
+  },
+  "Fortune": {
+    "character": "Naoto Shirogane",
+    "arcana": "Fortune",
+    "Rank 1": {
+      "Requirements": "Starts 10/21 at Classroom Building 1F. Must talk to Man in Black in Samegawa Floodplain first to obtain card. Requires Max Knowledge (Rank 5) and Max Courage (Rank 5)!",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Fortune Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Mon/Wed/Sat at Classroom 1F",
+      "Choices": [
+        {
+          "Answer": "That was quick.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm with you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Daytime after school",
+      "Benefit": {
+        "Name": "Follow Up",
+        "Description": "Naoto performs a follow-up critical attack on downed foes."
+      },
+      "Choices": [
+        {
+          "Answer": "A duel?",
+          "Points": 3
+        },
+        {
+          "Answer": "I'll protect you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Daytime after school",
+      "Benefit": {
+        "Name": "Harisen Recovery",
+        "Description": "Chance to cure allies' status ailments."
+      },
+      "Choices": [
+        {
+          "Answer": "You're a girl.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm glad you're a girl.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 8": {
+      "Requirements": "Requires Courage Rank 5",
+      "Benefit": {
+        "Name": "Endure",
+        "Description": "Survives a fatal blow with 1 HP."
+      },
+      "Choices": [
+        {
+          "Answer": "I'll protect you.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm here for you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Daytime after school",
+      "Note": "Romance Route Choice: Choose 'I'm glad you're a girl' and 'Because I love you' to romance Naoto.",
+      "Choices": [
+        {
+          "Answer": "Because I love you.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'll always be by your side.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Second Awakening & Norn",
+        "Description": "Naoto's Sukuna-Hikona awakens into Yamato-Takeru; unlocks Norn for fusion."
+      }
+    }
+  },
+  "Strength": {
+    "character": "Kou Ichijo / Daisuke Nagase",
+    "arcana": "Strength",
+    "Rank 1": {
+      "Requirements": "Starts 4/19 by joining Basketball or Soccer club at Yasogami High.",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Strength Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Tue/Thu/Sat after school at Club Building",
+      "Choices": [
+        {
+          "Answer": "Practice makes perfect.",
+          "Points": 3
+        },
+        {
+          "Answer": "You did great.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Daytime at Club practice",
+      "Choices": [
+        {
+          "Answer": "Cheer him up.",
+          "Points": 3
+        },
+        {
+          "Answer": "Count me in.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Daytime at Club practice",
+      "Choices": [
+        {
+          "Answer": "You're a good friend.",
+          "Points": 3
+        },
+        {
+          "Answer": "Don't give up.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Athletic Bond & Zaou-Gongen",
+        "Description": "Unlocks ultimate Strength Persona Zaou-Gongen for fusion."
+      }
+    }
+  },
+  "Hanged Man": {
+    "character": "Naoki Konishi",
+    "arcana": "Hanged Man",
+    "Rank 1": {
+      "Requirements": "Starts 6/9 at Classroom 1F hallway. Must talk to him 3 times on separate days with Understanding Rank 3 (Generous).",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Hanged Man Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Mon/Tue/Wed after school at Shopping District North",
+      "Choices": [
+        {
+          "Answer": "That's tough.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're doing your best.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Daytime after school",
+      "Choices": [
+        {
+          "Answer": "I don't mind listening.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're not a bad brother.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "True Release & Attis",
+        "Description": "Unlocks ultimate Hanged Man Persona Attis for fusion."
+      }
+    }
+  },
+  "Death": {
+    "character": "Hisano Kuroda",
+    "arcana": "Death",
+    "Rank 1": {
+      "Requirements": "Starts at Samegawa Floodplain riverbank on Sundays/Holidays. Must reach Devil Rank 4 (Nurse Sayoko) first to meet Hisano.",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Death Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Sundays and holidays at Samegawa Riverbank",
+      "Choices": [
+        {
+          "Answer": "I'm listening.",
+          "Points": 3
+        },
+        {
+          "Answer": "I don't mind.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Sundays at Floodplain",
+      "Choices": [
+        {
+          "Answer": "He loved you.",
+          "Points": 3
+        },
+        {
+          "Answer": "I believe you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Eternal Memory & Mahakala",
+        "Description": "Unlocks ultimate Death Persona Mahakala for fusion."
+      }
+    }
+  },
+  "Temperance": {
+    "character": "Eri Minami",
+    "arcana": "Temperance",
+    "Rank 1": {
+      "Requirements": "Starts 5/2 by applying for Daycare job on Central Shopping District bulletin board. Requires Understanding Rank 2.",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Temperance Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Mon/Fri/Sat afternoon at Daycare job",
+      "Choices": [
+        {
+          "Answer": "He's just shy.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're trying hard.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Daycare afternoon",
+      "Choices": [
+        {
+          "Answer": "Yuuta loves you.",
+          "Points": 3
+        },
+        {
+          "Answer": "Take it slow.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Motherly Bond & Vishnu",
+        "Description": "Unlocks ultimate Temperance Persona Vishnu for fusion."
+      }
+    }
+  },
+  "Devil": {
+    "character": "Sayoko Uehara",
+    "arcana": "Devil",
+    "Rank 1": {
+      "Requirements": "Starts 5/25 by applying for Night Hospital Janitor job on Central Shopping District bulletin board. Requires Diligence Rank 3.",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Devil Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Wed/Thu/Fri evening at Inaba Hospital Janitor job",
+      "Choices": [
+        {
+          "Answer": "Are you lonely?",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm here.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Evening at Hospital. Unlocks Hisano (Death Social Link) at Samegawa Riverbank!",
+      "Choices": [
+        {
+          "Answer": "I'll listen.",
+          "Points": 3
+        },
+        {
+          "Answer": "Cheer her up.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Requires Courage Rank 4",
+      "Choices": [
+        {
+          "Answer": "Don't give up on nursing.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're a good nurse.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Devilish Resolve & Beelzebub",
+        "Description": "Unlocks ultimate Devil Persona Beelzebub for fusion."
+      }
+    }
+  },
+  "Tower": {
+    "character": "Shu Nakajima",
+    "arcana": "Tower",
+    "Rank 1": {
+      "Requirements": "Starts 5/25 by applying for Tutor Job on Central Shopping District bulletin board. Requires Understanding Rank 5 (Saintly)!",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Tower Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Tue/Thu/Sat evening at Tutor Job",
+      "Choices": [
+        {
+          "Answer": "You're doing great.",
+          "Points": 3
+        },
+        {
+          "Answer": "Let's study together.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Evening at Tutor Job",
+      "Choices": [
+        {
+          "Answer": "Cheer him up.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're more than just grades.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Tower of Growth & Shiva",
+        "Description": "Unlocks ultimate Tower Persona Shiva for fusion."
+      }
+    }
+  },
+  "Star": {
+    "character": "Teddie",
+    "arcana": "Star",
+    "Rank 1": {
+      "Requirements": "Automatic on 6/24 after defeating Shadow Teddie.",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Star Personas."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Automatic on 7/11"
+    },
+    "Rank 4": {
+      "Requirements": "Automatic on 8/12",
+      "Benefit": {
+        "Name": "Follow Up",
+        "Description": "Teddie can perform a follow-up attack during combat."
+      }
+    },
+    "Rank 6": {
+      "Requirements": "Automatic on 9/16",
+      "Benefit": {
+        "Name": "Harisen Recovery",
+        "Description": "Teddie can cure status ailments on party members."
+      }
+    },
+    "Rank 8": {
+      "Requirements": "Automatic on 10/24",
+      "Benefit": {
+        "Name": "Endure",
+        "Description": "Survives a lethal blow in battle with 1 HP."
+      }
+    },
+    "Rank 10": {
+      "Requirements": "Automatic on 12/5 after resolving the mystery.",
+      "Benefit": {
+        "Name": "Second Awakening & Helel",
+        "Description": "Teddie's Kintoki-Douji awakens into Kamui; unlocks ultimate Star Helel."
+      }
+    }
+  },
+  "Moon": {
+    "character": "Ai Ebihara",
+    "arcana": "Moon",
+    "Rank 1": {
+      "Requirements": "Starts after reaching Rank 4 in Strength club. Requires Courage Rank 3 to talk to her in Classroom Building 1F.",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Moon Personas."
+      }
+    },
+    "Rank 3": {
+      "Requirements": "Wed/Thu/Fri afternoon at Classroom Building 1F",
+      "Choices": [
+        {
+          "Answer": "Let's go shopping.",
+          "Points": 3
+        },
+        {
+          "Answer": "You look great.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Requires Courage Rank 4",
+      "Note": "False Romance Route warning: Agreeing to date her at Rank 6 enters a temporary fake relationship.",
+      "Choices": [
+        {
+          "Answer": "I'll protect you.",
+          "Points": 3
+        },
+        {
+          "Answer": "Be yourself.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event (True Romance available at Rank 10 if you supported her genuine self)",
+      "Benefit": {
+        "Name": "True Self & Sandalphon",
+        "Description": "Unlocks ultimate Moon Persona Sandalphon for fusion."
+      }
+    }
+  },
+  "Sun": {
+    "character": "Yumi Ozawa / Ayane Matsunaga",
+    "arcana": "Sun",
+    "Rank 1": {
+      "Requirements": "Starts 4/25 by joining Drama Club (Yumi) or Music Club (Ayane) at Practice Building 1F.",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Sun Personas."
+      }
+    },
+    "Rank 3": {
+      "Requirements": "Mon/Tue/Thu afternoon at Practice Building",
+      "Choices": [
+        {
+          "Answer": "You're a hard worker.",
+          "Points": 3
+        },
+        {
+          "Answer": "I'm with you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Daytime after school",
+      "Choices": [
+        {
+          "Answer": "Cheer her on.",
+          "Points": 3
+        },
+        {
+          "Answer": "You can do this.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event",
+      "Benefit": {
+        "Name": "Radiant Sunshine & Asura",
+        "Description": "Unlocks ultimate Sun Persona Asura for fusion."
+      }
+    }
+  },
+  "Judgement": {
+    "character": "Seekers of Truth",
+    "arcana": "Judgement",
+    "Rank 1": {
+      "Requirements": "Starts automatically on 12/3 if the true culprit is named and the group commits to seeking the absolute truth.",
+      "Benefit": {
+        "Name": "Arcana Burst",
+        "Description": "Bonus EXP when fusing Judgement Personas."
+      }
+    },
+    "Rank 10": {
+      "Requirements": "Automatic on 12/24 upon reaching the deepest floor of the Magatsu Inaba dungeon.",
+      "Benefit": {
+        "Name": "Truth Realized & Lucifer",
+        "Description": "Unlocks ultimate Judgement Persona Lucifer for fusion."
+      }
+    }
+  },
+  "Jester": {
+    "character": "Tohru Adachi",
+    "arcana": "Jester",
+    "Rank 1": {
+      "Requirements": "Starts 5/13 at Junes Department Store near the elevator. Available on select days (Mon/Tue/Fri/Sat/Sun). CRITICAL: Reach Rank 6 before 11/1!",
+      "Benefit": {
+        "Name": "Jester Arcana Burst",
+        "Description": "P4G exclusive Social Link! Grants fusion bonus and unique story routes."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Daytime at Junes",
+      "Choices": [
+        {
+          "Answer": "That's pretty cool.",
+          "Points": 3
+        },
+        {
+          "Answer": "Must be tough being a cop.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Night outside Inaba Central Gas Station",
+      "Choices": [
+        {
+          "Answer": "I don't mind.",
+          "Points": 3
+        },
+        {
+          "Answer": "Cooking?",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Night at Gas Station",
+      "Choices": [
+        {
+          "Answer": "He has a point.",
+          "Points": 3
+        },
+        {
+          "Answer": "Let's hang out again.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Daytime at Junes",
+      "Choices": [
+        {
+          "Answer": "You're a good guy.",
+          "Points": 3
+        },
+        {
+          "Answer": "Thanks for the treat.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 6": {
+      "Requirements": "Night at Central Gas Station. DEADLINE: Must be achieved before 11/1!",
+      "Note": "CRITICAL: Reaching Rank 6 before 11/1 automatically transitions Jester into Hunger arcana in December!",
+      "Choices": [
+        {
+          "Answer": "I'm with you.",
+          "Points": 3
+        },
+        {
+          "Answer": "I understand.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Automatic in December during Magatsu Inaba story progression (Hunger Arcana)."
+    },
+    "Rank 8": {
+      "Requirements": "Automatic during the confrontation with Adachi in the TV World."
+    },
+    "Rank 9": {
+      "Requirements": "Automatic upon defeating Adachi."
+    },
+    "Rank 10": {
+      "Requirements": "True Ending on 3/20: Visit Dojima Residence, read Adachi's letter from the mail; unlocks Magatsu-Izanagi.",
+      "Benefit": {
+        "Name": "Hunger Transmuted & Magatsu-Izanagi",
+        "Description": "Unlocks Adachi's Persona Magatsu-Izanagi for fusion."
+      }
+    }
+  },
+  "Aeon": {
+    "character": "Marie",
+    "arcana": "Aeon",
+    "Rank 1": {
+      "Requirements": "Starts 4/18 inside Velvet Room. Enter Velvet Room and select 'Listen to Marie's request'. CRITICAL: Must max Rank 10 before 12/23 for the Golden Golden Epilogue!",
+      "Benefit": {
+        "Name": "Velvet Bond",
+        "Description": "P4G exclusive Social Link! Unlocks Hollow Forest dungeon and True Golden Epilogue in February."
+      }
+    },
+    "Rank 2": {
+      "Requirements": "Wed/Sat/Sun/Holidays outside Velvet Room in Shopping District South",
+      "Choices": [
+        {
+          "Answer": "Let's go shopping.",
+          "Points": 3
+        },
+        {
+          "Answer": "It's fun.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 3": {
+      "Requirements": "Daytime in Shopping District",
+      "Choices": [
+        {
+          "Answer": "I'll show you around.",
+          "Points": 3
+        },
+        {
+          "Answer": "That's cute.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 4": {
+      "Requirements": "Daytime in Shopping District",
+      "Choices": [
+        {
+          "Answer": "It's delicious.",
+          "Points": 3
+        },
+        {
+          "Answer": "I don't mind at all.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 5": {
+      "Requirements": "Daytime in Shopping District",
+      "Choices": [
+        {
+          "Answer": "I'll protect your memories.",
+          "Points": 3
+        },
+        {
+          "Answer": "We'll find the truth together.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 7": {
+      "Requirements": "Daytime in Shopping District",
+      "Choices": [
+        {
+          "Answer": "I'm with you, Marie.",
+          "Points": 3
+        },
+        {
+          "Answer": "You're special to me.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 9": {
+      "Requirements": "Daytime in Shopping District",
+      "Note": "Romance Route Choice: Choose 'Because I love you' and 'Hug her' to romance Marie.",
+      "Choices": [
+        {
+          "Answer": "Hug her.",
+          "Points": 3
+        },
+        {
+          "Answer": "Because I love you.",
+          "Points": 3
+        }
+      ]
+    },
+    "Rank 10": {
+      "Requirements": "Max Rank event before 12/23 deadline! Unlocks Hollow Forest dungeon on 2/13.",
+      "Benefit": {
+        "Name": "Hollow Forest & Kaguya",
+        "Description": "Unlocks the secret Golden Hollow Forest dungeon, Golden True Ending, and ultimate Aeon Persona Kaguya."
+      }
+    }
+  }
+}

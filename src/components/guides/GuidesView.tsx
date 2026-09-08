@@ -27,11 +27,18 @@ interface GuidesViewProps {
 export const GuidesView: React.FC<GuidesViewProps> = ({
   dayGuides,
   bossGuides,
+  gameId,
+  series,
   accentColor
 }) => {
   const [activeTab, setActiveTab] = useState<'calendar' | 'bosses'>('calendar');
   const [selectedMonthIdx, setSelectedMonthIdx] = useState<number>(0);
   const [searchQuery, setSearchQuery] = useState<string>('');
+
+  // Reset month index on game switch or when dayGuides change
+  React.useEffect(() => {
+    setSelectedMonthIdx(0);
+  }, [gameId]);
 
   // Selected Month
   const currentMonth = dayGuides[selectedMonthIdx] || dayGuides[0];
@@ -68,6 +75,9 @@ export const GuidesView: React.FC<GuidesViewProps> = ({
   // Helper for formatting time slots
   const getTimeSlotBadge = (time: string) => {
     const t = time.toLowerCase();
+    if (t.includes('dark hour') || t.includes('midnight') || t.includes('full moon')) {
+      return { label: '🌑 Dark Hour / Event', bg: 'bg-rose-500/20 text-rose-300 border-rose-500/30' };
+    }
     if (t.includes('train')) {
       return { label: '🚆 Train', bg: 'bg-indigo-500/20 text-indigo-300 border-indigo-500/30' };
     }
@@ -80,20 +90,38 @@ export const GuidesView: React.FC<GuidesViewProps> = ({
     if (t.includes('evening') || t.includes('night')) {
       return { label: '🌙 Evening', bg: 'bg-purple-500/20 text-purple-300 border-purple-500/30' };
     }
+    if (t.includes('all day')) {
+      return { label: '📅 All Day', bg: 'bg-sky-500/20 text-sky-300 border-sky-500/30' };
+    }
     return { label: `⏳ ${time}`, bg: 'bg-zinc-800 text-zinc-300 border-white/10' };
   };
 
   // Helper to format action text with highlights
   const formatActionText = (text: string) => {
-    // Highlight stat increases like (Knowledge +2), (Charm +3), etc.
-    const statRegex = /\((Knowledge|Charm|Guts|Kindness|Proficiency|Technical|Baton Pass)[^)]*\)/gi;
+    // Highlight stat increases across P3, P4, P5
+    const statRegex = /\((Knowledge|Charm|Guts|Kindness|Proficiency|Academics|Courage|Diligence|Understanding|Expression|Technical|Baton Pass)[^)]*\)/gi;
     const parts = text.split(statRegex);
     if (parts.length === 1) return text;
 
     return (
       <span>
         {parts.map((part, i) => {
-          if (['Knowledge', 'Charm', 'Guts', 'Kindness', 'Proficiency', 'Technical', 'Baton Pass'].some(s => s.toLowerCase() === part.toLowerCase())) {
+          if (
+            [
+              'Knowledge',
+              'Charm',
+              'Guts',
+              'Kindness',
+              'Proficiency',
+              'Academics',
+              'Courage',
+              'Diligence',
+              'Understanding',
+              'Expression',
+              'Technical',
+              'Baton Pass'
+            ].some((s) => s.toLowerCase() === part.toLowerCase())
+          ) {
             return (
               <span key={i} className="text-amber-300 font-bold">
                 {part}
@@ -123,10 +151,16 @@ export const GuidesView: React.FC<GuidesViewProps> = ({
     switch (cat?.toLowerCase()) {
       case 'deadline':
         return 'bg-rose-500/20 text-rose-300 border-rose-500/30';
+      case 'palace':
+      case 'dungeon':
+        return 'bg-purple-500/20 text-purple-300 border-purple-500/30';
       case 'story':
         return 'bg-amber-500/20 text-amber-300 border-amber-500/30';
       case 'exam':
         return 'bg-yellow-500/20 text-yellow-300 border-yellow-500/30';
+      case 'confidant':
+      case 'social_link':
+        return 'bg-blue-500/20 text-blue-300 border-blue-500/30';
       case 'unlock':
         return 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30';
       case 'tip':

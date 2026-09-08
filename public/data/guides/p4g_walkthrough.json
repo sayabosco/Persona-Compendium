@@ -1,0 +1,3377 @@
+{
+  "April": [
+    {
+      "date": "4/11",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Arrival in Inaba, meet Dojima and Nanako",
+            "Settle into the Dojima Residence"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/12",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Afternoon",
+          "actions": [
+            "Lecture: Answer 'Tell me about yourself' (Choice 1)",
+            "Question: 'What does the term 'persona' mean in Latin?' -> Answer: 'A mask' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Midnight Channel introduction, watch TV at midnight"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/13",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Morning",
+          "actions": [
+            "Meet Chie Satonaka and Yukiko Amagi"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Visit Junes Department Store with Yosuke and Chie",
+            "First encounter with the TV World, meet Teddie"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/14",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Lecture: Answer '1 B.C.' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Questioning around Inaba about Saki Konishi"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Midnight Channel broadcast: Saki Konishi"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/15",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Enter TV World with Yosuke",
+            "Awaken Izanagi (Fool Rank 1)",
+            "Boss: Yosuke's Shadow (Exploit Wind/Bash)",
+            "Magician Rank 1 (Yosuke Hanamura unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/16",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "News of Saki Konishi's death spreads"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/17",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Chie awakens Tomoe (Chariot Rank 1)",
+            "Yukiko Amagi goes missing on the Midnight Channel",
+            "Investigation Team formed (Fool Rank 2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Dojima Residence: Study at desk (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/18",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Beta' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Yukiko's Castle unlocked (Deadline: 4/29)",
+            "Yukiko's Castle Infiltration 1: Rescue Yukiko",
+            "Defeat Chie's Shadow (Chariot Persona)",
+            "Boss: Shadow Yukiko (Weak to Ice, use Chie's Bufu, guard Prince Chivalry)",
+            "Reach Castle 8F and secure the rescue"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study at desk (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/19",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Stay awake (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Join Sports Club (Basketball or Soccer)",
+            "Strength Rank 1 (Daisuke/Kou)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Read 'The Lovely Man' at desk (Courage +)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/20",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Three' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Bookstore: Buy 'Beginner's Fishing', 'The Lovely Man', 'English Made Easy'",
+            "Magician Rank 2 (Yosuke: 'You're crying, huh?' -> 'It must be tough')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Dojima Residence: Talk to Ryotaro Dojima",
+            "Hierophant Rank 1"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/21",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Chariot Rank 2 (Chie: 'Count me in' -> 'Hold on a sec')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study at desk (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/22",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 2 (Kou/Daisuke)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hierophant Rank 2 (Dojima: 'Working late?' -> 'Leave it to me')"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/23",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Tulip mania' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Magician Rank 3 (Yosuke: 'You're doing great' -> 'It takes time')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study at desk (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/24",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Sun Rank 1: Join Cultural Club (Band / Drama) in school or Shrine visit"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study at desk (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/25",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Overcompensate' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Chariot Rank 3 (Chie: 'You're cute' -> 'Quit it!')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Take Envelope Folding job at notice board (Diligence +)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/26",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Marriage numbers' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 3 (Daisuke/Kou)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Envelope Folding (Diligence +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/27",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Magician Rank 4 (Yosuke: 'You're okay with this?' -> 'Cheer up')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hierophant Rank 3 (Dojima)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/28",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Chariot Rank 4 (Chie: 'Don't hold back' -> 'You have me')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study at desk (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/29",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Showa Day Holiday",
+            "Yukiko Castle Deadline (Must have defeated Shadow Yukiko by today)",
+            "Chie hang out / Shopping"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study at desk (Knowledge Lv. 2 reached)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "4/30",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Mount Olympus' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Investigation Team celebrates Yukiko's rescue",
+            "Fool Rank 3: Auto"
+          ]
+        }
+      ]
+    }
+  ],
+  "May": [
+    {
+      "date": "5/1",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hermit Rank 1: Visit Tatsuhime Shrine, meet the Fox",
+            "Fox asks for assistance with wishes (Ema requests unlocked)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Eat suspicious food in fridge (Courage +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/2",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 4 (Kou/Daisuke)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hierophant Rank 4 (Dojima: 'With Nanako?' -> 'That's hard')"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/3",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Justice Rank 1: Nanako Dojima unlocked",
+            "Constitution Day family gathering"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Rank 2 (Nanako: 'Go ahead' -> 'I'll help you')"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/4",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Greenery Day: Hang out with Yosuke or Chie"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Rank 3 (Nanako: 'Is there anything else?' -> 'I'll play with you')"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/5",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Children's Day: Tatsuhime Shrine Ema 1 (Talk to girl in Shiroku Store)",
+            "Hermit Rank 2 (Report to Fox at Shrine)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Read 'Expert Study Techniques' (Increases knowledge gained from studying)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/6",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Jester Rank 1: Meet Tohru Adachi at Junes Department Store",
+            "Jester Rank 2 (Adachi: 'You're really lonely' -> 'I don't mind')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hierophant Rank 5 (Dojima: 'Can I help?' -> 'A heart-to-heart')"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/7",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'The mitorizumono' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 1: Yukiko Amagi returns to school and joins the team"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study for upcoming midterm exams"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/8",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Priestess Rank 2 (Yukiko: 'Sense of responsibility' -> 'Don't push yourself')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study for exams (Knowledge +)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/9",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Midterm Exams Day 1: 'Overcompensate'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/10",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Midterm Exams Day 2: '1 B.C.' -> 'Marriage numbers'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/11",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Midterm Exams Day 3: 'The mitorizumono' -> 'Three'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/12",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Midterm Exams Day 4: Final Exam grading based on Knowledge stat"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/13",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Midnight Channel broadcast: Kanji Tatsumi appears"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/14",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Investigate Kanji Tatsumi: Talk to Kanji's mother outside textile shop"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Jester Rank 3 (Adachi at Junes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/15",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Investigate Kanji: Talk to youth near Junes elevator",
+            "Steamy Bathhouse unlocked (Deadline: 6/4)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/16",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Infiltrate Steamy Bathhouse: Clear to 11F",
+            "Boss: Shadow Kanji, Nice Guy, Tough Guy",
+            "Defeat Nice Guy first (heals), use Physical and Fire attacks, guard Roar of Pride",
+            "Kanji rescued!"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study at desk or spend time with Nanako"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/17",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 3 (Yukiko: 'Making dinner?' -> 'Can you cook?')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Rank 4 (Nanako)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/18",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Aeon Rank 1: Meet Marie at Velvet Room, explore Inaba with Marie"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hierophant Rank 6 (Dojima)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/19",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Exam Results: Top 10 in school! (Charm +2, Social Link bonus points unlocked)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 4 (Yukiko: 'A high-class inn' -> 'You can do it')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Rank 5 (Nanako: 'My dad?' -> 'He's listening to you')"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/20",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Jester Rank 4 (Adachi: 'I'll cook for you' -> Cooking unlocked)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Make boxed lunch in kitchen (Pick the right ingredient for tomorrow's SL boost)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/21",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Share lunch with Yukiko (Priestess boost)",
+            "Chariot Rank 5 (Chie: 'Don't push yourself' -> 'I'll protect you')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Read 'Beginner's Fishing' (Diligence +)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/22",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Aeon Rank 2 (Marie: 'Let's go somewhere' -> 'It's fun being with you')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Spend time with Dojima (Hierophant +)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/23",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 5 (Kou/Daisuke)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Work Hospital Janitor or Envelope Folding job"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/24",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Sun Rank 2 (Ayane/Yumi)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Rank 6 (Nanako: 'Dojima's favorite food' -> 'Salad')"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/25",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 5 (Yukiko: 'I believe in you' -> 'Don't worry')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study at desk (Knowledge +)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/26",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Pollenosis' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Chariot Rank 6 (Chie: 'Count on me' -> 'You're doing great')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hierophant Rank 7 (Dojima)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/27",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Magician Rank 5 (Yosuke: 'You did your best' -> 'Cheer up')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Envelope folding or study"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/28",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Aeon Rank 3 (Marie: 'I like it' -> 'Let's make memories')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Make boxed lunch in kitchen"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/29",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hang out with Marie or Fox Ema wish"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Eat at Aiya Chinese Diner (Mega Beef Bowl Challenge, Courage/Diligence/Knowledge boost)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/30",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 6 (Yukiko: 'Keep practicing' -> 'I'll help you')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Jester Rank 5 (Adachi at Junes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "5/31",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 6 (Kou/Daisuke)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Spend time with Nanako (Justice +)"
+          ]
+        }
+      ]
+    }
+  ],
+  "June": [
+    {
+      "date": "6/1",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Chariot Rank 7 (Chie: 'It's not trouble' -> 'I'm right here')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Read 'English Made Easy' (Understanding +)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/2",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Sun Rank 3 (Ayane/Yumi)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hierophant Rank 8 (Dojima)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/3",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 7 (Yukiko: 'They all look delicious' -> 'Don't hold back')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Make boxed lunch in kitchen"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/4",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Kanji Tatsumi returns safely (Steamy Bathhouse deadline)",
+            "Kanji joins Investigation Team (Fool Rank 4)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Dojima Residence: Team celebration"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/5",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Emperor Rank 1: Meet Kanji Tatsumi at Yasogami High 1F hallway",
+            "Accept his invitation to practice building models"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hermit Rank 3: Visit Fox at Shrine with completed wish"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/6",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Magician Rank 6 (Yosuke: 'I understand' -> 'Keep your chin up')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Rank 7 (Nanako)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/7",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 2 (Kanji: 'You're really good with your hands' -> 'Believe in yourself')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tutor job at Amagi Inn or Translation work"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/8",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Allocate' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Chariot Rank 8 (Chie: 'I'll always be with you' -> 'You can do it')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hierophant Rank 9 (Dojima: 'Cheer up' -> 'You're a good dad')"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/9",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Camp trip shopping with the team at Junes"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/10",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "School Camp Trip Day 1: Outdoor Cooking ('Mystery Food X' disaster)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/11",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "School Camp Trip Day 2: Tent mix-up incident, return to Inaba"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Midnight Channel broadcast: Rise Kujikawa appears"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/12",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Aeon Rank 4 (Marie: 'It was fun' -> 'I'll stay with you')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Jester Rank 6 (Adachi at Junes)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/13",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'The mattress' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Investigate Rise Kujikawa: Visit Marukyu Tofu shop"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/14",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Investigate Rise: Talk to Rise fan at Floodplain, then tofu shop",
+            "Marukyu Striptease unlocked (Deadline: 7/9)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/15",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Cheerfulness in poverty' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Infiltrate Marukyu Striptease: Clear to 11F",
+            "Boss: Shadow Rise (Survive until script ends)",
+            "Boss: Shadow Teddie (Weak to nothing, guards Nihil Hand, use Physical / Ice)",
+            "Rise & Teddie rescued! (Star Rank 1 unlocked for Teddie)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study at desk (Knowledge +)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/16",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 8 (Yukiko: 'You've changed' -> 'I'm happy for you')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Hierophant Rank 10 (Dojima Social Link MAXED)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/17",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Chariot Rank 9 (Chie Romantic or Platonic route)",
+            "Romance: 'Will you be my girlfriend?' -> 'I love you'"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Rank 8 (Nanako)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/18",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Chariot Rank 10 (Chie Satonaka Social Link MAXED, Tomoe evolves into Suzuka Gongen)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Envelope folding or spend time with Nanako"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/19",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Aeon Rank 5 (Marie: 'I love you' -> 'Let's go together')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Rank 9 (Nanako: 'I'll always be with you' -> 'You're my sister')"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/20",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Meiji period' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 3 (Kanji: 'Don't worry about it' -> 'You're cool')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Justice Rank 10 (Nanako Dojima Social Link MAXED)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/21",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 9 (Yukiko Romantic or Platonic route)",
+            "Romance: 'I love you, Yukiko' -> 'Hold her hand'"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Read 'Hyperspeed Reading' (allows reading 2 chapters per session)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/22",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Priestess Rank 10 (Yukiko Amagi Social Link MAXED, Konohana Sakuya evolves into Amaterasu)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tutor job or Hospital Janitor (Devil Rank 1 unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/23",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Magician Rank 7 (Yosuke: 'I'm not mad' -> 'You did good')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 1: Meet Sayoko Uehara at Inaba Municipal Hospital"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/24",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 7 (Kou/Daisuke)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study or catch bugs with net at Tatsuhime Shrine"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/25",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 4 (Kanji: 'Trust yourself' -> 'You did great')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 2 (Sayoko at Hospital)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/26",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hermit Rank 4 (Fox wish completed)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Chinese Diner Aiya Mega Beef Bowl (Max Social Stats training)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/27",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Identity' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Magician Rank 8 (Yosuke: 'Don't worry' -> 'You have us')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 3 (Sayoko at Hospital)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/28",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 5 (Kanji: 'You were great' -> 'Believe in yourself')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Make boxed lunch in kitchen"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/29",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Share boxed lunch with Chie/Yukiko",
+            "Sun Rank 4 (Ayane/Yumi)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Read 'Poly-ground' (Increases stats earned from model assembly)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "6/30",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Pisces' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Magician Rank 9 (Yosuke: 'You're my best friend' -> 'Stand proud')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 4 (Sayoko at Hospital)"
+          ]
+        }
+      ]
+    }
+  ],
+  "July": [
+    {
+      "date": "7/1",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 8 (Kou/Daisuke)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 5 (Sayoko at Hospital)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/2",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Magician Rank 10 (Yosuke Hanamura Social Link MAXED, Jiraiya evolves into Susano-o)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tutor job: Tower Rank 1 (Meet Shu Nakajima)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/3",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Aeon Rank 6 (Marie: 'I want to remember' -> 'I'll help you')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Aiya Mega Beef Bowl (Social stats training)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/4",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Pascal' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 6 (Kanji)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 6 (Sayoko at Hospital)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/5",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Sun Rank 5 (Ayane/Yumi)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 2 (Shu Nakajima tutoring)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/6",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 7 (Kanji: 'Believe in your heart' -> 'You can change')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study for upcoming finals"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/7",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'U.S. Declaration of Independence' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 9 (Kou/Daisuke)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 7 (Sayoko at Hospital)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/8",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Strength Rank 10 (Strength Social Link MAXED)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study for finals"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/9",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Deadline for Marukyu Striptease rescue",
+            "Lovers Rank 1: Rise Kujikawa joins Investigation Team (Himiko unlocked)",
+            "Star Rank 2: Teddie joins party as frontline fighter (Kintoki-Douji unlocked)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Team celebrates at Junes Food Court",
+            "Fool Rank 5: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/10",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Fox wish: Tatsuhime Shrine Ema 5",
+            "Hermit Rank 5"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study at desk (Knowledge max check)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/11",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Lovers Rank 2 (Rise: 'Don't push yourself' -> 'You can count on me')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 3 (Shu Nakajima tutoring)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/12",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Sphenopalatine ganglioneuralgia' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 8 (Kanji: 'Don't run away' -> 'Stand your ground')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 8 (Sayoko at Hospital)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/13",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'The Joseon Dynasty' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Lovers Rank 3 (Rise: 'You're wonderful' -> 'Hold her hand')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study for final exams"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/14",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Dowsing' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Sun Rank 6 (Ayane/Yumi)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Study for final exams"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/15",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Equestrianism' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 9 (Kanji: 'I'll always be with you' -> 'You're really cool')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 9 (Sayoko at Hospital)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/16",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Kabuki' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Emperor Rank 10 (Kanji Tatsumi Social Link MAXED, Take-Mikazuchi evolves into Dairoku Tenmaou)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Final study session before exams"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/19",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Final Exams Day 1: 'Cheerfulness in poverty' -> 'Pascal'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/20",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Final Exams Day 2: 'The Joseon Dynasty' -> 'U.S. Declaration of Independence'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/21",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Final Exams Day 3: 'Sphenopalatine ganglioneuralgia' -> 'Equestrianism'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/22",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Final Exams Day 4: 'Kabuki' -> 'Allocate'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/23",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Mitsuo Kubo attacks teacher King Moron",
+            "Teacher Kinshiro Morooka is found murdered"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/24",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Marie poem in Velvet Room",
+            "Aeon Rank 7 (Marie: 'I love you' -> 'We're together forever')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Devil Rank 10 (Sayoko Uehara Social Link MAXED)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/25",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Exam Results: #1 in school! (Top grade bonus, Nanako reward: 40,000 yen)"
+          ]
+        },
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Identity' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Lovers Rank 4 (Rise: 'I'm with you' -> 'You're not alone')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 4 (Shu Nakajima tutoring)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/26",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Investigation of Mitsuo Kubo begins"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Fool Rank 6: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/27",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Investigate Mitsuo: Talk to Kanji outside Marukyu Tofu, then boy at Junes"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/28",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Investigate Mitsuo: Talk to Dojima at Shopping District North",
+            "Talk to Adachi at Junes Department Store",
+            "Void Quest unlocked (Deadline: 8/12)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/29",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Infiltrate Void Quest: Clear to 10F (Retro 8-bit Dungeon)",
+            "Mid-boss: Killing Hand",
+            "Boss: Shadow Mitsuo (Outer shell 'Mitsuo the Hero', break shell, use Mind Charge + Heavy Magic, guard Megidola)",
+            "Mitsuo captured and handed over to police"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Catch insects at Tatsuhime Shrine"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/30",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Lovers Rank 5 (Rise: 'Cheer up' -> 'You're incredible')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 5 (Shu Nakajima tutoring)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "7/31",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hermit Rank 6 (Tatsuhime Shrine Fox wish completed)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Aiya Mega Beef Bowl Challenge"
+          ]
+        }
+      ]
+    }
+  ],
+  "August": [
+    {
+      "date": "8/1",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Lovers Rank 6 (Rise: 'I like Rise-chi' -> 'I like the real you')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 6 (Shu Nakajima tutoring)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/2",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Aeon Rank 8 (Marie: 'I want to know' -> 'I'll hold your hand')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Catch bugs with butterfly net at night (Tatsuhime Shrine)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/3",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Lovers Rank 7 (Rise: 'I'll always protect you' -> 'Hold her')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 7 (Shu Nakajima tutoring)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/4",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Sun Rank 7 (Ayane/Yumi)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Read 'Catching Bugs' or catch bugs"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/5",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Lovers Rank 8 (Rise: 'I'm right here' -> 'Hug her tightly')"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 8 (Shu Nakajima tutoring)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/6",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Sun Rank 8 (Ayane/Yumi)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 9 (Shu Nakajima tutoring)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/7",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hermit Rank 7 (Tatsuhime Shrine Fox wish completed)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Tower Rank 10 (Shu Nakajima Social Link MAXED)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/8",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Lovers Rank 9 (Rise Romantic or Platonic route)",
+            "Romance: 'I love you, Rise' -> 'Hold her tightly in your arms'"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Read fishing book or catch Inaba Trout"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/9",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Lovers Rank 10 (Rise Kujikawa Social Link MAXED, Himiko evolves into Kanzeon)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Fish at Samegawa Floodplain"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/10",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Aeon Rank 9 (Marie Romantic or Platonic route)",
+            "Romance: 'Because I love you' -> 'Hug her tightly'"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Make boxed lunch or read remaining books"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/11",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Aeon Rank 10 (Marie Social Link MAXED)",
+            "CRITICAL: Maxing Marie before end of December is REQUIRED for Golden Hollow Forest dungeon & True Golden Ending!"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Catch River Guardian at Samegawa Floodplain with Inaba Jewel Beetle"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/12",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Void Quest deadline expires (Mitsuo officially processed)",
+            "Fool Rank 7: Auto",
+            "Star Rank 3: Auto (Teddie's human form grows)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/13",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Investigation Team discusses the case: Why is the killer Mitsuo copycat?"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/14",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Hermit Rank 8 (Show River Guardian to old man at Riverbank, report to Fox)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/15",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Part-time job week at Junes with team"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/19",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Summer Festival preparations"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/20",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Summer Festival at Tatsuhime Shrine (Yukata date with chosen romance partner)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/21",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Summer Festival aftermath: Watch fireworks with Nanako and Dojima"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/22",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Finish summer homework with the Investigation Team"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/23",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Bike trip to beach with the team",
+            "Scooter exploration unlocked (Shichiri Beach unlocked)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/28",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Catch bugs or Sea Guardian preparation"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "8/30",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Midnight Channel broadcast: Naoto Shirogane appears"
+          ]
+        }
+      ]
+    }
+  ],
+  "September": [
+    {
+      "date": "9/1",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Second Semester begins at Yasogami High",
+            "Question: 'All of the above' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Sun Rank 9 (Ayane/Yumi)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/2",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Sun Rank 10 (Ayane/Yumi Social Link MAXED)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/5",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Brisket' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/8",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "School Trip to Tatsumi Port Island (Gekkoukan High from Persona 3!)",
+            "Meet Chihiro Fushimi and visit Club Escapade"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/9",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "School Trip Day 2: Inaba group visits hot springs hotel",
+            "King's Game event at night with the team"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/10",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Return to Inaba",
+            "Star Rank 4: Auto (Teddie's bond strengthens)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/16",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Naoto Shirogane challenges the Investigation Team and disappears",
+            "Midnight Channel shows Naoto's Secret Laboratory"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/17",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Forty-seven' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Investigate Naoto: Talk to girl at Yasogami 1F, woman at Floodplain, police officer at Shopping District North"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/18",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Investigate Naoto: Talk to police officer at Shopping District South",
+            "Secret Laboratory unlocked (Deadline: 10/5)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/19",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Infiltrate Secret Laboratory: Clear to B9F",
+            "Mid-boss: Dominating Machine",
+            "Boss: Shadow Naoto (Mute Ray, Element Zero, use Almighty / High Physical / Mediarahan)",
+            "Naoto Shirogane rescued!"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Fool Rank 8: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/20",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'A non-hygienic lock' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9/28",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Throttle' (Knowledge +2)"
+          ]
+        }
+      ]
+    }
+  ],
+  "October": [
+    {
+      "date": "10/5",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'The throat' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "After School",
+          "actions": [
+            "Secret Laboratory deadline expires",
+            "Naoto Shirogane returns safely"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/6",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Naoto joins Investigation Team (Sukuna-Hikona unlocked)",
+            "Star Rank 5: Auto (Teddie)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/8",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Right cheek' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/11",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Short-tempered' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/12",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'William Shakespeare' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/14",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Midterm Exams Day 1: 'The throat' -> 'Right cheek'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/15",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Midterm Exams Day 2: '47' -> 'A non-hygienic lock'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/17",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Midterm Exams Day 3: 'All of the above' -> 'William Shakespeare'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/19",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Midterm Results: #1 in school! (Charm +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/21",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Fortune Rank 1: Talk to Man in Black at Shopping District North to get White Card",
+            "Present White Card to Naoto Shirogane at Yasogami High 1F"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/22",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Fortune Rank 2 (Naoto: 'That's not true' -> 'I'll help you')"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/23",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Fortune Rank 3 (Naoto: 'A high-level detective' -> 'I believe in you')"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/24",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Fortune Rank 4 (Naoto: 'I'll protect you' -> 'Stay close')"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/25",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Fortune Rank 5 (Naoto: 'I'm glad you're a girl' -> 'You can trust me')"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/29",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Yasogami High School Culture Festival Day 1: Cross-Dressing Pageant & Miss Yasogami Beauty Pageant"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10/30",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Culture Festival Day 2: Amagi Inn Stayover event"
+          ]
+        }
+      ]
+    }
+  ],
+  "November": [
+    {
+      "date": "11/1",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Geometric shapes' (Knowledge +2)"
+          ]
+        },
+        {
+          "time": "Evening",
+          "actions": [
+            "Threatening warning letter delivered to Dojima residence mailbox!"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/4",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'A cuckoo' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/5",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Nanako Dojima is kidnapped by Taro Namatame!",
+            "Dojima crashes car pursuing Namatame's delivery truck",
+            "Midnight Channel shows Nanako trapped in a paradise world",
+            "Heaven dungeon unlocked (Deadline: 11/20)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/6",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Infiltrate Heaven: Climb floors 1F through 10F",
+            "Mid-boss: World Balance (Floor 7)",
+            "Reach Heaven 10F Chamber",
+            "Boss: Kunino-sagiri (Controls party members, Quad Convergence elemental shifts, use Mind Charge + Megidolaon/Physical)",
+            "Nanako rescued and rushed to Inaba Municipal Hospital",
+            "Star Rank 7: Auto (Teddie vows to protect Nanako)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/7",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'No country' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/11",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Even number' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/17",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Bridegroom' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/20",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Heaven deadline expires (Nanako's condition stabilizes temporarily)",
+            "Fool Rank 9: Auto",
+            "Star Rank 8: Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/22",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'A book of maps' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/24",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Fibonacci sequence' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/25",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Khufu' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/26",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Mochi' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/28",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "End of Term Exams Day 1: 'Geometric shapes' -> 'A cuckoo'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/29",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "End of Term Exams Day 2: 'No country' -> 'Fibonacci sequence'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/30",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "End of Term Exams Day 3: 'Khufu' -> 'Mochi'"
+          ]
+        }
+      ]
+    }
+  ],
+  "December": [
+    {
+      "date": "12/3",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "CRITICAL STORY JUNCTURE at Inaba Municipal Hospital",
+            "Nanako's monitor flatlines; the team corners Namatame in his hospital room",
+            "DO NOT THROW NAMATAME INTO THE TV! Choosing to kill him triggers Bad Ending 1",
+            "Choose EXACT responses to avoid Bad Endings:",
+            "1. 'Wait a second here...'",
+            "2. 'We're missing something.'",
+            "3. 'Namatame's true feelings.'",
+            "4. 'Something's bothering me.'",
+            "5. 'We're missing something...'",
+            "6. 'Calm the hell down!'",
+            "Nanako's heartbeat returns! Fool Rank 9 maintained."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/5",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "Investigation Team convenes to identify the TRUE CULPRIT",
+            "Review clues: Who had access without suspicion? Who warned you? Who knows police movements?",
+            "ACCUSE: 'Tohru Adachi'",
+            "Adachi flees into the TV World inside Junes!",
+            "Magatsu Inaba & Magatsu Mandala dungeons unlocked (Deadline: 12/22)",
+            "Hunger Rank 8 (or Jester path depending on route), Fool Rank 10 MAXED"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/6",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "After School",
+          "actions": [
+            "Infiltrate Magatsu Inaba & Magatsu Mandala: Clear 1F-6F",
+            "Boss: Shadow Adachi (Uses Evil Smile, Heat Riser, Ghastly Wail, Vorpal Blade)",
+            "Boss: Ameno-sagiri (Giant sphere of fog, Fog of Confusion, Quake, Megidolaon)",
+            "Defeat Ameno-sagiri and clear the fog from Inaba!",
+            "Star Rank 9: Auto (Teddie realizes his true identity)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/7",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Star Rank 10 (Teddie Social Link MAXED, Kamui evolves into Kamui-Moshiri)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/9",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Transparent' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/10",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'The cross-section' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/17",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Compassion makes you look better' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/21",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'VII' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/22",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "DEADLINE for Magatsu Inaba: Clear dungeon by today to proceed to Christmas!",
+            "Adachi is arrested and taken into custody"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/23",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Illusion' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/24",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Christmas Eve romantic date with chosen partner (Yukiko, Chie, Rise, Marie, or Naoto)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12/25",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Christmas party at Dojima Residence with Nanako, Dojima, and team"
+          ]
+        }
+      ]
+    }
+  ],
+  "January": [
+    {
+      "date": "1/1",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "New Year's Day shrine visit with Investigation Team and friends",
+            "Kimono festival celebration"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/2",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "New Year greetings across Inaba town",
+            "Visit Velvet Room: Margaret reveals Marie has disappeared from existence!",
+            "CRITICAL: Tell Margaret 'Search for Marie' to unlock Hollow Forest in February"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/10",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Third Semester begins!",
+            "Question: 'An elephant' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/14",
+      "day_of_week": "Sat",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Buried in dirt' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/19",
+      "day_of_week": "Thu",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Cats' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/25",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Red' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1/30",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Petal' (Knowledge +2)"
+          ]
+        }
+      ]
+    }
+  ],
+  "February": [
+    {
+      "date": "2/1",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Question: 'Green' (Knowledge +2)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2/6",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Advance Exams Day 1: 'Beta' -> 'Instant'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2/7",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Advance Exams Day 2: 'Two' -> 'Flute'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2/8",
+      "day_of_week": "Wed",
+      "events": [
+        {
+          "time": "Class",
+          "actions": [
+            "Advance Exams Day 3: 'Mitorizumono' -> 'Three'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2/10",
+      "day_of_week": "Fri",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "Winter Ski Trip at Mt. Rokuhira",
+            "Ghost story in the cabin, team gets stranded in blizzard",
+            "Entrance to Hollow Forest uncovered"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2/13",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "All Day",
+          "actions": [
+            "GOLDEN EXCLUSIVE: Hollow Forest (Marie's Dungeon)",
+            "Special Rules: Items removed, SP halved after each battle, equips grant SP regen",
+            "Climb 1F to 10F (Heaven's Giant on Floor 7)",
+            "Floor 10: Marie confrontation",
+            "Boss: Marie / Kusumi-no-Okami (Absorbs elements, equip Breaker items, guard Draining Fog)",
+            "Rescue Marie and save her from self-sacrifice!"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2/14",
+      "day_of_week": "Tue",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Valentine's Day romantic chocolate events with your partner(s)",
+            "Special heartfelt scene with Marie"
+          ]
+        }
+      ]
+    }
+  ],
+  "March": [
+    {
+      "date": "3/19",
+      "day_of_week": "Sun",
+      "events": [
+        {
+          "time": "Evening",
+          "actions": [
+            "Packing luggage on final night at Dojima Residence",
+            "Dojima and Nanako express gratitude"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "3/20",
+      "day_of_week": "Mon",
+      "events": [
+        {
+          "time": "Daytime",
+          "actions": [
+            "CRITICAL TRUE ENDING SEQUENCE:",
+            "1. Visit and say goodbye to ALL MAXED SOCIAL LINKS across Inaba",
+            "2. When prompted 'Do you want to return to your house?' -> CHOOSE 'NO'!",
+            "3. Go to Junes Food Court and inspect the elevator",
+            "4. Choose 'There's still something left to do'",
+            "5. Meet the Investigation Team at Samegawa Floodplain Riverbank",
+            "6. Talk to Dojima and Nanako at the Riverbank",
+            "7. Visit Velvet Room: Igor gives Orb of Sight (Clarity Orb)",
+            "8. Go to Central Shopping District South: Talk to Gas Station Attendant",
+            "9. Ask about the rainy day handshake from 4/11 -> Identity revealed: Izanami!",
+            "10. Enter Yomotsu Hirasaka (Final True Ending Dungeon, 9 Floors)"
+          ]
+        },
+        {
+          "time": "Afternoon",
+          "actions": [
+            "Yomotsu Hirasaka 9F: Confront the Goddess of the Underworld",
+            "Final Boss Phase 1: Izanami",
+            "Final Boss Phase 2: Izanami-no-Okami (Thousand Curses, Fury of Yasoshima)",
+            "Investigation Team bonds empower the protagonist",
+            "Awaken Izanagi-no-Okami and cast 'Myriad Truths' to banish the fog forever!",
+            "GOLDEN EPILOGUE: Summer epilogue epilogue with the whole team (Golden True Ending)"
+          ]
+        }
+      ]
+    }
+  ]
+}
