@@ -116,10 +116,41 @@ export const RESIST_MAP: Record<string, { label: string; badgeClass: string; col
   '-': { label: 'Normal', badgeClass: 'bg-zinc-800 text-zinc-400', color: '#71717a' },
   'w': { label: 'Weak', badgeClass: 'bg-rose-500/20 text-rose-300 border border-rose-500/30 font-bold', color: '#f43f5e' },
   's': { label: 'Resist', badgeClass: 'bg-blue-500/20 text-blue-300 border border-blue-500/30', color: '#60a5fa' },
+  'S': { label: 'Resist', badgeClass: 'bg-blue-500/20 text-blue-300 border border-blue-500/30', color: '#60a5fa' },
   'n': { label: 'Null', badgeClass: 'bg-purple-500/20 text-purple-300 border border-purple-500/30', color: '#c084fc' },
+  '_': { label: 'Null', badgeClass: 'bg-purple-500/20 text-purple-300 border border-purple-500/30', color: '#c084fc' },
   'd': { label: 'Drain', badgeClass: 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30', color: '#34d399' },
-  'r': { label: 'Repel', badgeClass: 'bg-amber-500/20 text-amber-300 border border-amber-500/30', color: '#fbbf24' }
+  'a': { label: 'Drain', badgeClass: 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30', color: '#34d399' },
+  'r': { label: 'Repel', badgeClass: 'bg-amber-500/20 text-amber-300 border border-amber-500/30', color: '#fbbf24' },
+  'R': { label: 'Repel', badgeClass: 'bg-amber-500/20 text-amber-300 border border-amber-500/30', color: '#fbbf24' },
+  'p': { label: 'Repel', badgeClass: 'bg-amber-500/20 text-amber-300 border border-amber-500/30', color: '#fbbf24' }
 };
+
+export function parseAffinityCode(code?: string): {
+  type: 'weak' | 'resist' | 'null' | 'drain' | 'repel' | 'normal';
+  label: string;
+  badgeClass: string;
+  color: string;
+} {
+  const clean = (code || '-').trim();
+  const lower = clean.toLowerCase();
+  if (lower === 'w') {
+    return { type: 'weak', label: 'Weak', badgeClass: 'bg-rose-500/20 text-rose-300 border border-rose-500/30 font-bold', color: '#f43f5e' };
+  }
+  if (lower === 's') {
+    return { type: 'resist', label: 'Resist', badgeClass: 'bg-blue-500/20 text-blue-300 border border-blue-500/30', color: '#60a5fa' };
+  }
+  if (lower === 'n' || clean === '_') {
+    return { type: 'null', label: 'Null', badgeClass: 'bg-purple-500/20 text-purple-300 border border-purple-500/30', color: '#c084fc' };
+  }
+  if (lower === 'd' || lower === 'a') {
+    return { type: 'drain', label: 'Drain', badgeClass: 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30', color: '#34d399' };
+  }
+  if (lower === 'r' || lower === 'p') {
+    return { type: 'repel', label: 'Repel', badgeClass: 'bg-amber-500/20 text-amber-300 border border-amber-500/30', color: '#fbbf24' };
+  }
+  return { type: 'normal', label: 'Normal', badgeClass: 'bg-zinc-800 text-zinc-400', color: '#71717a' };
+}
 
 const cache = new Map<string, any>();
 
@@ -244,7 +275,9 @@ export async function loadPersonas(game: GameId): Promise<PersonaData[]> {
       itemr: p.itemr,
       inherits: p.inherits,
       fusion: p.fusion,
-      isDlc: p.isDlc || false
+      isDlc: p.isDlc || false,
+      unlock: p.unlock,
+      heart: p.heart
     });
   }
 

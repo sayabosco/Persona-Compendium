@@ -36,6 +36,8 @@ export interface PersonaData {
   inherits?: string;
   fusion?: string;
   isDlc?: boolean;
+  unlock?: string;
+  heart?: string;
 }
 
 export interface PersonaRawMap {

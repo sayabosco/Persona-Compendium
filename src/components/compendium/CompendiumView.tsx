@@ -1,7 +1,7 @@
 import { useState, useMemo, useRef, useEffect } from 'react';
 import { Search, Heart, Shield, Sparkles, Filter, ChevronRight, ChevronDown, Check, X, Zap, Swords } from 'lucide-react';
 import { PersonaData, GameId } from '../../types/persona';
-import { GAME_ELEMENTS, RESIST_MAP } from '../../utils/dataLoader';
+import { GAME_ELEMENTS, RESIST_MAP, parseAffinityCode } from '../../utils/dataLoader';
 import { triggerHaptic } from '../../utils/haptics';
 import { IosBottomSheet } from '../ios/IosBottomSheet';
 import { ElementIcon } from '../common/ElementIcon';
@@ -61,6 +61,37 @@ export const CompendiumView = ({
     });
     return map;
   }, [skillsData]);
+
+  const elements = GAME_ELEMENTS[series] || GAME_ELEMENTS.p5;
+
+  // Compute categorized affinity summary chips for selected persona
+  const affinitySummary = useMemo(() => {
+    if (!selectedPersona) return [];
+    const resistsStr = selectedPersona.resists || '';
+    const res: Record<string, string[]> = {
+      Weak: [],
+      Resists: [],
+      Null: [],
+      Repel: [],
+      Absorb: []
+    };
+    elements.forEach((elem, idx) => {
+      const code = resistsStr[idx] || '-';
+      const aff = parseAffinityCode(code);
+      if (aff.type === 'weak') res.Weak.push(elem.name);
+      else if (aff.type === 'resist') res.Resists.push(elem.name);
+      else if (aff.type === 'null') res.Null.push(elem.name);
+      else if (aff.type === 'repel') res.Repel.push(elem.name);
+      else if (aff.type === 'drain') res.Absorb.push(elem.name);
+    });
+    return [
+      { label: 'Weak', list: res.Weak, badge: 'bg-rose-500/15 text-rose-300 border-rose-500/30' },
+      { label: 'Resists', list: res.Resists, badge: 'bg-blue-500/15 text-blue-300 border-blue-500/30' },
+      { label: 'Null', list: res.Null, badge: 'bg-purple-500/15 text-purple-300 border-purple-500/30' },
+      { label: 'Repel', list: res.Repel, badge: 'bg-amber-500/15 text-amber-300 border-amber-500/30' },
+      { label: 'Absorb', list: res.Absorb, badge: 'bg-emerald-500/15 text-emerald-300 border-emerald-500/30' },
+    ].filter((g) => g.list.length > 0);
+  }, [selectedPersona, elements]);
 
   // Extract unique Arcana list
   const arcanaList = useMemo(() => {
@@ -135,8 +166,6 @@ export const CompendiumView = ({
   const displayedPersonas = useMemo(() => {
     return sortedPersonas.slice(0, visibleCount);
   }, [sortedPersonas, visibleCount]);
-
-  const elements = GAME_ELEMENTS[series] || GAME_ELEMENTS.p5;
 
   return (
     <div className="space-y-3">
@@ -440,11 +469,12 @@ export const CompendiumView = ({
                 <div className="flex items-center gap-1 overflow-x-auto no-scrollbar pt-2 border-t border-white/[0.06]">
                   {elements.map((elem, idx) => {
                     const code = resists[idx] || '-';
-                    const isWeak = code === 'w';
-                    const isResist = code === 's';
-                    const isNull = code === 'n';
-                    const isDrain = code === 'd';
-                    const isRepel = code === 'r';
+                    const aff = parseAffinityCode(code);
+                    const isWeak = aff.type === 'weak';
+                    const isResist = aff.type === 'resist';
+                    const isNull = aff.type === 'null';
+                    const isDrain = aff.type === 'drain';
+                    const isRepel = aff.type === 'repel';
 
                     return (
                       <div
@@ -588,11 +618,12 @@ export const CompendiumView = ({
             <div className="grid grid-cols-5 sm:grid-cols-10 gap-1.5">
               {elements.map((elem, idx) => {
                 const code = (selectedPersona.resists || '')[idx] || '-';
-                const isWeak = code === 'w';
-                const isResist = code === 's';
-                const isNull = code === 'n';
-                const isDrain = code === 'd';
-                const isRepel = code === 'r';
+                const aff = parseAffinityCode(code);
+                const isWeak = aff.type === 'weak';
+                const isResist = aff.type === 'resist';
+                const isNull = aff.type === 'null';
+                const isDrain = aff.type === 'drain';
+                const isRepel = aff.type === 'repel';
 
                 const label = isWeak
                   ? 'Weak'
@@ -634,7 +665,52 @@ export const CompendiumView = ({
                 );
               })}
             </div>
+
+            {/* Categorized Affinity Chips (Weak, Resists, Null, Repel, Absorb) */}
+            {affinitySummary.length > 0 && (
+              <div className="pt-2.5 border-t border-white/5 space-y-2">
+                {affinitySummary.map((group) => (
+                  <div key={group.label} className="flex items-center gap-2 flex-wrap text-xs">
+                    <span className="font-bold text-zinc-400 min-w-[54px]">{group.label}:</span>
+                    <div className="flex items-center gap-1.5 flex-wrap">
+                      {group.list.map((name) => (
+                        <span
+                          key={name}
+                          className={`text-[11px] px-2 py-0.5 rounded-lg font-semibold border ${group.badge}`}
+                        >
+                          {name}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
+
+          {/* Unlock Condition / Heart Item */}
+          {(selectedPersona.unlock || selectedPersona.heart) && (
+            <div className="space-y-2">
+              {selectedPersona.unlock && (
+                <div className="p-3 bg-amber-500/10 rounded-2xl border border-amber-500/20 flex items-start gap-2.5 text-xs">
+                  <Sparkles className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+                  <div>
+                    <span className="text-[10px] uppercase font-bold text-amber-400 block tracking-wider">Unlock Condition</span>
+                    <p className="text-amber-200 font-medium">{selectedPersona.unlock}</p>
+                  </div>
+                </div>
+              )}
+              {selectedPersona.heart && (
+                <div className="p-3 bg-sky-500/10 rounded-2xl border border-sky-500/20 flex items-start gap-2.5 text-xs">
+                  <Heart className="w-4 h-4 text-sky-400 shrink-0 mt-0.5" />
+                  <div>
+                    <span className="text-[10px] uppercase font-bold text-sky-400 block tracking-wider">Heart Item</span>
+                    <p className="text-sky-200 font-medium">{selectedPersona.heart}</p>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Trait & Electric Chair Itemization */}
           {(selectedPersona.trait || selectedPersona.item) && (
@@ -716,6 +792,24 @@ export const CompendiumView = ({
                   </div>
                 );
               })}
+            </div>
+
+            {/* Inherit Desired Skill (Find Fusion Route) Shortcut */}
+            <div className="pt-2 border-t border-white/5">
+              <button
+                onClick={() => {
+                  triggerHaptic('medium');
+                  const name = selectedPersona.name;
+                  setSelectedPersona(null);
+                  if (onSelectForFusion) {
+                    onSelectForFusion(name);
+                  }
+                }}
+                className="w-full py-2.5 px-3 rounded-xl bg-white/5 hover:bg-white/10 active:scale-[0.99] border border-white/10 text-xs font-bold transition-all flex items-center justify-center gap-1.5"
+                style={{ color: accentColor }}
+              >
+                <span>Inherit a Desired Skill (Find Fusion Route) ›</span>
+              </button>
             </div>
           </div>
         </IosBottomSheet>
