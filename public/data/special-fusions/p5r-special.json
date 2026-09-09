@@ -7,81 +7,101 @@
   ],
   "Ardha": [
     [
-      "Parvati",
-      "Shiva"
+      "Shiva",
+      "Parvati"
     ]
   ],
-  "Asura-Ou": [
+  "Asura": [
     [
-      "Bishamonten",
       "Jikokuten",
+      "Zouchouten",
       "Koumokuten",
-      "Zouchouten"
+      "Bishamonten"
     ]
   ],
   "Black Frost": [
     [
-      "Jack Frost",
       "Jack-o'-Lantern",
+      "Jack Frost",
       "King Frost"
     ]
   ],
   "Bugs": [
     [
-      "Hariti",
+      "Pixie",
       "Pisaca",
-      "Pixie"
+      "Hariti"
     ]
   ],
   "Chi You": [
     [
-      "Cu Chulainn",
+      "White Rider",
       "Hecatoncheires",
       "Thor",
-      "White Rider",
+      "Cu Chulainn",
       "Yoshitsune"
     ]
   ],
   "Flauros": [
     [
-      "Andras",
       "Berith",
-      "Eligor"
+      "Eligor",
+      "Orobas"
     ]
   ],
   "Hell Biker": [
     [
       "Archangel",
-      "Decarabia",
-      "Matador"
+      "Matador",
+      "Decarabia"
+    ]
+  ],
+  "Izanagi-no-Okami": [
+    [
+      "Yamata-no-Orochi",
+      "Throne",
+      "Inugami",
+      "Raja Naga",
+      "Barong",
+      "Norn"
+    ]
+  ],
+  "Izanagi-no-Okami Picaro": [
+    [
+      "Okuninushi",
+      "Orthrus",
+      "Kali",
+      "Mithras",
+      "Cu Chulainn",
+      "Lucifer"
     ]
   ],
   "Kohryu": [
     [
-      "Byakko",
-      "Genbu",
       "Seiryu",
-      "Suzaku"
+      "Byakko",
+      "Suzaku",
+      "Genbu"
     ]
   ],
   "Lucifer": [
     [
-      "Ananta",
       "Anubis",
-      "Metatron",
+      "Ananta",
+      "Trumpeter",
       "Michael",
-      "Satan",
-      "Trumpeter"
+      "Metatron",
+      "Satan"
     ]
   ],
   "Metatron": [
     [
+      "Principality",
+      "Power",
       "Dominion",
       "Melchizedek",
-      "Michael",
-      "Power",
-      "Principality",
-      "Sandalphon"
+      "Sandalphon",
+      "Michael"
     ]
   ],
   "Michael": [
@@ -93,34 +113,34 @@
   ],
   "Neko Shogun": [
     [
-      "Anzu",
       "Kodama",
-      "Sudama"
+      "Sudama",
+      "Anzu"
     ]
   ],
   "Ongyo-Ki": [
     [
-      "Fuu-Ki",
       "Kin-Ki",
-      "Sui-Ki"
+      "Sui-Ki",
+      "Fuu-Ki"
     ]
   ],
   "Satanael": [
     [
-      "Anzu",
       "Arsene",
+      "Anzu",
       "Ishtar",
+      "Satan",
       "Lucifer",
-      "Michael",
-      "Satan"
+      "Michael"
     ]
   ],
   "Seth": [
     [
-      "Anubis",
-      "Horus",
       "Isis",
-      "Thoth"
+      "Anubis",
+      "Thoth",
+      "Horus"
     ]
   ],
   "Shiva": [
@@ -131,11 +151,11 @@
   ],
   "Sraosha": [
     [
-      "Gabriel",
-      "Lilith",
-      "Melchizedek",
       "Mithra",
-      "Mithras"
+      "Mithras",
+      "Melchizedek",
+      "Lilith",
+      "Gabriel"
     ]
   ],
   "Tam Lin": [
@@ -147,26 +167,35 @@
   ],
   "Trumpeter": [
     [
-      "Black Rider",
-      "Pale Rider",
+      "White Rider",
       "Red Rider",
-      "White Rider"
+      "Black Rider",
+      "Pale Rider"
     ]
   ],
   "Vasuki": [
     [
-      "Ananta",
       "Naga",
+      "Ananta",
       "Raja Naga"
     ]
   ],
   "Yoshitsune": [
     [
-      "Arahabaki",
-      "Futsunushi",
-      "Okuninushi",
       "Shiki-Ouji",
-      "Yatagarasu"
+      "Arahabaki",
+      "Okuninushi",
+      "Yatagarasu",
+      "Futsunushi"
     ]
-  ]
+  ],
+  "Crystal Skull": [],
+  "Koh-i-Noor": [],
+  "Queen's Necklace": [],
+  "Regent": [],
+  "Stone of Scone": [],
+  "Orlov": [],
+  "Emperor's Amulet": [],
+  "Hope Diamond": [],
+  "Orichalcum": []
 }

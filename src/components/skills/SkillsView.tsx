@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Zap, X, Shield, Sparkles, Filter } from 'lucide-react';
-import { GameId } from '../../types/persona';
+import { Search, Zap, X, Shield, Sparkles, Filter, ArrowRight, ChevronDown, ChevronUp } from 'lucide-react';
+import { GameId, PersonaData } from '../../types/persona';
 import { triggerHaptic } from '../../utils/haptics';
 import { ElementIcon } from '../common/ElementIcon';
 
@@ -9,14 +9,43 @@ interface SkillsViewProps {
   gameId: GameId;
   series: 'p3' | 'p4' | 'p5';
   accentColor: string;
+  personas?: PersonaData[];
+  onTransferToPersona?: (skillName: string) => void;
 }
 
 export const SkillsView: React.FC<SkillsViewProps> = ({
   skills,
-  accentColor
+  accentColor,
+  personas = [],
+  onTransferToPersona
 }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedElement, setSelectedElement] = useState<string>('all');
+  const [expandedSkill, setExpandedSkill] = useState<string | null>(null);
+
+  // Skill learners index
+  const skillLearnersMap = useMemo(() => {
+    const map: Record<string, { name: string; level: number; atLevel: string }[]> = {};
+    if (!personas) return map;
+    personas.forEach((p) => {
+      if (p.skills) {
+        Object.entries(p.skills).forEach(([sName, lvl]) => {
+          const key = sName.toLowerCase().trim();
+          if (!map[key]) map[key] = [];
+          const num = Number(lvl) || 0;
+          const atLevel = num < 1 ? 'Innate' : num >= 100 ? 'Special' : `Lv. ${Math.floor(num)}`;
+          map[key].push({
+            name: p.name,
+            level: p.level || 1,
+            atLevel
+          });
+        });
+      }
+    });
+    // Sort learners by level
+    Object.values(map).forEach((list) => list.sort((a, b) => a.level - b.level));
+    return map;
+  }, [personas]);
 
   // Unique elements
   const elements = useMemo(() => {
@@ -176,6 +205,79 @@ export const SkillsView: React.FC<SkillsViewProps> = ({
                   {sk.effect}
                 </p>
               )}
+
+              {/* Learners and Transfer to Persona Route */}
+              {(() => {
+                const learners = skillLearnersMap[sk.name.toLowerCase().trim()] || [];
+                const isExpanded = expandedSkill === sk.name;
+
+                return (
+                  <div className="pt-1 space-y-2 border-t border-white/5">
+                    <div className="flex items-center justify-between gap-2">
+                      <button
+                        onClick={() => {
+                          triggerHaptic('light');
+                          setExpandedSkill(isExpanded ? null : sk.name);
+                        }}
+                        className="text-[11px] font-semibold text-zinc-400 hover:text-zinc-200 flex items-center gap-1 transition-colors"
+                      >
+                        <span>
+                          {learners.length > 0
+                            ? `Learned by ${learners.length} Persona${learners.length === 1 ? '' : 's'}`
+                            : 'No natural learners'}
+                        </span>
+                        {learners.length > 0 &&
+                          (isExpanded ? (
+                            <ChevronUp className="w-3 h-3 text-zinc-500" />
+                          ) : (
+                            <ChevronDown className="w-3 h-3 text-zinc-500" />
+                          ))}
+                      </button>
+
+                      {onTransferToPersona && (
+                        <button
+                          onClick={() => {
+                            triggerHaptic('medium');
+                            onTransferToPersona(sk.name);
+                          }}
+                          className="px-2.5 py-1 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all text-white shadow-sm hover:brightness-110 active:scale-95 shrink-0"
+                          style={{
+                            backgroundColor: accentColor,
+                            boxShadow: `0 2px 10px ${accentColor}40`
+                          }}
+                          title={`Plan fusion route to inherit ${sk.name} on any Persona`}
+                        >
+                          <Sparkles className="w-3 h-3" />
+                          <span>Inherit / Route</span>
+                          <ArrowRight className="w-3 h-3" />
+                        </button>
+                      )}
+                    </div>
+
+                    {/* Expandable Learners list */}
+                    {isExpanded && learners.length > 0 && (
+                      <div className="p-2.5 rounded-xl bg-zinc-950/80 border border-white/5 space-y-1.5 animate-fadeIn">
+                        <div className="text-[10px] uppercase font-bold text-zinc-500 tracking-wider">
+                          Natural Learners & Unlock Levels:
+                        </div>
+                        <div className="flex flex-wrap gap-1.5">
+                          {learners.map((lr) => (
+                            <span
+                              key={lr.name}
+                              className="text-[11px] font-medium px-2 py-0.5 rounded-lg bg-zinc-900 border border-white/10 text-zinc-200 flex items-center gap-1.5"
+                            >
+                              <span className="font-bold text-white">{lr.name}</span>
+                              <span className="text-[10px] font-mono text-zinc-400">
+                                ({lr.atLevel})
+                              </span>
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                );
+              })()}
             </div>
           ))
         )}

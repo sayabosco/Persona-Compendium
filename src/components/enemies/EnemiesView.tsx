@@ -25,18 +25,95 @@ interface EnemiesViewProps {
   series: 'p3' | 'p4' | 'p5';
   accentColor: string;
   skillsData?: any[];
+  negotiationData?: any;
 }
 
 export const EnemiesView: React.FC<EnemiesViewProps> = ({
   enemies,
   series,
   accentColor,
-  skillsData = []
+  skillsData = [],
+  negotiationData
 }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [filterType, setFilterType] = useState<'all' | 'normal' | 'bosses' | 'miniboss'>('all');
   const [selectedArea, setSelectedArea] = useState<string>('all');
   const [selectedEnemy, setSelectedEnemy] = useState<EnemyData | null>(null);
+
+  // Negotiation lookup for shadows (best outcome, personality, tips)
+  const shadowNegoMap = useMemo(() => {
+    const map: Record<
+      string,
+      {
+        personality: string;
+        color: string;
+        best_type: string;
+        ok_type: string;
+        bad_type: string;
+        description?: string;
+      }
+    > = {};
+
+    const matrix: Record<string, any> = negotiationData?.p5?.personality_matrix || {
+      Upbeat: {
+        color: '#FFB74D',
+        best_type: 'Funny / Joke',
+        ok_type: 'Serious',
+        bad_type: 'Vague / Ambiguous',
+        description: 'High energy and cheerful. Loves clever, funny, and witty remarks. Dislikes indecisive or vague answers.'
+      },
+      Timid: {
+        color: '#81C784',
+        best_type: 'Kind / Gentle',
+        ok_type: 'Vague / Ambiguous',
+        bad_type: 'Funny / Joke',
+        description: 'Easily frightened and cautious. Responds best to kindness, empathy, and gentleness. Never joke or tease them.'
+      },
+      Gloomy: {
+        color: '#64B5F6',
+        best_type: 'Vague / Ambiguous',
+        ok_type: 'Serious',
+        bad_type: 'Kind / Gentle',
+        description: 'Melancholy and cynical. Prefers mysterious, casual, or vague replies. Dislikes overly sweet sympathy.'
+      },
+      Irritable: {
+        color: '#E57373',
+        best_type: 'Serious / Direct',
+        ok_type: 'Vague / Ambiguous',
+        bad_type: 'Kind / Gentle',
+        description: 'Aggressive and impatient. Demands direct, serious, and no-nonsense responses. Hates soft, timid excuses.'
+      }
+    };
+
+    const shadows = negotiationData?.p5?.shadows || [];
+    shadows.forEach((sh: any) => {
+      const pInfo = matrix[sh.personality] || {
+        color: '#FFB74D',
+        best_type:
+          sh.personality === 'Upbeat'
+            ? 'Funny'
+            : sh.personality === 'Timid'
+            ? 'Kind'
+            : sh.personality === 'Gloomy'
+            ? 'Vague'
+            : 'Serious',
+        ok_type: 'Serious',
+        bad_type: 'Vague'
+      };
+      const entry = {
+        personality: sh.personality,
+        color: pInfo.color,
+        best_type: pInfo.best_type || pInfo.likes || 'Kind',
+        ok_type: pInfo.ok_type || pInfo.neutral || 'Serious',
+        bad_type: pInfo.bad_type || pInfo.hates || 'Vague',
+        description: pInfo.description
+      };
+      if (sh.name) map[sh.name.toLowerCase().trim()] = entry;
+      if (sh.persona_name) map[sh.persona_name.toLowerCase().trim()] = entry;
+    });
+
+    return { map, matrix };
+  }, [negotiationData]);
 
   // Index skills for quick effect preview
   const skillLookup = useMemo(() => {
@@ -274,6 +351,44 @@ export const EnemiesView: React.FC<EnemiesViewProps> = ({
                           <span className="text-zinc-500">&bull; {enemy.arcana}</span>
                         )}
                       </div>
+
+                      {/* Negotiation Badge if shadow */}
+                      {(() => {
+                        const nego =
+                          shadowNegoMap.map[enemy.name?.toLowerCase().trim()] ||
+                          (enemy.persona_name
+                            ? shadowNegoMap.map[enemy.persona_name.toLowerCase().trim()]
+                            : null) ||
+                          (enemy.personality
+                            ? {
+                                personality: enemy.personality,
+                                ...(shadowNegoMap.matrix[enemy.personality] || {
+                                  color: '#FFB74D',
+                                  best_type: 'Funny',
+                                  ok_type: 'Serious',
+                                  bad_type: 'Vague'
+                                })
+                              }
+                            : null);
+                        if (!nego) return null;
+                        return (
+                          <div className="flex items-center gap-1.5 mt-1">
+                            <span
+                              className="text-[9px] font-bold px-1.5 py-0.5 rounded border leading-none"
+                              style={{
+                                backgroundColor: `${nego.color}20`,
+                                borderColor: `${nego.color}40`,
+                                color: nego.color
+                              }}
+                            >
+                              {nego.personality}
+                            </span>
+                            <span className="text-[9px] font-bold text-emerald-300 bg-emerald-500/10 px-1.5 py-0.5 rounded border border-emerald-500/20 leading-none">
+                              Best: {nego.best_type.split('/')[0].trim()}
+                            </span>
+                          </div>
+                        );
+                      })()}
                     </div>
                   </div>
 
@@ -520,6 +635,86 @@ export const EnemiesView: React.FC<EnemiesViewProps> = ({
                 </div>
               </div>
             )}
+
+            {/* Shadow Negotiation Best Outcome Guide */}
+            {(() => {
+              const selectedNego =
+                shadowNegoMap.map[selectedEnemy.name?.toLowerCase().trim()] ||
+                (selectedEnemy.persona_name
+                  ? shadowNegoMap.map[selectedEnemy.persona_name.toLowerCase().trim()]
+                  : null) ||
+                (selectedEnemy.personality
+                  ? {
+                      personality: selectedEnemy.personality,
+                      ...(shadowNegoMap.matrix[selectedEnemy.personality] || {
+                        color: '#FFB74D',
+                        best_type: 'Funny',
+                        ok_type: 'Serious',
+                        bad_type: 'Vague'
+                      })
+                    }
+                  : null);
+              if (!selectedNego) return null;
+              return (
+                <div className="p-4 rounded-2xl bg-zinc-950/80 border border-white/10 space-y-2.5">
+                  <div className="flex items-center justify-between">
+                    <h4 className="text-xs font-bold text-white uppercase tracking-wider flex items-center gap-1.5">
+                      <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+                      Shadow Negotiation (Hold-Up)
+                    </h4>
+                    <span
+                      className="text-[10px] font-bold px-2 py-0.5 rounded-full border"
+                      style={{
+                        backgroundColor: `${selectedNego.color}25`,
+                        borderColor: `${selectedNego.color}50`,
+                        color: selectedNego.color
+                      }}
+                    >
+                      {selectedNego.personality} Personality
+                    </span>
+                  </div>
+
+                  {selectedNego.description && (
+                    <p className="text-xs text-zinc-400 leading-relaxed">
+                      {selectedNego.description}
+                    </p>
+                  )}
+
+                  <div className="grid grid-cols-3 gap-2 pt-1">
+                    <div className="p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-center">
+                      <span className="text-[9px] uppercase font-black text-emerald-400 block tracking-wider">
+                        Best [Likes]
+                      </span>
+                      <span className="text-xs font-black text-emerald-200 mt-1 block">
+                        {selectedNego.best_type}
+                      </span>
+                    </div>
+
+                    <div className="p-2.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-center">
+                      <span className="text-[9px] uppercase font-black text-amber-400 block tracking-wider">
+                        Neutral [OK]
+                      </span>
+                      <span className="text-xs font-black text-amber-200 mt-1 block">
+                        {selectedNego.ok_type}
+                      </span>
+                    </div>
+
+                    <div className="p-2.5 rounded-xl bg-rose-500/10 border border-rose-500/30 text-center">
+                      <span className="text-[9px] uppercase font-black text-rose-400 block tracking-wider">
+                        Worst [Hates]
+                      </span>
+                      <span className="text-xs font-black text-rose-200 mt-1 block">
+                        {selectedNego.bad_type}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="text-[10px] text-zinc-500 pt-1 flex items-center gap-1 border-t border-white/5">
+                    <span>Knock down all Shadows &rarr; Talk &rarr; Give 2 positive responses to recruit!</span>
+                  </div>
+                </div>
+              );
+            })()}
 
             {/* Location & Drops */}
             <div className="p-4 rounded-2xl bg-zinc-900 border border-white/10 space-y-2 text-xs">

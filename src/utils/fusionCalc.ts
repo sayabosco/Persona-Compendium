@@ -2,6 +2,15 @@ import { FusionChart, PersonaData, SpecialFusions } from '../types/persona';
 
 export type FissionTable = Record<string, Record<string, string[]>>;
 
+export function estimatePersonaCost(lvl: number): number {
+  const l = Number(lvl) || 1;
+  return 27 * l * l + 120 * l + 2000;
+}
+
+export function formatCost(cost: number): string {
+  return `¥ ${cost.toLocaleString()}`;
+}
+
 export function buildFissionTable(chart: FusionChart, isTriangular: boolean): FissionTable {
   const fissionTable: FissionTable = {};
   if (!chart || !chart.races || !chart.table) return fissionTable;
@@ -23,6 +32,10 @@ export function buildFissionTable(chart: FusionChart, isTriangular: boolean): Fi
         if (!fissionTable[raceR][raceA].includes(raceB)) {
           fissionTable[raceR][raceA].push(raceB);
         }
+        if (!fissionTable[raceR][raceB]) fissionTable[raceR][raceB] = [];
+        if (!fissionTable[raceR][raceB].includes(raceA)) {
+          fissionTable[raceR][raceB].push(raceA);
+        }
       }
     }
   } else {
@@ -39,6 +52,10 @@ export function buildFissionTable(chart: FusionChart, isTriangular: boolean): Fi
         if (!fissionTable[raceR][raceA]) fissionTable[raceR][raceA] = [];
         if (!fissionTable[raceR][raceA].includes(raceB)) {
           fissionTable[raceR][raceA].push(raceB);
+        }
+        if (!fissionTable[raceR][raceB]) fissionTable[raceR][raceB] = [];
+        if (!fissionTable[raceR][raceB].includes(raceA)) {
+          fissionTable[raceR][raceB].push(raceA);
         }
       }
     }
@@ -84,24 +101,23 @@ export function calcReverseRecipes(
         .map((n) => personaMap[n])
         .filter((p): p is PersonaData => Boolean(p));
       if (ingredients.length === combo.length) {
-        const cost = ingredients.reduce((sum, p) => sum + p.level, 0);
+        const cost = ingredients.reduce((sum, p) => sum + estimatePersonaCost(p.level), 0);
         recipes.push({ ingredients, isSpecial: true, cost });
       }
     }
-    return recipes;
+    return recipes.sort((a, b) => a.cost - b.cost);
   }
+  if (special && special.length === 0) return recipes;
 
   const targetArcana = target.arcana;
   const targetLevel = target.level;
   if (!targetArcana || !chart) return recipes;
 
-  // Group personas by Arcana excluding special fusions
+  // Group personas by Arcana excluding special fusions and non-fusable personas
   const byArcana: Record<string, PersonaData[]> = {};
   for (const p of Object.values(personaMap)) {
-    if (p.name !== targetName) {
-      if (specialData[p.name]) continue;
-      if (['party', 'accident', 'special'].includes(p.fusion || '')) continue;
-    }
+    if (specialData[p.name]) continue;
+    if (['party', 'accident', 'special'].includes(p.fusion || '')) continue;
     if (!byArcana[p.arcana]) byArcana[p.arcana] = [];
     byArcana[p.arcana].push(p);
   }
@@ -109,7 +125,9 @@ export function calcReverseRecipes(
     list.sort((a, b) => a.level - b.level);
   }
 
-  // Same Arcana combination (downgrade)
+  const seen = new Set<string>();
+
+  // 2. Same Arcana combination (downgrade)
   const sameArcanaList = byArcana[targetArcana] || [];
   for (let i = 0; i < sameArcanaList.length; i++) {
     for (let j = i + 1; j < sameArcanaList.length; j++) {
@@ -120,56 +138,53 @@ export function calcReverseRecipes(
         .filter((p) => p.level < avgLvl && p.name !== p1.name && p.name !== p2.name)
         .sort((a, b) => b.level - a.level)[0];
       if (lowerRank && lowerRank.name === targetName) {
-        recipes.push({
-          ingredients: [p1, p2],
-          cost: p1.level + p2.level
-        });
+        const key = p1.name <= p2.name ? `${p1.name}:${p2.name}` : `${p2.name}:${p1.name}`;
+        if (!seen.has(key)) {
+          seen.add(key);
+          recipes.push({
+            ingredients: [p1, p2],
+            cost: estimatePersonaCost(p1.level) + estimatePersonaCost(p2.level)
+          });
+        }
       }
     }
   }
 
-  // Cross Arcana combinations
-  const arcanaPairs = fissionTable[targetArcana] || {};
-  const targetCandidates = byArcana[targetArcana] || [];
-  const findResultInArcana = (lvlA: number, lvlB: number): PersonaData | null => {
-    if (!targetCandidates.length) return null;
-    const baseLvl = Math.floor((lvlA + lvlB) / 2) + 1;
-    for (const c of targetCandidates) {
-      if (c.level >= baseLvl) return c;
-    }
-    return targetCandidates[targetCandidates.length - 1];
-  };
+  // 3. Cross Arcana combinations
+  const resultLvls = (byArcana[targetArcana] || [])
+    .map((p) => p.level)
+    .sort((a, b) => a - b);
+  const targetLvlIndex = resultLvls.indexOf(targetLevel);
+  if (targetLvlIndex >= 0) {
+    const arcanaPairs = fissionTable[targetArcana] || {};
+    const minLvl = targetLvlIndex === 0 ? 0 : 2 * resultLvls[targetLvlIndex - 1] - 1;
+    const maxLvl = targetLvlIndex === resultLvls.length - 1 ? 200 : 2 * targetLevel - 1;
 
-  for (const [arcA, listB] of Object.entries(arcanaPairs)) {
-    const listA = byArcana[arcA] || [];
-    for (const arcB of listB) {
-      const bList = byArcana[arcB] || [];
-      for (const pA of listA) {
-        if (pA.name === targetName) continue;
-        for (const pB of bList) {
-          if (pB.name === targetName || (arcA === arcB && pA.name === pB.name)) continue;
-          const result = findResultInArcana(pA.level, pB.level);
-          if (result && result.name === targetName) {
-            recipes.push({
-              ingredients: [pA, pB],
-              cost: pA.level + pB.level
-            });
+    for (const [arcA, listB] of Object.entries(arcanaPairs)) {
+      const listA = byArcana[arcA] || [];
+      for (const arcB of listB) {
+        const bList = byArcana[arcB] || [];
+        for (const pA of listA) {
+          for (const pB of bList) {
+            if (pA.name === targetName || pB.name === targetName) continue;
+            const sum = pA.level + pB.level;
+            if (sum > minLvl && sum <= maxLvl) {
+              const key = pA.name <= pB.name ? `${pA.name}:${pB.name}` : `${pB.name}:${pA.name}`;
+              if (!seen.has(key)) {
+                seen.add(key);
+                recipes.push({
+                  ingredients: [pA, pB],
+                  cost: estimatePersonaCost(pA.level) + estimatePersonaCost(pB.level)
+                });
+              }
+            }
           }
         }
       }
     }
   }
 
-  // Deduplicate and sort by level cost
-  const seen = new Set<string>();
-  const uniqueRecipes = recipes.filter((r) => {
-    const key = r.ingredients.map((p) => p.name).sort().join('+');
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
-
-  return uniqueRecipes.sort((a, b) => a.cost - b.cost);
+  return recipes.sort((a, b) => a.cost - b.cost);
 }
 
 export function calcForwardFusion(

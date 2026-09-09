@@ -368,6 +368,30 @@ export async function loadNegotiationData(): Promise<any> {
   return fetchJson<any>('/data/negotiation/negotiation_data.json').catch(() => null);
 }
 
+const ELEM_MAP: Record<string, string> = {
+  fir: 'Fire',
+  ice: 'Ice',
+  win: 'Wind',
+  ele: 'Elec',
+  ble: 'Bless',
+  cur: 'Curse',
+  alm: 'Almighty',
+  nuk: 'Nuke',
+  psy: 'Psy',
+  ail: 'Ailment',
+  lig: 'Light',
+  dar: 'Dark',
+  phy: 'Phys',
+  gun: 'Gun',
+  rec: 'Recovery',
+  sup: 'Support',
+  pas: 'Passive',
+  sla: 'Slash',
+  pie: 'Pierce',
+  str: 'Strike',
+  spe: 'Special'
+};
+
 export async function loadSkills(game: GameId): Promise<any[]> {
   const pathMap: Record<string, string> = {
     p5r: '/data/skills/p5r_skills.json',
@@ -386,12 +410,31 @@ export async function loadSkills(game: GameId): Promise<any[]> {
       const parts = val.a || [];
       const costs = val.b || [];
       const effects = val.c || [];
+      const name = val.name || parts[0] || id;
+      const rawElem = val.element || parts[1] || 'Special';
+      const element = ELEM_MAP[rawElem.toLowerCase()] || rawElem;
+      const target = val.target || parts[2] || '-';
+      const cost =
+        val.cost !== undefined && val.cost !== null && val.cost > 0
+          ? val.costType
+            ? `${val.cost} ${val.costType}`
+            : `${val.cost} SP`
+          : costs[7]
+          ? costs[1] >= 1000
+            ? `${costs[7]} SP`
+            : `${costs[7]}% HP`
+          : costs[2]
+          ? `${costs[2]} HP`
+          : '';
+      const effect = val.effect || val.description || effects[0] || '';
+      const note = val.note || effects[2] || '';
       return {
-        name: parts[0] || id,
-        element: parts[1] || 'Special',
-        target: parts[2] || '-',
-        cost: costs[7] ? (costs[1] >= 1000 ? `${costs[7]} SP` : `${costs[7]}% HP`) : '',
-        effect: effects[0] || effects[1] || ''
+        name,
+        element,
+        target,
+        cost,
+        effect,
+        note
       };
     });
   }

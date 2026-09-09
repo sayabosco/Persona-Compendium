@@ -28,6 +28,8 @@ export const CompendiumView = ({
 }: CompendiumViewProps) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedArcana, setSelectedArcana] = useState<string>('all');
+  const [sortBy, setSortBy] = useState<'arcana' | 'level' | 'name'>('arcana');
+  const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
   const [isTypeDropdownOpen, setIsTypeDropdownOpen] = useState(false);
   const [typeSearch, setTypeSearch] = useState('');
   const [onlyFavorites, setOnlyFavorites] = useState(false);
@@ -103,16 +105,36 @@ export const CompendiumView = ({
     });
   }, [personas, searchQuery, selectedArcana, onlyFavorites, favorites]);
 
+  // Sorted Personas according to sortBy and sortDirection
+  const sortedPersonas = useMemo(() => {
+    return [...filteredPersonas].sort((a, b) => {
+      if (sortBy === 'level') {
+        const diff = a.level - b.level;
+        return sortDirection === 'asc' ? diff : -diff;
+      }
+      if (sortBy === 'name') {
+        const cmp = a.name.localeCompare(b.name);
+        return sortDirection === 'asc' ? cmp : -cmp;
+      }
+      // 'arcana'
+      const cmp = a.arcana.localeCompare(b.arcana);
+      if (cmp !== 0) {
+        return sortDirection === 'asc' ? cmp : -cmp;
+      }
+      return a.level - b.level;
+    });
+  }, [filteredPersonas, sortBy, sortDirection]);
+
   const [visibleCount, setVisibleCount] = useState<number>(40);
 
-  // Reset pagination when filters change
+  // Reset pagination when filters or sort change
   useEffect(() => {
     setVisibleCount(40);
-  }, [searchQuery, selectedArcana, onlyFavorites, personas]);
+  }, [searchQuery, selectedArcana, onlyFavorites, sortBy, sortDirection, personas]);
 
   const displayedPersonas = useMemo(() => {
-    return filteredPersonas.slice(0, visibleCount);
-  }, [filteredPersonas, visibleCount]);
+    return sortedPersonas.slice(0, visibleCount);
+  }, [sortedPersonas, visibleCount]);
 
   const elements = GAME_ELEMENTS[series] || GAME_ELEMENTS.p5;
 
@@ -144,8 +166,8 @@ export const CompendiumView = ({
         )}
       </div>
 
-      {/* Filter Bar with Type Drop-off List */}
-      <div className="flex items-center gap-2 text-xs font-medium relative">
+      {/* Filter & Sort Bar with Type Drop-off List */}
+      <div className="flex items-center gap-2 text-xs font-medium relative overflow-x-auto no-scrollbar py-0.5">
         <button
           onClick={() => {
             triggerHaptic('light');
@@ -257,20 +279,14 @@ export const CompendiumView = ({
                         }}
                         className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-left transition-all text-xs ${
                           isSelected
-                            ? 'bg-white/15 text-white font-bold border border-white/15'
+                            ? 'bg-white/15 text-white font-bold'
                             : 'text-zinc-300 hover:bg-white/5 hover:text-white'
                         }`}
                       >
-                        <div className="flex items-center gap-2 min-w-0">
-                          <span
-                            className="w-2 h-2 rounded-full shrink-0"
-                            style={{ backgroundColor: accentColor }}
-                          />
-                          <span className="truncate">{arcana}</span>
-                        </div>
-                        <div className="flex items-center gap-2 shrink-0">
-                          <span className="text-[11px] font-mono text-zinc-400">{count}</span>
-                          {isSelected && <Check className="w-3.5 h-3.5 text-white" />}
+                        <span>{arcana}</span>
+                        <div className="flex items-center gap-2">
+                          <span className="text-xs text-zinc-500 font-mono">{count}</span>
+                          {isSelected && <Check className="w-3.5 h-3.5 text-emerald-400" />}
                         </div>
                       </button>
                     );
@@ -279,6 +295,43 @@ export const CompendiumView = ({
               </div>
             </>
           )}
+        </div>
+
+        {/* Sort Chips: Arcana, Level, Name matching original source */}
+        <div className="flex items-center gap-1.5 shrink-0 pl-1 border-l border-white/10">
+          <span className="text-[10px] text-zinc-500 uppercase font-bold tracking-wider mr-0.5">Sort:</span>
+          {(['arcana', 'level', 'name'] as const).map((opt) => {
+            const isActive = sortBy === opt;
+            const label = opt === 'arcana' ? 'Arcana' : opt === 'level' ? 'Level' : 'Name';
+            return (
+              <button
+                key={opt}
+                onClick={() => {
+                  triggerHaptic('light');
+                  if (sortBy === opt) {
+                    setSortDirection((prev) => (prev === 'asc' ? 'desc' : 'asc'));
+                  } else {
+                    setSortBy(opt);
+                    setSortDirection(opt === 'level' ? 'desc' : 'asc');
+                  }
+                }}
+                className={`px-2.5 py-1.5 rounded-full text-xs font-semibold flex items-center gap-1 transition-all border shrink-0 ${
+                  isActive
+                    ? 'border-white/30 text-white font-bold shadow-sm'
+                    : 'bg-zinc-900 text-zinc-400 border-white/5 hover:text-zinc-200'
+                }`}
+                style={isActive ? { backgroundColor: `${accentColor}30`, borderColor: `${accentColor}80`, color: '#fff' } : undefined}
+                title={`Sort personas by ${label} (${sortDirection === 'asc' ? 'ascending' : 'descending'})`}
+              >
+                <span>{label}</span>
+                {isActive && (
+                  <span className="text-[10px] opacity-90">
+                    {sortDirection === 'asc' ? '▲' : '▼'}
+                  </span>
+                )}
+              </button>
+            );
+          })}
         </div>
       </div>
 

@@ -1,106 +1,19 @@
 {
-  "Alice": [
-    [
-      "Belial",
-      "Nebiros"
-    ]
-  ],
-  "Ardha": [
-    [
-      "Parvati",
-      "Shiva"
-    ]
-  ],
-  "Black Frost": [
-    [
-      "Jack Frost",
-      "Pyro Jack",
-      "King Frost",
-      "Pixie",
-      "Ghoul"
-    ]
-  ],
-  "Kohryu": [
-    [
-      "Genbu",
-      "Seiryu",
-      "Suzaku",
-      "Byakko"
-    ]
-  ],
-  "Lucifer": [
-    [
-      "Helel",
-      "Satan",
-      "Beelzebub",
-      "Ananta",
-      "Trumpeter",
-      "Michael"
-    ]
-  ],
-  "Metatron": [
-    [
-      "Michael",
-      "Uriel",
-      "Raphael",
-      "Gabriel"
-    ]
-  ],
-  "Neko Shogun": [
-    [
-      "Saki Mitama",
-      "Ara Mitama",
-      "Kusi Mitama",
-      "Nigi Mitama"
-    ]
-  ],
-  "Ongyo-Ki": [
-    [
-      "Oni",
-      "Fuu-Ki",
-      "Kin-Ki",
-      "Sui-Ki"
-    ]
-  ],
-  "Shiva": [
-    [
-      "Barong",
-      "Rangda"
-    ]
-  ],
-  "Trumpeter": [
-    [
-      "Matador",
-      "White Rider",
-      "Red Rider",
-      "Black Rider",
-      "Pale Rider",
-      "Daisoujou"
-    ]
-  ],
-  "Yoshitsune": [
-    [
-      "Hachiman",
-      "Masakado",
-      "Shiki-Ouji",
-      "Hitokoto-Nushi",
-      "Okuninushi"
-    ]
-  ],
-  "Izanagi-no-Okami": [
-    [
-      "Izanagi",
-      "Sandman",
-      "Nata Taishi",
-      "Girimehkala",
-      "Norn",
-      "Okuninushi",
-      "Orthrus",
-      "Kartikeya",
-      "Tzitzimitl",
-      "Cu Chulainn",
-      "Gurulu",
-      "Legion"
-    ]
-  ]
+  "Alice": [["Belial", "Nebiros"]],
+  "Ardha": [["Shiva", "Parvati"]],
+  "Beelzebub": [["Pazuzu", "Baal Zebul", "Belial", "Belphegor", "Mot", "Seth"]],
+  "Black Frost": [["Jack Frost", "Pyro Jack", "King Frost", "Pixie", "Ghoul"]],
+  "Futsunushi": [["Atavaka", "Ares", "Kin-Ki", "Triglav", "Neko Shogun"]],
+  "Izanagi-no-Okami": [["Izanagi", "Sandman", "Nata Taishi", "Girimehkala", "Norn", "Okuninushi", "Orthrus", "Kartikeya", "Mithra", "Tzitzimitl", "Cu Chulainn", "Legion"]],
+  "Kohryu": [["Byakko", "Genbu", "Seiryu", "Suzaku"]],
+  "Lucifer": [["Ananta", "Satan", "Anubis", "Metatron", "Trumpeter", "Michael"]],
+  "Mahakala": [["Matador", "Daisoujou", "Hell Biker", "White Rider", "Mother Harlot", "Trumpeter"]],
+  "Neko Shogun": [["Ara Mitama", "Nigi Mitama", "Kusi Mitama", "Saki Mitama"]],
+  "Norn": [["Clotho", "Lachesis", "Atropos"]],
+  "Ongyo-Ki": [["Kin-Ki", "Sui-Ki", "Fuu-Ki", "Oni"]],
+  "Shiva": [["Rangda", "Barong"]],
+  "Tam Lin": [["Gdon", "Phoenix", "Yatagarasu", "Narasimha"]],
+  "Trumpeter": [["Matador", "White Rider", "Daisoujou", "Pabilsag", "Taotie", "Taowu"]],
+  "Yatsufusa": [["Thoth", "Orthrus", "Makami", "Narasimha", "Mothman"]],
+  "Yoshitsune": [["Hachiman", "Masakado", "Hitokoto-Nushi", "Okuninushi", "Shiki-Ouji"]]
 }

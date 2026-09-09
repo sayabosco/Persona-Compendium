@@ -73,6 +73,7 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<MainTab>('browse');
   const [isIPhoneFrameMode, setIsIPhoneFrameMode] = useState<boolean>(false);
   const [fusionTargetPersona, setFusionTargetPersona] = useState<string>('');
+  const [fusionTargetSkill, setFusionTargetSkill] = useState<string>('');
   const [showInstallGuide, setShowInstallGuide] = useState<boolean>(false);
   const [isConnectModalOpen, setIsConnectModalOpen] = useState<boolean>(false);
   const [isDeployModalOpen, setIsDeployModalOpen] = useState<boolean>(false);
@@ -186,6 +187,12 @@ export default function App() {
   // Handler to jump to fusion calculator for a given persona
   const handleSelectForFusion = (personaName: string) => {
     setFusionTargetPersona(personaName);
+    setActiveTab('fusion');
+  };
+
+  // Handler to jump to fusion skill inheritance route planner for a skill
+  const handleTransferToPersona = (skillName: string) => {
+    setFusionTargetSkill(skillName);
     setActiveTab('fusion');
   };
 
@@ -349,6 +356,8 @@ export default function App() {
                   specialFusions={specialFusions}
                   accentColor={currentGame.color}
                   initialTarget={fusionTargetPersona}
+                  initialSkill={fusionTargetSkill}
+                  skillsData={skillsData}
                   isTriangular={isTriangularMatrix}
                 />
               )}
@@ -361,6 +370,7 @@ export default function App() {
                   series={currentGame.series}
                   accentColor={currentGame.color}
                   skillsData={skillsData}
+                  negotiationData={negotiationData}
                 />
               )}
 
@@ -390,6 +400,8 @@ export default function App() {
                   gameId={selectedGameId}
                   series={currentGame.series}
                   accentColor={currentGame.color}
+                  personas={personas}
+                  onTransferToPersona={handleTransferToPersona}
                 />
               )}
 
